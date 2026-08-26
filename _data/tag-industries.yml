@@ -8,6 +8,7 @@
   description: ''
   tags:
   - healthcare
+  - health tech
 - slug: financial-services
   name: Financial Services
   icon: /industries/assets/icons/financial-services.png
@@ -38,6 +39,8 @@
   description: ''
   tags:
   - insurance
+  - insurtech
+  - insurance technology
 - slug: logistics
   name: Logistics
   icon: /industries/assets/icons/logistics.png
@@ -50,6 +53,7 @@
   description: ''
   tags:
   - real-estate
+  - proptech
 - slug: media
   name: Media
   icon: /industries/assets/icons/media.png
@@ -68,12 +72,18 @@
   description: ''
   tags:
   - transportation
+  - transport
 - slug: automotive
   name: Automotive
   icon: /industries/assets/icons/automotive.png
   description: ''
   tags:
   - automotive
+  - automobiles
+  - cars
+  - vehicles
+  - vehicle
+  - auto
 - slug: defense
   name: Defense
   icon: /industries/assets/icons/defense.png
@@ -86,6 +96,8 @@
   description: ''
   tags:
   - construction
+  - construction technology
+  - contech
 - slug: hospitality
   name: Hospitality
   icon: /industries/assets/icons/hospitality.png
@@ -98,6 +110,7 @@
   description: ''
   tags:
   - aerospace
+  - aviation
 - slug: enterprise-software
   name: Enterprise Software
   icon: /industries/assets/icons/enterprise-software.png
@@ -110,6 +123,9 @@
   description: ''
   tags:
   - agriculture
+  - agtech
+  - agriculture technology
+  - farming
 - slug: utilities
   name: Utilities
   icon: /industries/assets/icons/utilities.png

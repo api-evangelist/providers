@@ -278,7 +278,7 @@ TAG_INDUSTRIES = [
         "name": 'Healthcare',
         "icon": '/industries/assets/icons/healthcare.png',
         "description": "",
-        "tags": ['healthcare'],   # roster 92 -> tag-derived 1,820
+        "tags": ['healthcare', 'health tech'],   # roster 92 -> tag-derived 1,820
     },
     {
         "slug": 'financial-services',
@@ -313,7 +313,7 @@ TAG_INDUSTRIES = [
         "name": 'Insurance',
         "icon": '/industries/assets/icons/insurance.png',
         "description": "",
-        "tags": ['insurance'],   # roster 72 -> tag-derived 635
+        "tags": ['insurance', 'insurtech', 'insurance technology'],   # roster 72 -> tag-derived 635
     },
     {
         "slug": 'logistics',
@@ -327,7 +327,7 @@ TAG_INDUSTRIES = [
         "name": 'Real Estate',
         "icon": '/industries/assets/icons/real-estate.png',
         "description": "",
-        "tags": ['real-estate'],   # roster 23 -> tag-derived 572
+        "tags": ['real-estate', 'proptech'],   # roster 23 -> tag-derived 572
     },
     {
         "slug": 'media',
@@ -348,14 +348,14 @@ TAG_INDUSTRIES = [
         "name": 'Transportation',
         "icon": '/industries/assets/icons/transportation.png',
         "description": "",
-        "tags": ['transportation'],   # roster 26 -> tag-derived 360
+        "tags": ['transportation', 'transport'],   # roster 26 -> tag-derived 360
     },
     {
         "slug": 'automotive',
         "name": 'Automotive',
         "icon": '/industries/assets/icons/automotive.png',
         "description": "",
-        "tags": ['automotive'],   # roster 42 -> tag-derived 338
+        "tags": ['automotive', 'automobiles', 'cars', 'vehicles', 'vehicle', 'auto'],   # roster 42 -> tag-derived 338
     },
     {
         "slug": 'defense',
@@ -369,7 +369,7 @@ TAG_INDUSTRIES = [
         "name": 'Construction',
         "icon": '/industries/assets/icons/construction.png',
         "description": "",
-        "tags": ['construction'],   # roster 50 -> tag-derived 282
+        "tags": ['construction', 'construction technology', 'contech'],   # roster 50 -> tag-derived 282
     },
     {
         "slug": 'hospitality',
@@ -383,7 +383,7 @@ TAG_INDUSTRIES = [
         "name": 'Aerospace',
         "icon": '/industries/assets/icons/aerospace.png',
         "description": "",
-        "tags": ['aerospace'],   # roster 23 -> tag-derived 243
+        "tags": ['aerospace', 'aviation'],   # roster 23 -> tag-derived 243
     },
     {
         "slug": 'enterprise-software',
@@ -397,7 +397,7 @@ TAG_INDUSTRIES = [
         "name": 'Agriculture',
         "icon": '/industries/assets/icons/agriculture.png',
         "description": "",
-        "tags": ['agriculture'],   # roster 18 -> tag-derived 224
+        "tags": ['agriculture', 'agtech', 'agriculture technology', 'farming'],   # roster 18 -> tag-derived 224
     },
     {
         "slug": 'utilities',
