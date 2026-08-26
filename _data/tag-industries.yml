@@ -2,6 +2,234 @@
 # Edit TAG_INDUSTRIES in that script; this is the published copy that
 # apis.io (api-search/network/scripts/build_industries.py) reads so both
 # sites derive the same industries from the same provider tags.
+- slug: healthcare
+  name: Healthcare
+  icon: /industries/assets/icons/healthcare.png
+  description: ''
+  tags:
+  - healthcare
+- slug: financial-services
+  name: Financial Services
+  icon: /industries/assets/icons/financial-services.png
+  description: ''
+  tags:
+  - financial-services
+- slug: retail
+  name: Retail
+  icon: /industries/assets/icons/retail.png
+  description: ''
+  tags:
+  - retail
+- slug: life-sciences
+  name: Life Sciences
+  icon: /industries/assets/icons/life-sciences.png
+  description: ''
+  tags:
+  - life sciences
+- slug: energy
+  name: Energy
+  icon: /industries/assets/icons/energy.png
+  description: ''
+  tags:
+  - energy
+- slug: insurance
+  name: Insurance
+  icon: /industries/assets/icons/insurance.png
+  description: ''
+  tags:
+  - insurance
+- slug: logistics
+  name: Logistics
+  icon: /industries/assets/icons/logistics.png
+  description: ''
+  tags:
+  - logistics
+- slug: real-estate
+  name: Real Estate
+  icon: /industries/assets/icons/real-estate.png
+  description: ''
+  tags:
+  - real-estate
+- slug: media
+  name: Media
+  icon: /industries/assets/icons/media.png
+  description: ''
+  tags:
+  - media
+- slug: entertainment
+  name: Entertainment
+  icon: /industries/assets/icons/entertainment.png
+  description: ''
+  tags:
+  - entertainment
+- slug: transportation
+  name: Transportation
+  icon: /industries/assets/icons/transportation.png
+  description: ''
+  tags:
+  - transportation
+- slug: automotive
+  name: Automotive
+  icon: /industries/assets/icons/automotive.png
+  description: ''
+  tags:
+  - automotive
+- slug: defense
+  name: Defense
+  icon: /industries/assets/icons/defense.png
+  description: ''
+  tags:
+  - defense
+- slug: construction
+  name: Construction
+  icon: /industries/assets/icons/construction.png
+  description: ''
+  tags:
+  - construction
+- slug: hospitality
+  name: Hospitality
+  icon: /industries/assets/icons/hospitality.png
+  description: ''
+  tags:
+  - hospitality
+- slug: aerospace
+  name: Aerospace
+  icon: /industries/assets/icons/aerospace.png
+  description: ''
+  tags:
+  - aerospace
+- slug: enterprise-software
+  name: Enterprise Software
+  icon: /industries/assets/icons/enterprise-software.png
+  description: ''
+  tags:
+  - enterprise software
+- slug: agriculture
+  name: Agriculture
+  icon: /industries/assets/icons/agriculture.png
+  description: ''
+  tags:
+  - agriculture
+- slug: utilities
+  name: Utilities
+  icon: /industries/assets/icons/utilities.png
+  description: ''
+  tags:
+  - utilities
+- slug: sports
+  name: Sports
+  icon: /industries/assets/icons/sports.png
+  description: ''
+  tags:
+  - sports
+- slug: industrial
+  name: Industrial
+  icon: /industries/assets/icons/industrial.png
+  description: ''
+  tags:
+  - industrial
+- slug: food-delivery
+  name: Food Delivery
+  icon: /industries/assets/icons/food-delivery.png
+  description: ''
+  tags:
+  - food delivery
+- slug: technology
+  name: Technology
+  icon: /industries/assets/icons/technology.png
+  description: ''
+  tags:
+  - technology
+- slug: consumer-goods
+  name: Consumer Goods
+  icon: /industries/assets/icons/consumer-goods.png
+  description: ''
+  tags:
+  - consumer goods
+- slug: mining
+  name: Mining
+  icon: /industries/assets/icons/mining.png
+  description: ''
+  tags:
+  - mining
+- slug: professional-services
+  name: Professional Services
+  icon: /industries/assets/icons/professional-services.png
+  description: ''
+  tags:
+  - professional services
+- slug: maritime
+  name: Maritime
+  icon: /industries/assets/icons/maritime.png
+  description: ''
+  tags:
+  - maritime
+- slug: food-service
+  name: Food Service
+  icon: /industries/assets/icons/food-service.png
+  description: ''
+  tags:
+  - food service
+- slug: pet-care
+  name: Pet Care
+  icon: /industries/assets/icons/pet-care.png
+  description: ''
+  tags:
+  - pet care
+- slug: waste-management
+  name: Waste Management
+  icon: /industries/assets/icons/waste-management.png
+  description: ''
+  tags:
+  - waste management
+- slug: rail
+  name: Rail
+  icon: /industries/assets/icons/rail.png
+  description: ''
+  tags:
+  - rail
+- slug: cannabis
+  name: Cannabis
+  icon: /industries/assets/icons/cannabis.png
+  description: ''
+  tags:
+  - cannabis
+- slug: travel-technology
+  name: Travel Technology
+  icon: /industries/assets/icons/travel-technology.png
+  description: ''
+  tags:
+  - travel technology
+- slug: financial-technology
+  name: Financial Technology
+  icon: /industries/assets/icons/financial-technology.png
+  description: ''
+  tags:
+  - financial technology
+- slug: video-streaming
+  name: Video Streaming
+  icon: /industries/assets/icons/video-streaming.png
+  description: ''
+  tags:
+  - video streaming
+- slug: environmental-services
+  name: Environmental Services
+  icon: /industries/assets/icons/environmental-services.png
+  description: ''
+  tags:
+  - environmental services
+- slug: cloud-data-platform
+  name: Cloud Data Platform
+  icon: /industries/assets/icons/cloud-data-platform.png
+  description: ''
+  tags:
+  - cloud data platform
+- slug: cruise-lines
+  name: Cruise Lines
+  icon: /industries/assets/icons/cruise-lines.png
+  description: ''
+  tags:
+  - cruise lines
 - slug: artificial-intelligence
   name: Artificial Intelligence
   icon: smart_toy

@@ -250,6 +250,295 @@ TAG_INDUSTRY_INCLUDE = {
 }
 
 TAG_INDUSTRIES = [
+    # --- roadmap#135: the 46 roster-only verticals ------------------------------
+    # Two-thirds of the published taxonomy was the jobs roster alone -- 46 industries,
+    # median 20 members, against 26 tag-backed holding a median of 1,067. A reader picking
+    # the plain-English vertical name got a Fortune research slice: /industries/healthcare/
+    # listed 92 companies while digital-health held 1,772.
+    #
+    # TIGHTEST WIDTH, by Kin's call (2026-08-25): the vertical's OWN NAME as a tag, and
+    # nothing else. The tag vocabulary carries dual-sense members and width decides what a
+    # vertical MEANS -- adding `ev charging` and `electric vehicles` to automotive put
+    # Enphase, OpenADR Alliance, UK Power Networks and EDF Energy at the top of a page
+    # about cars. That is the homograph failure #127 measures, arriving through curation
+    # rather than through a classifier.
+    #
+    # `description` is deliberately EMPTY on every entry: build_industries.py falls back to
+    # the published blurb when a spec omits it, and those blurbs describe the roster
+    # ("tracked across 7 sub-sectors"). Overwriting them with generated copy, or promoting
+    # a roster description to cover the whole cohort, would both be inventing. The copy is
+    # follow-up work for a human; the membership is not.
+    #
+    # Eight verticals have no exact tag match and stay roster-only: e-commerce-platform,
+    # pharmaceutical, productivity-software, customer-relationship-management-crm,
+    # communications-platform-as-a-service-cpaas, fitness-wellness, tax-compliance-software,
+    # event-management-software.
+    {
+        "slug": 'healthcare',
+        "name": 'Healthcare',
+        "icon": '/industries/assets/icons/healthcare.png',
+        "description": "",
+        "tags": ['healthcare'],   # roster 92 -> tag-derived 1,820
+    },
+    {
+        "slug": 'financial-services',
+        "name": 'Financial Services',
+        "icon": '/industries/assets/icons/financial-services.png',
+        "description": "",
+        "tags": ['financial-services'],   # roster 125 -> tag-derived 1,085
+    },
+    {
+        "slug": 'retail',
+        "name": 'Retail',
+        "icon": '/industries/assets/icons/retail.png',
+        "description": "",
+        "tags": ['retail'],   # roster 90 -> tag-derived 957
+    },
+    {
+        "slug": 'life-sciences',
+        "name": 'Life Sciences',
+        "icon": '/industries/assets/icons/life-sciences.png',
+        "description": "",
+        "tags": ['life sciences'],   # roster 19 -> tag-derived 933
+    },
+    {
+        "slug": 'energy',
+        "name": 'Energy',
+        "icon": '/industries/assets/icons/energy.png',
+        "description": "",
+        "tags": ['energy'],   # roster 82 -> tag-derived 639
+    },
+    {
+        "slug": 'insurance',
+        "name": 'Insurance',
+        "icon": '/industries/assets/icons/insurance.png',
+        "description": "",
+        "tags": ['insurance'],   # roster 72 -> tag-derived 635
+    },
+    {
+        "slug": 'logistics',
+        "name": 'Logistics',
+        "icon": '/industries/assets/icons/logistics.png',
+        "description": "",
+        "tags": ['logistics'],   # roster 33 -> tag-derived 610
+    },
+    {
+        "slug": 'real-estate',
+        "name": 'Real Estate',
+        "icon": '/industries/assets/icons/real-estate.png',
+        "description": "",
+        "tags": ['real-estate'],   # roster 23 -> tag-derived 572
+    },
+    {
+        "slug": 'media',
+        "name": 'Media',
+        "icon": '/industries/assets/icons/media.png',
+        "description": "",
+        "tags": ['media'],   # roster 23 -> tag-derived 530
+    },
+    {
+        "slug": 'entertainment',
+        "name": 'Entertainment',
+        "icon": '/industries/assets/icons/entertainment.png',
+        "description": "",
+        "tags": ['entertainment'],   # roster 16 -> tag-derived 401
+    },
+    {
+        "slug": 'transportation',
+        "name": 'Transportation',
+        "icon": '/industries/assets/icons/transportation.png',
+        "description": "",
+        "tags": ['transportation'],   # roster 26 -> tag-derived 360
+    },
+    {
+        "slug": 'automotive',
+        "name": 'Automotive',
+        "icon": '/industries/assets/icons/automotive.png',
+        "description": "",
+        "tags": ['automotive'],   # roster 42 -> tag-derived 338
+    },
+    {
+        "slug": 'defense',
+        "name": 'Defense',
+        "icon": '/industries/assets/icons/defense.png',
+        "description": "",
+        "tags": ['defense'],   # roster 30 -> tag-derived 294
+    },
+    {
+        "slug": 'construction',
+        "name": 'Construction',
+        "icon": '/industries/assets/icons/construction.png',
+        "description": "",
+        "tags": ['construction'],   # roster 50 -> tag-derived 282
+    },
+    {
+        "slug": 'hospitality',
+        "name": 'Hospitality',
+        "icon": '/industries/assets/icons/hospitality.png',
+        "description": "",
+        "tags": ['hospitality'],   # roster 20 -> tag-derived 281
+    },
+    {
+        "slug": 'aerospace',
+        "name": 'Aerospace',
+        "icon": '/industries/assets/icons/aerospace.png',
+        "description": "",
+        "tags": ['aerospace'],   # roster 23 -> tag-derived 243
+    },
+    {
+        "slug": 'enterprise-software',
+        "name": 'Enterprise Software',
+        "icon": '/industries/assets/icons/enterprise-software.png',
+        "description": "",
+        "tags": ['enterprise software'],   # roster 67 -> tag-derived 224
+    },
+    {
+        "slug": 'agriculture',
+        "name": 'Agriculture',
+        "icon": '/industries/assets/icons/agriculture.png',
+        "description": "",
+        "tags": ['agriculture'],   # roster 18 -> tag-derived 224
+    },
+    {
+        "slug": 'utilities',
+        "name": 'Utilities',
+        "icon": '/industries/assets/icons/utilities.png',
+        "description": "",
+        "tags": ['utilities'],   # roster 39 -> tag-derived 178
+    },
+    {
+        "slug": 'sports',
+        "name": 'Sports',
+        "icon": '/industries/assets/icons/sports.png',
+        "description": "",
+        "tags": ['sports'],   # roster 6 -> tag-derived 178
+    },
+    {
+        "slug": 'industrial',
+        "name": 'Industrial',
+        "icon": '/industries/assets/icons/industrial.png',
+        "description": "",
+        "tags": ['industrial'],   # roster 137 -> tag-derived 159
+    },
+    {
+        "slug": 'food-delivery',
+        "name": 'Food Delivery',
+        "icon": '/industries/assets/icons/food-delivery.png',
+        "description": "",
+        "tags": ['food delivery'],   # roster 7 -> tag-derived 99
+    },
+    {
+        "slug": 'technology',
+        "name": 'Technology',
+        "icon": '/industries/assets/icons/technology.png',
+        "description": "",
+        "tags": ['technology'],   # roster 132 -> tag-derived 94
+    },
+    {
+        "slug": 'consumer-goods',
+        "name": 'Consumer Goods',
+        "icon": '/industries/assets/icons/consumer-goods.png',
+        "description": "",
+        "tags": ['consumer goods'],   # roster 83 -> tag-derived 91
+    },
+    {
+        "slug": 'mining',
+        "name": 'Mining',
+        "icon": '/industries/assets/icons/mining.png',
+        "description": "",
+        "tags": ['mining'],   # roster 20 -> tag-derived 66
+    },
+    {
+        "slug": 'professional-services',
+        "name": 'Professional Services',
+        "icon": '/industries/assets/icons/professional-services.png',
+        "description": "",
+        "tags": ['professional services'],   # roster 28 -> tag-derived 62
+    },
+    {
+        "slug": 'maritime',
+        "name": 'Maritime',
+        "icon": '/industries/assets/icons/maritime.png',
+        "description": "",
+        "tags": ['maritime'],   # roster 7 -> tag-derived 62
+    },
+    {
+        "slug": 'food-service',
+        "name": 'Food Service',
+        "icon": '/industries/assets/icons/food-service.png',
+        "description": "",
+        "tags": ['food service'],   # roster 16 -> tag-derived 60
+    },
+    {
+        "slug": 'pet-care',
+        "name": 'Pet Care',
+        "icon": '/industries/assets/icons/pet-care.png',
+        "description": "",
+        "tags": ['pet care'],   # roster 6 -> tag-derived 29
+    },
+    {
+        "slug": 'waste-management',
+        "name": 'Waste Management',
+        "icon": '/industries/assets/icons/waste-management.png',
+        "description": "",
+        "tags": ['waste management'],   # roster 5 -> tag-derived 27
+    },
+    {
+        "slug": 'rail',
+        "name": 'Rail',
+        "icon": '/industries/assets/icons/rail.png',
+        "description": "",
+        "tags": ['rail'],   # roster 8 -> tag-derived 23
+    },
+    {
+        "slug": 'cannabis',
+        "name": 'Cannabis',
+        "icon": '/industries/assets/icons/cannabis.png',
+        "description": "",
+        "tags": ['cannabis'],   # roster 3 -> tag-derived 22
+    },
+    {
+        "slug": 'travel-technology',
+        "name": 'Travel Technology',
+        "icon": '/industries/assets/icons/travel-technology.png',
+        "description": "",
+        "tags": ['travel technology'],   # roster 11 -> tag-derived 17
+    },
+    {
+        "slug": 'financial-technology',
+        "name": 'Financial Technology',
+        "icon": '/industries/assets/icons/financial-technology.png',
+        "description": "",
+        "tags": ['financial technology'],   # roster 54 -> tag-derived 16
+    },
+    {
+        "slug": 'video-streaming',
+        "name": 'Video Streaming',
+        "icon": '/industries/assets/icons/video-streaming.png',
+        "description": "",
+        "tags": ['video streaming'],   # roster 21 -> tag-derived 13
+    },
+    {
+        "slug": 'environmental-services',
+        "name": 'Environmental Services',
+        "icon": '/industries/assets/icons/environmental-services.png',
+        "description": "",
+        "tags": ['environmental services'],   # roster 6 -> tag-derived 12
+    },
+    {
+        "slug": 'cloud-data-platform',
+        "name": 'Cloud Data Platform',
+        "icon": '/industries/assets/icons/cloud-data-platform.png',
+        "description": "",
+        "tags": ['cloud data platform'],   # roster 7 -> tag-derived 3
+    },
+    {
+        "slug": 'cruise-lines',
+        "name": 'Cruise Lines',
+        "icon": '/industries/assets/icons/cruise-lines.png',
+        "description": "",
+        "tags": ['cruise lines'],   # roster 3 -> tag-derived 3
+    },
     # --- Tier 1 -----------------------------------------------------------
     {
         "slug": "artificial-intelligence",
