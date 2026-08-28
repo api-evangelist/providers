@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.1
-  scored_at: '2026-08-24'
+  score: 46.7
+  scored_at: '2026-08-26'
 api_count: 28
 apis:
 - description: Operations for API Authentication
@@ -354,18 +358,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.7
+  composite: 52.2
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
-    contract_quality: 73.3
+    contract_quality: 71.3
     developer_ergonomics: 50.6
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 52.7
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -375,8 +379,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/screenshots/tackleio-2026-08-17T082241.png
 security:

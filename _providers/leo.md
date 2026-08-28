@@ -12,26 +12,30 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST API for account entitlements, credit balance, commercial-insurance prospect search across 134 filter properties, single-prospect retrieval, and asynchronous decision-maker contact enrichment with
@@ -200,18 +204,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.7
+  composite: 56.3
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 30.3
-    contract_quality: 56.6
+    contract_quality: 55.1
     developer_ergonomics: 37.5
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 56.7
+  previous_composite: 56.3
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +231,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 78.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png
 security:

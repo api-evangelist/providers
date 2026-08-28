@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Poptin''s developer-facing surface. The hosted embed script renders popups, bars, sidebars, full-screen and mobile surfaces plus embedded forms into a host page, fires documented DOM CustomEvents with '
@@ -166,22 +170,22 @@ rate_limits:
   slug: poptin-rate-limits
 score:
   band: developing
-  composite: 44.7
+  composite: 44.1
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 40.5
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 44.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poptin/refs/heads/main/screenshots/poptin-2026-08-17T081328.png
 security:

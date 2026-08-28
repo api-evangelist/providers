@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.5
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 api_count: 23
 apis:
 - description: The Accounts API from TOP Group (The Open Platform) — 22 operation(s) for accounts.
@@ -338,18 +342,18 @@ rate_limits:
   slug: top-group-rate-limits
 score:
   band: developing
-  composite: 45.9
+  composite: 44.8
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 50.5
+    contract_quality: 49.1
     developer_ergonomics: 63.7
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 45.9
+  previous_composite: 44.8
   provenance:
     conformance: derived
     contracts:
@@ -365,8 +369,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/screenshots/top-group-2026-08-17T082406.png
 security:

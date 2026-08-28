@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Orca Security's REST API provides programmatic access to the Orca Cloud Security Platform for querying cloud inventory and assets, managing alerts and risk findings, configuring integrations and autom
@@ -139,20 +143,20 @@ rate_limits:
   slug: orca-security-rate-limits
 score:
   band: thin
-  composite: 26.8
+  composite: 26.4
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 2.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 26.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orca-security/refs/heads/main/screenshots/orca-security-2026-06-20T191207.png
 security:

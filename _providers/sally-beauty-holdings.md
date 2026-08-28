@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Sally Beauty Supply's digital commerce platform powered by Salesforce Commerce Cloud, providing product catalog, shopping cart, checkout, and order management capabilities for consumer beauty supply c
@@ -160,14 +164,14 @@ score:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 7.0
+    contract_quality: 6.7
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 13.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/screenshots/sally-beauty-holdings-2026-06-20T193353.png
 security:

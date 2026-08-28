@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-24'
+  score: 21.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -170,27 +174,27 @@ rate_limits:
   slug: shopmonkey-rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 33.3
+  delta: 1.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 56.0
-    developer_ergonomics: 21.4
+    contract_quality: 36.7
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 36.7
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 4
+      marker_coverage: 44.4
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

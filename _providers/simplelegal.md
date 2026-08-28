@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-24'
+  score: 25.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -236,19 +240,19 @@ rules:
     warn: 5
   slug: simplelegal-rules
 score:
-  band: thin
-  composite: 38.1
-  delta: 0.0
+  band: developing
+  composite: 41.6
+  delta: 3.9
   facets:
-    access_clarity: 22.4
-    commercial_clarity: 22.4
-    contract_governance: 13.6
-    contract_quality: 60.6
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 28.8
+    contract_quality: 59.0
     developer_ergonomics: 26.2
     discoverability: 85.2
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 38.1
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -256,8 +260,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
 security:

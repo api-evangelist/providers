@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 6.3
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Core Redis commands and data structure operations. Redis supports strings, hashes, lists, sets, sorted sets, streams, and more. The primary interface is the Redis Serialization Protocol (RESP) over TC
@@ -215,22 +219,22 @@ rules:
     warn: 4
   slug: redis-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.1
-  delta: 0.0
+  band: developing
+  composite: 40.6
+  delta: 9.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 9.8
-    contract_quality: 21.1
-    developer_ergonomics: 23.8
+    contract_governance: 25.0
+    contract_quality: 26.7
+    developer_ergonomics: 54.8
     discoverability: 72.2
-    governance: 9.8
+    governance: 25.0
     operational_transparency: 28.9
-  previous_composite: 31.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 30.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/screenshots/redis-2026-06-20T192736.png
 security:
 - kind: domain-security

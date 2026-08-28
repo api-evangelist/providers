@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-24'
+  score: 48.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The HTTP API behind the in-platform Fullcast Assistant (copilot) and the assistant-hosted Fullcast MCP Server. Covers chat sessions, message history, feedback, assistant configuration lifecycle, and a
@@ -228,24 +232,24 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.2
+  composite: 54.8
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 30.3
-    contract_quality: 59.6
+    contract_quality: 57.9
     developer_ergonomics: 63.7
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 55.2
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/screenshots/fullcast-2026-07-25T215257.png
 security:

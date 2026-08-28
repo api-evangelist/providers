@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 32.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -2829,18 +2833,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 51.4
+  delta: 1.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 67.1
-    developer_ergonomics: 66.7
+    contract_quality: 68.0
+    developer_ergonomics: 73.8
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 49.7
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2848,8 +2852,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -152,19 +156,19 @@ rate_limits:
   name: Nectar Hr Rate Limits
   slug: nectar-hr-rate-limits
 score:
-  band: thin
-  composite: 38.7
-  delta: 0.0
+  band: developing
+  composite: 39.8
+  delta: 1.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 53.7
-    developer_ergonomics: 21.4
+    contract_quality: 52.3
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.7
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/screenshots/nectar-hr-2026-08-07T184814.png
 security:

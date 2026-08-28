@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 24.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,18 +180,18 @@ overview: 'OpenPrescribing publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 14
 score:
   band: thin
-  composite: 35.1
+  composite: 34.7
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 49.7
+    contract_quality: 48.3
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 35.1
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/screenshots/openprescribing-2026-08-07T190634.png
 security:

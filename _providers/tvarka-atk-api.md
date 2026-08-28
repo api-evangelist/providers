@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.6
-  scored_at: '2026-08-24'
+  score: 37.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -296,19 +300,19 @@ rate_limits:
   name: Tvarka Atk Api Rate Limits
   slug: tvarka-atk-api-rate-limits
 score:
-  band: strong
-  composite: 66.3
+  band: exemplar
+  composite: 66.6
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 30.3
-    contract_quality: 60.3
+    contract_quality: 61.4
     developer_ergonomics: 75.6
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 66.3
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,8 +323,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvarka-atk-api/refs/heads/main/screenshots/tvarka-atk-api-2026-08-17T082503.png
 security:

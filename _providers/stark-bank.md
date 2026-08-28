@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.8
-  scored_at: '2026-08-24'
+  score: 32.2
+  scored_at: '2026-08-26'
 api_count: 31
 apis:
 - description: The balance entity holds the total funds available in your workspace and can be calculated as the sum of its transactions (cash-in + cash-out). Therefore, you can also interpret Transactions as balanc
@@ -367,18 +371,18 @@ overview: 'Stark Bank publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 19
 score:
   band: developing
-  composite: 49.8
+  composite: 49.3
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 30.3
-    contract_quality: 67.2
+    contract_quality: 65.4
     developer_ergonomics: 75.6
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 49.3
   provenance:
     conformance: first-party
     contracts:
@@ -394,8 +398,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stark-bank/refs/heads/main/screenshots/stark-bank-2026-08-17T082105.png
 security:

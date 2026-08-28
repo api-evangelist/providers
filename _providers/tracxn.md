@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.1
-  scored_at: '2026-08-24'
+  score: 28.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'Programmatic access to Tracxn''s private-market database. Version 3.0 is current and version 2.2 is formally announced for deprecation. A uniform JSON-over-HTTPS contract: every data endpoint is a POST'
@@ -224,8 +228,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.8
-  scored_at: '2026-08-24'
+  score: 46.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,23 +210,23 @@ overview: 'Pyth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 12
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 51.9
+  delta: 1.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 50.8
+    contract_quality: 54.8
     developer_ergonomics: 73.8
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 50.9
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -234,8 +238,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/screenshots/pyth-2026-08-17T081409.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.0
-  scored_at: '2026-08-24'
+  score: 49.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -238,18 +242,18 @@ overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 17
 score:
   band: developing
-  composite: 51.1
+  composite: 50.7
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 16.7
-    contract_quality: 68.5
+    contract_quality: 66.7
     developer_ergonomics: 67.3
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 51.1
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +264,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/heads/main/screenshots/tinyfish-2026-08-17T082359.png
 security:

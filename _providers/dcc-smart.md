@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -222,18 +226,18 @@ overview: 'Smart DCC publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 12
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 49.3
+  delta: 4.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 34.1
-    contract_quality: 46.9
-    developer_ergonomics: 38.1
-    discoverability: 66.7
+    contract_quality: 45.6
+    developer_ergonomics: 51.8
+    discoverability: 59.3
     governance: 34.1
     operational_transparency: 50.0
-  previous_composite: 46.4
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,12 +250,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: GB
+      standard: smart-energy-code
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 45.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 54.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
 security:

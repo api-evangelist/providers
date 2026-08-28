@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 27.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -179,18 +183,18 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 44.9
+  delta: 2.3
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 54.1
-    developer_ergonomics: 50.0
+    contract_quality: 52.6
+    developer_ergonomics: 61.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 42.9
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/screenshots/parkwhiz-2026-08-07T191441.png
 security:

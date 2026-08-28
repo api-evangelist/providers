@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.4
-  scored_at: '2026-08-24'
+  score: 51.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -487,18 +491,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
+  composite: 62.7
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 43.9
-    contract_quality: 68.8
+    contract_quality: 66.9
     developer_ergonomics: 53.6
     discoverability: 92.6
     governance: 43.9
     operational_transparency: 63.2
-  previous_composite: 63.2
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -515,8 +519,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 73.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:

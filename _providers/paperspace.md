@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.6
-  scored_at: '2026-08-24'
+  score: 22.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -549,18 +553,18 @@ rules:
   slug: paperspace-rules
 score:
   band: strong
-  composite: 60.0
+  composite: 60.2
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 65.9
+    contract_quality: 66.8
     developer_ergonomics: 66.7
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 60.0
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     contracts:
@@ -568,8 +572,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:

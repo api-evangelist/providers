@@ -13,25 +13,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-24'
+  score: 48.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API (v2.0) to programmatically create static and dynamic QR Codes across 20+ campaign types, apply design templates, generate codes in bulk from CSV/XLSX, manage Digital Business Cards, leads and
@@ -230,18 +235,18 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 59.8
+  composite: 59.2
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 63.7
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 59.8
+  previous_composite: 59.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -252,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/screenshots/beaconstac-2026-07-25T202531.png
 security:

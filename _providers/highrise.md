@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 23.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: WebSocket API for building and running programmable bots inside Highrise rooms. Bots receive a stream of room events (chat, emotes, reactions, joins/leaves, movement, tips, voice, DMs, moderation) and
@@ -212,18 +216,18 @@ overview: 'Highrise publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 11
 score:
   band: developing
-  composite: 41.5
+  composite: 41.4
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
-    contract_quality: 22.7
+    contract_quality: 22.1
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 41.5
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -233,8 +237,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/screenshots/highrise-2026-07-25T221206.png
 security:

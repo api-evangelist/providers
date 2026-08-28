@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-24'
+  score: 23.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -193,18 +197,18 @@ rules:
   slug: keywordsai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.8
-  delta: 0.0
+  composite: 43.3
+  delta: 0.9
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 11.4
-    contract_quality: 63.2
-    developer_ergonomics: 21.4
+    contract_quality: 61.5
+    developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 42.8
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/screenshots/keywordsai-2026-06-20T184016.png
 security:

@@ -12,26 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.7
-  scored_at: '2026-08-24'
+  score: 34.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1057,19 +1060,19 @@ scopes:
   slug: power-bi-scopes
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 63.4
-  delta: 0.0
+  band: exemplar
+  composite: 69.3
+  delta: 6.4
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 30.3
-    contract_quality: 72.0
-    developer_ergonomics: 71.4
-    discoverability: 100.0
+    contract_quality: 72.8
+    developer_ergonomics: 100.0
+    discoverability: 92.6
     governance: 30.3
-    operational_transparency: 39.5
-  previous_composite: 63.4
+    operational_transparency: 44.7
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1079,9 +1082,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:
 - kind: authentication

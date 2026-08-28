@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 6.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'The ablefy API lets sellers automate access to their store data (orders, products, payments, and customers) using seller-generated access tokens, complemented by webhooks for event notifications. The '
@@ -87,28 +91,28 @@ overview: 'ablefy publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   ablefy''s developer surface includes pricing, engineering blog, signup flow, and 6 more developer resources.'
 random_paper: 18
 score:
-  band: minimal
-  composite: 8.6
-  delta: 0.0
+  band: emerging
+  composite: 15.3
+  delta: 6.7
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 10.5
   previous_composite: 8.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 9.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 18.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ablefy/refs/heads/main/screenshots/ablefy-2026-07-25T181353.png
 security:
 - kind: authentication

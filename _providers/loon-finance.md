@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
-    consent_identity: true
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.3
-  scored_at: '2026-08-24'
+  score: 18.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,18 +173,18 @@ overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 12
 score:
   band: developing
-  composite: 48.2
+  composite: 47.8
   delta: 0.0
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
     contract_governance: 30.3
-    contract_quality: 52.0
+    contract_quality: 50.6
     developer_ergonomics: 18.5
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 48.2
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -197,8 +201,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 34.2
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Version 1 of the LetsGetChecked Orders API. Create a pre-activated test-kit order against a client-supplied order identifier (PUT is documented as idempotent), query order status from dispatch through
@@ -197,18 +201,18 @@ overview: 'LetsGetChecked publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 1
 score:
   band: developing
-  composite: 53.5
+  composite: 52.2
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 33.3
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 64.3
-    discoverability: 83.3
+    discoverability: 75.9
     governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 53.5
+  previous_composite: 52.2
   provenance:
     conformance: first-party
   regulatory:
@@ -217,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 48.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letsgetchecked/refs/heads/main/screenshots/letsgetchecked-2026-08-07T171554.png
 security:

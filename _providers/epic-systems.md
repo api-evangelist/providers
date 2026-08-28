@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 37.6
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -229,18 +233,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.0
+  composite: 65.5
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 18.2
-    contract_quality: 49.4
+    contract_quality: 47.3
     developer_ergonomics: 63.7
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 66.0
+  previous_composite: 65.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -251,8 +255,8 @@ score:
     regime: Health
     regime_id: health
     score: 77.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png
 security:

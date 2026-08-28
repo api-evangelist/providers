@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 15.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The GraphQL API behind DNA Script's SYNTAX Console Software — the fleet-management layer customers use to design plate templates, upload oligo sequence files, schedule and start synthesis runs, monito
@@ -127,18 +131,18 @@ overview: 'DNA Script publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 5
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 21.5
+  delta: 0.9
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 4.5
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 7.1
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 20.6
   provenance:
     conformance: derived
   regulatory:
@@ -146,9 +150,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 12.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 18.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dna-script/refs/heads/main/screenshots/dna-script-2026-08-07T164437.png
 security:

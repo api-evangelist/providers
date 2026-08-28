@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-24'
+  score: 22.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -205,18 +209,18 @@ rules:
   slug: groq-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 35.7
+  delta: 1.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 60.1
-    developer_ergonomics: 23.8
+    contract_quality: 58.6
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 34.7
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -224,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/screenshots/groq-2026-06-20T182414.png
 security:

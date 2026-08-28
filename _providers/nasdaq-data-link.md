@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 22.5
-  scored_at: '2026-08-24'
+  score: 27.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST API for tables data (datatables) — row and column filtered access to hundreds of financial, economic, and alternative datasets, with JSON, XML, and CSV formats, cursor-based pagination, and an as
@@ -178,15 +182,15 @@ scopes:
   slug: nasdaq-data-link-scopes
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 37.8
-  delta: 0.0
+  band: developing
+  composite: 39.7
+  delta: 1.9
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 58.3
+    developer_ergonomics: 67.9
     discoverability: 100.0
     governance: 18.2
     operational_transparency: 50.0
@@ -200,8 +204,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png
 security:

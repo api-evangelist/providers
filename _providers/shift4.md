@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.7
-  scored_at: '2026-08-24'
+  score: 51.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -239,18 +243,18 @@ overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 6
 score:
   band: strong
-  composite: 55.7
+  composite: 55.2
   delta: 0.0
   facets:
     access_clarity: 3.9
     commercial_clarity: 3.9
     contract_governance: 30.3
-    contract_quality: 69.6
+    contract_quality: 67.7
     developer_ergonomics: 75.6
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 55.7
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,8 +271,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 52.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/screenshots/shift4-2026-08-17T081829.png
 security:

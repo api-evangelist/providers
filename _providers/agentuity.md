@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-24'
+  score: 23.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Direct HTTP access to Agentuity platform services — projects, deployments, API keys, OAuth applications, storage (key-value, vector, object, Postgres), message queues, durable streams, sandboxes, sche
@@ -187,23 +191,23 @@ overview: 'Agentuity publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 20
 score:
   band: developing
-  composite: 49.1
+  composite: 48.5
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 69.0
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 49.1
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentuity/refs/heads/main/screenshots/agentuity-2026-07-25T195301.png
 security:

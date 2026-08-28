@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 6.0
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: pmsXchange is SiteMinder's integration API for property management systems (PMS), revenue management systems (RMS), and central reservation systems (CRS) that need to synchronize rooms, rates, availab
@@ -174,22 +178,22 @@ overview: 'SiteMinder publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   SiteMinder''s developer surface includes developer portal, getting-started guide, signup flow, pricing, support, FAQ, engineering blog, and 9 more developer resources.'
 random_paper: 5
 score:
-  band: emerging
-  composite: 21.5
-  delta: 0.0
+  band: thin
+  composite: 29.2
+  delta: 7.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 57.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 18.4
   previous_composite: 21.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/siteminder/refs/heads/main/screenshots/siteminder-2026-06-20T193959.png
 security:
 - kind: domain-security

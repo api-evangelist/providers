@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 17.3
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -135,18 +139,18 @@ overview: 'INSTANDA is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 10
 score:
   band: thin
-  composite: 33.4
+  composite: 32.8
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 4.8
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 33.4
+  previous_composite: 32.8
   provenance:
     conformance: first-party
   regulatory:
@@ -155,8 +159,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instanda/refs/heads/main/screenshots/instanda-2026-07-25T222607.png
 security:

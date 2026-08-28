@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.3
-  scored_at: '2026-08-24'
+  score: 17.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: OAuth2-secured GraphQL API for PlayerData sports performance data — clubs, athletes, sessions, devices, metrics, reports and real-time subscription events.
@@ -147,24 +151,24 @@ overview: 'PlayerData publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 13
 score:
   band: thin
-  composite: 36.6
+  composite: 36.0
   delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 4.5
-    contract_quality: 56.7
+    contract_quality: 54.3
     developer_ergonomics: 44.6
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.6
+  previous_composite: 36.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Web portal for builders and developers in Vectren/CenterPoint Energy service territories in Indiana and Ohio. Provides self-service tools for ordering new gas and electric service, checking order stat
@@ -132,14 +136,14 @@ rate_limits:
   slug: vectren-rate-limits
 score:
   band: emerging
-  composite: 11.3
-  delta: 0.0
+  composite: 13.2
+  delta: 1.9
   facets:
     access_clarity: 19.7
     commercial_clarity: 19.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 19.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
@@ -150,8 +154,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectren/refs/heads/main/screenshots/vectren-2026-06-20T200948.png
 security:

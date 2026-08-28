@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.1
-  scored_at: '2026-08-24'
+  score: 39.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -1308,18 +1312,18 @@ rules:
   slug: codat-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 47.1
+  delta: 1.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 67.9
-    developer_ergonomics: 61.9
+    contract_quality: 66.2
+    developer_ergonomics: 69.0
     discoverability: 48.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 46.1
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1327,8 +1331,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/screenshots/codat-2026-06-20T174652.png
 security:

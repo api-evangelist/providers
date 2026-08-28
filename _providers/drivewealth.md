@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.6
-  scored_at: '2026-08-24'
+  score: 37.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -387,18 +391,18 @@ rules:
   slug: drivewealth-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.9
+  composite: 43.1
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 60.6
+    contract_quality: 61.7
     developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 39.5
-  previous_composite: 42.9
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -412,8 +416,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:

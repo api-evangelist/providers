@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 27.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -253,24 +257,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.1
-  delta: 0.0
+  composite: 42.0
+  delta: 2.2
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 47.9
-    developer_ergonomics: 19.0
+    contract_quality: 46.6
+    developer_ergonomics: 27.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 34.2
+    operational_transparency: 38.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 40.1
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +288,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/screenshots/benchling-lims-2026-07-25T202730.png
 security:

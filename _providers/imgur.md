@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 21.4
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
@@ -321,28 +325,28 @@ rules:
     warn: 5
   slug: imgur-rules
 score:
-  band: developing
-  composite: 53.2
-  delta: 0.0
+  band: strong
+  composite: 58.6
+  delta: 5.9
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 73.7
+    commercial_clarity: 73.7
     contract_governance: 28.8
-    contract_quality: 65.8
-    developer_ergonomics: 42.9
+    contract_quality: 67.4
+    developer_ergonomics: 54.8
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 53.2
+  previous_composite: 52.7
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:
 - kind: domain-security

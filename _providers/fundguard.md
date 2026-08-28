@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.8
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: A Model Context Protocol server served from FundGuard's own corporate web host via the WordPress MCP adapter, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-res
@@ -152,7 +156,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 25.4
+  composite: 24.6
   delta: 0.0
   facets:
     access_clarity: 42.1
@@ -160,15 +164,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 25.4
+  previous_composite: 24.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundguard/refs/heads/main/screenshots/fundguard-2026-08-07T165522.png
 security:

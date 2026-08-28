@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-24'
+  score: 50.9
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Briefing Agent — automated market briefings with scheduling and delivery
@@ -239,18 +243,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.6
+  composite: 55.2
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 30.3
-    contract_quality: 56.3
+    contract_quality: 54.8
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 55.6
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +270,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
 security:

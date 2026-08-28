@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 3.8
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'The curl command-line tool transfers data to or from a server using URL syntax, supporting protocols including DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, '
@@ -107,17 +111,17 @@ rate_limits:
   slug: curl-rate-limits
 score:
   band: emerging
-  composite: 12.1
-  delta: 0.0
+  composite: 21.3
+  delta: 9.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 7.1
+    contract_quality: 6.7
+    developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 18.4
+    operational_transparency: 39.5
   previous_composite: 12.1
   regulatory:
     applies: true
@@ -125,9 +129,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/screenshots/curl-2026-06-20T175333.png
 security:
 - kind: domain-security

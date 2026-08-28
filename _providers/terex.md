@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Terex digital solutions including MyTerex fleet management, Connected Dealer Inventory (CDI), and telematics data access for real-time machine monitoring, performance dashboards, and predictive mainte
@@ -116,20 +120,20 @@ rate_limits:
   slug: terex-rate-limits
 score:
   band: emerging
-  composite: 17.2
-  delta: 0.0
+  composite: 19.0
+  delta: 2.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 15.2
-    contract_quality: 15.5
-    developer_ergonomics: 7.1
+    contract_quality: 14.7
+    developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 7.9
-  previous_composite: 17.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 17.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/screenshots/terex-2026-06-20T195126.png
 security:

@@ -16,12 +16,12 @@
      "slug": "peloton",
      "description": "A connected fitness company offering stationary bikes, treadmills, rowers, and a digital platform for live and on-demand fitness classes. Peloton pioneered the premium at-home fitness category, blending hardware, software, and instructor-led content into an interactive workout experience available across Peloton equipment and a standalone Peloton App on iOS, Android, web, and connected TV. Peloton does not publish a public developer API, partner portal, or third-party integration program; all API surfaces are internal and only reachable through the consumer apps. Reverse-engineered community libraries exist on GitHub but are unsupported by Peloton.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton/refs/heads/main/screenshots/peloton-2026-06-20T191533.png",
-     "score": 17.7,
+     "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 43.3,
+      "contract_quality": 41.5,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
@@ -29,9 +29,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 15.4,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -48,7 +48,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 1
     }
@@ -81,8 +85,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -107,7 +111,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 2
     },
@@ -129,8 +137,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -155,7 +163,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 3
     },
@@ -177,8 +189,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -203,7 +215,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 4
     },
@@ -225,8 +241,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -249,7 +265,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 5
     }

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.8
-  scored_at: '2026-08-24'
+  score: 11.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'An OAuth 2.1-protected Model Context Protocol (MCP) server exposed on DispatchHealth''s own host by the WordPress MCP adapter running on www.dispatchhealth.com. Discovery is fully machine-readable: RFC'
@@ -156,7 +160,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 30.7
+  composite: 30.0
   delta: 0.0
   facets:
     access_clarity: 53.9
@@ -164,10 +168,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 30.7
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -177,8 +181,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatchhealth/refs/heads/main/screenshots/dispatchhealth-2026-08-07T164356.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-24'
+  score: 27.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -290,18 +294,18 @@ rules:
   slug: openfda-rules
 score:
   band: developing
-  composite: 50.8
+  composite: 51.1
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 25.0
-    contract_quality: 56.6
+    contract_quality: 57.8
     developer_ergonomics: 54.8
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 50.8
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -315,8 +319,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfda/refs/heads/main/screenshots/openfda-2026-06-20T190958.png
 security:

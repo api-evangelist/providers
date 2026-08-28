@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.1
-  scored_at: '2026-08-24'
+  score: 28.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 13
@@ -300,18 +304,18 @@ overview: 'Kernel publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 9
 score:
   band: developing
-  composite: 41.3
+  composite: 41.6
   delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 60.3
+    contract_quality: 58.7
     developer_ergonomics: 61.9
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 15.8
-  previous_composite: 41.3
+    operational_transparency: 21.1
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +323,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/screenshots/kernel-so-2026-06-20T183954.png
 security:

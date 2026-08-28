@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-24'
+  score: 34.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -264,18 +268,18 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.8
+  composite: 61.6
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 30.3
-    contract_quality: 60.6
+    contract_quality: 58.9
     developer_ergonomics: 68.5
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 62.8
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +290,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/screenshots/linkedin-ads-2026-06-20T184545.png
 security:

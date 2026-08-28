@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Build small in-editor apps that interact with the Framer Editor and CMS. Plugins can read and modify the canvas, manage CMS collections and items, register UI panels, and call out to external services
@@ -117,20 +121,20 @@ rate_limits:
   slug: framer-rate-limits
 score:
   band: emerging
-  composite: 16.3
-  delta: 0.0
+  composite: 19.6
+  delta: 3.3
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 16.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/framer/refs/heads/main/screenshots/framer-2026-06-20T181511.png
 security:

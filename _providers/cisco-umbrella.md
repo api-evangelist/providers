@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.7
+  scored_at: '2026-08-26'
 api_count: 26
 apis:
 - description: Cisco Umbrella Key Admin API — 6 operation(s) published by Cisco under the Cloud Security API documentation.
@@ -286,18 +290,18 @@ scopes:
   summary_line: 61 scopes
 score:
   band: strong
-  composite: 62.3
-  delta: -0.3
+  composite: 61.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
-    contract_quality: 59.7
+    contract_quality: 58.1
     developer_ergonomics: 70.8
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 62.6
+  previous_composite: 61.1
   provenance:
     conformance: derived
     contracts:
@@ -307,8 +311,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

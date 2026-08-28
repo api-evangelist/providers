@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-24'
+  score: 14.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Hosted, authenticated Model Context Protocol server for managing assessments, reviewing candidates, and analyzing hiring data. Streamable-HTTP transport; Bearer MeritFirst API key (mf_) required.
@@ -114,8 +118,8 @@ score:
   previous_composite: 13.8
   provenance:
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meritfirst/refs/heads/main/screenshots/meritfirst-2026-08-07T172605.png
 security:

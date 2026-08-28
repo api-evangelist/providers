@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.7
-  scored_at: '2026-08-24'
+  score: 19.1
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -146,20 +150,20 @@ rules:
   slug: bitquery-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 34.4
+  delta: 2.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
-    contract_quality: 48.9
-    developer_ergonomics: 11.9
+    contract_quality: 46.8
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 32.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 32.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/screenshots/bitquery-2026-06-20T173319.png
 security:

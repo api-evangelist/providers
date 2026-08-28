@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-24'
+  score: 39.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -196,18 +201,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/password
 score:
   band: strong
-  composite: 56.5
+  composite: 56.2
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
-    contract_quality: 56.2
+    contract_quality: 54.7
     developer_ergonomics: 49.4
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 56.5
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,8 +224,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/screenshots/versapay-2026-08-17T082740.png
 security:

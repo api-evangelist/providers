@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.4
-  scored_at: '2026-08-24'
+  score: 10.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Specmatic provides contract testing, intelligent service virtualization, and API mocking by transforming API specifications into executable contracts. It supports backward compatibility checking, API '
@@ -162,21 +166,21 @@ rules:
     warn: 3
   slug: specmatic-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.2
-  delta: 0.0
+  band: thin
+  composite: 28.0
+  delta: 1.8
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 9.8
-    contract_quality: 21.1
+    contract_governance: 25.0
+    contract_quality: 25.3
     developer_ergonomics: 26.2
     discoverability: 68.5
-    governance: 9.8
+    governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 25.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 26.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specmatic/refs/heads/main/screenshots/specmatic-2026-06-20T194301.png
 security:

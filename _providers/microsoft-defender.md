@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 32.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,19 +235,19 @@ scopes:
   slug: microsoft-defender-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 38.3
-  delta: 0.0
+  band: developing
+  composite: 49.8
+  delta: 12.0
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 73.4
-    developer_ergonomics: 21.4
+    contract_quality: 74.1
+    developer_ergonomics: 57.1
     discoverability: 37.0
     governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 38.3
+    operational_transparency: 42.1
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -255,9 +259,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-08-17T124157.png
 security:
 - kind: authentication

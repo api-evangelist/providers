@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.8
-  scored_at: '2026-08-24'
+  score: 28.5
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: The Agents API from Unitrends — 1 operation(s) for agents.
@@ -224,18 +228,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 39.8
-  delta: 0.0
+  composite: 42.5
+  delta: 3.8
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 49.7
-    developer_ergonomics: 30.4
-    discoverability: 92.6
+    contract_quality: 48.4
+    developer_ergonomics: 49.4
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 39.8
+  previous_composite: 38.7
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +249,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

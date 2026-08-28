@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 3
 common:
@@ -114,18 +118,23 @@ rate_limits:
   slug: jirav-rate-limits
 score:
   band: emerging
-  composite: 24.5
+  composite: 22.4
+  delta: -1.3
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 23.7
+  provenance:
+    mcp: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: domain-security
   name: Jirav Domain Security

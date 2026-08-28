@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.6
-  scored_at: '2026-08-24'
+  score: 21.8
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: Juvenescence's news stream — 57 published posts across Press Releases, In the News, Juv on the Road, Publications and Videos — read from the WordPress REST content API behind juvlabs.com.
@@ -215,24 +219,36 @@ rate_limits:
   slug: juvenescence-rate-limits
 score:
   band: developing
-  composite: 42.9
+  composite: 41.9
+  delta: -0.3
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 52.9
-    developer_ergonomics: 50.0
+    contract_governance: 16.7
+    contract_quality: 54.9
+    developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 30.3
-    operational_transparency: 5.3
+    governance: 16.7
+    operational_transparency: 2.6
+  previous_composite: 42.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 38.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 48.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Juvenescence Authentication

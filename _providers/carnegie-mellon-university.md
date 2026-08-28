@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-24'
+  score: 27.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -312,18 +316,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.4
-  delta: -0.3
+  composite: 41.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 17.4
-    contract_quality: 24.3
+    contract_quality: 26.3
     developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 17.4
     operational_transparency: 23.7
-  previous_composite: 41.7
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,8 +342,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
 security:

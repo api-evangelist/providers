@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-24'
+  score: 29.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Programmatic control over a Mudrex futures trading account. Transfer funds between the spot and futures wallets (USDT and INR), list tradeable instruments and contract specifications, get and set leve
@@ -179,18 +183,18 @@ rate_limits:
   slug: mudrex-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 43.4
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 44.0
+  previous_composite: 43.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -201,8 +205,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/screenshots/mudrex-2026-08-07T184429.png
 security:

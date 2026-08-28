@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-24'
+  score: 37.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -664,18 +667,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.2
+  composite: 48.1
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 59.4
+    contract_quality: 57.8
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 49.2
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -686,8 +689,8 @@ score:
       total: 78
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: 'Automated access to Vungle/Liftoff campaign performance reports — impressions, clicks, installs, and in-app events — with configurable groupings, metrics, and cohort (look-back window) analysis. HTTP '
@@ -164,23 +168,23 @@ rate_limits:
   slug: vungle-rate-limits
 score:
   band: developing
-  composite: 40.2
+  composite: 39.6
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 59.5
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 40.2
+  previous_composite: 39.6
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

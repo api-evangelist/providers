@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.4
-  scored_at: '2026-08-24'
+  score: 31.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -613,18 +617,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.1
+  composite: 70.3
   delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 40.2
-    contract_quality: 68.2
+    contract_quality: 69.0
     developer_ergonomics: 76.2
     discoverability: 75.9
     governance: 40.2
     operational_transparency: 57.9
-  previous_composite: 70.1
+  previous_composite: 70.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -635,8 +639,8 @@ score:
       total: 16
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:

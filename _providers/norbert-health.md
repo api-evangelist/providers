@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,7 +114,7 @@ rate_limits:
   slug: norbert-health-rate-limits
 score:
   band: minimal
-  composite: 9.9
+  composite: 9.2
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -118,10 +122,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 57.4
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.9
+  previous_composite: 9.2
   provenance:
     conformance: first-party
   regulatory:
@@ -130,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

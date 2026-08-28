@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 22.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Publisher-scoped REST API for the Tugboat audience-funding platform, covering API-key verification, pages, offers and offer issues, subscribers, orders, the deprecated WePay checkouts interface, per-k
@@ -72,33 +76,33 @@ overview: 'Tugboat Yards publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 6
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 21.5
+  delta: 6.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 45.1
-    developer_ergonomics: 0.0
+    contract_quality: 42.7
+    developer_ergonomics: 21.4
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 7.9
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 15.4
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 9.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 18.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Tugboat Yards Authentication

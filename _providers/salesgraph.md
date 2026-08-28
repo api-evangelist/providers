@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.5
-  scored_at: '2026-08-24'
+  score: 44.6
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The org audit shortcut.
@@ -215,18 +219,18 @@ rate_limits:
   slug: salesgraph-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 35.5
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 14.7
+    contract_quality: 14.3
     developer_ergonomics: 64.3
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 36.3
+  previous_composite: 35.5
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +240,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.7
-  scored_at: '2026-08-24'
+  score: 31.7
+  scored_at: '2026-08-26'
 api_count: 16
 apis:
 - description: Authoritative person and identity data for UW-Madison — names, populations, affiliations, contact points, exports and webhooks. 47 operations over 31 paths, JSON:API envelopes, OAuth 2.0 client creden
@@ -310,23 +314,23 @@ scopes:
   slug: university-of-wisconsin-madison-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.9
-  delta: -0.3
+  band: strong
+  composite: 56.3
+  delta: 4.7
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 31.8
-    contract_quality: 63.7
-    developer_ergonomics: 28.6
+    contract_quality: 65.0
+    developer_ergonomics: 35.7
     discoverability: 55.6
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 52.2
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 91.7
+      callable: 100.0
       derived: 0
       marker_coverage: 8.3
       total: 12
@@ -336,8 +340,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 79.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png
 security:

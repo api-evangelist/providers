@@ -1,0 +1,107 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 2.5
+  scored_at: '2026-08-26'
+api_count: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://purewatercraft.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pure-watercraft-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pure-watercraft-domain-security.yml
+coverage:
+  checked: '2026-08-26'
+  detail: Pure Watercraft, Inc. wound down and sold its assets in 2024, and purewatercraft.com — including app.purewatercraft.com, the host that served its telemetry companion app — now 301s to www.pureoutboards.com, a WooCommerce storefront run by the acquirer of the outboard line, so there is no Pure Watercraft surface left to profile.
+  evidence:
+  - status: 301
+    url: https://purewatercraft.com/
+  - status: 301
+    url: https://app.purewatercraft.com/
+  - status: 404
+    url: https://www.pureoutboards.com/openapi.json
+  - status: 404
+    url: https://www.pureoutboards.com/.well-known/agent-card.json
+  - status: 200
+    url: https://github.com/purewatercraft
+  reason: defunct
+  state: none
+created: '2026-08-26'
+description: Pure Watercraft was a Seattle, Washington electric marine propulsion company founded in 2011 by Andy Rebele. It built electric outboard motors marketed as drop-in replacements for 20 to 50 horsepower gas engines, along with lithium-ion battery packs, chargers and Wi-Fi throttle controls, plus a consumer companion mobile app that pulled trip history and telemetry off the outboard over Bluetooth and pushed firmware updates to it. General Motors took a reported 25 percent stake in 2021. The company wound down and sold its assets in 2024, with the outboard line acquired by Raider Outboards and other assets going to a Seattle electric boat club. purewatercraft.com and the former companion-app host app.purewatercraft.com both now 301 to www.pureoutboards.com, the Pure Electric Outboard storefront operated by the acquirer. Pure Watercraft never published a public developer program, API reference, SDK, or machine-readable API contract; its telemetry cloud was private to its own mobile
+  app.
+image: https://www.pureoutboards.com/wp-content/uploads/2025/07/cropped-PURE-neon-green-cmyk-scaled-1.webp
+layout: provider
+modified: '2026-08-26'
+name: Pure Watercraft
+nav: Providers
+network: true
+overview: Pure Watercraft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Marine, Manufacturing, and Hardware.
+plans:
+- name: Pure Watercraft Plans Pricing
+  plan_count: 0
+  slug: pure-watercraft-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 0
+  name: Pure Watercraft Rate Limits
+  slug: pure-watercraft-rate-limits
+score:
+  band: minimal
+  composite: 5.0
+  facets:
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 50.0
+    governance: 0.0
+    operational_transparency: 0.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+security:
+- kind: domain-security
+  name: Pure Watercraft Domain Security
+  slug: pure-watercraft-domain-security
+  summary_line: TLSv1.3
+slug: pure-watercraft
+tags:
+- Company
+- Electric Vehicles
+- Marine
+- Manufacturing
+- Hardware
+- Consumer Products
+- Mobility
+- Defunct
+website: https://purewatercraft.com/
+---

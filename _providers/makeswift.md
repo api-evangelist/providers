@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.0
-  scored_at: '2026-08-24'
+  score: 30.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The locale API from Makeswift — 3 operation(s) for locale.
@@ -167,18 +171,18 @@ overview: 'Makeswift publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 5
 score:
   band: developing
-  composite: 47.9
+  composite: 47.5
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 59.4
+    contract_quality: 57.8
     developer_ergonomics: 68.5
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 47.9
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +192,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/screenshots/makeswift-2026-07-25T225954.png
 security:

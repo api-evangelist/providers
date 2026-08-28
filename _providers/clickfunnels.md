@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.9
-  scored_at: '2026-08-24'
+  score: 35.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 4
@@ -262,18 +265,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.7
+  composite: 64.3
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 30.3
-    contract_quality: 68.5
+    contract_quality: 66.7
     developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 64.7
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.7
-  scored_at: '2026-08-24'
+  score: 9.4
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The Zonos Graph is the company's supported integration surface — a single GraphQL endpoint covering landed cost, classification, country of origin, export control, item and party restriction screening
@@ -134,14 +138,14 @@ overview: 'Zonos publishes 6 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 2
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 25.1
+  delta: 1.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
@@ -152,8 +156,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 23.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 slug: zonos
 tags:

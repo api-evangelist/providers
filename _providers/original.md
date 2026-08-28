@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API to generate accurate body measurements and a 3D avatar from a person's stats, and (with two photos) body composition and posture data. Requests use a secret API key in the Authorization heade
@@ -120,15 +124,15 @@ scopes:
   slug: original-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.9
-  delta: 0.0
+  band: thin
+  composite: 29.4
+  delta: 4.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 61.9
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
@@ -141,9 +145,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 33.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 47.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/original/refs/heads/main/screenshots/original-2026-08-07T190948.png
 security:

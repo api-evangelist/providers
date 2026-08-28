@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.1
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -230,18 +234,18 @@ rate_limits:
   slug: 99designs-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 49.8
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 57.8
+    contract_quality: 56.2
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 50.2
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +256,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/screenshots/99designs-2026-07-25T181252.png
 security:

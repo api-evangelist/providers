@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -549,18 +553,18 @@ rules:
   slug: jxchange-rest-rules
 score:
   band: developing
-  composite: 40.8
-  delta: 0.0
+  composite: 47.1
+  delta: 6.7
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 54.5
-    contract_quality: 62.7
-    developer_ergonomics: 33.3
+    contract_quality: 61.2
+    developer_ergonomics: 66.7
     discoverability: 68.5
     governance: 54.5
     operational_transparency: 5.3
-  previous_composite: 40.8
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -574,9 +578,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:
 - kind: authentication

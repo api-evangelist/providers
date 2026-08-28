@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: The Spredfast-lineage Khoros Marketing API surface covering Conversations, Publishing, Analytics Reporting and Notification. Uses a 3-legged OAuth 2.0 flow (/authorize, /grant, /token) and Bearer acce
@@ -184,22 +188,22 @@ overview: 'Lithium Technologies publishes 5 APIs on the [APIs.io](https://apis.i
 random_paper: 14
 score:
   band: developing
-  composite: 45.6
+  composite: 44.2
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 50.0
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 45.6
+  previous_composite: 44.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium-technologies/refs/heads/main/screenshots/lithium-technologies-2026-07-25T225336.png
 security:

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.8
-  scored_at: '2026-08-24'
+  score: 49.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -355,18 +359,18 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 69.5
+  composite: 69.7
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 41.7
-    contract_quality: 70.8
+    contract_quality: 71.6
     developer_ergonomics: 64.3
     discoverability: 92.6
     governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 69.5
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,8 +387,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
 security:

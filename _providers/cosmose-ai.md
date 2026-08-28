@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.3
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Registration, onboarding, invitation and account-lifecycle service behind Cosmose AI's KaiKai / Deal Hunter consumer app, plus the merchant, school, newsletter and contact lead-capture forms on kaikai
@@ -118,19 +122,19 @@ rate_limits:
   name: Cosmose Ai Rate Limits
   slug: cosmose-ai-rate-limits
 score:
-  band: emerging
-  composite: 24.7
-  delta: 0.0
+  band: thin
+  composite: 27.5
+  delta: 3.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 48.3
-    developer_ergonomics: 13.7
-    discoverability: 75.9
+    contract_quality: 46.9
+    developer_ergonomics: 32.7
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 24.7
+  previous_composite: 23.7
   provenance:
     conformance: derived
     contracts:
@@ -140,8 +144,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

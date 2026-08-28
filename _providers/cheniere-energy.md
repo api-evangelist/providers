@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Cheniere Energy is a leading producer and exporter of liquefied natural gas (LNG) in the United States. The company does not currently offer a public developer API. Supplier and contractor integration
@@ -116,26 +120,26 @@ rate_limits:
   slug: cheniere-energy-rate-limits
 score:
   band: emerging
-  composite: 16.9
+  composite: 16.7
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 30.1
+    contract_quality: 29.3
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 16.9
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheniere-energy/refs/heads/main/screenshots/cheniere-energy-2026-06-20T174259.png
 security:

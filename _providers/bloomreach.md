@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.8
-  scored_at: '2026-08-24'
+  score: 58.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -460,30 +464,30 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.2
-  delta: 0.0
+  composite: 74.3
+  delta: 0.6
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
     contract_governance: 55.3
-    contract_quality: 76.9
+    contract_quality: 77.4
     developer_ergonomics: 58.3
     discoverability: 87.0
     governance: 55.3
     operational_transparency: 81.6
-  previous_composite: 74.2
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 95.2
       derived: 0
       marker_coverage: 0.0
       total: 21
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png
 security:

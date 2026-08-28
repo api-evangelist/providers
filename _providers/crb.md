@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.7
-  scored_at: '2026-08-24'
+  score: 6.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Cross River Operating System (COS) API is Cross River's API-driven bank core, exposing Accounts and Payments products (ACH, RTP, FedNow, wires, international payments, cards, subledgers, and lendi
@@ -134,8 +138,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/screenshots/crb-2026-07-25T210659.png
 security:

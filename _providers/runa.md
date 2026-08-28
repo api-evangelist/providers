@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.6
-  scored_at: '2026-08-24'
+  score: 37.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -213,18 +217,18 @@ rules:
   slug: runa-spectral-rules
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 44.3
+  delta: 1.9
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
-    contract_quality: 69.1
-    developer_ergonomics: 35.7
+    contract_quality: 67.2
+    developer_ergonomics: 45.2
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 42.9
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +242,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:

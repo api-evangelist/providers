@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: true
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: true
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 74.0
-  scored_at: '2026-08-24'
+  score: 55.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Read-only REST/HTTP JSON and JSON-LD API for live Binance Spot market snapshots and single-market observations across nine USDT pairs. Keyless, cached to at most 30 seconds, fail-closed on stale data.
@@ -216,18 +220,18 @@ rate_limits:
   slug: btc-war-live-market-data-api-rate-limits
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 47.7
+  delta: 1.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 31.8
-    contract_quality: 67.8
-    developer_ergonomics: 26.2
+    contract_quality: 68.7
+    developer_ergonomics: 35.7
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 44.7
-  previous_composite: 45.6
+  previous_composite: 45.8
   provenance:
     agentic_access: unknown
     conformance: derived
@@ -244,8 +248,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/screenshots/btc-war-live-market-data-api-2026-08-17T123059.png
 security:

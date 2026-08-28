@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting for S-Space, the SNU Open Repository and Archive. Verified live and anonymous on 2026-08-19: repositoryName "SNU Open Repository and Archive", repositoryIdentifier s-sp'
@@ -205,18 +209,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.0
-  delta: -1.0
+  composite: 50.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 67.4
-    contract_quality: 63.2
+    contract_quality: 61.5
     developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 67.4
     operational_transparency: 21.1
-  previous_composite: 52.0
+  previous_composite: 50.6
   provenance:
     conformance: first-party
     contracts:
@@ -230,8 +234,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png
 security:

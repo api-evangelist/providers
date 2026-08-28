@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-08-24'
+  score: 18.9
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: The Authentication API from TruVideo — 2 operation(s) for authentication.
@@ -214,30 +218,30 @@ overview: 'TruVideo publishes 11 APIs on the [APIs.io](https://apis.io/) network
   TruVideo''s developer surface includes authentication, sandbox, documentation, pricing, support, and 18 more developer resources.'
 random_paper: 0
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 29.5
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 53.2
+    contract_quality: 12.9
     developer_ergonomics: 51.8
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 40.4
+  previous_composite: 29.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 11
+      marker_coverage: 100.0
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

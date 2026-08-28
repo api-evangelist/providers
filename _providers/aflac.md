@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 33.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -531,27 +535,27 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 28.5
-  delta: 0.0
+  composite: 28.8
+  delta: -0.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 26.3
+    contract_quality: 27.5
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 28.5
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:

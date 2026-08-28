@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Zip Procurement API is a REST-based interface for automating and integrating enterprise procurement workflows. It provides endpoints for managing intake requests, vendor onboarding, approval routi
@@ -132,20 +136,20 @@ rate_limits:
   slug: zip-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 34.5
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 43.7
+    contract_quality: 41.3
     developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 35.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 34.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/screenshots/zip-2026-06-20T201914.png
 security:

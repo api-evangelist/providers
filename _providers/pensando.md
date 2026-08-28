@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.0
-  scored_at: '2026-08-24'
+  score: 5.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for the AMD Pensando Policy and Services Manager control plane — manage clusters, networks, security policy, and services on Pensando DPUs. The API is served per-appliance; live interactive d
@@ -95,21 +99,21 @@ overview: 'Pensando * publishes 1 API on the [APIs.io](https://apis.io/) network
   Pensando *''s developer surface includes authentication and 10 more developer resources.'
 random_paper: 16
 score:
-  band: minimal
-  composite: 10.8
-  delta: 0.0
+  band: emerging
+  composite: 12.7
+  delta: 1.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 28.6
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 10.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

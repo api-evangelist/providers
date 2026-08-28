@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-24'
+  score: 40.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -545,13 +549,13 @@ rules:
   slug: punchh-spectral-rules
 score:
   band: exemplar
-  composite: 67.6
-  delta: 0.0
+  composite: 67.9
+  delta: 0.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 59.1
-    contract_quality: 59.3
+    contract_quality: 60.4
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 59.1
@@ -573,8 +577,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:

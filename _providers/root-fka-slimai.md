@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 27.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -315,18 +319,18 @@ overview: 'Root (fka Slim.ai) publishes 20 APIs on the [APIs.io](https://apis.io
 random_paper: 17
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 46.7
+  delta: 1.4
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 30.3
-    contract_quality: 57.1
-    developer_ergonomics: 51.8
+    contract_quality: 55.6
+    developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 45.7
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -337,8 +341,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/screenshots/root-fka-slimai-2026-08-17T081633.png
 security:

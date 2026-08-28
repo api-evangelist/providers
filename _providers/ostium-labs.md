@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-24'
+  score: 20.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public Builder API and TypeScript/Python SDK surface for reading Ostium market data (pairs, prices, OHLC candles), streaming live prices and account/position updates over WebSocket, and building/submi
@@ -199,18 +203,18 @@ overview: 'Ostium Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 2
 score:
   band: developing
-  composite: 51.9
+  composite: 51.4
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 44.4
+    contract_quality: 42.6
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 51.9
+  previous_composite: 51.4
   provenance:
     conformance: derived
     mcp: derived
@@ -221,8 +225,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/screenshots/ostium-labs-2026-08-07T191021.png
 security:

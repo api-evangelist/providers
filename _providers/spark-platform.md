@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.0
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: FBS's proprietary REST API over Flexmls MLS content. Documented services include Listings (plus photos, documents, floor plans, videos, virtual tours, open houses, rooms, units, history and rules), Co
@@ -217,22 +221,22 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.9
+  composite: 52.8
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 46.5
+    contract_quality: 49.3
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 52.9
+  previous_composite: 52.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/screenshots/spark-platform-2026-08-17T082017.png
 security:

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-24'
+  score: 30.0
+  scored_at: '2026-08-26'
 api_count: 183
 apis:
 - description: 'The Reporting API exposes Later Influence campaign performance for aggregation outside the platform: instance-level KPIs and time series, campaign performance and estimated ROI, social-network channel'
@@ -1259,18 +1263,18 @@ rate_limits:
   slug: mavrck-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 49.8
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
-    contract_quality: 57.6
+    contract_quality: 56.0
     developer_ergonomics: 47.0
     discoverability: 57.4
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 50.2
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     contracts:
@@ -1286,8 +1290,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/screenshots/mavrck-2026-07-25T230437.png
 security:

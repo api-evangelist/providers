@@ -18,21 +18,25 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-24'
+  score: 54.7
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Reevo's permission-scoped public REST API. Endpoints cover account and contact upsert, accounts (create/update/get/search-by-domain), contacts (get/search), opportunities (create/update/get/search/shi
@@ -207,24 +211,24 @@ scopes:
   summary_line: 22 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.1
+  composite: 51.5
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 54.8
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 52.1
+  previous_composite: 51.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/screenshots/reevo-2026-08-17T081502.png
 security:

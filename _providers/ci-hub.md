@@ -1,25 +1,30 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.4
-  scored_at: '2026-08-24'
+  score: 46.8
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The HTTP API a partner platform calls to embed CI HUB's DAM connectivity in its own product. A partner backend signs an RS256 JWT and exchanges it at POST /auth/exchangeToken for a CI HUB access token
@@ -166,30 +171,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 63.8
+  delta: 5.9
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 30.3
-    contract_quality: 59.3
-    developer_ergonomics: 61.3
+    contract_quality: 57.7
+    developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 30.3
-    operational_transparency: 23.7
-  previous_composite: 58.3
+    operational_transparency: 39.5
+  previous_composite: 57.9
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/screenshots/ci-hub-2026-08-17T080817.png
 security:
 - kind: authentication

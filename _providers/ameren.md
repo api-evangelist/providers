@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Ameren Illinois Share My Usage API implements the Green Button Connect My Data program, providing authorized third parties access to up to 24 months of historical electric energy usage data for re
@@ -125,14 +129,14 @@ rate_limits:
   slug: ameren-rate-limits
 score:
   band: emerging
-  composite: 11.9
-  delta: 0.0
+  composite: 17.5
+  delta: 5.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
@@ -142,10 +146,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 16.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 24.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/screenshots/ameren-2026-08-07T174227.png
 security:
 - kind: domain-security

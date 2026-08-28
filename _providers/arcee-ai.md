@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -326,30 +330,30 @@ overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: developing
-  composite: 41.6
-  delta: 0.0
+  composite: 45.0
+  delta: 3.8
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 51.9
-    developer_ergonomics: 54.2
+    contract_quality: 55.9
+    developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 41.6
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
 security:

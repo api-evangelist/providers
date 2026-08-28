@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.7
-  scored_at: '2026-08-24'
+  score: 28.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST Product API (v2) to query marketing data from connected data sources, with synchronous and asynchronous query execution, plus a Management API for API keys, saved queries, teams, data-source logi
@@ -239,8 +243,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supermetrics/refs/heads/main/screenshots/supermetrics-2026-08-17T082204.png
 security:

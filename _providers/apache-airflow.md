@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.6
-  scored_at: '2026-08-24'
+  score: 30.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1147,29 +1152,29 @@ rules:
   slug: apache-airflow-spectral-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 47.8
+  delta: -0.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 45.5
-    contract_quality: 64.8
+    contract_quality: 59.7
     developer_ergonomics: 59.5
-    discoverability: 83.3
+    discoverability: 75.9
     governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 49.8
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:

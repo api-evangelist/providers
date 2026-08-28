@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.1
-  scored_at: '2026-08-24'
+  score: 11.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: An authorization-gated Model Context Protocol server operated by eSentire on its own API host. Every path under https://api.esentire.com/mcp/ answers 401 UNAUTHORIZED with an RFC 9728 challenge (`WWW-
@@ -143,14 +147,14 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 22.8
+  delta: 2.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 14.3
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
@@ -158,8 +162,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

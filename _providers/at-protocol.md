@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 20.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -221,18 +225,18 @@ rules:
   slug: at-protocol-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 40.3
-  delta: 0.0
+  composite: 41.4
+  delta: 1.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
-    contract_quality: 52.2
-    developer_ergonomics: 31.0
+    contract_quality: 50.9
+    developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 50.0
-  previous_composite: 40.3
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +244,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/screenshots/at-protocol-2026-08-17T122411.png
 security:

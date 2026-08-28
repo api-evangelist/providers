@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -198,18 +202,18 @@ rules:
   slug: pubchem-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
+  composite: 44.7
   delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 58.7
+    contract_quality: 57.1
     developer_ergonomics: 14.3
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 45.1
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +227,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/screenshots/pubchem-2026-06-20T192236.png
 security:

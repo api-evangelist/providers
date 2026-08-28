@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 32.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -305,18 +309,18 @@ rate_limits:
   slug: faa-rate-limits
 score:
   band: strong
-  composite: 56.9
+  composite: 55.8
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 16.7
-    contract_quality: 50.5
+    contract_quality: 49.1
     developer_ergonomics: 56.5
-    discoverability: 72.2
+    discoverability: 64.8
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 56.9
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,8 +337,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png
 security:

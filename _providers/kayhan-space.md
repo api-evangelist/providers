@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-24'
+  score: 28.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -312,18 +316,18 @@ scopes:
   summary_line: 1 scope · password/clientCredentials
 score:
   band: developing
-  composite: 44.5
+  composite: 43.4
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 30.3
-    contract_quality: 54.7
+    contract_quality: 53.3
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 44.5
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,8 +338,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
 security:

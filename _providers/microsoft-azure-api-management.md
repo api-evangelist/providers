@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.2
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -1261,18 +1265,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 57.5
+  composite: 58.0
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 23.1
+    contract_quality: 25.2
     developer_ergonomics: 92.9
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 57.5
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1280,8 +1284,8 @@ score:
       derived: 70
       marker_coverage: 100.0
       total: 70
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:

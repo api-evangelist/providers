@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.3
-  scored_at: '2026-08-24'
+  score: 12.4
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API to create workspaces, load molecular structures, create and rename scenes, and add visualization components. Bearer-token auth. Powers the MARA workspace builder, the official Nanome MCP serv
@@ -173,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/screenshots/nanome-2026-08-07T184617.png
 security:

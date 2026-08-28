@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.4
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -342,18 +346,18 @@ rules:
   slug: encore-dev-rules
 score:
   band: strong
-  composite: 56.2
+  composite: 55.8
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 61.8
+    contract_quality: 60.1
     developer_ergonomics: 59.5
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 56.2
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
@@ -361,8 +365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/screenshots/encore-dev-2026-06-20T180721.png
 security:

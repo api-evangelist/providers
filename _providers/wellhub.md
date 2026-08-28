@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -196,18 +200,18 @@ rate_limits:
   slug: wellhub-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 48.8
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 16.7
-    contract_quality: 54.2
+    contract_quality: 52.7
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 49.2
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/screenshots/wellhub-2026-08-17T082909.png
 security:

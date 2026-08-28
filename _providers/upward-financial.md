@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-24'
+  score: 36.8
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
@@ -280,18 +283,18 @@ scopes:
   summary_line: 9 scopes · clientCredentials/token-exchange (urn:ietf:params:oauth:grant-type:token-exchange)
 score:
   band: developing
-  composite: 51.3
+  composite: 50.9
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
-    contract_quality: 58.8
+    contract_quality: 57.2
     developer_ergonomics: 63.7
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 51.3
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     contracts:
@@ -307,8 +310,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/screenshots/upward-financial-2026-08-17T082644.png
 security:

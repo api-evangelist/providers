@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -180,27 +184,27 @@ rate_limits:
   slug: openpipe-rate-limits
 score:
   band: thin
-  composite: 28.0
-  delta: 0.0
+  composite: 29.4
+  delta: 1.7
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 26.3
+    commercial_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 47.6
+    contract_quality: 42.9
     developer_ergonomics: 21.4
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.0
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/screenshots/openpipe-2026-06-20T191022.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.5
-  scored_at: '2026-08-24'
+  score: 52.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -778,18 +782,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.4
+  composite: 62.3
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 41.7
-    contract_quality: 56.2
+    contract_quality: 54.6
     developer_ergonomics: 61.9
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 41.7
     operational_transparency: 55.3
-  previous_composite: 63.4
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -800,8 +804,8 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/screenshots/planable-2026-06-20T191751.png
 security:

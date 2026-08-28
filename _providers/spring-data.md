@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Enterprise · Open access
   onboarding: open
   pricing: enterprise
-  public: true
+  public: false
   source:
   - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -15,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 17.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -219,18 +224,18 @@ rules:
   slug: spring-data-rules
 score:
   band: thin
-  composite: 27.2
-  delta: 0.0
+  composite: 32.6
+  delta: 5.8
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 58.9
-    developer_ergonomics: 0.0
+    contract_quality: 57.3
+    developer_ergonomics: 28.6
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 27.2
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -238,9 +243,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/screenshots/spring-data-2026-06-20T194412.png
 security:
 - kind: domain-security

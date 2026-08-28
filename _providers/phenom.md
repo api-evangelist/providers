@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.0
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: Fetch applicant data, hiring status and leads for a job.
@@ -223,18 +227,18 @@ overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 17
 score:
   band: developing
-  composite: 48.6
+  composite: 48.2
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 30.3
-    contract_quality: 57.3
+    contract_quality: 55.8
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 48.6
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     contracts:
@@ -244,8 +248,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/screenshots/phenom-2026-08-17T081205.png
 security:

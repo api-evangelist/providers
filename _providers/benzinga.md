@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 25.7
+  scored_at: '2026-08-26'
 api_count: 44
 apis:
 - description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
@@ -471,18 +475,18 @@ overview: 'Benzinga publishes 43 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 6
 score:
   band: strong
-  composite: 55.2
+  composite: 54.9
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 60.6
+    contract_quality: 59.1
     developer_ergonomics: 66.1
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 55.2
+  previous_composite: 54.9
   provenance:
     conformance: derived
     contracts:
@@ -498,8 +502,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png
 security:

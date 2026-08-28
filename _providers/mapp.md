@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.8
-  scored_at: '2026-08-24'
+  score: 56.3
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: 'The Mapp Engage REST API (REST 2.0, incremental version v19) exchanges data between external systems and Mapp Engage: create and update contacts, manage group memberships and attributes, send single, '
@@ -249,24 +253,24 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 75.1
+  composite: 74.7
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
-    contract_quality: 59.9
+    contract_quality: 58.3
     developer_ergonomics: 70.8
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 75.1
+  previous_composite: 74.7
   provenance:
     conformance: first-party
     contracts:
       callable: 50.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: derived
@@ -276,8 +280,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/screenshots/mapp-2026-08-17T080404.png
 security:

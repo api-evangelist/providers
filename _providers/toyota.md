@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -264,18 +268,18 @@ rules:
   slug: toyota-spectral-rules
 score:
   band: thin
-  composite: 35.1
+  composite: 34.7
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 66.8
+    contract_quality: 65.2
     developer_ergonomics: 23.8
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 35.1
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -283,8 +287,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

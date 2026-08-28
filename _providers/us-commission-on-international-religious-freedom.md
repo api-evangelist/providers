@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The US Commission on International Religious Freedom (USCIRF) is an independent, bipartisan federal government commission created by the International Religious Freedom Act of 1998 that monitors relig
@@ -167,26 +171,26 @@ rules:
   slug: us-commission-on-international-religious-freedom-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.2
+  composite: 19.9
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 25.4
+    contract_quality: 24.0
     developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 20.2
+  previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/screenshots/us-commission-on-international-religious-freedom-2026-06-20T200619.png
 security:

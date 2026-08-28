@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.4
-  scored_at: '2026-08-24'
+  score: 5.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for third-party sellers and integrators to connect to the KaBuM! marketplace (operated on the Mirakl platform). Covers category hierarchies, product attribute mapping, product and offer impor
@@ -112,8 +116,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kabum/refs/heads/main/screenshots/kabum-2026-07-25T223359.png
 security:

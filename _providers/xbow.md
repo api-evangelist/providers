@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-24'
+  score: 32.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -253,18 +257,18 @@ overview: 'Xbow publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 7
 score:
   band: strong
-  composite: 56.5
+  composite: 56.1
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
-    contract_quality: 63.6
+    contract_quality: 61.9
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 56.5
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +279,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/screenshots/xbow-2026-08-17T083001.png
 security:

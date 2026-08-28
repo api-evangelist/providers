@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,27 +191,27 @@ rules:
   slug: breaking-bad-rules
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 20.3
+  delta: 2.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
-    contract_quality: 26.2
-    developer_ergonomics: 0.0
+    contract_quality: 27.4
+    developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 28.8
-    operational_transparency: 0.0
-  previous_composite: 17.4
+    operational_transparency: 5.3
+  previous_composite: 17.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/screenshots/breaking-bad-2026-06-20T173647.png
 slug: breaking-bad

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.3
-  scored_at: '2026-08-24'
+  score: 25.0
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: The Accounts API from LISNR — 1 operation(s) for accounts.
@@ -208,25 +212,25 @@ overview: 'LISNR publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   LISNR''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
 random_paper: 6
 score:
-  band: thin
-  composite: 33.4
+  band: emerging
+  composite: 22.2
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 56.9
+    contract_quality: 15.1
     developer_ergonomics: 42.3
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.4
+  previous_composite: 22.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 10
+      marker_coverage: 100.0
       total: 10
     mcp: derived
     skills: derived
@@ -236,8 +240,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/screenshots/lisnr-2026-07-25T225338.png
 security:

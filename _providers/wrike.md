@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.2
-  scored_at: '2026-08-24'
+  score: 28.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -494,18 +498,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 47.5
+  delta: 2.8
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 65.9
-    developer_ergonomics: 22.6
+    contract_quality: 64.3
+    developer_ergonomics: 36.9
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 45.1
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -513,8 +517,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/screenshots/wrike-2026-06-20T201636.png
 security:

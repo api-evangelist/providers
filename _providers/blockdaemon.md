@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.5
-  scored_at: '2026-08-24'
+  score: 13.5
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -417,26 +421,26 @@ rules:
   slug: blockdaemon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 47.5
+  delta: 0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 25.0
-    contract_quality: 12.7
+    contract_quality: 17.3
     developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 25.0
-    operational_transparency: 52.6
-  previous_composite: 45.8
+    operational_transparency: 56.6
+  previous_composite: 47.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockdaemon/refs/heads/main/screenshots/blockdaemon-2026-06-20T173357.png
 security:

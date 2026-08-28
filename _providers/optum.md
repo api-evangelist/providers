@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.2
-  scored_at: '2026-08-24'
+  score: 40.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 3
@@ -261,23 +265,23 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 63.1
+  composite: 63.4
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 30.3
-    contract_quality: 59.9
+    contract_quality: 61.1
     developer_ergonomics: 45.8
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 63.1
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 88.1
+      callable: 91.5
       derived: 0
       marker_coverage: 0.0
       total: 59
@@ -289,8 +293,8 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/screenshots/optum-2026-08-07T190817.png
 security:

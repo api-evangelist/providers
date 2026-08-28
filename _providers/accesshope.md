@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,7 +129,7 @@ overview: 'AccessHope is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 4
 score:
   band: emerging
-  composite: 16.6
+  composite: 15.9
   delta: 0.0
   facets:
     access_clarity: 43.4
@@ -133,10 +137,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.6
+  previous_composite: 15.9
   provenance:
     conformance: first-party
   regulatory:
@@ -145,8 +149,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accesshope/refs/heads/main/screenshots/accesshope-2026-08-07T160757.png
 security:

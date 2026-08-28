@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.1
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: C.L.U.E. Auto is a contributory claim-history information exchange containing up to seven years of personal automobile claims matching the search criteria, used by carriers during quoting and underwri
@@ -209,18 +213,18 @@ overview: 'LexisNexis Risk Solutions publishes 7 APIs on the [APIs.io](https://a
 random_paper: 14
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 38.2
+  delta: 1.4
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 83.3
+    developer_ergonomics: 59.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 37.5
+  previous_composite: 36.8
   provenance:
     conformance: first-party
   regulatory:
@@ -229,8 +233,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexisnexis-risk-solutions/refs/heads/main/screenshots/lexisnexis-risk-solutions-2026-07-25T224959.png
 security:

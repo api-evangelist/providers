@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.0
-  scored_at: '2026-08-24'
+  score: 27.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
@@ -194,18 +198,18 @@ overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 11
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 37.6
+  delta: 0.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 65.0
+    contract_quality: 66.7
     developer_ergonomics: 28.0
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 37.9
+  previous_composite: 36.7
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:

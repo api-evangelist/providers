@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-24'
+  score: 16.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public GraphQL API over DSCVR's SocialFi graph. Query users (by id or username), portals (by id or slug), content (posts and comments), on-chain wallets, reactions, and unpack Frame messages. Currentl
@@ -156,24 +160,24 @@ overview: 'DSCVR publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 0
 score:
   band: thin
-  composite: 32.9
+  composite: 32.5
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 31.9
     developer_ergonomics: 80.4
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 32.9
+  previous_composite: 32.5
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dscvr/refs/heads/main/screenshots/dscvr-2026-07-25T212432.png
 security:

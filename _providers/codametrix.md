@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.6
-  scored_at: '2026-08-24'
+  score: 30.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,18 +233,18 @@ overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 1
 score:
   band: developing
-  composite: 40.9
-  delta: 0.0
+  composite: 42.2
+  delta: 1.4
   facets:
     access_clarity: 71.4
     commercial_clarity: 71.4
     contract_governance: 30.3
-    contract_quality: 14.2
-    developer_ergonomics: 30.4
-    discoverability: 92.6
+    contract_quality: 16.5
+    developer_ergonomics: 37.5
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 40.9
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -257,8 +261,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The WTO flagship API providing programmatic access to a large number of statistical indicators related to WTO issues. Data covers merchandise trade and trade in services statistics (annual, quarterly,
@@ -114,15 +118,15 @@ rate_limits:
   name: Wto Rate Limits
   slug: wto-rate-limits
 score:
-  band: emerging
-  composite: 21.0
-  delta: 0.0
+  band: thin
+  composite: 27.0
+  delta: 6.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
@@ -132,10 +136,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 22.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/screenshots/wto-2026-06-20T201642.png
 security:
 - kind: domain-security

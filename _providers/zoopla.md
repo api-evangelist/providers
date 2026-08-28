@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 33.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -291,7 +295,6 @@ examples:
 - key_count: 6
   name: Zoopla Wfp Pending
   slug: zoopla-wfp-pending
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: ''
@@ -316,18 +319,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 37.6
+  delta: -0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 16.7
-    contract_quality: 57.3
+    contract_quality: 58.4
     developer_ergonomics: 42.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 38.4
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,8 +341,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/screenshots/zoopla-2026-08-17T083116.png
 security:

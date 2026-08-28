@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-08-24'
+  score: 24.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The partner-facing API for Web.com's International ("NTS") platform, fronted by Azure API Management. Ten documented operations cover the sales-order lifecycle (create, list with paging and filtering,
@@ -158,18 +162,18 @@ rate_limits:
   slug: websitepros-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 28.7
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 16.7
-    contract_quality: 18.3
+    contract_quality: 17.8
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 29.5
+  previous_composite: 28.7
   provenance:
     conformance: derived
     contracts:
@@ -179,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: derived
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-24'
+  score: 31.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -118,46 +122,6 @@ common:
   title: ''
   type: Website
   url: https://www.sendle.com
-- group: start
-  title: ''
-  type: Portal
-  url: https://developers.sendle.com
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://developers.sendle.com/llms.txt
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://developers.sendle.com/reference/authentication
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developers.sendle.com/reference/getting-your-api-key
-- group: start
-  title: ''
-  type: Sandbox
-  url: https://developers.sendle.com/reference/sendles-sandbox-server
-- group: docs
-  title: ''
-  type: Guide
-  url: https://developers.sendle.com/docs/integration-best-practices
-- group: docs
-  title: ''
-  type: Guide
-  url: https://developers.sendle.com/docs/regional-api-differences
-- group: company
-  title: ''
-  type: Partnerships
-  url: https://developers.sendle.com/docs/becoming-a-partner
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://developers.sendle.com/changelog
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.sendle.com
 - group: build
   title: ''
   type: GitHub
@@ -166,10 +130,6 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/sendle
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://try.sendle.com/en-us/pricing
 - group: commercial
   title: ''
   type: Plans
@@ -190,7 +150,56 @@ common:
   title: ''
   type: Support
   url: mailto:api@sendle.com
-description: Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sendle-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sendle-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sendle-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/sendle-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sendle-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sendle-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sendle-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sendle-conformance.yml
+coverage:
+  checked: '2026-08-26'
+  detail: Sendle ceased operations on 2026-01-11 and entered liquidation; api.sendle.com, developers.sendle.com, sandbox.sendle.com, status.sendle.com and try.sendle.com all return NXDOMAIN from the sendle.com authoritative nameserver, leaving only a client-rendered marketing shell on www.sendle.com that answers every /.well-known/ path with the same 18,276-byte HTML body.
+  evidence:
+  - status: 0
+    url: https://api.sendle.com/api/ping
+  - status: 0
+    url: https://developers.sendle.com/reference/welcome
+  - status: 0
+    url: https://status.sendle.com
+  - status: 200
+    url: https://www.sendle.com/.well-known/security.txt
+  - status: 200
+    url: https://www.sendle.com
+  reason: defunct
+  state: none
+created: '2026-05-25'
+description: RETIRED — Sendle ceased operations on 11 January 2026 and the company entered liquidation; the API host, developer hub, sandbox and status page have all been withdrawn from DNS and returned NXDOMAIN when probed on 26 August 2026. Sendle was a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States and Canada plus international shipping from AU and US to ~180 countries. Its API exposed quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests and per-parcel tracking webhooks over HTTP Basic Authentication, with an Idempotency-Key header on order creation. The five OpenAPI definitions in this repository are retained as an archival record of a contract that can no longer be called.
 examples:
 - key_count: 2
   name: Sendle Create Order Example
@@ -219,6 +228,7 @@ jsonld:
   property_count: 23
   slug: sendle-context
 layout: provider
+modified: '2026-08-26'
 name: Sendle
 nav: Providers
 network: true
@@ -228,7 +238,7 @@ overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Sendle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Sendle''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, changelog, GitHub presence, and 16 more developer resources.'
+  Sendle''s developer surface includes authentication, GitHub presence, support, and 17 more developer resources.'
 plans:
 - name: Sendle Plans Pricing
   plan_count: 3
@@ -261,29 +271,31 @@ rules:
     warn: 4
   slug: sendle-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.5
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: -10.7
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 28.8
-    contract_quality: 79.0
-    developer_ergonomics: 54.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 45.5
+    contract_quality: 73.4
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 28.8
-    operational_transparency: 68.4
-  previous_composite: 60.5
+    governance: 45.5
+    operational_transparency: 44.7
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    mcp: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:
 - kind: authentication
@@ -293,7 +305,7 @@ security:
 - kind: domain-security
   name: Sendle Domain Security
   slug: sendle-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3
 slug: sendle
 tags:
 - Shipping

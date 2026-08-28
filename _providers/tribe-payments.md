@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-24'
+  score: 35.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -268,18 +272,18 @@ overview: 'Tribe Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 11
 score:
   band: developing
-  composite: 46.1
+  composite: 45.8
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 30.3
-    contract_quality: 54.9
+    contract_quality: 53.4
     developer_ergonomics: 28.0
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 46.1
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,12 +296,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: berlin-group-nextgenpsd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png
 security:

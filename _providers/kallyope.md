@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Anonymous, read-only REST surface behind kallyope.com. Kallyope runs WordPress and exposes the WordPress REST API publicly at https://kallyope.com/wp-json with 326 registered routes across 14 namespac
@@ -111,15 +115,15 @@ overview: 'Kallyope publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 4
 score:
   band: emerging
-  composite: 14.2
-  delta: 0.0
+  composite: 17.2
+  delta: 3.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 15.7
-    developer_ergonomics: 7.1
-    discoverability: 75.9
+    contract_quality: 15.3
+    developer_ergonomics: 20.8
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 0.0
   needs_work:
@@ -128,7 +132,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 14.2
+  previous_composite: 13.4
   provenance:
     conformance: derived
     contracts:
@@ -143,9 +147,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 21.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/screenshots/kallyope-2026-08-07T171056.png
 security:

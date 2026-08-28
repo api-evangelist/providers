@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 21
 apis:
 - description: Free API management gateway operated by the U.S. General Services Administration's Technology Transformation Services. Fronts the API keys, rate limiting, and analytics for over 450 APIs across roughl
@@ -166,27 +170,27 @@ rules:
   slug: public-sector-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 11.3
-  delta: 0.0
+  composite: 22.0
+  delta: 10.9
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 13.2
+    commercial_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 15.5
-    developer_ergonomics: 0.0
+    contract_quality: 14.7
+    developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 9.8
-    operational_transparency: 0.0
-  previous_composite: 11.3
+    operational_transparency: 2.6
+  previous_composite: 11.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 31.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-sector/refs/heads/main/screenshots/public-sector-2026-06-20T192241.png
 security:
 - kind: domain-security

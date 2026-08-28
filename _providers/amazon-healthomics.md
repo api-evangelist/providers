@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.6
-  scored_at: '2026-08-24'
+  score: 33.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -3744,18 +3748,18 @@ rules:
   slug: amazon-healthomics-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 63.2
+  delta: 3.5
   facets:
-    access_clarity: 57.9
-    commercial_clarity: 57.9
+    access_clarity: 68.4
+    commercial_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 72.1
-    developer_ergonomics: 61.9
+    contract_quality: 70.1
+    developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 60.2
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -3769,8 +3773,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/screenshots/amazon-healthomics-2026-07-25T200010.png
 security:

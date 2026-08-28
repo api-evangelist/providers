@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Arena''s REST Platform API (V3) for programmatically managing engagement resources — Liveblog, Live Chat, Analytics, Account, Stream, Users, Moderation, Polls, and Q&A — mirroring the Arena Dashboard. '
@@ -142,21 +146,21 @@ overview: 'Arena publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   Arena''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 14 more developer resources.'
 random_paper: 15
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 39.1
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 52.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 39.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 39.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/screenshots/arena-2026-07-25T201123.png
 security:

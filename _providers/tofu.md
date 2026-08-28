@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-24'
+  score: 28.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Credit-metered company and people data enrichment. Two entities — company (keyed on domain or LinkedIn URL) and person (keyed on LinkedIn profile URL or business email) — with a structured filter gram
@@ -195,8 +199,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

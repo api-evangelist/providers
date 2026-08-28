@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.0
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: A data-feed API that returns every field in the FEVO Sales Report — orders and order adjustments — so a customer can pull FEVO transaction data directly into their own data warehouse. Queries run by O
@@ -161,7 +165,7 @@ rate_limits:
   slug: fevo-rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 34.0
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -169,10 +173,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 66.7
+    discoverability: 59.3
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 34.7
+  previous_composite: 34.0
   provenance:
     conformance: first-party
   regulatory:
@@ -181,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

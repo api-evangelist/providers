@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 6.8
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Public REST API on appws.picpay.com that lets merchants charge a PicPay user's wallet from an ecommerce checkout. Creates a payment with a referenceId, returns a payment URL plus a QR code for the buy
@@ -185,26 +189,26 @@ overview: 'PicPay publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 16
 score:
   band: emerging
-  composite: 14.5
-  delta: 0.0
+  composite: 19.3
+  delta: 4.8
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 40.5
+    developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 10.5
   previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 25.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picpay/refs/heads/main/screenshots/picpay-2026-06-20T191659.png
 security:

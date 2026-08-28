@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Public, unauthenticated OBIE Open Data API listing the location, accessibility, supported currencies, and services of Nationwide ATMs across the UK. Confirmed live (HTTP 200, application/json) at v2.2
@@ -214,22 +218,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 44.4
+  delta: -1.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 30.3
-    contract_quality: 38.0
-    developer_ergonomics: 49.4
+    contract_quality: 33.6
+    developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 45.6
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -240,9 +244,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 68.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 58.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/screenshots/nationwide-building-society-2026-08-07T184659.png
 security:

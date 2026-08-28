@@ -8,20 +8,20 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "VesselFinder",
      "slug": "vesselfinder",
      "description": "VesselFinder is a maritime intelligence company operating a global AIS vessel-tracking network (terrestrial AIS plus satellite AIS) and offering ship positions, voyage history, vessel particulars, port-call events, sea-distance routing, and ocean-container track-and-trace through its developer APIs. The platform pairs a credit-metered AIS REST API (Vessels, PortCalls, ExpectedArrivals, MasterData, Distance, plus subscription feeds VesselsList and LiveData) with a separate Container Tracking API that returns shipment schedules and real-time vessel positions by container number. VesselFinder also runs a public web map, iOS/Android apps, an embeddable map widget, a fleet explorer, and a route planner.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png",
-     "score": 52.5,
+     "score": 52.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 70.8,
+      "contract_quality": 68.9,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 5.3,
@@ -29,16 +29,16 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 29.1,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -48,7 +48,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Visibility",
      "rank": 1
@@ -58,12 +62,12 @@
      "slug": "xeneta",
      "description": "Xeneta is an ocean and air freight rate benchmarking and market analytics platform headquartered in Oslo, Norway. It crowdsources contracted freight rates from shippers and forwarders into the world's largest rate database, and its REST API (v3.0) exposes ocean and air market rates, your own contracted prices, carrier spread, estimated rates, capacity, carbon emissions, and schedule reliability data, plus a separate airline reports API for airlines, shippers, and freight forwarders.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/screenshots/xeneta-2026-08-17T083005.png",
-     "score": 47.1,
+     "score": 46.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 55.9,
+      "contract_quality": 54.4,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 22.4,
@@ -71,8 +75,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -80,14 +84,14 @@
       "score": 50.0,
       "matched_via": "tags"
      },
-     "agent_score": 41.1,
-     "agent_band": "agent-ready",
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": "na",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": "documented",
       "openapi_examples": "verified",
@@ -97,10 +101,59 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na"
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Visibility",
      "rank": 2
+    },
+    {
+     "name": "Terminal49",
+     "slug": "terminal49",
+     "description": "Terminal49 is an automated container and ocean-freight tracking platform. Its v2 REST API (JSON:API) lets shippers, forwarders, and logistics software track Bills of Lading, bookings, and container numbers across global ocean carriers and North American rail, returning normalized milestones, ETAs, terminal availability, holds, demurrage fees, and last free day, with webhooks for real-time updates.",
+     "score": 40.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 53.8,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Ocean Visibility",
+     "rank": 3
     }
    ],
    "open": true
@@ -110,78 +163,37 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
-    {
-     "name": "Terminal49",
-     "slug": "terminal49",
-     "description": "Terminal49 is an automated container and ocean-freight tracking platform. Its v2 REST API (JSON:API) lets shippers, forwarders, and logistics software track Bills of Lading, bookings, and container numbers across global ocean carriers and North American rail, returning normalized milestones, ETAs, terminal availability, holds, demurrage fees, and last free day, with webhooks for real-time updates.",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 55.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 29.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Ocean Visibility",
-     "rank": 3
-    },
     {
      "name": "Vizion",
      "slug": "vizion",
      "description": "Vizion provides a container tracking API that delivers clean, standardized, and detailed shipment tracking events from ocean carriers, terminals, rail, and customs data sources. The REST API returns JSON-encoded responses and supports webhooks for real-time shipment data. Vizion sources data from all major global ocean carriers and standardizes it into a consistent schema regardless of carrier or data source.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/screenshots/vizion-2026-06-20T201119.png",
-     "score": 37.3,
+     "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 67.8,
+      "contract_quality": 66.0,
       "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 13.2,
-      "developer_ergonomics": 35.7,
+      "developer_ergonomics": 41.7,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 32.1,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "partial",
@@ -191,80 +203,42 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Visibility",
      "rank": 4
     },
     {
-     "name": "MarineTraffic",
-     "slug": "marinetraffic",
-     "description": "MarineTraffic, a Kpler company, is a global provider of vessel tracking and maritime intelligence data. The platform offers AIS-based real-time vessel positions, port calls, predictive ETAs, historical voyage data, and ship registry information used for fleet monitoring, port operations, and supply chain visibility.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/screenshots/marinetraffic-2026-06-20T184951.png",
-     "score": 36.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 66.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na"
-     },
-     "tier": "Ocean Visibility",
-     "rank": 5
-    },
-    {
      "name": "Portcast",
      "slug": "portcast",
      "description": "Portcast is a predictive supply-chain visibility platform whose Container Tracking API delivers the full journey of an ocean container - milestones, vessel schedules, port codes, and machine-learning predicted ETAs and ETDs - in a single JSON response, tracked by container number, bill of lading, or booking number plus carrier SCAC, with push (webhook) callbacks on every update.",
-     "score": 35.0,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 57.8,
+      "contract_quality": 56.2,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
-      "developer_ergonomics": 21.4,
+      "developer_ergonomics": 28.6,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 29.1,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -274,7 +248,57 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Ocean Visibility",
+     "rank": 5
+    },
+    {
+     "name": "MarineTraffic",
+     "slug": "marinetraffic",
+     "description": "MarineTraffic, a Kpler company, is a global provider of vessel tracking and maritime intelligence data. The platform offers AIS-based real-time vessel positions, port calls, predictive ETAs, historical voyage data, and ship registry information used for fleet monitoring, port operations, and supply chain visibility.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/screenshots/marinetraffic-2026-06-20T184951.png",
+     "score": 35.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 64.9,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Visibility",
      "rank": 6
@@ -308,9 +332,9 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 3.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -327,7 +351,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
      "rank": 7
@@ -337,7 +365,7 @@
      "slug": "cma-cgm",
      "description": "CMA CGM is a Marseille-headquartered French container shipping, logistics, and port operator and the third-largest ocean carrier in the world. Founded in 1978 by Jacques Saadé and led today by Chairman & CEO Rodolphe Saadé, the CMA CGM Group operates a fleet of 593 vessels with 4.5 million TEU of capacity calling 420 ports across 160 countries on 257 maritime services. The group includes maritime brands ANL, APL, CNC Line, Containerships, Comanav, and Mercosul Line; terminal operator CMA Terminals and Terminal Link; the CEVA Logistics contract logistics and freight forwarding business (acquired 2019); CMA CGM Air Cargo; Brittany Ferries and La Méridionale passenger ferries; and the CMA Média portfolio (La Provence, La Tribune, BFM-RMC, Brut). Through api-portal.cma-cgm.com the group exposes a DCSA-aligned REST API surface — Track and Trace v1 (DCSA v2.2.0), Schedules, Booking Request, Quotation, and Invoice — plus a parallel EDI catalog (EDIFACT IFTSAI, IFTMBF, IFTSTA, INVOIC) and group-level digital initiatives including ZEBOX (startup accelerator), Traxens-based IoT smart containers, and a strategic AI partnership with Mistral.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cma-cgm/refs/heads/main/screenshots/cma-cgm-2026-06-20T174627.png",
-     "score": 11.3,
+     "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -346,12 +374,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 18.4,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -369,7 +397,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
      "rank": 8
@@ -402,9 +434,9 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 3.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -421,7 +453,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ports & Terminal Operators",
      "rank": 9
@@ -444,8 +480,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -463,7 +499,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
      "rank": 10
@@ -486,8 +526,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -505,7 +545,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
      "rank": 11
@@ -528,8 +572,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -547,7 +591,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
      "rank": 12
@@ -570,8 +618,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -589,7 +637,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
      "rank": 13
@@ -612,8 +664,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -631,7 +683,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
      "rank": 14

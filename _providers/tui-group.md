@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-24'
+  score: 40.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -328,7 +332,6 @@ created: '2026-07-28'
 description: 'TUI Group is the world''s largest integrated leisure tourism business — a vertically integrated tour operator that owns the hotels, the cruise ships, the airlines and the retail brands it sells through, serving 34.7 million customers a year across tour operators in 18 countries. The United Kingdom is its largest single source market: TUI UK & Ireland and the UK-registered carrier TUI Airways sit at the centre of the group, alongside Marella Cruises, TUI Musement and the TUI Blue, Robinson and TUI Magic Life hotel brands. The group is domiciled in Hannover, Germany and listed on the Frankfurt MDAX, having ended its London primary listing in 2023. TUI sits at the supply end of the travel distribution chain rather than the intermediation end — it is the principal that creates package holidays, not a GDS or a channel manager — and it distributes chiefly through its own retail estate and websites, supplemented by B2B feeds to travel agents, OTAs and metasearch partners. On the API
   front TUI runs a real, publicly readable developer portal at developer.tui fronted by Apigee X, with 21 documented API products covering flight shopping and booking, departure control, packages, accommodation content, cruise and metasearch distribution. The documentation is genuinely open — base URLs, endpoints, auth flows, quota tiers, downloadable Postman collections and a public OpenAPI 3.0 document for every one of the 21 products (1,261 operations in total, served from the portal''s Swagger UI) are all published without a login — but the runtime is not: every API product requires a partner-manager approval, most airline APIs additionally require a Navitaire New Skies agent profile and a production IP whitelist, and the TUI fly OTA API states plainly that step one is to conclude a contract. There is no self-serve key, no published developer terms of use (the portal''s terms page is still unfilled lorem-ipsum placeholder text), no idempotency contract on any booking or payment operation,
   no status page, no event or webhook surface, and no documented bulk-export or data-portability operation for a departing partner.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: ''
@@ -354,30 +357,30 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 51.6
+  delta: -0.3
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 30.3
-    contract_quality: 51.8
+    contract_quality: 51.1
     developer_ergonomics: 68.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 52.9
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 85.7
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tui-group/refs/heads/main/screenshots/tui-group-2026-08-17T082459.png
 security:

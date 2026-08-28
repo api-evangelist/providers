@@ -2,72 +2,72 @@
  {
   "slug": "aerospace",
   "name": "Aerospace",
-  "description": "Companies involved in the design, manufacturing, and maintenance of aircraft, spacecraft, and related systems and components.",
-  "icon": "flight",
-  "count": 23
+  "description": "",
+  "icon": "/industries/assets/icons/aerospace.png",
+  "count": 353
  },
  {
   "slug": "agriculture",
   "name": "Agriculture",
-  "description": "Companies providing farming equipment, precision agriculture technologies, and agricultural solutions to improve crop yields and operational efficiency.",
-  "icon": "agriculture",
-  "count": 18
+  "description": "",
+  "icon": "/industries/assets/icons/agriculture.png",
+  "count": 251
  },
  {
   "slug": "artificial-intelligence",
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5007
+  "count": 5137
  },
  {
   "slug": "automotive",
   "name": "Automotive",
-  "description": "Companies engaged in the design, manufacturing, and sale of motor vehicles, including connected vehicle technologies and mobility solutions.",
-  "icon": "directions_car",
-  "count": 42
+  "description": "",
+  "icon": "/industries/assets/icons/automotive.png",
+  "count": 393
  },
  {
   "slug": "banking",
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 861
+  "count": 874
  },
  {
   "slug": "biotechnology",
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1158
+  "count": 1247
  },
  {
   "slug": "blockchain-crypto",
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1321
+  "count": 1335
  },
  {
   "slug": "cannabis",
   "name": "Cannabis",
-  "description": "Companies involved in the cultivation, processing, distribution, and retail sale of cannabis products for medical and recreational markets.",
-  "icon": "spa",
-  "count": 3
+  "description": "",
+  "icon": "/industries/assets/icons/cannabis.png",
+  "count": 24
  },
  {
   "slug": "climate-sustainability",
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 1050
+  "count": 1087
  },
  {
   "slug": "cloud-data-platform",
   "name": "Cloud Data Platform",
-  "description": "Companies that provide cloud-based data storage, warehousing, and analytics platforms for managing and processing large-scale enterprise data.",
-  "icon": "cloud",
-  "count": 7
+  "description": "",
+  "icon": "/industries/assets/icons/cloud-data-platform.png",
+  "count": 10
  },
  {
   "slug": "communications-platform-as-a-service-cpaas",
@@ -79,22 +79,22 @@
  {
   "slug": "construction",
   "name": "Construction",
-  "description": "Companies providing engineering, procurement, and construction services for large-scale infrastructure, industrial, and environmental projects worldwide.",
-  "icon": "construction",
-  "count": 50
+  "description": "",
+  "icon": "/industries/assets/icons/construction.png",
+  "count": 321
  },
  {
   "slug": "consumer-goods",
   "name": "Consumer Goods",
-  "description": "Companies that manufacture and distribute products purchased by individuals for personal or household use, spanning food, personal care, apparel, and more.",
-  "icon": "shopping_basket",
-  "count": 83
+  "description": "",
+  "icon": "/industries/assets/icons/consumer-goods.png",
+  "count": 161
  },
  {
   "slug": "cruise-lines",
   "name": "Cruise Lines",
-  "description": "Companies operating fleets of cruise ships that provide vacation experiences combining transportation, hospitality, dining, and entertainment at sea.",
-  "icon": "directions_boat",
+  "description": "",
+  "icon": "/industries/assets/icons/cruise-lines.png",
   "count": 3
  },
  {
@@ -109,35 +109,35 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2168
+  "count": 2193
  },
  {
   "slug": "data-analytics",
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2347
+  "count": 2383
  },
  {
   "slug": "defense",
   "name": "Defense",
-  "description": "Companies supplying technology, equipment, and services to military and national security organizations.",
-  "icon": "shield",
-  "count": 30
+  "description": "",
+  "icon": "/industries/assets/icons/defense.png",
+  "count": 315
  },
  {
   "slug": "developer-tools",
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3016
+  "count": 3049
  },
  {
   "slug": "digital-health",
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1785
+  "count": 1858
  },
  {
   "slug": "e-commerce-platform",
@@ -151,35 +151,35 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1125
+  "count": 1151
  },
  {
   "slug": "energy",
   "name": "Energy",
-  "description": "Companies involved in the exploration, production, refining, and distribution of oil, gas, and other energy resources.",
-  "icon": "bolt",
-  "count": 82
+  "description": "",
+  "icon": "/industries/assets/icons/energy.png",
+  "count": 675
  },
  {
   "slug": "enterprise-software",
   "name": "Enterprise Software",
-  "description": "Companies developing software solutions that support large-scale business operations, including cloud computing, ERP, and IT service management.",
-  "icon": "business_center",
-  "count": 66
+  "description": "",
+  "icon": "/industries/assets/icons/enterprise-software.png",
+  "count": 315
  },
  {
   "slug": "entertainment",
   "name": "Entertainment",
-  "description": "Companies producing and distributing film, television, live entertainment, and themed experiences for consumer audiences.",
-  "icon": "theaters",
-  "count": 16
+  "description": "",
+  "icon": "/industries/assets/icons/entertainment.png",
+  "count": 407
  },
  {
   "slug": "environmental-services",
   "name": "Environmental Services",
-  "description": "Companies providing water treatment, wastewater management, and environmental remediation services to municipalities and industrial clients.",
-  "icon": "recycling",
-  "count": 6
+  "description": "",
+  "icon": "/industries/assets/icons/environmental-services.png",
+  "count": 15
  },
  {
   "slug": "event-management-software",
@@ -191,16 +191,16 @@
  {
   "slug": "financial-services",
   "name": "Financial Services",
-  "description": "Companies offering banking, asset management, lending, investment, and other financial products and services to individuals and institutions.",
-  "icon": "account_balance",
-  "count": 124
+  "description": "",
+  "icon": "/industries/assets/icons/financial-services.png",
+  "count": 1141
  },
  {
   "slug": "financial-technology",
   "name": "Financial Technology",
-  "description": "Companies leveraging technology to innovate and improve financial services, including payments, analytics, trading infrastructure, and risk assessment.",
-  "icon": "payments",
-  "count": 54
+  "description": "",
+  "icon": "/industries/assets/icons/financial-technology.png",
+  "count": 70
  },
  {
   "slug": "fitness-wellness",
@@ -212,149 +212,149 @@
  {
   "slug": "food-delivery",
   "name": "Food Delivery",
-  "description": "Companies operating technology platforms that connect consumers with restaurants and grocery stores for on-demand delivery of food and everyday essentials.",
-  "icon": "delivery_dining",
-  "count": 7
+  "description": "",
+  "icon": "/industries/assets/icons/food-delivery.png",
+  "count": 106
  },
  {
   "slug": "food-service",
   "name": "Food Service",
-  "description": "Companies operating restaurant chains and food service establishments that prepare and serve meals to consumers.",
-  "icon": "restaurant",
-  "count": 16
+  "description": "",
+  "icon": "/industries/assets/icons/food-service.png",
+  "count": 73
  },
  {
   "slug": "gaming",
   "name": "Gaming & Interactive",
   "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
   "icon": "sports_esports",
-  "count": 694
+  "count": 704
  },
  {
   "slug": "government",
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 641
+  "count": 649
  },
  {
   "slug": "healthcare",
   "name": "Healthcare",
-  "description": "Companies providing medical products, health insurance, managed care, pharmacy services, and biotechnology solutions to improve patient outcomes.",
-  "icon": "medical_services",
-  "count": 92
+  "description": "",
+  "icon": "/industries/assets/icons/healthcare.png",
+  "count": 2013
  },
  {
   "slug": "hospitality",
   "name": "Hospitality",
-  "description": "Companies operating hotels, resorts, cruise ships, and leisure travel experiences for business and vacation travelers.",
-  "icon": "hotel",
-  "count": 20
+  "description": "",
+  "icon": "/industries/assets/icons/hospitality.png",
+  "count": 292
  },
  {
   "slug": "human-capital-management",
   "name": "Human Resources & Payroll",
   "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
   "icon": "groups",
-  "count": 856
+  "count": 869
  },
  {
   "slug": "industrial",
   "name": "Industrial",
-  "description": "Companies manufacturing heavy machinery, automation systems, and industrial equipment used in manufacturing, construction, and infrastructure.",
-  "icon": "factory",
-  "count": 137
+  "description": "",
+  "icon": "/industries/assets/icons/industrial.png",
+  "count": 266
  },
  {
   "slug": "insurance",
   "name": "Insurance",
-  "description": "Companies that underwrite and manage risk by offering life, health, property, and casualty insurance policies to individuals and businesses.",
-  "icon": "verified_user",
-  "count": 71
+  "description": "",
+  "icon": "/industries/assets/icons/insurance.png",
+  "count": 681
  },
  {
   "slug": "iot",
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 890
+  "count": 916
  },
  {
   "slug": "legal-compliance",
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1095
+  "count": 1122
  },
  {
   "slug": "life-sciences",
   "name": "Life Sciences",
-  "description": "Companies providing laboratory instruments, research tools, and scientific equipment that support biological and chemical research.",
-  "icon": "biotech",
-  "count": 19
+  "description": "",
+  "icon": "/industries/assets/icons/life-sciences.png",
+  "count": 1031
  },
  {
   "slug": "logistics",
   "name": "Logistics",
-  "description": "Companies that manage the transportation, warehousing, and delivery of goods across domestic and international supply chains.",
-  "icon": "local_shipping",
-  "count": 33
+  "description": "",
+  "icon": "/industries/assets/icons/logistics.png",
+  "count": 642
  },
  {
   "slug": "maritime",
   "name": "Maritime",
-  "description": "Companies operating container shipping fleets, port terminals, and ocean freight services that facilitate global trade and supply chain connectivity.",
-  "icon": "anchor",
-  "count": 7
+  "description": "",
+  "icon": "/industries/assets/icons/maritime.png",
+  "count": 66
  },
  {
   "slug": "marketing-advertising",
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1500
+  "count": 1533
  },
  {
   "slug": "media",
   "name": "Media",
-  "description": "Companies involved in the creation, publishing, and distribution of news, academic content, and entertainment media across print and digital channels.",
-  "icon": "newspaper",
-  "count": 23
+  "description": "",
+  "icon": "/industries/assets/icons/media.png",
+  "count": 545
  },
  {
   "slug": "mining",
   "name": "Mining",
-  "description": "Companies engaged in the exploration, extraction, and processing of metals, minerals, and other natural resources from the earth.",
-  "icon": "landslide",
-  "count": 20
+  "description": "",
+  "icon": "/industries/assets/icons/mining.png",
+  "count": 80
  },
  {
   "slug": "mobility",
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 649
+  "count": 662
  },
  {
   "slug": "creator-economy",
   "name": "Music, Audio & Creator Economy",
   "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
   "icon": "graphic_eq",
-  "count": 770
+  "count": 783
  },
  {
   "slug": "nutrition",
   "name": "Nutrition",
   "description": "Food composition databases, recipe and meal-planning platforms, food logging and diet tracking, supplements, and the dietitian and weight-management services built on top of them.",
   "icon": "nutrition",
-  "count": 190
+  "count": 204
  },
  {
   "slug": "pet-care",
   "name": "Pet Care",
-  "description": "Companies providing pet food, health products, veterinary pharmaceuticals, and retail services for companion animals and livestock.",
-  "icon": "pets",
-  "count": 6
+  "description": "",
+  "icon": "/industries/assets/icons/pet-care.png",
+  "count": 34
  },
  {
   "slug": "pharmaceutical",
@@ -373,65 +373,65 @@
  {
   "slug": "professional-services",
   "name": "Professional Services",
-  "description": "Companies offering specialized advisory, consulting, accounting, and audit services to businesses and government organizations.",
-  "icon": "work",
-  "count": 28
+  "description": "",
+  "icon": "/industries/assets/icons/professional-services.png",
+  "count": 83
  },
  {
   "slug": "rail",
   "name": "Rail",
-  "description": "Companies operating freight railroad networks that transport agricultural products, energy resources, industrial goods, and intermodal containers across continental distances.",
-  "icon": "train",
-  "count": 8
+  "description": "",
+  "icon": "/industries/assets/icons/rail.png",
+  "count": 27
  },
  {
   "slug": "real-estate",
   "name": "Real Estate",
-  "description": "Companies involved in the development, management, and leasing of commercial, residential, and flexible workspace properties.",
-  "icon": "home_work",
-  "count": 23
+  "description": "",
+  "icon": "/industries/assets/icons/real-estate.png",
+  "count": 610
  },
  {
   "slug": "retail",
   "name": "Retail",
-  "description": "Companies operating physical and online stores that sell goods directly to consumers across various product categories.",
-  "icon": "storefront",
-  "count": 90
+  "description": "",
+  "icon": "/industries/assets/icons/retail.png",
+  "count": 1026
  },
  {
   "slug": "robotics",
   "name": "Robotics & Autonomous Systems",
   "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
   "icon": "precision_manufacturing",
-  "count": 1039
+  "count": 1064
  },
  {
   "slug": "semiconductors-hardware",
   "name": "Semiconductors & Hardware",
   "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
   "icon": "memory",
-  "count": 1011
+  "count": 1059
  },
  {
   "slug": "space",
   "name": "Space & Satellite",
   "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
   "icon": "rocket_launch",
-  "count": 336
+  "count": 346
  },
  {
   "slug": "sports",
   "name": "Sports",
-  "description": "Organizations that govern and operate professional sports leagues, managing competitions, broadcasting rights, and fan engagement.",
-  "icon": "sports_soccer",
-  "count": 6
+  "description": "",
+  "icon": "/industries/assets/icons/sports.png",
+  "count": 181
  },
  {
   "slug": "supply-chain",
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1221
+  "count": 1252
  },
  {
   "slug": "tax-compliance-software",
@@ -443,64 +443,64 @@
  {
   "slug": "technology",
   "name": "Technology",
-  "description": "Companies that develop and provide hardware, software, internet services, and IT infrastructure solutions across multiple sectors.",
-  "icon": "memory",
-  "count": 132
+  "description": "",
+  "icon": "/industries/assets/icons/technology.png",
+  "count": 223
  },
  {
   "slug": "telecommunications",
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1299
+  "count": 1321
  },
  {
   "slug": "transportation",
   "name": "Transportation",
-  "description": "Companies providing freight transportation, intermodal logistics, and supply chain connectivity across rail, road, and ocean networks.",
-  "icon": "commute",
-  "count": 25
+  "description": "",
+  "icon": "/industries/assets/icons/transportation.png",
+  "count": 387
  },
  {
   "slug": "travel-technology",
   "name": "Travel Technology",
-  "description": "Companies developing technology platforms that power travel booking, distribution, and management for airlines, hotels, and travel agencies.",
-  "icon": "travel",
-  "count": 10
+  "description": "",
+  "icon": "/industries/assets/icons/travel-technology.png",
+  "count": 25
  },
  {
   "slug": "utilities",
   "name": "Utilities",
-  "description": "Companies responsible for generating, transmitting, and distributing essential services such as electricity, natural gas, and water.",
-  "icon": "water_drop",
-  "count": 39
+  "description": "",
+  "icon": "/industries/assets/icons/utilities.png",
+  "count": 207
  },
  {
   "slug": "venture-capital",
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1364
+  "count": 1381
  },
  {
   "slug": "video-streaming",
   "name": "Video Streaming",
-  "description": "Companies operating digital platforms that deliver on-demand and live video content to consumers via the internet.",
-  "icon": "smart_display",
-  "count": 21
+  "description": "",
+  "icon": "/industries/assets/icons/video-streaming.png",
+  "count": 35
  },
  {
   "slug": "waste-management",
   "name": "Waste Management",
-  "description": "Companies providing solid waste collection, disposal, recycling, and environmental sustainability services to residential, commercial, and industrial customers.",
-  "icon": "delete",
-  "count": 5
+  "description": "",
+  "icon": "/industries/assets/icons/waste-management.png",
+  "count": 29
  },
  {
   "slug": "weather-geospatial",
   "name": "Weather & Geospatial",
   "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
   "icon": "public",
-  "count": 513
+  "count": 525
  }
 ]

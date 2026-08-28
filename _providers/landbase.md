@@ -5,27 +5,31 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.1
-  scored_at: '2026-08-24'
+  score: 18.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Landbase cloud gateway that landbase-cli calls in platform mode. It backs natural-language audience search and agent runs, dataset upload/lineage/download, record match, synchronous person/company
   name: Landbase Platform API
   slug: landbase-platform-api
-artifact_total: 6
+artifact_total: 29
 common:
 - group: company
   title: ''
@@ -166,18 +170,25 @@ rate_limits:
   slug: landbase-rate-limits
 score:
   band: developing
-  composite: 46.7
+  composite: 45.4
+  delta: -1.3
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 71.4
+    developer_ergonomics: 66.7
     discoverability: 87.0
     governance: 0.0
-    operational_transparency: 52.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    operational_transparency: 50.0
+  previous_composite: 46.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Landbase Authentication
@@ -191,6 +202,54 @@ security:
   name: Landbase Trust Center
   slug: landbase-trust-center
   summary_line: trust center published
+skill_count: 23
+skills:
+- name: contact-enrich
+  slug: contact-enrich
+- name: contacts-import
+  slug: contacts-import
+- name: dataset-management
+  slug: dataset-management
+- name: dataset-pipeline
+  slug: dataset-pipeline
+- name: dedupe-leads
+  slug: dedupe-leads
+- name: icp-capture
+  slug: icp-capture
+- name: landbase-email-campaigns
+  slug: landbase-email-campaigns
+- name: landbase-feedback
+  slug: landbase-feedback
+- name: landbase-linkedin-campaigns
+  slug: landbase-linkedin-campaigns
+- name: landbase-quickstart
+  slug: landbase-quickstart
+- name: landbase-search
+  slug: landbase-search
+- name: list-similarity-check
+  slug: list-similarity-check
+- name: lookalike-expansion
+  slug: lookalike-expansion
+- name: match-lookup
+  slug: match-lookup
+- name: presentation
+  slug: presentation
+- name: prospect-builder
+  slug: prospect-builder
+- name: qualify-leads
+  slug: qualify-leads
+- name: query-assist
+  slug: query-assist
+- name: tam-mapping
+  slug: tam-mapping
+- name: transcript-synthesis
+  slug: transcript-synthesis
+- name: workflow-enrich
+  slug: workflow-enrich
+- name: workflow-monitor
+  slug: workflow-monitor
+- name: workflow-transform
+  slug: workflow-transform
 slug: landbase
 tags:
 - Company

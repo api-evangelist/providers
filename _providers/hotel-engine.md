@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-24'
+  score: 27.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -214,18 +218,18 @@ rate_limits:
   slug: hotel-engine-rate-limits
 score:
   band: strong
-  composite: 54.9
-  delta: 0.0
+  composite: 58.3
+  delta: 3.8
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 16.7
-    contract_quality: 48.3
-    developer_ergonomics: 61.3
+    contract_quality: 46.9
+    developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 54.9
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,9 +245,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 48.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/screenshots/hotel-engine-2026-08-07T170318.png
 security:

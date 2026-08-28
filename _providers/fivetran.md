@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -204,18 +208,18 @@ rate_limits:
   slug: fivetran-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 37.6
+  delta: 2.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 60.5
-    developer_ergonomics: 31.0
+    contract_quality: 59.0
+    developer_ergonomics: 42.9
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 35.6
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/screenshots/fivetran-2026-06-20T181255.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.2
-  scored_at: '2026-08-24'
+  score: 22.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -222,30 +226,30 @@ overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 1
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 38.1
+  delta: 1.3
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 39.2
+    contract_quality: 43.5
     developer_ergonomics: 37.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 37.1
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png
 security:

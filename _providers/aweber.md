@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-24'
+  score: 37.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -357,18 +361,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.3
-  delta: 0.0
+  composite: 77.3
+  delta: 3.8
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
-    contract_quality: 67.8
-    developer_ergonomics: 56.5
+    contract_quality: 68.7
+    developer_ergonomics: 75.6
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 73.3
+  previous_composite: 73.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -385,8 +389,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/screenshots/aweber-2026-06-20T172736.png
 security:

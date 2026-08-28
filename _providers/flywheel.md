@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Full REST API for the Flywheel platform, covering the container hierarchy (groups, projects, subjects, sessions, acquisitions, files, analyses), gears and jobs, users and permissions, and search. Docu
@@ -152,7 +156,7 @@ overview: 'Flywheel publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 3
 score:
   band: thin
-  composite: 37.7
+  composite: 36.9
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -160,10 +164,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 37.7
+  previous_composite: 36.9
   provenance:
     conformance: first-party
   regulatory:
@@ -172,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/screenshots/flywheel-2026-07-25T214857.png
 security:

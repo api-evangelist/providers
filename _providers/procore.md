@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Procore API provides programmatic access to Procore's construction management platform, enabling developers to build custom applications and integrations. The API exposes endpoints for projects, c
@@ -87,22 +91,22 @@ rate_limits:
   name: Procore Rate Limits
   slug: procore-rate-limits
 score:
-  band: emerging
-  composite: 23.2
-  delta: 0.0
+  band: developing
+  composite: 39.9
+  delta: 17.2
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
+    access_clarity: 57.9
+    commercial_clarity: 57.9
     contract_governance: 0.0
-    contract_quality: 38.9
-    developer_ergonomics: 2.4
+    contract_quality: 37.2
+    developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 23.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    operational_transparency: 42.1
+  previous_composite: 22.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/procore/refs/heads/main/screenshots/procore-2026-06-20T192130.png
 security:
 - kind: domain-security

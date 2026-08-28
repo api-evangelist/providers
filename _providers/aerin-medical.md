@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Anonymously readable REST surface served by aerinmedical.com at /wp-json — 321 routes across 15 namespaces. The substantive part is Aerin Medical''s own doctor-finder plugin (em-locator/v1): 1,012 ENT '
@@ -154,25 +158,25 @@ overview: 'Aerin Medical publishes 1 API on the [APIs.io](https://apis.io/) netw
   Aerin Medical''s developer surface includes engineering blog, product news, support, documentation, authentication, and 22 more developer resources.'
 random_paper: 10
 score:
-  band: developing
-  composite: 41.9
-  delta: 0.0
+  band: thin
+  composite: 33.3
+  delta: 0.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
-    contract_quality: 50.3
+    contract_quality: 12.2
     developer_ergonomics: 30.4
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 41.9
+  previous_composite: 32.4
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     skills: derived
   regulatory:
@@ -180,9 +184,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 48.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 55.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/screenshots/aerin-medical-2026-08-07T160959.png
 security:

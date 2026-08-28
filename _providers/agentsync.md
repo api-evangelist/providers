@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 12.0
-  scored_at: '2026-08-24'
+  score: 13.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'A modern REST API delivering enriched, actionable producer and adjuster data from the NIPR (200+ data points: licensing, carrier appointments, adjuster licensing) into your existing tech stack. OAuth '
@@ -135,15 +139,15 @@ overview: 'Agentsync publishes 1 API on the [APIs.io](https://apis.io/) network.
   Agentsync''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, sandbox, and 14 more developer resources.'
 random_paper: 6
 score:
-  band: thin
-  composite: 37.2
-  delta: 0.0
+  band: developing
+  composite: 41.0
+  delta: 3.8
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 64.3
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
@@ -156,8 +160,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentsync/refs/heads/main/screenshots/agentsync-2026-07-25T195248.png
 security:

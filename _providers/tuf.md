@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: The TUF specification defines the structure of update repositories including the root, targets, snapshot, and timestamp metadata files. Each metadata file has a defined schema with signatures, expirat
@@ -194,21 +198,21 @@ rules:
     warn: 5
   slug: tuf-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 26.0
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 25.4
+    contract_quality: 24.0
     developer_ergonomics: 26.2
     discoverability: 72.2
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 26.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 26.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/screenshots/tuf-2026-06-20T195821.png
 security:

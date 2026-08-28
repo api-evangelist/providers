@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.0
-  scored_at: '2026-08-24'
+  score: 26.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Mambu's REST API v2 for core banking — clients, loan accounts, deposit accounts, transactions, and related resources. Tenant-scoped host, HTTPS Basic or apikey auth, Idempotency-Key supported for writ
@@ -147,18 +151,18 @@ overview: 'Mambu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 5
 score:
   band: thin
-  composite: 38.0
+  composite: 36.3
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 50.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 38.0
+  previous_composite: 36.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -168,8 +172,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mambu/refs/heads/main/screenshots/mambu-2026-07-25T230014.png
 security:

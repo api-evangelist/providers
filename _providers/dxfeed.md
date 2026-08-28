@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-24'
+  score: 27.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -193,18 +197,18 @@ overview: 'dxFeed publishes 2 APIs on the [APIs.io](https://apis.io/) network: d
 random_paper: 15
 score:
   band: developing
-  composite: 45.7
+  composite: 44.7
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
-    contract_quality: 49.4
+    contract_quality: 48.2
     developer_ergonomics: 63.7
-    discoverability: 72.2
+    discoverability: 64.8
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 45.7
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +220,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png
 security:

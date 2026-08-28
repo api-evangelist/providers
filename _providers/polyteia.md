@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -196,18 +200,18 @@ overview: 'Polyteia publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 10
 score:
   band: strong
-  composite: 56.7
+  composite: 56.3
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 30.3
-    contract_quality: 61.5
+    contract_quality: 59.9
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 56.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +228,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/screenshots/polyteia-2026-08-17T081321.png
 security:

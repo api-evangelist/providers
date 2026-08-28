@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-24'
+  score: 29.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -167,23 +171,23 @@ overview: 'Scratchpay publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 3
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 38.3
+  delta: 1.4
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 49.0
+    contract_quality: 53.1
     developer_ergonomics: 33.3
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 37.3
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -194,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

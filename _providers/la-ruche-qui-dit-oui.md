@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Assembly ("hive") membership for the authenticated member.
@@ -153,18 +157,18 @@ overview: 'La Ruche qui dit Oui! publishes 4 APIs on the [APIs.io](https://apis.
 random_paper: 19
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 36.4
+  delta: 3.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 56.1
-    developer_ergonomics: 20.8
+    contract_quality: 54.5
+    developer_ergonomics: 37.5
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.4
+  previous_composite: 33.0
   provenance:
     conformance: derived
     contracts:
@@ -174,8 +178,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

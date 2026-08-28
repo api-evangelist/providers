@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-24'
+  score: 31.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -236,30 +240,30 @@ overview: 'Feldera publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 9
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 59.6
+  delta: 1.3
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 30.3
-    contract_quality: 59.2
+    contract_quality: 63.0
     developer_ergonomics: 85.7
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 58.7
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
 security:

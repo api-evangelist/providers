@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 20.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -278,18 +282,18 @@ rules:
   slug: cyclr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 53.5
+  delta: 3.4
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 69.7
-    contract_quality: 79.7
-    developer_ergonomics: 14.3
+    contract_quality: 77.6
+    developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 69.7
     operational_transparency: 36.8
-  previous_composite: 50.7
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -297,8 +301,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/screenshots/cyclr-2026-06-20T175412.png
 security:

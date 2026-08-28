@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.5
-  scored_at: '2026-08-24'
+  score: 48.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -314,18 +318,18 @@ rules:
   slug: twelvedata-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 77.0
+  composite: 76.7
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 28.0
-    contract_quality: 59.0
+    contract_quality: 57.6
     developer_ergonomics: 85.1
     discoverability: 92.6
     governance: 28.0
     operational_transparency: 68.4
-  previous_composite: 77.0
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,8 +346,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-08-17T130124.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.0
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Real-time WebSocket API for market data (order book, price ticks, book ticker) and, after authenticating, private trading events (order lifecycle, trades, settlement, funding payments, balance adjustm
@@ -195,18 +199,18 @@ overview: 'One Trading publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 20
 score:
   band: thin
-  composite: 36.2
+  composite: 36.1
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 24.8
+    contract_quality: 24.2
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 36.2
+  previous_composite: 36.1
   provenance:
     conformance: derived
     contracts:
@@ -222,8 +226,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
 security:

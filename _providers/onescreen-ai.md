@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: true
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.2
-  scored_at: '2026-08-24'
+  score: 10.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'OneScreen''s only API surface: a remote Model Context Protocol server over Streamable HTTP that exposes OOH audience personas, market and inventory rankings, geospatial points of interest, media-owner '
@@ -149,8 +153,8 @@ scopes:
   slug: onescreen-ai-scopes
   summary_line: 22 scopes
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 25.8
   delta: 0.0
   facets:
     access_clarity: 55.3
@@ -158,15 +162,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.6
+  previous_composite: 25.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onescreen-ai/refs/heads/main/screenshots/onescreen-ai-2026-08-07T190340.png
 security:

@@ -12,25 +12,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-24'
+  score: 39.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -612,19 +617,19 @@ scopes:
   slug: microsoft-word-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.6
-  delta: 0.0
+  band: strong
+  composite: 55.0
+  delta: 7.4
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 45.5
-    contract_quality: 32.1
-    developer_ergonomics: 59.5
-    discoverability: 68.5
+    contract_quality: 34.0
+    developer_ergonomics: 92.9
+    discoverability: 61.1
     governance: 45.5
     operational_transparency: 36.8
-  previous_composite: 48.6
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -634,9 +639,9 @@ score:
       marker_coverage: 100.0
       total: 18
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:
 - kind: authentication

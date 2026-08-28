@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 21.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -296,29 +300,29 @@ rules:
     warn: 13
   slug: amc-theatres-rules
 score:
-  band: developing
-  composite: 41.8
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: 5.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 13.6
-    contract_quality: 69.7
-    developer_ergonomics: 21.4
+    contract_governance: 28.8
+    contract_quality: 32.5
+    developer_ergonomics: 38.1
     discoverability: 50.0
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 41.8
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 16
+      marker_coverage: 100.0
       total: 16
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png
 security:
 - kind: authentication

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.5
-  scored_at: '2026-08-24'
+  score: 19.4
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 4
 common:
@@ -168,18 +172,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.8
+  composite: 31.7
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 31.9
     developer_ergonomics: 38.1
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 31.7
   provenance:
     conformance: derived
   regulatory:
@@ -188,8 +192,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ofgem/refs/heads/main/screenshots/ofgem-2026-08-07T190026.png
 security:

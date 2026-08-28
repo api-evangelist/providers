@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.0
-  scored_at: '2026-08-24'
+  score: 58.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -652,18 +656,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: exemplar
-  composite: 68.1
+  composite: 67.7
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 40.2
-    contract_quality: 76.2
+    contract_quality: 74.4
     developer_ergonomics: 66.1
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 23.7
-  previous_composite: 68.1
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -674,8 +678,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/screenshots/common-room-2026-06-20T174819.png
 security:

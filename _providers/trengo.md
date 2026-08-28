@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -172,18 +176,18 @@ rate_limits:
   slug: trengo-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 38.9
+  delta: 1.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 56.7
-    developer_ergonomics: 19.0
+    contract_quality: 55.2
+    developer_ergonomics: 27.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 37.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/screenshots/trengo-2026-06-20T195707.png
 security:

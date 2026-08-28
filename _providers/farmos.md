@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 24.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -241,18 +245,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.9
+  composite: 42.4
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 63.3
+    contract_quality: 61.6
     developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 42.9
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -260,8 +264,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/screenshots/farmos-2026-06-20T181044.png
 security:

@@ -4,23 +4,27 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
-    auth_clarity: true
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 62.2
-  scored_at: '2026-08-24'
+  score: 51.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -233,24 +237,32 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.4
+  composite: 55.8
+  delta: -5.2
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
     contract_governance: 30.3
-    contract_quality: 55.5
-    developer_ergonomics: 71.4
+    contract_quality: 54.0
+    developer_ergonomics: 49.4
     discoverability: 92.6
     governance: 30.3
-    operational_transparency: 52.6
+    operational_transparency: 48.7
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: falling
 security:
 - kind: authentication
   name: Justt Authentication

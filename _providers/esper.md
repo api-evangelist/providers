@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.7
-  scored_at: '2026-08-24'
+  score: 20.3
+  scored_at: '2026-08-26'
 api_count: 13
 apis:
 - description: APIs for application management
@@ -230,29 +234,29 @@ overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 18
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 49.9
+  delta: 2.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
-    contract_quality: 62.3
-    developer_ergonomics: 51.8
-    discoverability: 81.5
+    contract_quality: 57.2
+    developer_ergonomics: 63.7
+    discoverability: 74.1
     governance: 16.7
-    operational_transparency: 2.6
-  previous_composite: 48.5
+    operational_transparency: 10.5
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/screenshots/esper-2026-07-25T213623.png
 security:

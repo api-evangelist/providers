@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-24'
+  score: 6.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API (Customer) is the REST API that powers hi.health by Pliant. It lets a customer programmatically access Pliant credit-card data and features: issue and manage virtual and physical card'
@@ -176,8 +180,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hi-health/refs/heads/main/screenshots/hi-health-2026-07-25T221130.png
 security:

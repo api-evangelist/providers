@@ -13,26 +13,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-24'
+  score: 34.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: OAuth 2.0 REST API for Act-On marketing automation — contacts and lists, segments, email messages and campaigns, media and creative assets, landing pages and forms, subscriptions, imports, custom even
@@ -219,18 +222,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.2
+  composite: 52.7
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
-    contract_quality: 65.0
+    contract_quality: 63.3
     developer_ergonomics: 55.4
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 53.2
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -240,8 +243,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/screenshots/act-on-2026-07-25T181520.png
 security:

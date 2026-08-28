@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.7
-  scored_at: '2026-08-24'
+  score: 37.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -289,18 +293,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.7
+  composite: 45.3
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 56.2
+    contract_quality: 54.7
     developer_ergonomics: 35.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 45.7
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,8 +321,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/screenshots/teya-2026-08-17T082330.png
 security:

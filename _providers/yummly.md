@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'DEPRECATED / HISTORICAL. The Search Recipes endpoint (GET http://api.yummly.com/v1/api/recipes) returned recipe matches as JSON with optional filters combined via AND - free-text query (q), maxResult '
@@ -90,20 +94,20 @@ rate_limits:
   slug: yummly-rate-limits
 score:
   band: emerging
-  composite: 18.8
-  delta: 0.0
+  composite: 20.2
+  delta: 1.4
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 18.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

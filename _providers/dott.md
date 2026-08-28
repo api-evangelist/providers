@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.7
-  scored_at: '2026-08-24'
+  score: 23.8
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Auto-discovery of available feeds and cities
@@ -191,18 +195,18 @@ overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 2
 score:
   band: developing
-  composite: 45.0
+  composite: 45.4
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 30.3
-    contract_quality: 48.4
+    contract_quality: 49.8
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 45.0
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
@@ -212,8 +216,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:

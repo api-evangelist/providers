@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.5
-  scored_at: '2026-08-24'
+  score: 1.3
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The open source Renovate CLI is a Node.js application distributed via npm and as Docker images on Docker Hub and GitHub Container Registry. It can be run locally, in CI, or as a long-lived self-hosted
@@ -275,20 +279,20 @@ overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 20
 score:
   band: thin
-  composite: 26.3
+  composite: 27.5
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 9.9
+    contract_quality: 14.7
     developer_ergonomics: 40.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 26.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 27.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/screenshots/renovate-bot-2026-06-20T192849.png
 security:

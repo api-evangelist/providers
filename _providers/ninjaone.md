@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-24'
+  score: 37.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 6
@@ -316,30 +320,30 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 51.7
+  delta: 2.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
-    contract_quality: 55.9
+    contract_quality: 59.8
     developer_ergonomics: 54.2
     discoverability: 92.6
     governance: 16.7
-    operational_transparency: 31.6
-  previous_composite: 49.7
+    operational_transparency: 39.5
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
 security:

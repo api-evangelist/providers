@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.8
-  scored_at: '2026-08-24'
+  score: 37.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -293,18 +297,18 @@ overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 14
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 49.3
+  delta: 2.4
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 16.7
-    contract_quality: 47.4
-    developer_ergonomics: 54.2
+    contract_quality: 46.1
+    developer_ergonomics: 66.1
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 47.2
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,8 +319,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/screenshots/opus-2026-08-07T190821.png
 security:

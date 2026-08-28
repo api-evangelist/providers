@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-24'
+  score: 36.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,18 +199,18 @@ rate_limits:
   slug: golden-rate-limits
 score:
   band: thin
-  composite: 37.2
+  composite: 35.0
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
-    contract_quality: 56.6
+    contract_quality: 55.1
     developer_ergonomics: 25.6
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 37.2
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +221,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/screenshots/golden-2026-07-25T220025.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.6
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: RESTful APIs for integrating with the Sprinklr Unified-CXM platform, covering social listening, publishing, reporting, user provisioning, digital asset management, and webhook subscriptions across 30+
@@ -239,23 +243,23 @@ rate_limits:
   slug: sprinklr-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 48.6
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 26.2
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 49.2
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/screenshots/sprinklr-2026-06-20T194419.png
 security:

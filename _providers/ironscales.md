@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.6
-  scored_at: '2026-08-24'
+  score: 51.6
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -253,18 +257,18 @@ rate_limits:
   slug: ironscales-rate-limits
 score:
   band: strong
-  composite: 56.4
+  composite: 56.0
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
-    contract_quality: 52.0
+    contract_quality: 50.6
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 56.4
+  previous_composite: 56.0
   provenance:
     conformance: derived
     contracts:
@@ -274,8 +278,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.5
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: The Admin Users API from Kolide — 2 operation(s) for admin users.
@@ -295,18 +299,18 @@ overview: 'Kolide publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 2
 score:
   band: strong
-  composite: 57.5
+  composite: 56.3
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 62.7
+    contract_quality: 61.0
     developer_ergonomics: 55.4
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 57.5
+  previous_composite: 56.3
   provenance:
     conformance: first-party
     contracts:
@@ -316,8 +320,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolide/refs/heads/main/screenshots/kolide-2026-07-25T224129.png
 security:

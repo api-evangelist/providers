@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.6
-  scored_at: '2026-08-24'
+  score: 21.6
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Deterministic INR pricing for a freelance or agency project scope. POST /api/v1/project-quote; validates its input and returns a structured quote.
@@ -77,19 +81,28 @@ network: true
 overview: 'YouWork Agent publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scopewise Project Quote API and Scopewise Overdue Invoice Follow-up API. Tagged areas include Freelance, Project Pricing, Invoicing, Business, and Agents.'
 random_paper: 4
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 27.4
+  delta: 1.9
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
-    contract_quality: 47.6
-    developer_ergonomics: 16.7
+    contract_quality: 49.7
+    developer_ergonomics: 26.2
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 25.5
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 slug: youworkagent
 tags:
 - Freelance

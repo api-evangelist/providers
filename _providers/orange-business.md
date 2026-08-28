@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-24'
+  score: 47.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -153,7 +158,11 @@ apis:
 - description: Operation to get device roaming status and country information (if roaming) synchronously
   name: Orange Business Roaming status retrieval API
   slug: orange-business-roaming-status-retrieval-api
-artifact_total: 68
+artifact_total: 73
+asyncapis:
+- description: ''
+  name: Orange Business Webhooks
+  slug: orange-business-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -234,6 +243,10 @@ collections:
   name: SIM Swap
   slug: open-orange-business-sim-swap
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/orange-business-scopes.yml
 - group: commercial
   title: ''
   type: License
@@ -345,11 +358,11 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.orange-business.com/en/legal-notice
+  url: https://www.orange-business.com/en/legal-information
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.orange-business.com/en/personal-data-protection
+  url: https://www.orange-business.com/en/privacy-policy
 - group: operate
   title: ''
   type: Support
@@ -361,11 +374,7 @@ common:
 - group: start
   title: ''
   type: Signup
-  url: https://developer.orange.com/register
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://www.orange-business.com/en/our-solutions
+  url: https://developer.orange.com/signup
 - group: docs
   title: ''
   type: Documentation
@@ -378,54 +387,183 @@ common:
   title: ''
   type: Portal
   url: https://cloud.orange-business.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/orange-business-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/orange-business-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/orange-business-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/orange-business-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/orange-business-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/orange-business-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/orange-business-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/orange-business-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/orange-business-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/orange-business-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/orange-business-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/orange-business-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/orange-business-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/orange-business-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/orange-business-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/orange-business-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/orange-business-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/orange-business-rate-limits.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/orange-business-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.orange.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.developer.orange.com/network-apis/api-catalog/number-verification/playground/1.0/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.developer.orange.com/network-apis/practical-guides/try-it-for-free/getting-started
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://developer.orange.com/support/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developer.orange.com/talk-to-sales/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.orange.com/terms-and-conditions
+created: '2026-05-25'
 description: Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as "an operator, integrator, and platform player" and serves 30,000+ enterprise customers across 65 countries with cloud, cybersecurity, SD-WAN/SASE, 5G, IoT, data, AI, and digital-workplace services. Orange's developer surface is split across two tracks. The Orange Developer portal (developer.orange.com) publishes the Orange Open Gateway — Orange's implementation of GSMA Open Gateway / CAMARA standardised network APIs (Number Verification, SIM Swap, Device Swap, KYC Match, Device Location, Geofencing, Device Status, Quality on Demand, Population Density Data) — alongside Orange-specific APIs for IoT (Live Objects, IoT Global Connectivity), payments (Orange Money WebPay, Pay With Orange Bill, carrier billing across Orange Africa), communications (Voice, SMS MEA, Business Talk, Contact
   Everyone), cloud (Cloud Avenue sovereign IaaS, Evolution Platform), and identity (Live Identity Verify, Live Identity Captcha). The Orange Business Services portfolio adds a B2B TM Forum–aligned API track for ordering, billing, incident management, eligibility, and order tracking. The Orange-OpenSource GitHub org backs the developer ecosystem with 427+ repos including Hurl (the popular Rust HTTP testing CLI with 18K+ stars), the Boosted accessible Bootstrap framework, the OUDS Orange Unified Design System for iOS / Android / Flutter, and 5G Kubernetes Helm charts. Orange has also stood up Orange LiveNet, a business unit dedicated to commercialising programmable network capabilities, and is one of the founding operators of the GSMA Open Gateway initiative with the CAMARA Linux Foundation project.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orange-business.png
 layout: provider
+mcp_servers:
+- description: 'A Model Context Protocol server exposing Orange''s CAMARA Network APIs — SIM swap, device location, reachability, roaming, KYC match, population density and quality-on-demand — plus the Orange Network '
+  name: Orange CAMARA MCP Enablement PI1 server
+  slug: orange-camara-mcp-enablement-pi1-server
+modified: '2026-08-26'
 name: Orange Business
 nav: Providers
 network: true
-overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Check Device Swap API, Check SIM swap API, Device reachability status API, and 11 more. Tagged areas include 5G, Artificial Intelligence, B2B, CAMARA, and Cloud.
+overview: 'Orange Business publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Live Objects API, Check Device Swap API, Check SIM swap API, and 12 more. Tagged areas include 5G, Artificial Intelligence, B2B, CAMARA, and Cloud.
 
 
-  Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 29 more developer resources.'
+  The Orange Business catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 55 more developer resources.'
+plans:
+- name: Orange Business Plans Pricing
+  plan_count: 2
+  slug: orange-business-plans-pricing
 random_paper: 3
+rate_limits:
+- limit_count: 3
+  name: Orange Business Rate Limits
+  slug: orange-business-rate-limits
+scopes:
+- name: Orange Business Scopes
+  scope_count: 23
+  slug: orange-business-scopes
+  summary_line: 23 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.3
-  delta: 0.0
+  band: exemplar
+  composite: 73.7
+  delta: 34.8
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
-    contract_governance: 0.0
-    contract_quality: 55.5
-    developer_ergonomics: 54.8
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 39.3
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 30.3
+    contract_quality: 61.9
+    developer_ergonomics: 82.7
+    discoverability: 77.8
+    governance: 30.3
+    operational_transparency: 78.9
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 14
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 36.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 75.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:
 - kind: authentication
   name: Orange Business Authentication
   slug: orange-business-authentication
-  summary_line: http/openIdConnect · 2 schemes
+  summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Orange Business Domain Security
   slug: orange-business-domain-security

@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 39.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -196,19 +201,19 @@ scopes:
   slug: unqork-scopes
   summary_line: 1 scope · clientCredentials/password
 score:
-  band: developing
-  composite: 54.1
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: 3.8
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
-    contract_quality: 56.7
-    developer_ergonomics: 51.8
+    contract_quality: 55.2
+    developer_ergonomics: 63.7
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 63.2
-  previous_composite: 54.1
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,9 +229,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 59.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 68.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/screenshots/unqork-2026-08-17T082627.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.9
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: Comment collection. Registered and anonymously reachable, but empty — X-WP-Total is 0.
@@ -188,18 +192,18 @@ overview: 'Allay Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/
 random_paper: 4
 score:
   band: thin
-  composite: 39.1
+  composite: 38.0
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
-    contract_quality: 51.4
+    contract_quality: 50.0
     developer_ergonomics: 13.7
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 39.1
+  previous_composite: 38.0
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/screenshots/allay-therapeutics-2026-08-07T161209.png
 security:

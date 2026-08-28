@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 25.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -204,18 +208,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 30.6
+  delta: 1.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 30.1
-    developer_ergonomics: 20.8
-    discoverability: 87.0
+    contract_quality: 29.3
+    developer_ergonomics: 28.0
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.1
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +236,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:

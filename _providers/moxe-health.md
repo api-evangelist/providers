@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -250,18 +254,18 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.3
+  composite: 49.9
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
-    contract_quality: 54.5
+    contract_quality: 53.1
     developer_ergonomics: 33.9
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 50.3
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,8 +282,8 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/screenshots/moxe-health-2026-08-07T184405.png
 security:

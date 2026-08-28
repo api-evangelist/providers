@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API for launching basic and advanced Enboarder workflows, updating and cancelling running workflows, managing employee profiles and photos, and exporting workflow and form reporting data. Paths a
@@ -177,22 +181,22 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.7
+  composite: 44.1
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 57.1
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 44.7
+  previous_composite: 44.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/screenshots/enboarder-2026-08-17T080919.png
 security:

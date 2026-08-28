@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-24'
+  score: 40.3
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST/JSON banking API for Memo Bank business customers, authenticated with RS256-signed JWT request tokens. Covers accounts and balances, transactions with typed transaction sources, virtual and stand
@@ -228,18 +232,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.4
+  composite: 67.0
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 30.3
-    contract_quality: 59.3
+    contract_quality: 57.7
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 67.4
+  previous_composite: 67.0
   provenance:
     conformance: first-party
     contracts:
@@ -251,12 +255,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: berlin-group-nextgenpsd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

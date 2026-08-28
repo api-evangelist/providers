@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.0
-  scored_at: '2026-08-24'
+  score: 26.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Zenskar's REST API for billing, contracts, usage metering, invoicing, payments, credit notes, and accounting/revenue recognition (166+ documented operations).
@@ -143,23 +147,23 @@ overview: 'Zenskar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 10
 score:
   band: thin
-  composite: 35.0
+  composite: 34.4
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 33.3
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 35.0
+  previous_composite: 34.4
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenskar/refs/heads/main/screenshots/zenskar-2026-08-17T083046.png
 security:

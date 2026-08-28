@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 67.4
-  scored_at: '2026-08-24'
+  score: 66.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -399,18 +403,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 77.3
+  composite: 76.8
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
-    contract_quality: 64.2
+    contract_quality: 62.5
     developer_ergonomics: 85.7
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 77.3
+  previous_composite: 76.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -427,8 +431,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png
 security:

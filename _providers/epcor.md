@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,26 +184,26 @@ overview: 'EPCOR publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
   EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
 random_paper: 12
 score:
-  band: developing
-  composite: 42.9
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  delta: 5.3
   facets:
-    access_clarity: 21.1
-    commercial_clarity: 21.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 57.3
-    developer_ergonomics: 30.4
-    discoverability: 77.8
+    contract_quality: 19.9
+    developer_ergonomics: 39.9
+    discoverability: 59.3
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 42.9
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     skills: derived
   regulatory:
@@ -208,9 +212,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/screenshots/epcor-2026-08-07T164946.png
 security:
 - kind: authentication

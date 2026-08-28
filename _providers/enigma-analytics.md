@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.9
-  scored_at: '2026-08-24'
+  score: 31.2
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: 'Enigma''s primary programmatic surface: a Relay-style GraphQL API over the business knowledge graph. Query Brand, LegalEntity, OperatingLocation, Address, Person, and Industry entities via connection-b'
@@ -239,8 +243,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/screenshots/enigma-analytics-2026-07-25T213359.png
 security:

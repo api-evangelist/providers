@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.9
-  scored_at: '2026-08-24'
+  score: 20.8
+  scored_at: '2026-08-26'
 api_count: 40
 apis:
 - description: The Agencies API from TheSpaceDevs LL2 API — 2 operation(s) for agencies.
@@ -377,26 +381,26 @@ rules:
   slug: thespacedevs-rules
 score:
   band: thin
-  composite: 30.9
-  delta: 0.0
+  composite: 32.3
+  delta: 1.8
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
-    contract_quality: 60.6
+    contract_governance: 25.0
+    contract_quality: 58.9
     developer_ergonomics: 14.3
     discoverability: 68.5
-    governance: 9.8
+    governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 30.9
+  previous_composite: 30.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/screenshots/thespacedevs-ll2-api-2026-06-20T195255.png
 security:

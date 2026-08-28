@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.5
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -178,18 +182,18 @@ rate_limits:
   slug: bytez-rate-limits
 score:
   band: developing
-  composite: 42.9
+  composite: 42.5
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 57.3
+    contract_quality: 55.8
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 42.9
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,8 +204,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/screenshots/bytez-2026-07-25T204146.png
 security:

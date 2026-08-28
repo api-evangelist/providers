@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.6
-  scored_at: '2026-08-24'
+  score: 33.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -575,22 +579,22 @@ rules:
   slug: argyle-rules
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 64.0
+  delta: 1.2
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 56.2
+    contract_quality: 59.6
     developer_ergonomics: 52.4
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 71.1
-  previous_composite: 63.1
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 25
@@ -600,8 +604,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle-financial/refs/heads/main/screenshots/argyle-financial-2026-06-20T172425.png
 security:

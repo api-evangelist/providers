@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.0
-  scored_at: '2026-08-24'
+  score: 6.7
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: 'Market API for electronic placement in the London subscription market — create submissions and submission versions, upload Market Reform Contract and quote documents, add carriers and underwriters to '
@@ -233,18 +237,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/on-behalf-of
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 33.7
+  delta: 1.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 1.4
-    developer_ergonomics: 35.7
-    discoverability: 72.2
+    contract_quality: 6.7
+    developer_ergonomics: 42.9
+    discoverability: 64.8
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 31.7
+  previous_composite: 32.3
   provenance:
     conformance: first-party
   regulatory:
@@ -253,8 +257,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/screenshots/lloyds-of-london-2026-07-25T225413.png
 security:

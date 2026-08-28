@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -691,18 +695,18 @@ rules:
   slug: adobe-creative-cloud-spectral-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 53.5
+  delta: 3.8
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 75.3
-    developer_ergonomics: 42.9
+    contract_quality: 73.5
+    developer_ergonomics: 61.9
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 50.1
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -710,8 +714,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:

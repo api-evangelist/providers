@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-24'
+  score: 31.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -389,18 +393,18 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 20
 score:
   band: strong
-  composite: 56.8
+  composite: 56.4
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
-    contract_quality: 65.6
+    contract_quality: 63.8
     developer_ergonomics: 66.1
     discoverability: 63.0
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 56.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -417,8 +421,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
 security:

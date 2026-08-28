@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.0
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The ad-request surface Doceree publisher partners call to fetch an HCP-targeted advertisement. It is the endpoint behind the Doceree Publisher Tag, the first-party Prebid.js header-bidding adapter (bi
@@ -185,7 +189,7 @@ rate_limits:
   slug: doceree-rate-limits
 score:
   band: thin
-  composite: 38.6
+  composite: 37.8
   delta: 0.0
   facets:
     access_clarity: 43.4
@@ -193,10 +197,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 38.6
+  previous_composite: 37.8
   provenance:
     conformance: first-party
   regulatory:
@@ -205,8 +209,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/screenshots/doceree-2026-08-07T164451.png
 security:

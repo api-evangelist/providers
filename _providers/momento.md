@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-24'
+  score: 20.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
@@ -171,24 +175,24 @@ overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 11
 score:
   band: developing
-  composite: 40.8
+  composite: 39.5
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 68.5
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 40.8
+  previous_composite: 39.5
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/screenshots/momento-2026-08-07T184119.png
 security:

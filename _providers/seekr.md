@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-24'
+  score: 35.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -426,18 +429,18 @@ overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 13
 score:
   band: strong
-  composite: 61.6
+  composite: 61.3
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 55.2
+    contract_quality: 53.7
     developer_ergonomics: 71.4
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 61.6
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -454,8 +457,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
 security:

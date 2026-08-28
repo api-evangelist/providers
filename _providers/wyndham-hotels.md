@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 25.6
-  scored_at: '2026-08-24'
+  score: 28.8
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: www.wyndhambusiness.com — the Wyndham Business corporate-travel program site — runs WordPress on WP Engine behind Cloudflare and leaves the standard WordPress REST API anonymously readable at /wp-json
@@ -237,23 +241,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 24.8
+  delta: 3.3
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 14.1
-    developer_ergonomics: 19.0
+    contract_quality: 13.3
+    developer_ergonomics: 35.7
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 21.7
+  previous_composite: 21.5
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

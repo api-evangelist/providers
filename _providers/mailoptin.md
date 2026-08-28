@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-24'
+  score: 33.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The WordPress REST API served by mailoptin.io, plus the Model Context Protocol server exposed through the WordPress MCP Adapter at the mcp namespace. The REST root is a public, self-describing route i
@@ -170,23 +174,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.8
+  composite: 46.5
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 40.5
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 46.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/screenshots/mailoptin-2026-08-17T124048.png
 security:

@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 24.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -457,27 +461,27 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 27.9
-  delta: 0.0
+  composite: 27.5
+  delta: -0.2
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 22.9
+    contract_quality: 21.4
     developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 27.9
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: verified
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.7
-  scored_at: '2026-08-24'
+  score: 42.2
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -233,18 +237,18 @@ rate_limits:
   slug: spaitial-ai-rate-limits
 score:
   band: strong
-  composite: 56.4
+  composite: 56.0
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 57.3
+    contract_quality: 55.7
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 56.4
+  previous_composite: 56.0
   provenance:
     conformance: derived
     contracts:
@@ -254,8 +258,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/screenshots/spaitial-ai-2026-08-17T125411.png
 security:

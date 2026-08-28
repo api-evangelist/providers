@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-24'
+  score: 52.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -18034,19 +18038,19 @@ scopes:
   slug: factset-scopes
   summary_line: 9 scopes · clientCredentials
 score:
-  band: strong
-  composite: 65.9
-  delta: 0.0
+  band: exemplar
+  composite: 67.4
+  delta: 2.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 45.5
-    contract_quality: 70.4
+    contract_quality: 71.1
     developer_ergonomics: 87.5
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 45.5
-    operational_transparency: 13.2
-  previous_composite: 65.9
+    operational_transparency: 28.9
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -18063,8 +18067,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:

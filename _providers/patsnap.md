@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.7
-  scored_at: '2026-08-24'
+  score: 24.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 0
@@ -458,18 +462,18 @@ overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 3
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 52.7
+  delta: 3.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
-    contract_quality: 57.8
-    developer_ergonomics: 51.8
+    contract_quality: 56.2
+    developer_ergonomics: 63.7
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 49.6
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -485,9 +489,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 45.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/screenshots/patsnap-2026-08-07T191600.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.3
-  scored_at: '2026-08-24'
+  score: 31.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Model Context Protocol server for tday, and the agent-facing entry point to the platform. It ships in two deployments that front the same nine tools: a hosted remote endpoint at https://tday.com/api/m'
@@ -178,7 +182,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.3
+  composite: 35.6
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -186,16 +190,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 36.3
+  previous_composite: 35.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

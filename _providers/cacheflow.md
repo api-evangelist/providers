@@ -12,26 +12,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.6
-  scored_at: '2026-08-24'
+  score: 27.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'REST API for the full Cacheflow quote-to-cash surface: proposals (quotes) and proposal items, product catalog and versioning, customers and contacts, subscriptions and change/renewal proposals, billin'
@@ -166,22 +170,22 @@ rate_limits:
   slug: cacheflow-rate-limits
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 30.0
+  delta: -0.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 52.6
+    contract_quality: 47.8
     developer_ergonomics: 39.9
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 31.2
+  previous_composite: 30.9
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -193,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cacheflow/refs/heads/main/screenshots/cacheflow-2026-07-25T204205.png
 security:

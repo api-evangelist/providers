@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.2
-  scored_at: '2026-08-24'
+  score: 23.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -131,18 +135,18 @@ plans:
 random_paper: 3
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 33.0
+  delta: 0.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 55.9
-    developer_ergonomics: 14.3
+    contract_quality: 54.4
+    developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 32.5
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/screenshots/bolt-eu-2026-07-25T203541.png
 security:

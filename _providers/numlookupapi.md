@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.8
-  scored_at: '2026-08-24'
+  score: 28.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,24 +132,24 @@ rate_limits:
   slug: numlookupapi-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 27.5
+  delta: 2.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 58.0
-    developer_ergonomics: 21.4
+    contract_quality: 14.1
+    developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.1
+  previous_composite: 25.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
   regulatory:
     applies: true
@@ -153,8 +157,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/screenshots/numlookupapi-2026-08-07T185737.png
 security:

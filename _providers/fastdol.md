@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 30.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -530,18 +534,18 @@ rules:
   slug: fastdol-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 50.4
+  delta: 0.7
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 28.8
-    contract_quality: 66.5
+    contract_quality: 67.4
     developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 50.2
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -555,8 +559,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
 security:

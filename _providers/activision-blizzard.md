@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-24'
+  score: 30.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -376,18 +380,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 21.6
+  delta: 0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 32.3
+    contract_quality: 34.1
     developer_ergonomics: 9.5
     discoverability: 40.7
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 21.2
+  previous_composite: 21.0
   provenance:
     agentic_access: derived
     contracts:
@@ -395,8 +399,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/screenshots/activision-blizzard-2026-06-20T164248.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Control-plane REST API for Onehouse — a SQL Command API to create and manage lakehouse resources (lakes, databases, tables, flows, clusters, jobs, transformations) plus a Status API to poll the return
@@ -144,7 +148,7 @@ overview: 'Onehouse publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 9
 score:
   band: thin
-  composite: 31.5
+  composite: 30.8
   delta: 0.0
   facets:
     access_clarity: 42.1
@@ -152,14 +156,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 31.5
+  previous_composite: 30.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/screenshots/onehouse-2026-08-07T190333.png
 security:

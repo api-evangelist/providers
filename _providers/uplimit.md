@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The Course API from Uplimit — 3 operation(s) for course.
@@ -185,18 +189,18 @@ overview: 'Uplimit publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 16
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 37.8
+  delta: 1.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 53.1
-    developer_ergonomics: 23.2
-    discoverability: 81.5
+    contract_quality: 51.7
+    developer_ergonomics: 30.4
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 37.5
+  previous_composite: 36.4
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +216,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

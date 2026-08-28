@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.0
-  scored_at: '2026-08-24'
+  score: 6.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Appdome Build2Secure (DEV-API) REST API automates Appdome's no-code mobile app defense pipeline — upload, build/fuse, add context, sign (standard, private, and Auto-DEV signing), download, publish
@@ -180,8 +184,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/screenshots/appdome-2026-07-25T200727.png
 security:

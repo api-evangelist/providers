@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -371,18 +375,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.9
+  composite: 50.0
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 22.0
-    contract_quality: 28.6
+    contract_quality: 28.0
     developer_ergonomics: 61.3
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 22.0
     operational_transparency: 15.8
-  previous_composite: 50.9
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,8 +403,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:

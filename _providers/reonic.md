@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 27.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -356,18 +360,18 @@ overview: 'Reonic publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 10
 score:
   band: developing
-  composite: 44.5
+  composite: 44.0
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 59.4
+    contract_quality: 57.7
     developer_ergonomics: 44.6
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 44.5
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -384,8 +388,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/screenshots/reonic-2026-08-17T081520.png
 security:

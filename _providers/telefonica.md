@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -294,18 +298,18 @@ rules:
   slug: telefonica-rules
 score:
   band: developing
-  composite: 39.9
+  composite: 39.4
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 70.9
+    contract_quality: 68.9
     developer_ergonomics: 33.3
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 39.9
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +323,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/screenshots/telefonica-2026-06-20T195129.png
 security:

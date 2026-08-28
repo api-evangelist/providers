@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.8
-  scored_at: '2026-08-24'
+  score: 30.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 3
@@ -329,18 +333,18 @@ rate_limits:
   slug: finos-rate-limits
 score:
   band: thin
-  composite: 28.4
-  delta: 0.0
+  composite: 29.5
+  delta: 1.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 46.8
-    developer_ergonomics: 14.3
+    contract_quality: 45.5
+    developer_ergonomics: 21.4
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 28.4
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
     contracts:
@@ -348,8 +352,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/screenshots/finos-2026-06-20T181222.png
 security:

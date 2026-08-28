@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.3
-  scored_at: '2026-08-24'
+  score: 22.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Fragment's GraphQL Ledger API. Store a double-entry chart-of-accounts schema, create ledgers, post idempotent ledger entries and lines, read aggregated / historical / period / strongly-consistent bala
@@ -180,18 +184,18 @@ overview: 'Fragment publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 12
 score:
   band: developing
-  composite: 53.0
+  composite: 52.5
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 43.3
+    contract_quality: 41.5
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 53.0
+  previous_composite: 52.5
   provenance:
     conformance: derived
     mcp: derived
@@ -202,8 +206,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fragment/refs/heads/main/screenshots/fragment-2026-07-25T215102.png
 security:

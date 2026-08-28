@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 22.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: inFakt's REST API (v3) for automating invoicing and accounting. Resources are addressed with a .json extension under /api/v3/ and authenticated with a per-account API key sent in the X-inFakt-ApiKey h
@@ -183,23 +187,23 @@ overview: 'inFakt publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 7
 score:
   band: developing
-  composite: 48.8
+  composite: 48.2
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 64.3
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 48.8
+  previous_composite: 48.2
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png
 security:

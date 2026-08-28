@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -170,31 +174,31 @@ overview: 'Apex27 publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
   Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 19 more developer resources.'
 random_paper: 10
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 33.8
+  delta: 1.9
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 20.5
-    contract_quality: 69.6
-    developer_ergonomics: 20.8
-    discoverability: 75.9
+    contract_quality: 25.6
+    developer_ergonomics: 30.4
+    discoverability: 68.5
     governance: 20.5
     operational_transparency: 23.7
-  previous_composite: 43.6
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/screenshots/apex27-2026-08-07T161440.png
 security:

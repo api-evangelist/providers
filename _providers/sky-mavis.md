@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.0
-  scored_at: '2026-08-24'
+  score: 14.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST Web3 data API on the Ronin blockchain — query accounts, NFTs, tokens, collections, blocks, smart contracts and transactions. Authenticated with an X-API-KEY issued from the Ronin Developer Consol
@@ -189,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

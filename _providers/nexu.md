@@ -1,0 +1,141 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-26'
+api_count: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nexu-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nexu.mx/
+- group: company
+  title: ''
+  type: About
+  url: https://www.nexu.mx/quienes-somos/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.nexu.mx/contacto-cliente/
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.nexu.mx/faq/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.nexu.mx/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.nexu.mx/blog/rss
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.nexu.mx/terminos_y_condiciones
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.nexu.mx/aviso_de_privacidad
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/nexu-mx/
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/nexu.mx/
+- group: company
+  title: ''
+  type: Careers
+  url: https://nexu.breezy.hr/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/nexu-llms.txt
+coverage:
+  checked: '2026-08-26'
+  detail: Nexu ships only an end-user Angular application for car buyers and a staff portal at team.nexu.mx - there is no developer page, no API reference and no machine-readable contract on any host, and the customer app's own bundled config declares an empty, same-origin private API base.
+  evidence:
+  - status: 404
+    url: https://www.nexu.mx/openapi.json
+  - status: 404
+    url: https://www.nexu.mx/.well-known/agent-card.json
+  - status: 404
+    url: https://landing.nexu.mx/llms.txt
+  - status: 200
+    url: https://www.nexu.mx/sitemap.xml
+  reason: no-developer-program
+  state: none
+created: '2026-08-26'
+description: Nexu is a Mexico City fintech that provides automotive financing at the point of sale. Founded in 2014 by Abdon Nacif and Fernando Gomez Arriola, the company began as an auto price and comparison site and now operates a digital lending platform used by car dealerships across Mexico to originate credit and leasing offers in real time. Nexu underwrites and funds two consumer products - credito automotriz (auto credit) and arrendamiento (leasing with a purchase option and no residual), distributed through partnerships with more than ten OEM dealer networks including Nissan, Volkswagen, Kia, Hyundai, Mazda, Honda, Ford, Chevrolet, BMW and Audi. Applicants complete an onboarding and identity flow in a browser application at nexu.mx and receive a decision without visiting a branch. The company has raised roughly $73M across five equity rounds, plus debt facilities, from Valor Capital Group, Altos Ventures, Wollef, Architect Capital, Clocktower, Tresalia Capital, FJ Labs, Gilgamesh
+  Ventures and others. As of this profiling pass Nexu publishes no public API, developer portal, SDK or machine-readable contract of any kind - see x-coverage below.
+image: https://nexu-rebranding-2025.s3.us-east-1.amazonaws.com/logo/png/logo-blue.png
+layout: provider
+modified: '2026-08-26'
+name: Nexu
+nav: Providers
+network: true
+overview: 'Nexu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, FinTech, Lending, and Auto Finance.
+
+
+  Nexu''s developer surface includes support, FAQ, engineering blog, and 10 more developer resources.'
+random_paper: 7
+score:
+  band: minimal
+  composite: 6.4
+  facets:
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 50.0
+    governance: 0.0
+    operational_transparency: 0.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+security:
+- kind: domain-security
+  name: Nexu Domain Security
+  slug: nexu-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: nexu
+tags:
+- Company
+- Financial Services
+- FinTech
+- Lending
+- Auto Finance
+- Leasing
+- Automotive
+- Consumer Credit
+- Mexico
+website: https://www.nexu.mx/
+---

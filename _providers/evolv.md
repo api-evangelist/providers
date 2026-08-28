@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-24'
+  score: 10.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Evolv Participant API is the runtime edge API the client SDKs call to fetch a participant's experiment configuration and allocations for an environment, and to ingest context and behavioral events
@@ -160,24 +164,24 @@ rate_limits:
   slug: evolv-rate-limits
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 26.0
+  delta: 4.1
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 0.0
-    developer_ergonomics: 54.2
-    discoverability: 75.9
+    contract_quality: 6.7
+    developer_ergonomics: 66.1
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 22.7
+  previous_composite: 21.9
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/screenshots/evolv-2026-07-25T213820.png
 security:

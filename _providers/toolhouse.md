@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -423,27 +427,27 @@ rules:
   slug: toolhouse-rules
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 53.4
+  delta: 1.3
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 58.2
+    contract_quality: 62.0
     developer_ergonomics: 50.0
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 52.5
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/screenshots/toolhouse-2026-08-17T082402.png
 security:

@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 29.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -272,18 +277,18 @@ rate_limits:
   slug: openaq-rate-limits
 score:
   band: thin
-  composite: 28.5
-  delta: 0.0
+  composite: 30.6
+  delta: 2.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 51.5
-    developer_ergonomics: 21.4
+    contract_quality: 52.2
+    developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 28.5
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +296,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/screenshots/openaq-2026-06-20T190913.png
 security:

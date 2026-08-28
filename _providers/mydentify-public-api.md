@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: true
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 36.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -203,18 +207,18 @@ overview: 'Mydentify Public API publishes 6 APIs on the [APIs.io](https://apis.i
 random_paper: 12
 score:
   band: developing
-  composite: 41.4
-  delta: 0.0
+  composite: 45.7
+  delta: 4.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 43.0
-    developer_ergonomics: 45.2
+    contract_quality: 45.2
+    developer_ergonomics: 64.3
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 41.4
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +229,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

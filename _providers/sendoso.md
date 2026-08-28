@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.3
-  scored_at: '2026-08-24'
+  score: 42.7
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Create physical gift, direct mail and eGift sends against Sendoso campaigns, and read the campaigns, users and team groups behind them. Ten operations on /api/v3.
@@ -283,18 +287,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.0
-  delta: 0.0
+  composite: 56.2
+  delta: 1.4
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 45.5
-    contract_quality: 30.0
+    contract_quality: 29.2
     developer_ergonomics: 71.4
     discoverability: 81.5
     governance: 45.5
-    operational_transparency: 31.6
-  previous_composite: 55.0
+    operational_transparency: 42.1
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -304,8 +308,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/screenshots/sendoso-2026-06-20T193656.png
 security:

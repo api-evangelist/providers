@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-24'
+  score: 37.6
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: The public Emotive Open API for eCommerce integrations — track orders for attribution, opt a phone number out of SMS, and push custom events that can trigger an Emotive Flow. Authenticated with an Emo
@@ -189,23 +193,23 @@ rate_limits:
   name: Emotive Rate Limits
   slug: emotive-rate-limits
 score:
-  band: developing
-  composite: 50.2
-  delta: 0.0
+  band: strong
+  composite: 54.7
+  delta: 4.7
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 30.3
-    contract_quality: 58.4
-    developer_ergonomics: 52.4
+    contract_quality: 57.8
+    developer_ergonomics: 64.3
     discoverability: 81.5
     governance: 30.3
-    operational_transparency: 15.8
-  previous_composite: 50.2
+    operational_transparency: 23.7
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     contracts:
-      callable: 71.4
+      callable: 100.0
       derived: 0
       marker_coverage: 85.7
       total: 7
@@ -216,9 +220,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 43.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 51.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/screenshots/emotive-2026-07-25T213253.png
 security:

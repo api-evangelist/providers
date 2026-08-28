@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.7
-  scored_at: '2026-08-24'
+  score: 27.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 7
@@ -322,19 +326,19 @@ overview: 'Gencove publishes 20 APIs on the [APIs.io](https://apis.io/) network,
   Gencove''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
 random_paper: 8
 score:
-  band: strong
-  composite: 54.5
+  band: developing
+  composite: 54.1
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 57.9
+    contract_quality: 56.3
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 54.5
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,8 +355,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/screenshots/gencove-2026-07-25T215527.png
 security:

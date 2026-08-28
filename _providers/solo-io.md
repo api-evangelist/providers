@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.3
-  scored_at: '2026-08-24'
+  score: 37.6
+  scored_at: '2026-08-26'
 api_count: 15
 apis:
 - description: API key management endpoints
@@ -499,28 +502,28 @@ rules:
 score:
   band: exemplar
   composite: 68.2
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 41.7
-    contract_quality: 68.8
+    contract_quality: 69.1
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 68.2
+  previous_composite: 68.4
   provenance:
     conformance: derived
     contracts:
-      callable: 20.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:

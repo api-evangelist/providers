@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.0
-  scored_at: '2026-08-24'
+  score: 33.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Create and manage diagnostic collection orders.
@@ -145,25 +149,25 @@ overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
   Orange Health''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 9
 score:
-  band: thin
-  composite: 34.3
-  delta: 0.0
+  band: emerging
+  composite: 25.5
+  delta: 2.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 67.1
-    developer_ergonomics: 22.0
+    contract_quality: 22.4
+    developer_ergonomics: 29.2
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 34.3
+  previous_composite: 23.1
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 3
+      marker_coverage: 100.0
       total: 3
     mcp: derived
     skills: derived
@@ -172,9 +176,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 22.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 28.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:

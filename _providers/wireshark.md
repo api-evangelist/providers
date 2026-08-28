@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Wireshark is a free and open-source network protocol analyzer that captures and interactively browses network traffic. It supports hundreds of protocols, runs on multiple platforms, and provides deep '
@@ -140,21 +144,21 @@ rate_limits:
   slug: wireshark-rate-limits
 score:
   band: emerging
-  composite: 16.2
-  delta: 0.0
+  composite: 21.4
+  delta: 5.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 42.9
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 16.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/wireshark/refs/heads/main/screenshots/wireshark-2026-06-20T201522.png
 security:
 - kind: domain-security

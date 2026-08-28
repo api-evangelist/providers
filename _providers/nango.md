@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -186,24 +190,24 @@ rate_limits:
   slug: nango-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 45.7
+  delta: 2.1
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 52.4
-    developer_ergonomics: 45.2
-    discoverability: 64.8
+    contract_quality: 51.0
+    developer_ergonomics: 52.4
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 44.7
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 43.2
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/screenshots/nango-2026-08-17T083516.png
 security:

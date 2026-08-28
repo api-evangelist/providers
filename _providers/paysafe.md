@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.5
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: The core REST API to process payments from customers across multiple payment methods including credit and debit cards, bank transfers (BLIK, EPS, iDEAL, Interac e-Transfer, ACH, SEPA), cash vouchers (
@@ -175,14 +179,14 @@ rate_limits:
   slug: paysafe-rate-limits
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 34.5
+  delta: 3.8
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 38.1
+    developer_ergonomics: 57.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
@@ -199,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paysafe/refs/heads/main/screenshots/paysafe-2026-06-20T191509.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Provably-fair random selection REST API (v1) covering draw lifecycle, account, health, and public verification artifacts. HMAC-signed webhooks. Bearer API-key auth.
@@ -177,18 +181,18 @@ rate_limits:
   slug: proofdraw-rate-limits
 score:
   band: thin
-  composite: 35.9
+  composite: 34.7
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 61.0
+    contract_quality: 59.4
     developer_ergonomics: 20.8
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 35.9
+  previous_composite: 34.7
   provenance:
     conformance: derived
     contracts:
@@ -198,8 +202,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/screenshots/proofdraw-2026-08-17T081348.png
 security:

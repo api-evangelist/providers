@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-24'
+  score: 34.4
+  scored_at: '2026-08-26'
 api_count: 58
 apis:
 - description: The Approvals API from ZenHR Inc — 2 operation(s) for approvals.
@@ -537,29 +541,29 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.5
+  composite: 40.1
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
-    contract_quality: 54.7
+    contract_quality: 13.3
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 50.5
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 58
+      marker_coverage: 100.0
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/screenshots/zenhr-inc-2026-08-17T083041.png
 security:

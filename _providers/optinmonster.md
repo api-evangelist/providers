@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The OptinMonster application REST API. Versioned path segments (`/v1`, `/v2`) sit on api.optinmonster.com and cover campaigns, leads, sites, site origins, integrations, account, revenue attribution an
@@ -152,22 +156,22 @@ rate_limits:
   slug: optinmonster-rate-limits
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 51.2
+  delta: 3.1
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 45.1
-    developer_ergonomics: 45.2
+    contract_quality: 42.7
+    developer_ergonomics: 57.1
     discoverability: 81.5
     governance: 4.5
-    operational_transparency: 34.2
-  previous_composite: 48.7
+    operational_transparency: 39.5
+  previous_composite: 48.1
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/screenshots/optinmonster-2026-08-17T081135.png
 security:

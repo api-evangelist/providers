@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -334,16 +338,16 @@ rules:
   slug: amazon-aurora-dsql-spectral-rules
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 33.6
+  delta: 1.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
-    contract_quality: 74.8
+    contract_governance: 45.5
+    contract_quality: 72.1
     developer_ergonomics: 11.9
     discoverability: 77.8
-    governance: 30.3
+    governance: 45.5
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -351,18 +355,18 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 32.5
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 2
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/screenshots/amazon-aurora-dsql-2026-07-25T195931.png
 security:

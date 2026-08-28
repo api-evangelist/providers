@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -228,18 +232,18 @@ overview: 'Quasar publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 2
 score:
   band: developing
-  composite: 40.5
+  composite: 40.2
   delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 30.3
-    contract_quality: 40.2
+    contract_quality: 39.1
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 40.5
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,8 +254,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

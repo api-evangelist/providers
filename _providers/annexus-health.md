@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 15.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The production OpenID Connect / OAuth 2.0 authorization server for the AssistPoint platform, served from Annexus Health's own custom domain. Its discovery document is published anonymously at /.well-k
@@ -132,18 +136,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 26.3
-  delta: 0.0
+  composite: 29.0
+  delta: 2.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 87.0
+    developer_ergonomics: 28.6
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.3
+  previous_composite: 26.6
   provenance:
     conformance: first-party
   regulatory:
@@ -151,9 +155,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 53.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/annexus-health/refs/heads/main/screenshots/annexus-health-2026-08-07T161419.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: FHIR R4 compliant Patient Access API providing members secure access to their health data including claims, clinical data, and coverage information. Required under CMS Interoperability and Patient Acc
@@ -154,26 +158,26 @@ rate_limits:
   slug: aetna-rate-limits
 score:
   band: emerging
-  composite: 24.6
-  delta: 0.0
+  composite: 25.3
+  delta: 1.1
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 14.3
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.6
+  previous_composite: 24.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 12.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 20.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

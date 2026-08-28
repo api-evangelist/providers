@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 22.5
-  scored_at: '2026-08-24'
+  score: 11.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: JSON ad-request endpoint (mobile.mng-ads.com) that returns a single ad (banner, interstitial, native) for a given placement, device User-Agent, SDK version and consent signal. GET or POST.
@@ -186,7 +190,7 @@ rate_limits:
   slug: madvertise-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 33.9
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -194,15 +198,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 35.1
+  previous_composite: 33.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/screenshots/madvertise-2026-07-25T225832.png
 security:

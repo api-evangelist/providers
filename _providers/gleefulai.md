@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 20.9
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: The Audit API from Gleeful AI — 3 operation(s) for audit.
@@ -218,28 +222,28 @@ rate_limits:
   slug: gleefulai-rate-limits
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 23.1
+  delta: -0.8
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
     contract_governance: 4.5
-    contract_quality: 44.5
+    contract_quality: 39.9
     developer_ergonomics: 16.7
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 23.9
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/screenshots/gleefulai-2026-08-07T165729.png
 security:

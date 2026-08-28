@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: true
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.7
-  scored_at: '2026-08-24'
+  score: 59.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The official ev.energy v2 REST API. 210 operations across 180 paths covering users, vehicles, EVSEs, charging sessions, schedules, tariffs, regions, solar, solar forecasts, home batteries, boundary me
@@ -146,19 +150,19 @@ scopes:
   slug: ev-energy-scopes
   summary_line: 35 scopes
 score:
-  band: developing
-  composite: 52.4
-  delta: 0.0
+  band: strong
+  composite: 59.1
+  delta: 5.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
-    contract_quality: 65.7
-    developer_ergonomics: 47.0
+    contract_quality: 63.9
+    developer_ergonomics: 66.1
     discoverability: 87.0
     governance: 30.3
-    operational_transparency: 34.2
-  previous_composite: 52.4
+    operational_transparency: 42.1
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     contracts:
@@ -173,10 +177,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 56.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 71.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ev-energy/refs/heads/main/screenshots/ev-energy-2026-08-17T080920.png
 security:
 - kind: authentication

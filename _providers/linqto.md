@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The linqto.com marketing, blog, and market-insights site runs on WordPress and exposes the standard public WordPress REST API at /wp-json/. The route index reports 472 routes across 19 namespaces (inc
@@ -114,20 +118,20 @@ overview: 'Linqto publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 12
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 18.9
+  delta: 3.3
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 87.0
+    developer_ergonomics: 31.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 15.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqto/refs/heads/main/screenshots/linqto-2026-08-07T171717.png
 security:

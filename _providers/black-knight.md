@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 6.3
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: MSP (Mortgage Servicing Platform) was Black Knight's flagship product — the mainframe-rooted system of record that services the majority of US first-mortgage loans. MSP DX (Direct Exchange) is the RES
@@ -241,21 +245,21 @@ rules:
   slug: black-knight-rules
 score:
   band: thin
-  composite: 26.9
-  delta: 0.0
+  composite: 35.2
+  delta: 8.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 29.6
-    developer_ergonomics: 9.5
+    contract_quality: 34.7
+    developer_ergonomics: 39.3
     discoverability: 59.3
     governance: 28.8
-    operational_transparency: 2.6
-  previous_composite: 26.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    operational_transparency: 10.5
+  previous_composite: 26.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/screenshots/black-knight-2026-06-20T173333.png
 security:
 - kind: domain-security

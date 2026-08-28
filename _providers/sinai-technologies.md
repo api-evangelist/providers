@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.4
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Baseline forecasts API from Sinai Technologies — 7 operation(s) for baseline forecasts.
@@ -176,18 +180,18 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.9
+  composite: 43.5
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
-    contract_quality: 58.8
+    contract_quality: 57.2
     developer_ergonomics: 43.5
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 43.9
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     contracts:
@@ -197,8 +201,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/screenshots/sinai-technologies-2026-08-17T081904.png
 security:

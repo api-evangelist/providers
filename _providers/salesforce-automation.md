@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 26.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -892,19 +896,19 @@ scopes:
   slug: salesforce-automation-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.4
-  delta: 0.0
+  band: strong
+  composite: 55.4
+  delta: 3.8
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 28.8
-    contract_quality: 70.4
-    developer_ergonomics: 50.0
+    contract_quality: 71.2
+    developer_ergonomics: 69.0
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 51.4
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -912,8 +916,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png
 security:

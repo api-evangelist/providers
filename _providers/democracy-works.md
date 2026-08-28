@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 26.7
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Authorities API from Democracy Works — 3 operation(s) for authorities.
@@ -159,19 +163,19 @@ rules:
     warn: 4
   slug: democracy-works-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.8
-  delta: 0.0
+  band: developing
+  composite: 42.9
+  delta: 4.6
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 69.7
-    contract_quality: 67.6
-    developer_ergonomics: 7.1
+    contract_quality: 65.8
+    developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 69.7
     operational_transparency: 13.2
-  previous_composite: 38.8
+  previous_composite: 38.3
   provenance:
     contracts:
       callable: 100.0
@@ -184,8 +188,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/screenshots/democracy-works-2026-06-20T175910.png
 security:

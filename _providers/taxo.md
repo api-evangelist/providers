@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'White-label REST API for electronic invoicing integrated with Ecuador''s SRI: issue invoices, credit notes and retentions as JSON, with OAuth 2.0 auth, asynchronous webhooks for authorization status, a'
@@ -135,23 +139,23 @@ overview: 'TAXO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 3
 score:
   band: thin
-  composite: 34.7
+  composite: 34.1
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 34.7
+  previous_composite: 34.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

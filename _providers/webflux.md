@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.7
-  scored_at: '2026-08-24'
+  score: 16.5
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: Reactive web framework providing annotated controllers, functional endpoints, dispatcher handler, and the full reactive request/response processing pipeline. Supports non-blocking I/O with Reactor Mon
@@ -192,21 +196,21 @@ rules:
   slug: webflux-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 38.2
+  delta: 5.8
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 64.4
-    developer_ergonomics: 7.1
+    contract_quality: 61.7
+    developer_ergonomics: 35.7
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 33.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 32.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflux/refs/heads/main/screenshots/webflux-2026-06-20T201330.png
 slug: webflux
 tags:

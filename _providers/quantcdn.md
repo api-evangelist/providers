@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-24'
+  score: 32.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 10
@@ -340,18 +344,18 @@ rate_limits:
   slug: quantcdn-rate-limits
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 36.4
+  delta: 7.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 53.9
-    developer_ergonomics: 23.8
+    contract_quality: 52.4
+    developer_ergonomics: 59.5
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 29.6
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -359,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/screenshots/quantcdn-2026-06-20T192409.png
 security:
 - kind: authentication

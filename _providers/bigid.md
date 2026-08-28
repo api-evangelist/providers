@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 21.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -415,18 +419,18 @@ rules:
   slug: bigid-rules
 score:
   band: strong
-  composite: 55.2
+  composite: 55.5
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 66.0
+    contract_quality: 66.9
     developer_ergonomics: 64.3
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 55.2
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -434,8 +438,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/screenshots/bigid-2026-06-20T173239.png
 security:

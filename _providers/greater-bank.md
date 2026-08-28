@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-24'
+  score: 23.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -206,18 +210,18 @@ overview: 'Greater Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 6
 score:
   band: thin
-  composite: 38.7
+  composite: 38.3
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 51.0
+    contract_quality: 49.7
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 38.7
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +238,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png
 security:

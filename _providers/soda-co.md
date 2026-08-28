@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -253,18 +257,18 @@ rules:
   slug: soda-co-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
+  composite: 47.7
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 65.6
+    contract_quality: 63.8
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 48.2
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -272,8 +276,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-co/refs/heads/main/screenshots/soda-co-2026-06-20T194129.png
 security:

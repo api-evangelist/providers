@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: RESTful API for managing cluster resources, service groups, and cluster configuration.
@@ -133,21 +137,21 @@ rate_limits:
   slug: veritas-cluster-rate-limits
 score:
   band: thin
-  composite: 29.3
-  delta: 0.0
+  composite: 38.2
+  delta: 9.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 28.2
-    developer_ergonomics: 25.0
+    contract_quality: 33.3
+    developer_ergonomics: 63.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 29.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 28.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/screenshots/veritas-cluster-2026-06-20T200934.png
 security:
 - kind: domain-security

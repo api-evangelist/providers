@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.6
-  scored_at: '2026-08-24'
+  score: 21.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -217,27 +221,27 @@ rate_limits:
   slug: emailengine-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 30.5
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 44.1
+    contract_quality: 10.7
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 42.1
-  previous_composite: 38.1
+    operational_transparency: 47.4
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 13
+      marker_coverage: 100.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png
 security:

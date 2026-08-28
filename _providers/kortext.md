@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-24'
+  score: 30.0
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: FastAPI-generated service ("labsapi") behind Kortext's AI study features — quiz sessions generated from a book, a URL or pasted text; content indexing and retrieval-augmented chat over a student's Kor
@@ -177,24 +181,31 @@ rate_limits:
   slug: kortext-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 47.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
-    contract_quality: 49.1
-    developer_ergonomics: 64.3
-    discoverability: 92.6
+    contract_quality: 47.8
+    developer_ergonomics: 58.9
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 15.8
+  previous_composite: 47.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Kortext Authentication

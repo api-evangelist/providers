@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Messages API from Botanalytics — 1 operation(s) for messages.
@@ -158,30 +162,30 @@ overview: 'Botanalytics publishes 1 API on the [APIs.io](https://apis.io/) netwo
   Botanalytics'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 18 more developer resources.'
 random_paper: 12
 score:
-  band: developing
-  composite: 42.7
+  band: thin
+  composite: 31.1
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 57.3
+    contract_quality: 13.9
     developer_ergonomics: 68.5
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.7
+  previous_composite: 31.1
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botanalytics/refs/heads/main/screenshots/botanalytics-2026-07-25T203639.png
 security:

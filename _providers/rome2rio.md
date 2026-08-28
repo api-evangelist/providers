@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Rome2Rio Search API returns multi-modal door-to-door travel routes between any origin and destination worldwide. Given origin and destination as place names or coordinates, it returns a ranked lis
@@ -136,14 +140,14 @@ score:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 7.0
+    contract_quality: 6.7
     developer_ergonomics: 7.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

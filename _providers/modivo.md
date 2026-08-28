@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-24'
+  score: 27.4
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The public REST surface of the MODIVO storefront, served by its Adobe Commerce / Magento 2.4 deployment at https://modivo.pl/rest/all and self-described by a Swagger 2.0 document the platform generate
@@ -184,19 +188,19 @@ rate_limits:
   name: Modivo Rate Limits
   slug: modivo-rate-limits
 score:
-  band: thin
-  composite: 37.6
-  delta: 0.0
+  band: developing
+  composite: 39.8
+  delta: 3.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 57.7
-    developer_ergonomics: 20.8
-    discoverability: 81.5
+    contract_quality: 56.3
+    developer_ergonomics: 37.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 37.6
+  previous_composite: 36.5
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +216,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png
 security:

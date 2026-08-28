@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-24'
+  score: 23.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -303,18 +307,18 @@ scopes:
   summary_line: 15 scopes
 score:
   band: developing
-  composite: 44.4
+  composite: 44.0
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 16.7
-    contract_quality: 62.2
+    contract_quality: 60.5
     developer_ergonomics: 68.5
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 44.4
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,8 +329,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:

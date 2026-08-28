@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.2
-  scored_at: '2026-08-24'
+  score: 26.3
+  scored_at: '2026-08-26'
 api_count: 21
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
@@ -217,19 +221,19 @@ rules:
     warn: 4
   slug: hhs-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.1
-  delta: 0.0
+  band: developing
+  composite: 43.9
+  delta: 6.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 57.7
-    developer_ergonomics: 2.4
+    contract_quality: 59.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 38.1
+  previous_composite: 37.7
   provenance:
     contracts:
       callable: 0.0
@@ -241,10 +245,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 25.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png
 security:
 - kind: domain-security

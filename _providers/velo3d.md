@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The Sapphire family (Sapphire, Sapphire XC, Sapphire 1MZ) of laser powder bed fusion metal 3D printers, using multiple 1-kilowatt lasers to produce large-format support-free parts. Product feature - n
@@ -112,20 +116,20 @@ rate_limits:
   slug: velo3d-rate-limits
 score:
   band: emerging
-  composite: 21.3
+  composite: 21.1
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 26.6
+    contract_quality: 25.9
     developer_ergonomics: 11.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/screenshots/velo3d-2026-06-20T200904.png
 security:

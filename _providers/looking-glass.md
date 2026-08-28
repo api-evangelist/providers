@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
+  confidence: low
   label: Open access
   onboarding: open
   pricing: unknown
-  public: true
+  public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -15,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-24'
+  score: 16.4
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Playlists that auto-play when Bridge starts
@@ -189,18 +194,18 @@ overview: 'Looking Glass publishes 6 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 15
 score:
   band: developing
-  composite: 40.1
+  composite: 39.8
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 41.3
+    contract_quality: 40.1
     developer_ergonomics: 49.4
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 40.1
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +215,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/screenshots/looking-glass-2026-07-25T225514.png
 security:

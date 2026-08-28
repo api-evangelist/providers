@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.0
-  scored_at: '2026-08-24'
+  score: 6.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Content-addressed decentralized object storage on Solana. Create users, upload/download files, resolve deterministic public URLs, and manage prepaid USDC credits. Auth is SIWS (Sign In With Solana -> '
@@ -144,7 +148,7 @@ overview: 'Pipe Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 14
 score:
   band: emerging
-  composite: 19.4
+  composite: 18.7
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -152,16 +156,16 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 44.6
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 19.4
+  previous_composite: 18.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

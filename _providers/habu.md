@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 31.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Habu Clean Room API — published by LiveRamp as "External APIs for Customer Integration" and still served from Habu's own api.habu.com host — lets customers set up and manage clean rooms, provision
@@ -205,18 +209,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.8
+  composite: 48.4
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
-    contract_quality: 56.6
+    contract_quality: 55.1
     developer_ergonomics: 16.1
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 76.3
-  previous_composite: 48.8
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +230,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/screenshots/habu-2026-07-25T220519.png
 security:

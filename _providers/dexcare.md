@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-24'
+  score: 29.7
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments. The umbrella reference covering the Patient and Reporting surfaces, which are
@@ -196,18 +200,18 @@ rate_limits:
   slug: dexcare-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 52.1
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
-    contract_quality: 56.2
+    contract_quality: 54.7
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 52.5
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     contracts:
@@ -223,8 +227,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png
 security:

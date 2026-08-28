@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.0
-  scored_at: '2026-08-24'
+  score: 26.0
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
@@ -150,30 +154,30 @@ overview: 'Switchfly publishes 3 APIs on the [APIs.io](https://apis.io/) network
   Switchfly''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
 random_paper: 2
 score:
-  band: thin
-  composite: 38.4
-  delta: 0.0
+  band: developing
+  composite: 39.5
+  delta: 1.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 50.8
+    contract_quality: 54.9
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 38.4
+  previous_composite: 38.1
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

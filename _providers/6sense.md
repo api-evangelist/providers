@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-24'
+  score: 50.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -337,18 +341,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 73.5
+  composite: 73.1
   delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
     contract_governance: 55.3
-    contract_quality: 74.7
+    contract_quality: 72.9
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 81.6
-  previous_composite: 73.5
+  previous_composite: 73.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,8 +363,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/screenshots/6sense-2026-06-20T162740.png
 security:

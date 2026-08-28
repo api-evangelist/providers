@@ -14,23 +14,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-24'
+  score: 33.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -100,7 +104,7 @@ apis:
 - description: Outbound event subscriptions.
   name: Lever Webhooks API
   slug: lever-co-webhooks-api
-artifact_total: 73
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Lever Data Applications API
@@ -339,6 +343,93 @@ common:
   title: ''
   type: Authentication
   url: https://hire.lever.co/developer/documentation
+- group: build
+  title: ''
+  type: Packages
+  url: packages/lever-co-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lever-co-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/lever-co-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/lever-co-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/lever-co-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/lever-co-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/lever-co-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/lever-co-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://hire.lever.co/developer/updates
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/lever-co-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/lever-co-trust-center.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/lever-co-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/lever-co-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: openapi/lever-webhooks-asyncapi.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://hire.lever.co/developer/documentation
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://hire.lever.co/developer/partner
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/lever
+- group: build
+  title: ''
+  type: Postman
+  url: https://github.com/lever/integrator-resources/tree/main/DataAPIPostman
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.lever.co/demo
+- group: start
+  title: ''
+  type: Login
+  url: https://hire.lever.co/
+created: '2026-05-25'
+description: 'Lever is an applicant tracking system (ATS) and candidate relationship management (CRM) platform for recruiting teams, now owned by Employ Inc. alongside Jobvite, JazzHR and NXTThing RPO. Lever exposes two distinct public surfaces: the authenticated Lever Data API at https://api.lever.co/v1 — a REST API over the whole recruiting pipeline (opportunities, contacts, applications, postings, requisitions, interviews, panels, feedback, notes, files, offers, users, stages, sources, tags, EEO responses, audit events and webhooks) — and an unauthenticated public Postings API at https://api.lever.co/v0/postings used to syndicate job listings to careers sites and third-party job boards, including an XML feed mode. Access to the Data API is credential-split: Lever customers use HTTP Basic with an API key for their own internal workflows, while every third-party product integration must use OAuth 2.0 and be approved through the Lever partner program, which also provisions a separate sandbox
+  at https://api.sandbox.lever.co/v1. Lever publishes 52 OAuth scopes, ten webhook events with HMAC-SHA256 body signing, a dated API changelog, and a deprecation page covering the legacy Candidates surface superseded by Opportunities in 2020. It ships no first-party SDK in any package registry and no MCP server.'
 finops:
 - name: Lever Co Finops
   service_category: Human Resources
@@ -357,6 +448,11 @@ jsonld:
   property_count: 9
   slug: lever-co-context
 layout: provider
+mcp_servers:
+- description: 'Lever does not ship an MCP server, hosted or local. Nothing in the Lever developer program addresses agents. The only MCP server that speaks Lever is a third-party npm package, mcp-lever, which wraps '
+  name: MCP Server Profile
+  slug: mcp-server-profile
+modified: '2026-08-26'
 name: Lever
 nav: Providers
 network: true
@@ -366,7 +462,7 @@ overview: 'Lever publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
   The Lever catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lever''s developer surface includes authentication, developer portal, documentation, support, engineering blog, pricing, and 23 more developer resources.'
+  Lever''s developer surface includes authentication, developer portal, documentation, support, engineering blog, pricing, changelog, and 43 more developer resources.'
 plans:
 - name: Lever Co Plans Pricing
   plan_count: 1
@@ -389,33 +485,36 @@ rules:
   slug: lever-co-jsonschema-spectral-rules
 scopes:
 - name: Lever Co Scopes
-  scope_count: 22
+  scope_count: 52
   slug: lever-co-scopes
-  summary_line: 22 scopes · authorizationCode
+  summary_line: 52 scopes · authorizationCode
 score:
-  band: developing
-  composite: 54.1
-  delta: 0.0
+  band: exemplar
+  composite: 74.5
+  delta: 20.1
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
-    contract_governance: 9.8
-    contract_quality: 70.3
-    developer_ergonomics: 42.9
-    discoverability: 55.6
-    governance: 9.8
-    operational_transparency: 57.9
-  previous_composite: 54.1
+    access_clarity: 89.5
+    commercial_clarity: 89.5
+    contract_governance: 40.2
+    contract_quality: 68.7
+    developer_ergonomics: 70.8
+    discoverability: 81.5
+    governance: 40.2
+    operational_transparency: 94.7
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 94.7
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:
 - kind: authentication
@@ -429,7 +528,7 @@ security:
 - kind: vulnerability-disclosure
   name: Lever Co Vulnerability Disclosure
   slug: lever-co-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: contact published
 - kind: trust-center
   name: Lever Co Trust Center
   slug: lever-co-trust-center

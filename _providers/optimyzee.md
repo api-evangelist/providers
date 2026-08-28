@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-24'
+  score: 28.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The REST API behind the Optimyzee web application. Covers Google Ads campaign creation (search creation, AI search creation, keyword planner, RSA builder, sitelink builder), analysis (account audit, a
@@ -149,18 +153,18 @@ rate_limits:
   slug: optimyzee-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 40.3
   delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 16.7
-    contract_quality: 49.0
+    contract_quality: 47.7
     developer_ergonomics: 20.8
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.4
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -170,8 +174,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimyzee/refs/heads/main/screenshots/optimyzee-2026-08-07T190810.png
 security:

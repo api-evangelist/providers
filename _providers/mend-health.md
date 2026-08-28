@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Logical grouping for creating and managing appointments, provider availability, patient self-scheduling, rescheduling, and automated appointment reminders. Mend documents these capabilities in its cus
@@ -103,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mend-health/refs/heads/main/screenshots/mend-health-2026-08-07T172512.png
 security:

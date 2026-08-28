@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 26.1
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
@@ -266,18 +270,18 @@ overview: 'Unifonic publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 19
 score:
   band: strong
-  composite: 62.0
+  composite: 59.7
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 12.1
-    contract_quality: 66.3
+    contract_quality: 64.5
     developer_ergonomics: 78.0
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 12.1
     operational_transparency: 39.5
-  previous_composite: 62.0
+  previous_composite: 59.7
   provenance:
     conformance: derived
     contracts:
@@ -293,8 +297,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/screenshots/unifonic-2026-08-17T082602.png
 security:

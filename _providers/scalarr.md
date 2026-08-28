@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-24'
+  score: 21.9
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'Self-hosted HTTP API of Parallax, the Apache-2.0 runtime security engine Scalarr publishes for AI agents. Two endpoints: POST /evaluate takes a lifecycle event (message.before, tool.before, tool.after'
@@ -192,23 +196,23 @@ rate_limits:
   slug: scalarr-rate-limits
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 49.5
+  delta: 5.7
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 26.2
+    contract_quality: 42.7
+    developer_ergonomics: 54.8
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 44.4
+  previous_composite: 43.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalarr/refs/heads/main/screenshots/scalarr-2026-08-17T081729.png
 security:
 - kind: authentication

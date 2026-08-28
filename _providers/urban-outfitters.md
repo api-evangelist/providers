@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 30.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -404,27 +408,27 @@ rules:
   slug: urban-outfitters-spectral-rules
 score:
   band: thin
-  composite: 27.1
-  delta: 0.0
+  composite: 28.6
+  delta: 1.7
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 29.9
-    developer_ergonomics: 21.4
+    contract_quality: 28.2
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 27.1
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/screenshots/urban-outfitters-2026-06-20T200530.png
 security:

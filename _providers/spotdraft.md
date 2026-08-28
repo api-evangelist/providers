@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.1
-  scored_at: '2026-08-24'
+  score: 30.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -660,27 +664,27 @@ rules:
   slug: spotdraft-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 50.7
+  delta: 3.6
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 13.6
-    contract_quality: 64.4
+    contract_governance: 28.8
+    contract_quality: 68.8
     developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 13.6
-    operational_transparency: 15.8
-  previous_composite: 46.7
+    governance: 28.8
+    operational_transparency: 23.7
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: true
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.6
-  scored_at: '2026-08-24'
+  score: 16.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Beta REST API for Koah publisher team accounts. Resource-oriented URLs, JSON responses, standard HTTP verbs and status codes, Bearer token authentication. Covers publisher CRUD and daily reporting for
@@ -200,8 +204,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png
 security:

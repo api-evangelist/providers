@@ -12,26 +12,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.1
-  scored_at: '2026-08-24'
+  score: 35.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -236,18 +239,18 @@ rate_limits:
   slug: manychat-rate-limits
 score:
   band: developing
-  composite: 52.8
+  composite: 51.6
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 31.8
-    contract_quality: 67.9
+    contract_quality: 66.0
     developer_ergonomics: 54.2
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 31.8
     operational_transparency: 52.6
-  previous_composite: 52.8
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,8 +267,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/screenshots/manychat-2026-06-20T184935.png
 security:

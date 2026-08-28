@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,7 +117,6 @@ created: '2026-07-26'
 description: 'McGrath is one of Australia''s largest residential real estate brokerage networks, founded in Sydney in 1988 by John McGrath and operating a mixed company-owned and franchise network of roughly 118 offices across New South Wales, Queensland, the ACT, Victoria and Tasmania. Its business lines span residential sales, property management and rentals, projects and new-development marketing, rural and livestock, an Asia Desk for offshore buyers, and mortgage broking through Oxygen Home Loans. Listed on the ASX in 2015 as McGrath Limited (ASX:MEA), it was acquired in June 2024 by a consortium of Knight Frank Australia and New Zealand''s Bayleys for A$95.5m and delisted from the ASX on 28 June 2024. McGrath sits on the demand side of the Australian property value chain: it is a brokerage that publishes listings into the REA Group (realestate.com.au) and Domain portal duopoly, settles transactions over the PEXA electronic conveyancing network, and consumes valuation data from PropTrack
   and CoreLogic rather than producing any of those rails itself. Its API posture is honestly nil. No developer portal exists — developer., developers., api., docs., feeds., data. and portal. subdomains of mcgrath.com.au all fail to resolve (NXDOMAIN), and /developers, /api, /docs, /api-docs, /openapi.json, /swagger.json, /$metadata and /.well-known/openid-configuration all return HTTP 404. RESO — the only genuinely mandated machine-readable real estate contract anywhere in this study — is a North American standard driven by NAR and MLS membership; it has no Australian counterpart and McGrath has no RESO Web API or Data Dictionary certification, no OData surface, and no Universal Property Identifier usage. The only interoperability standards McGrath demonstrably implements are robots.txt and twelve XML sitemaps; every /.well-known/ document probed — security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json — and /llms.txt return 404. Its robots.txt enumerates
   twenty crawler groups including GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot and Bytespider, but under RFC 9309 group-matching rules those named AI agents are disallowed only from Google Maps JS/RPC paths — the /properties/ and /search/ disallow lands solely on User-agent: *, so the listing corpus is nominally open to the named AI crawlers and closed to generic ones, while the properties-buy/sold/rent/leased sitemaps advertise those same URLs. Reachability is the harder gate: www.mcgrath.com.au sits behind a Vercel Security Checkpoint that answers scripted clients with HTTP 429 and a browser challenge on every path, so no unattended agent can read the site regardless of robots.txt. The listing inventory is a marketing asset routed to portals under commercial agreements, not a developer surface.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 modified: '2026-07-26'
 name: McGrath
@@ -126,18 +129,18 @@ overview: 'McGrath is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 7
 score:
   band: minimal
-  composite: 7.1
-  delta: 0.0
+  composite: 6.0
+  delta: -0.4
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 1.2
-    discoverability: 57.4
+    discoverability: 46.3
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 7.1
+  previous_composite: 6.4
   provenance:
     conformance: derived
   regulatory:
@@ -146,8 +149,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

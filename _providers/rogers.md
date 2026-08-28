@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Rogers Control Centre is Rogers' managed IoT and M2M connectivity management platform, a white-labelled deployment of Cisco IoT Control Center (formerly Jasper). Rogers' own product pages list "Access
@@ -131,18 +135,18 @@ rate_limits:
   slug: rogers-rate-limits
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 52.1
+  delta: 8.2
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 16.7
-    discoverability: 75.9
+    contract_quality: 42.7
+    developer_ergonomics: 51.2
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 45.3
+  previous_composite: 43.9
   provenance:
     conformance: first-party
   regulatory:
@@ -150,10 +154,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 43.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/screenshots/rogers-2026-08-17T081636.png
 security:
 - kind: authentication

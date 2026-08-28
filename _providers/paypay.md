@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-24'
+  score: 30.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -195,18 +199,18 @@ overview: 'PayPay publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 random_paper: 9
 score:
   band: thin
-  composite: 38.1
+  composite: 36.6
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 55.9
+    contract_quality: 54.4
     developer_ergonomics: 49.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 38.1
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/screenshots/paypay-2026-08-07T191649.png
 security:

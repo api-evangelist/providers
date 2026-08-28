@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-24'
+  score: 34.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -335,18 +339,18 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 5
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 47.5
+  delta: 1.1
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 16.7
-    contract_quality: 68.1
+    contract_quality: 66.2
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 28.9
-  previous_composite: 46.9
+    operational_transparency: 36.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,8 +361,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/screenshots/process-street-2026-08-17T081341.png
 security:

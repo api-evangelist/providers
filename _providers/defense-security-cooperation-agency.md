@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
@@ -106,14 +110,14 @@ rate_limits:
   slug: defense-security-cooperation-agency-rate-limits
 score:
   band: emerging
-  composite: 12.3
-  delta: 0.0
+  composite: 14.2
+  delta: 1.9
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
@@ -124,8 +128,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png
 security:

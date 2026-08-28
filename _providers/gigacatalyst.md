@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 22.6
-  scored_at: '2026-08-24'
+  score: 11.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The one public, unauthenticated operation Gigacatalyst publishes on its own behalf. A coding agent reads the project's API surface, builds a JSON description of it (organization, integrations, tools w
@@ -175,7 +179,7 @@ rate_limits:
   slug: gigacatalyst-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 27.4
   delta: 0.0
   facets:
     access_clarity: 35.5
@@ -183,16 +187,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 29.2
+  previous_composite: 27.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/screenshots/gigacatalyst-2026-07-25T215805.png
 security:

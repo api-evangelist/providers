@@ -12,25 +12,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-24'
+  score: 38.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -580,18 +585,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.0
-  delta: 0.0
+  composite: 70.5
+  delta: 1.9
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
     contract_governance: 40.2
-    contract_quality: 68.3
-    developer_ergonomics: 78.0
+    contract_quality: 66.5
+    developer_ergonomics: 87.5
     discoverability: 87.0
     governance: 40.2
     operational_transparency: 76.3
-  previous_composite: 69.0
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -602,8 +607,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
 security:

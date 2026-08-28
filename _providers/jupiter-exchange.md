@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -144,18 +148,18 @@ rate_limits:
   slug: jupiter-exchange-rate-limits
 score:
   band: thin
-  composite: 34.2
+  composite: 33.8
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 55.9
+    contract_quality: 54.4
     developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.2
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiter-exchange/refs/heads/main/screenshots/jupiter-exchange-2026-06-20T183836.png
 security:

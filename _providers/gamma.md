@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.2
-  scored_at: '2026-08-24'
+  score: 32.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Programmatic creation and management of gammas (presentations, documents, websites, and social posts). Asynchronous generate-and-poll workflow plus template, export, management, and analytics endpoint
@@ -132,14 +136,14 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 34.6
+  delta: 3.8
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 61.9
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
@@ -147,8 +151,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/screenshots/gamma-2026-07-25T215428.png
 security:

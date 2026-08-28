@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-24'
+  score: 29.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: REST API for Pabbly Subscription Billing — 95 documented operations across customers, subscriptions, products, plans, multiplans, coupons, invoices, payment methods, transactions and refunds, add-ons,
@@ -258,18 +262,18 @@ rate_limits:
   slug: pabbly-rate-limits
 score:
   band: strong
-  composite: 57.9
+  composite: 57.3
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 66.1
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 57.9
+  previous_composite: 57.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -280,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/screenshots/pabbly-2026-06-20T191303.png
 security:

@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.8
-  scored_at: '2026-08-24'
+  score: 29.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API for volunteering partners to list Goodera volunteer opportunities inside their own platform, create volunteering events against an opportunity, register and de-register volunteers, and record
@@ -152,18 +156,25 @@ rate_limits:
   slug: goodera-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 34.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 42.9
+    contract_quality: 42.7
+    developer_ergonomics: 37.5
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 34.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Goodera Authentication

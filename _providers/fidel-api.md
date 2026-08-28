@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Card-linking REST API for linking Visa/Mastercard/Amex cards to programs and receiving real-time transaction events (Programs, Brands, Cards, Transactions, Locations, Offers, Webhooks, MIDs).
@@ -171,18 +175,18 @@ overview: 'FIDEL API publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 14
 score:
   band: thin
-  composite: 33.9
+  composite: 32.6
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 32.1
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 33.9
+  previous_composite: 32.6
   provenance:
     conformance: first-party
   regulatory:
@@ -191,8 +195,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidel-api/refs/heads/main/screenshots/fidel-api-2026-07-25T214421.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Netflix Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services, and third-party libraries, stop cascading failure, and enable resilience in c
@@ -110,20 +114,20 @@ rules:
   slug: netflix-hystrix-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.4
+  composite: 20.3
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 8.5
+    contract_quality: 8.0
     developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 20.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-hystrix/refs/heads/main/screenshots/netflix-hystrix-2026-06-20T190155.png
 slug: netflix-hystrix

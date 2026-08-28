@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-24'
+  score: 42.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Shopify Storefront GraphQL API for the Slingshot Bio online store, declared by the company in its own /.well-known/api-catalog. Serves products, collections, cart and checkout operations for the c
@@ -134,18 +139,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 39.3
-  delta: 0.0
+  composite: 40.8
+  delta: 1.9
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 38.9
-    developer_ergonomics: 20.8
+    contract_quality: 37.2
+    developer_ergonomics: 30.4
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 39.3
+  previous_composite: 38.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -156,8 +161,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

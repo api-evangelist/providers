@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.1
-  scored_at: '2026-08-24'
+  score: 23.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The ALEX Partner Integration API lets a Jellyvision partner — typically a benefits administration or enrollment platform — streamline and personalize the ALEX experience for its end users. Partners PO
@@ -131,24 +135,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.6
+  composite: 36.4
+  delta: 3.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 42.9
     discoverability: 87.0
     governance: 18.2
-    operational_transparency: 5.3
+    operational_transparency: 2.6
+  previous_composite: 32.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 62.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 71.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Jellyvision Authentication

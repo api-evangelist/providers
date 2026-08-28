@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 21.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 4
@@ -252,18 +257,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.7
+  composite: 42.3
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 66.1
+    contract_quality: 64.3
     developer_ergonomics: 38.1
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 42.7
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -277,8 +282,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/screenshots/jupyterhub-2026-06-20T183841.png
 security:

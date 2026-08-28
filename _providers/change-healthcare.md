@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: JSON-over-REST front end to the HIPAA X12 EDI transaction set — 270/271 eligibility, 276/277 claim status, 837P/837I claim submission and validation, 835/277 claims responses and reports, 278 prior au
@@ -121,18 +125,18 @@ rate_limits:
   name: Change Healthcare Rate Limits
   slug: change-healthcare-rate-limits
 score:
-  band: emerging
-  composite: 18.8
-  delta: 0.0
+  band: thin
+  composite: 30.2
+  delta: 11.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 42.1
+    commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 38.1
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 18.8
   provenance:
     conformance: first-party
@@ -142,9 +146,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/screenshots/change-healthcare-2026-06-20T174215.png
 security:
 - kind: domain-security

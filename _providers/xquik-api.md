@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: true
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: true
+    delegated_identity: served
     dry_run_mode: true
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 84.9
-  scored_at: '2026-08-24'
+  score: 82.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -395,18 +399,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 92.8
+  composite: 92.3
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 100.0
-    contract_quality: 80.9
+    contract_quality: 78.7
     developer_ergonomics: 100.0
     discoverability: 100.0
     governance: 100.0
     operational_transparency: 81.6
-  previous_composite: 92.8
+  previous_composite: 92.3
   provenance:
     agentic_access: unknown
     conformance: first-party
@@ -417,8 +421,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/screenshots/xquik-api-2026-08-17T075407.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -183,18 +187,18 @@ rate_limits:
   slug: teladoc-rate-limits
 score:
   band: developing
-  composite: 51.2
+  composite: 48.8
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 59.5
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 51.2
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -204,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/screenshots/teladoc-2026-08-17T082301.png
 security:

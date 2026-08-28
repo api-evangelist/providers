@@ -15,23 +15,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for kelvin's energy-renovation engine. Create a simulation from a latitude/longitude (and optionally a Base Adresse Nationale key), record the occupant's qualification profile, run kelvin's m
@@ -142,18 +146,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 46.2
+  delta: 3.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 52.4
-    developer_ergonomics: 45.2
-    discoverability: 87.0
+    contract_quality: 51.0
+    developer_ergonomics: 47.0
+    discoverability: 75.9
     governance: 16.7
-    operational_transparency: 0.0
-  previous_composite: 44.3
+    operational_transparency: 15.8
+  previous_composite: 42.8
   provenance:
     conformance: derived
     contracts:
@@ -168,9 +172,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 56.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png
 security:

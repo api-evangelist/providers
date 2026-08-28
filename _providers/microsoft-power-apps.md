@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 27.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -377,18 +381,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.8
-  delta: 0.0
+  composite: 60.3
+  delta: 5.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
-    contract_quality: 70.1
-    developer_ergonomics: 47.6
+    contract_quality: 68.2
+    developer_ergonomics: 73.8
     discoverability: 64.8
     governance: 13.6
-    operational_transparency: 42.1
-  previous_composite: 54.8
+    operational_transparency: 47.4
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -402,9 +406,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
 security:
 - kind: authentication

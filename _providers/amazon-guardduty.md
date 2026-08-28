@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.6
-  scored_at: '2026-08-24'
+  score: 37.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -3787,19 +3791,19 @@ rules:
     warn: 9
   slug: amazon-guardduty-spectral-rules
 score:
-  band: developing
-  composite: 53.5
-  delta: 0.0
+  band: strong
+  composite: 58.9
+  delta: 5.9
   facets:
-    access_clarity: 57.9
-    commercial_clarity: 57.9
+    access_clarity: 68.4
+    commercial_clarity: 68.4
     contract_governance: 17.4
-    contract_quality: 76.2
-    developer_ergonomics: 50.0
+    contract_quality: 74.2
+    developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 17.4
     operational_transparency: 26.3
-  previous_composite: 53.5
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -3807,9 +3811,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/screenshots/amazon-guardduty-2026-06-20T171659.png
 security:
 - kind: authentication

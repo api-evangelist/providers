@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.7
-  scored_at: '2026-08-24'
+  score: 39.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -386,18 +391,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.4
+  composite: 64.7
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 59.1
-    contract_quality: 58.0
+    contract_quality: 59.2
     developer_ergonomics: 73.2
     discoverability: 92.6
     governance: 59.1
     operational_transparency: 52.6
-  previous_composite: 64.4
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,8 +413,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/screenshots/yoast-2026-06-20T201746.png
 security:

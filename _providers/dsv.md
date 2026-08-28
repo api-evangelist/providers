@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-24'
+  score: 32.3
+  scored_at: '2026-08-26'
 api_count: 29
 apis:
 - description: OAuth 2.0 token endpoint for the DSV Generic APIs. Exchanges myDSV username/password (sent as client_id/client_secret with grant_type=client_credentials) plus a DSV-Subscription-Key for a 10-minute be
@@ -278,7 +282,6 @@ common:
 created: '2026-07-30'
 description: 'DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world''s largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from Deutsche Bahn. It sells air, sea, road, rail and parcel forwarding plus contract logistics and customs brokerage, sitting in the intermediation layer between shippers and the carriers, terminals and customs authorities it books capacity with. Its API posture is a real, publicly browsable Azure API Management developer portal at developer.dsv.com carrying 29 downloadable OpenAPI 3.0.1 contracts for booking, tracking, quoting, labels, documents, invoicing, customs, warehousing and webhooks — but every published product is a DEMO/test environment, production access is gated behind myDSV customer credentials and an ''apply to go live'' step, and for a large part of DSV''s customer base the real integration path is still EDIFACT D10B, ANSI X12
   and DSV XML message packages moved over AS2, SFTP or HTTPS. The REST surface is entirely DSV-proprietary: no DCSA, IATA ONE Record, Cargo-XML or GS1 EPCIS conformance is claimed anywhere.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 modified: '2026-07-30'
 name: DSV
@@ -291,15 +294,15 @@ overview: 'DSV publishes 29 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 18
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 38.7
+  delta: 0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 55.5
-    developer_ergonomics: 42.9
-    discoverability: 68.5
+    contract_quality: 54.0
+    developer_ergonomics: 47.6
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
   needs_work:
@@ -308,15 +311,15 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 38.5
+  previous_composite: 38.1
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsv/refs/heads/main/screenshots/dsv-2026-08-07T164531.png
 slug: dsv

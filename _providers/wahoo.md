@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -247,19 +251,19 @@ scopes:
   slug: wahoo-scopes
   summary_line: 12 scopes · authorizationCode
 score:
-  band: developing
-  composite: 46.4
-  delta: 0.0
+  band: strong
+  composite: 57.1
+  delta: 11.2
   facets:
-    access_clarity: 21.1
-    commercial_clarity: 21.1
-    contract_governance: 13.6
-    contract_quality: 72.7
-    developer_ergonomics: 35.7
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 28.8
+    contract_quality: 74.1
+    developer_ergonomics: 45.2
     discoverability: 64.8
-    governance: 13.6
-    operational_transparency: 36.8
-  previous_composite: 46.4
+    governance: 28.8
+    operational_transparency: 44.7
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -272,10 +276,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 45.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 51.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:
 - kind: authentication

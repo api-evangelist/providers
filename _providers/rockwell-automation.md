@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Plex by Rockwell Automation provides a Smart Manufacturing Platform ERP API with REST/JSON endpoints for customer orders, shipping, production, quality, and just-in-sequence parts delivery. Enables in
@@ -175,13 +179,13 @@ rules:
   slug: rockwell-automation-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.4
+  composite: 34.9
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 25.0
-    contract_quality: 51.1
+    contract_quality: 48.9
     developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 25.0
@@ -192,9 +196,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 35.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 34.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-automation/refs/heads/main/screenshots/rockwell-automation-2026-06-20T193157.png
 security:

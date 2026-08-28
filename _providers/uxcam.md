@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.2
-  scored_at: '2026-08-24'
+  score: 32.3
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Custom and automatic events logged during sessions
@@ -207,29 +211,29 @@ overview: 'UXCam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ev
 random_paper: 17
 score:
   band: developing
-  composite: 51.1
+  composite: 40.0
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 58.7
+    contract_quality: 14.3
     developer_ergonomics: 51.8
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 51.1
+  previous_composite: 40.0
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 3
+      marker_coverage: 100.0
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/screenshots/uxcam-2026-08-17T082703.png
 security:

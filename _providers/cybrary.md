@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.3
-  scored_at: '2026-08-24'
+  score: 39.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,18 +198,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.8
+  composite: 46.7
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 30.3
-    contract_quality: 15.9
+    contract_quality: 15.5
     developer_ergonomics: 49.4
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 46.8
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,8 +226,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/screenshots/cybrary-2026-08-07T164005.png
 security:

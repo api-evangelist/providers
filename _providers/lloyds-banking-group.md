@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-24'
+  score: 38.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -169,23 +173,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.3
-  delta: 0.0
+  composite: 41.2
+  delta: -0.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 61.1
+    contract_quality: 58.8
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 2.6
-  previous_composite: 42.3
+    operational_transparency: 10.5
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 20.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -195,9 +199,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 65.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 55.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:

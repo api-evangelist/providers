@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-24'
+  score: 36.1
+  scored_at: '2026-08-26'
 api_count: 21
 apis:
 - description: The Applications API from Ankorstore — 1 operation(s) for applications.
@@ -294,18 +298,18 @@ overview: 'Ankorstore publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 4
 score:
   band: developing
-  composite: 43.2
+  composite: 42.8
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 16.7
-    contract_quality: 68.0
+    contract_quality: 66.2
     developer_ergonomics: 54.2
     discoverability: 63.0
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 43.2
+  previous_composite: 42.8
   provenance:
     conformance: derived
     contracts:
@@ -315,8 +319,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/screenshots/ankorstore-2026-07-25T200257.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.8
-  scored_at: '2026-08-24'
+  score: 41.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -305,18 +309,18 @@ overview: 'lemon.markets publishes 17 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 17
 score:
   band: developing
-  composite: 43.4
+  composite: 42.9
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 62.8
+    contract_quality: 61.0
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 22.4
-  previous_composite: 43.4
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,8 +337,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.8
-  scored_at: '2026-08-24'
+  score: 11.2
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -207,7 +211,7 @@ rate_limits:
   slug: waystar-rate-limits
 score:
   band: developing
-  composite: 46.9
+  composite: 46.2
   delta: 0.0
   facets:
     access_clarity: 63.2
@@ -215,10 +219,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 72.2
+    discoverability: 64.8
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 46.9
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -228,8 +232,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

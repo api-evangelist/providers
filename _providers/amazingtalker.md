@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.8
-  scored_at: '2026-08-24'
+  score: 19.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Pages API from AmazingTalker — 1 operation(s) for pages.
@@ -115,18 +119,18 @@ overview: 'AmazingTalker publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 0
 score:
   band: thin
-  composite: 38.1
+  composite: 37.8
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
-    contract_quality: 42.7
+    contract_quality: 41.5
     developer_ergonomics: 16.1
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.1
+  previous_composite: 37.8
   provenance:
     conformance: derived
     contracts:
@@ -142,8 +146,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/screenshots/amazingtalker-2026-07-25T195910.png
 security:

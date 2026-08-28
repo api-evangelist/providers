@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.1
-  scored_at: '2026-08-24'
+  score: 4.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -158,18 +162,18 @@ rate_limits:
   slug: rmit-rate-limits
 score:
   band: emerging
-  composite: 15.8
-  delta: 0.0
+  composite: 17.6
+  delta: 1.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 4.0
-    developer_ergonomics: 2.4
+    contract_quality: 3.8
+    developer_ergonomics: 11.9
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.8
+  previous_composite: 15.7
   provenance:
     agentic_access: derived
   regulatory:
@@ -178,8 +182,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/screenshots/rmit-2026-06-20T193137.png
 security:

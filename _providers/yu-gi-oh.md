@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-24'
+  score: 30.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -327,19 +331,19 @@ rules:
     warn: 16
   slug: yu-gi-oh-rules
 score:
-  band: emerging
-  composite: 20.7
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: 7.6
   facets:
-    access_clarity: 10.5
-    commercial_clarity: 10.5
+    access_clarity: 23.7
+    commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 21.2
-    developer_ergonomics: 9.5
+    contract_quality: 23.3
+    developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 28.8
-    operational_transparency: 0.0
-  previous_composite: 20.7
+    operational_transparency: 7.9
+  previous_composite: 20.6
   provenance:
     agentic_access: derived
     contracts:
@@ -353,9 +357,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:
 - kind: domain-security

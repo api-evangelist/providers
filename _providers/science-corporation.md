@@ -12,23 +12,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 16.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
@@ -86,19 +90,19 @@ overview: 'Science Corporation publishes 1 API on the [APIs.io](https://apis.io/
   Science Corporation''s developer surface includes documentation, getting-started guide, changelog, support, and 4 more developer resources.'
 random_paper: 1
 score:
-  band: emerging
-  composite: 23.0
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: 5.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 28.2
-    developer_ergonomics: 35.7
+    contract_quality: 26.7
+    developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 23.0
+  previous_composite: 22.7
   provenance:
     conformance: derived
     mcp: derived
@@ -108,10 +112,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 13.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: domain-security
   name: Science Corporation Domain Security

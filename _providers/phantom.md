@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 1.3
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -294,26 +298,26 @@ overview: 'Phantom publishes 10 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 3
 score:
   band: emerging
-  composite: 22.2
+  composite: 23.5
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 1.4
+    contract_quality: 6.7
     developer_ergonomics: 42.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 22.2
+  previous_composite: 23.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phantom/refs/heads/main/screenshots/phantom-2026-06-20T191634.png
 security:

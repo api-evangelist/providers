@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.1
-  scored_at: '2026-08-24'
+  score: 28.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -217,18 +221,18 @@ rate_limits:
   slug: dreamthreads-rate-limits
 score:
   band: developing
-  composite: 52.1
+  composite: 53.0
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 31.8
-    contract_quality: 36.6
+    contract_quality: 40.0
     developer_ergonomics: 61.3
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 47.4
-  previous_composite: 52.1
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +243,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/screenshots/dreamthreads-2026-08-17T080903.png
 security:

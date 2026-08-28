@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.5
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Authenticated REST administration and reporting surface for the iboss Zero Trust SASE/SSE cloud platform, served under the /ibcloud/web path on the iboss cloud gateway hosts. Probed anonymously it ans
@@ -154,6 +158,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.4
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -163,8 +168,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 23.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Iboss Authentication

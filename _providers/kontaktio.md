@@ -4,23 +4,27 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.2
-  scored_at: '2026-08-24'
+  score: 51.8
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: REST API for managing Kontakt.io devices in Kio Cloud — devices, configs, firmware, firmware upgrade schedules, commands, orders, managers, namespaces, proximity UUIDs, venues, device sharing and thir
@@ -215,25 +219,37 @@ scopes:
   slug: kontaktio-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 71.7
+  band: strong
+  composite: 65.7
+  delta: -3.0
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 64.2
-    developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 30.3
-    operational_transparency: 76.3
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 16.7
+    contract_quality: 65.9
+    developer_ergonomics: 73.2
+    discoverability: 85.2
+    governance: 16.7
+    operational_transparency: 73.7
+  previous_composite: 68.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Kontaktio Authentication

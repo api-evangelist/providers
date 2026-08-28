@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-24'
+  score: 33.9
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
@@ -220,18 +224,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.5
+  composite: 47.3
   delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 16.7
-    contract_quality: 63.4
+    contract_quality: 61.7
     developer_ergonomics: 63.7
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 48.5
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +245,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/screenshots/runbuggy-2026-08-17T081656.png
 security:

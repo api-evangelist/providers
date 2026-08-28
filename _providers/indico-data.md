@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Exchange an API token for a short-lived JWT access token
@@ -186,25 +190,25 @@ overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
 random_paper: 14
 score:
-  band: developing
-  composite: 48.9
-  delta: 0.0
+  band: thin
+  composite: 36.5
+  delta: -1.3
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 16.7
-    contract_quality: 61.5
+    contract_quality: 16.2
     developer_ergonomics: 42.3
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 48.9
+  previous_composite: 37.8
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      callable: 0.0
+      derived: 5
+      marker_coverage: 100.0
       total: 5
     mcp: derived
     skills: derived
@@ -213,9 +217,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 53.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 45.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

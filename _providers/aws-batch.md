@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-24'
+  score: 19.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -138,18 +142,18 @@ overview: 'AWS Batch publishes 6 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 8
 score:
   band: thin
-  composite: 30.3
+  composite: 29.9
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 47.6
     developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +161,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/screenshots/aws-batch-2026-06-20T172748.png
 security:

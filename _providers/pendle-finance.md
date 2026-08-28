@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.9
-  scored_at: '2026-08-24'
+  score: 14.2
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: A hosted REST API that generates ready-to-broadcast calldata for every Pendle protocol action — swap (including tokens-to-PT, PT-to-tokens, YT swaps), add and remove liquidity, ZPI (zero-price-impact)
@@ -217,21 +221,21 @@ overview: 'Pendle Finance publishes 9 APIs on the [APIs.io](https://apis.io/) ne
   Pendle Finance''s developer surface includes documentation, API reference, engineering blog, code examples, and 17 more developer resources.'
 random_paper: 15
 score:
-  band: emerging
-  composite: 23.9
-  delta: 0.0
+  band: thin
+  composite: 27.0
+  delta: 2.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 40.0
-    developer_ergonomics: 31.0
+    contract_quality: 42.6
+    developer_ergonomics: 42.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 23.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 24.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle-finance/refs/heads/main/screenshots/pendle-finance-2026-06-20T191634.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.6
-  scored_at: '2026-08-24'
+  score: 33.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 227
   human_in_the_loop: 2
@@ -219,27 +223,27 @@ rules:
   slug: fireworks-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 34.5
+  delta: 1.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 11.4
-    contract_quality: 65.7
-    developer_ergonomics: 23.8
+    contract_quality: 57.0
+    developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 35.2
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 20.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/screenshots/fireworks-ai-2026-06-20T181235.png
 security:

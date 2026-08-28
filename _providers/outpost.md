@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -149,18 +153,18 @@ overview: 'Outpost publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 0
 score:
   band: thin
-  composite: 38.3
+  composite: 37.7
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 52.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 38.3
+  previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -170,8 +174,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/screenshots/outpost-2026-08-07T191059.png
 security:

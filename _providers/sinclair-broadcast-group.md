@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-08-24'
+  score: 28.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The public, unauthenticated read surface of Sinclair's corporate site at sbgi.net. Sinclair runs no developer program and publishes no API reference, but the site is WordPress and serves a live REST A
@@ -164,18 +168,18 @@ rate_limits:
   slug: sinclair-broadcast-group-rate-limits
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 37.3
+  delta: 5.7
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 53.8
-    developer_ergonomics: 18.5
-    discoverability: 75.9
+    contract_quality: 52.4
+    developer_ergonomics: 47.0
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 32.7
+  previous_composite: 31.6
   provenance:
     conformance: derived
     contracts:
@@ -185,9 +189,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:
 - kind: authentication

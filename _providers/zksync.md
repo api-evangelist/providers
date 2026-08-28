@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.7
-  scored_at: '2026-08-24'
+  score: 16.5
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: JSON-RPC endpoint for zkSync Era mainnet (chain ID 324). Implements standard eth_* methods plus zks_* extensions for L1 batch info, fee estimation, bridge contracts, paymaster params, token addresses,
@@ -166,20 +170,20 @@ rules:
   slug: zksync-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 33.9
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
-    contract_quality: 45.6
+    contract_quality: 43.6
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 34.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 33.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zksync/refs/heads/main/screenshots/zksync-2026-06-20T201926.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Aalto's 3scale-based API gateway exposing open interfaces about Aalto and its operations, sourced from systems such as Oodi and ASIO. Access requires signing in with an Aalto account (and the develope
@@ -116,27 +120,27 @@ rate_limits:
   name: Aalto Rate Limits
   slug: aalto-rate-limits
 score:
-  band: emerging
-  composite: 24.4
-  delta: 0.0
+  band: thin
+  composite: 28.5
+  delta: 4.6
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 42.1
+    commercial_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 39.4
-    developer_ergonomics: 0.0
+    contract_quality: 37.3
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.4
+  previous_composite: 23.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/screenshots/aalto-2026-06-20T162945.png
 security:

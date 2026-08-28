@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.0
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The workflow list, detail and execution surface behind Osly, as documented by the company's own first-party TypeScript SDK. Two REST reads (GET /workflows, GET /workflows/{id}) authenticated with an X
@@ -152,7 +156,7 @@ rate_limits:
   slug: osly-rate-limits
 score:
   band: emerging
-  composite: 18.4
+  composite: 17.6
   delta: 0.0
   facets:
     access_clarity: 6.6
@@ -160,15 +164,15 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 18.4
+  previous_composite: 17.6
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/screenshots/osly-2026-08-07T191006.png
 security:

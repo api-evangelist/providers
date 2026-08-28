@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.9
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Token-authenticated synchronization of Multiplier members - employees and contractors - and their profile, employment, and status data with external HRIS platforms. Exposed through Multiplier's integr
@@ -119,20 +123,20 @@ rate_limits:
   slug: multiplier-rate-limits
 score:
   band: thin
-  composite: 29.8
+  composite: 29.6
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 33.6
+    contract_quality: 32.7
     developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 29.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/screenshots/multiplier-2026-08-07T184541.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-24'
+  score: 21.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -333,27 +337,27 @@ rules:
   slug: robin-ai-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 45.5
+  delta: -0.9
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 13.6
-    contract_quality: 65.7
+    contract_quality: 60.5
     developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 2.6
-  previous_composite: 46.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png
 security:

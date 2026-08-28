@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 26.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -426,18 +430,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.7
+  composite: 58.9
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 9.8
-    contract_quality: 69.0
+    contract_quality: 69.9
     developer_ergonomics: 69.0
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 58.7
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -445,8 +449,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/screenshots/sketchfab-2026-06-20T194108.png
 security:

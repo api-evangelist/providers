@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 14.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Unauthenticated, source-linked current and historical Southend-on-Sea observations covering weather, designated bathing waters, marine conditions, modelled air quality and flood alerts. Three operatio
@@ -69,24 +73,33 @@ overview: 'SouthendOnSea.city publishes 1 API on the [APIs.io](https://apis.io/)
 random_paper: 1
 score:
   band: emerging
-  composite: 22.8
+  composite: 25.6
+  delta: 2.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 42.0
-    developer_ergonomics: 9.5
+    contract_quality: 47.6
+    developer_ergonomics: 16.7
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 23.4
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 14.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 slug: southendonsea
 tags:
 - Open Data

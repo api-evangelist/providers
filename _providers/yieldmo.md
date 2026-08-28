@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: JavaScript SDK providing publisher-side API methods for managing ad placements and requesting page views in single-page applications and infinite scroll implementations. Enables dynamic ad loading wit
@@ -213,24 +218,24 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.6
+  composite: 33.6
   delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 16.7
-    contract_quality: 44.1
+    contract_quality: 42.9
     developer_ergonomics: 37.5
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 34.6
+  previous_composite: 33.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/screenshots/yieldmo-2026-06-20T201742.png
 security:

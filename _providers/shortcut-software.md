@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.4
-  scored_at: '2026-08-24'
+  score: 52.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 2
@@ -454,18 +458,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.5
+  composite: 60.1
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 30.3
-    contract_quality: 66.9
+    contract_quality: 65.1
     developer_ergonomics: 54.2
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 81.6
-  previous_composite: 60.5
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -476,8 +480,8 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/screenshots/shortcut-software-2026-08-17T080443.png
 security:

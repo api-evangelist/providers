@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Pintu Pro's institutional/partner trading API. A unified message format is used over both an HTTP endpoint and a WebSocket transport, authenticated with an HMAC-SHA256 signature computed from an API k
@@ -159,18 +163,18 @@ overview: 'Pintu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 14
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 43.2
+  delta: 0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 35.7
+    contract_quality: 42.7
+    developer_ergonomics: 39.3
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 43.1
+  previous_composite: 42.5
   provenance:
     conformance: first-party
   regulatory:
@@ -179,8 +183,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pintu/refs/heads/main/screenshots/pintu-2026-08-17T081247.png
 security:

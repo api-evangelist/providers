@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Ubidots Data API v1.6 provides REST endpoints for sending and retrieving time-series data (dots) from IoT devices. Supports device and variable creation, data ingestion via HTTP POST, and historic
@@ -146,20 +150,20 @@ rate_limits:
   slug: ubidots-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 31.0
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 11.3
+    contract_quality: 10.7
     developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 31.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 31.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubidots/refs/heads/main/screenshots/ubidots-2026-06-20T195930.png
 security:

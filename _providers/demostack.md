@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 41.9
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Demostack webhooks push real-time demo engagement events to any CRM, data warehouse, BI tool, or custom HTTP endpoint. Events are fired when prospects view, interact with, or complete a demo, enabling
@@ -208,23 +213,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.6
+  composite: 47.7
   delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 18.2
-    contract_quality: 60.6
+    contract_quality: 57.3
     developer_ergonomics: 28.6
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 48.6
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/screenshots/demostack-2026-06-20T175910.png
 security:

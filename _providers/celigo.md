@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 20.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -216,28 +220,28 @@ rules:
     warn: 6
   slug: celigo-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 31.4
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 11.4
-    contract_quality: 63.6
+    contract_quality: 28.6
     developer_ergonomics: 42.9
     discoverability: 64.8
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 40.2
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 9
+      marker_coverage: 100.0
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/screenshots/celigo-2026-06-20T174113.png
 security:

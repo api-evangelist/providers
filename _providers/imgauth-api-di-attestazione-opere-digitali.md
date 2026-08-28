@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.6
-  scored_at: '2026-08-24'
+  score: 35.8
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Attestation/proof-of-existence REST API. Client-side SHA-256 hashing, signed PDF certificates, RFC 3161 timestamps, OpenTimestamps/Bitcoin anchoring, verifiable certificate pages, and status telemetry
@@ -205,19 +208,19 @@ rate_limits:
   name: Imgauth Api Di Attestazione Opere Digitali Rate Limits
   slug: imgauth-api-di-attestazione-opere-digitali-rate-limits
 score:
-  band: exemplar
-  composite: 66.8
+  band: strong
+  composite: 65.7
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
-    contract_quality: 52.2
+    contract_quality: 50.8
     developer_ergonomics: 70.8
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 66.8
+  previous_composite: 65.7
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +230,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/screenshots/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:

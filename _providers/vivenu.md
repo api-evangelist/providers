@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.9
-  scored_at: '2026-08-24'
+  score: 23.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -609,18 +613,18 @@ overview: 'vivenu publishes 73 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 18
 score:
   band: developing
-  composite: 46.6
+  composite: 46.2
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 16.7
-    contract_quality: 61.0
+    contract_quality: 59.4
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 46.6
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -637,8 +641,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/screenshots/vivenu-2026-08-17T082808.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Southwestern Energy investor relations portal provides financial data, shareholder information, earnings summaries, SEC filings, and corporate governance information. The investor relations infras
@@ -150,26 +154,26 @@ rules:
   slug: southwestern-energy-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.1
+  composite: 16.8
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 25.0
-    contract_quality: 23.9
+    contract_quality: 22.7
     developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 17.1
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/screenshots/southwestern-energy-2026-06-20T194233.png
 security:

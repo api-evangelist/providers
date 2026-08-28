@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 6.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'REST API for ambient clinical documentation: upload audio or open a WebSocket stream, generate structured SOAP / custom-template clinical notes, extract medical codes (ICD-10, CPT, SNOMED), and receiv'
@@ -128,27 +132,27 @@ overview: 'Sully AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 18
 score:
   band: emerging
-  composite: 11.7
-  delta: 0.0
+  composite: 19.0
+  delta: 7.3
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 35.7
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 23.7
   previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 21.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sully-ai/refs/heads/main/screenshots/sully-ai-2026-06-20T194647.png
 security:
 - kind: domain-security

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.7
-  scored_at: '2026-08-24'
+  score: 57.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -253,25 +257,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 62.1
+  composite: 61.7
   delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 16.7
-    contract_quality: 50.6
+    contract_quality: 49.2
     developer_ergonomics: 81.0
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 62.1
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/screenshots/profound-2026-08-17T080414.png
 security:

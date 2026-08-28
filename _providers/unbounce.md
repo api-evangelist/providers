@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: na
     mcp_server: documented
     openapi_examples: documented
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.7
-  scored_at: '2026-08-24'
+  score: 59.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -427,18 +431,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.2
+  composite: 68.7
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
-    contract_quality: 61.2
+    contract_quality: 62.3
     developer_ergonomics: 71.4
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 69.2
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -449,8 +453,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png
 security:

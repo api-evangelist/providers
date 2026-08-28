@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.4
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: The public JSON API behind the official University of Toronto Timetable Builder, operated by Enterprise Applications and Solutions Integration (EASI) within U of T Information Technology Services on t
@@ -264,18 +268,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.8
-  delta: -0.3
+  composite: 35.3
+  delta: 4.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
-    contract_quality: 20.2
-    developer_ergonomics: 16.7
+    contract_quality: 22.3
+    developer_ergonomics: 28.6
     discoverability: 72.2
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 31.1
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     contracts:
@@ -288,9 +292,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 57.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/screenshots/university-of-toronto-2026-06-20T200245.png
 security:

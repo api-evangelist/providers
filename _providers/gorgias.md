@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.4
-  scored_at: '2026-08-24'
+  score: 23.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -232,18 +236,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 36.9
+  delta: 1.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 59.3
-    developer_ergonomics: 22.6
+    contract_quality: 57.8
+    developer_ergonomics: 28.6
     discoverability: 72.2
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 36.1
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
 security:

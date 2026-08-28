@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-24'
+  score: 24.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -297,18 +301,18 @@ overview: 'Ravelin publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 18
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 38.8
+  delta: 1.5
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 0.0
-    contract_quality: 57.8
-    developer_ergonomics: 54.8
+    contract_quality: 56.2
+    developer_ergonomics: 61.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 37.7
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -322,8 +326,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
 security:

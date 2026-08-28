@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 32.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -381,18 +385,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 38.2
+  delta: 4.4
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 13.6
-    contract_quality: 64.8
-    developer_ergonomics: 14.3
+    contract_governance: 28.8
+    contract_quality: 65.7
+    developer_ergonomics: 23.8
     discoverability: 59.3
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 34.3
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -406,8 +410,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

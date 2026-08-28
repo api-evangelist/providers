@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 23.8
+  scored_at: '2026-08-26'
 api_count: 28
 apis:
 - description: Pipeline actions
@@ -357,22 +361,22 @@ overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 12
 score:
   band: strong
-  composite: 58.0
-  delta: 0.0
+  composite: 59.0
+  delta: 1.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 16.7
-    contract_quality: 53.5
+    contract_quality: 57.5
     developer_ergonomics: 73.2
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 58.0
+  previous_composite: 57.6
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 28
@@ -384,8 +388,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/screenshots/seqera-labs-2026-08-17T081807.png
 security:

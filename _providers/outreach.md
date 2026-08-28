@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-24'
+  score: 49.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -240,18 +245,18 @@ scopes:
   summary_line: 46 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.9
-  delta: 0.0
+  composite: 71.5
+  delta: 1.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 30.3
-    contract_quality: 63.6
+    contract_quality: 62.0
     developer_ergonomics: 66.1
     discoverability: 92.6
     governance: 30.3
-    operational_transparency: 68.4
-  previous_composite: 70.9
+    operational_transparency: 76.3
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -262,8 +267,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/screenshots/outreach-2026-06-20T191233.png
 security:

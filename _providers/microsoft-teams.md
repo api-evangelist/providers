@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 34.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -576,19 +580,19 @@ scopes:
   slug: microsoft-teams-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.1
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 3.9
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 45.5
-    contract_quality: 48.1
-    developer_ergonomics: 66.7
+    contract_quality: 49.3
+    developer_ergonomics: 83.3
     discoverability: 92.6
     governance: 45.5
     operational_transparency: 31.6
-  previous_composite: 53.1
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -598,8 +602,8 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:

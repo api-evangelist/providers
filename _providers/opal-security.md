@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.6
-  scored_at: '2026-08-24'
+  score: 39.9
+  scored_at: '2026-08-26'
 api_count: 22
 apis:
 - description: Operations related to access rules
@@ -313,18 +317,18 @@ overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 17
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 51.5
+  delta: 1.1
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 16.7
-    contract_quality: 67.9
+    contract_quality: 66.0
     developer_ergonomics: 73.8
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 28.9
-  previous_composite: 50.9
+    operational_transparency: 36.8
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -334,8 +338,8 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal-security/refs/heads/main/screenshots/opal-security-2026-08-07T190441.png
 security:

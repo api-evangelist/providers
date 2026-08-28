@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 api_count: 13
 apis:
 - description: The Plerion Risk Score (PRS) Engine has calculated Alerts that are the highest priority items based on the available information across Identity, Configuration, and Vulnerability Management. Alerts of
@@ -255,18 +259,18 @@ overview: 'Plerion publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 5
 score:
   band: developing
-  composite: 49.5
+  composite: 49.1
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 16.7
-    contract_quality: 65.0
+    contract_quality: 63.2
     developer_ergonomics: 61.3
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 49.5
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -276,8 +280,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/screenshots/plerion-2026-08-17T081306.png
 security:

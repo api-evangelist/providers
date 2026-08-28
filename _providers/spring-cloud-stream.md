@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 3.8
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Core programmatic API for building message-driven microservice applications. Provides functional programming model with java.util.function.Function, Consumer and Supplier bindings, binding lifecycle m
@@ -143,22 +147,22 @@ rules:
     warn: 4
   slug: spring-cloud-stream-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
+  band: thin
+  composite: 30.7
+  delta: 7.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 19.7
-    developer_ergonomics: 14.3
+    contract_quality: 25.3
+    developer_ergonomics: 33.3
     discoverability: 81.5
     governance: 25.0
-    operational_transparency: 10.5
-  previous_composite: 23.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    operational_transparency: 26.3
+  previous_composite: 23.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/screenshots/spring-cloud-stream-2026-06-20T194411.png
 security:
 - kind: domain-security

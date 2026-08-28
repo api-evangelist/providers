@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
-    consent_identity: true
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.7
-  scored_at: '2026-08-24'
+  score: 4.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Quiq's REST API and webhooks for building native chat and messaging applications on any platform, with event notifications delivered via webhooks. The API is tenant-scoped to each customer organizatio
@@ -145,8 +149,8 @@ score:
   previous_composite: 30.8
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

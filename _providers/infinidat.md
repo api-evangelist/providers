@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.4
-  scored_at: '2026-08-24'
+  score: 31.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'The management REST API served by every InfiniBox and InfiniBox SSA array on its own management interface at https://<array>/api/rest. It exposes system health and readiness, capacity and statistics, '
@@ -157,18 +161,18 @@ overview: 'Infinidat publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 5
 score:
   band: developing
-  composite: 46.1
+  composite: 44.9
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 60.2
+    contract_quality: 58.6
     developer_ergonomics: 68.5
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 46.1
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +182,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/screenshots/infinidat-2026-08-07T170658.png
 security:

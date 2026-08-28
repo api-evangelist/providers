@@ -8,29 +8,35 @@ access_model:
   source:
   - plans
   - authentication
+  - scopes
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,18 +185,18 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.2
+  composite: 35.8
   delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 13.6
-    contract_quality: 55.9
+    contract_quality: 54.4
     developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 36.2
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +210,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 5.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Live REST API serving grocery store and product data to Freshop-powered storefronts. Numeric path versioning (/1/, /2/); app_key query-parameter authentication; flat JSON error envelope.
@@ -75,21 +79,21 @@ overview: 'Freshop publishes 1 API on the [APIs.io](https://apis.io/) network. T
   Freshop''s developer surface includes support and 5 more developer resources.'
 random_paper: 3
 score:
-  band: minimal
-  composite: 10.7
-  delta: 0.0
+  band: emerging
+  composite: 12.3
+  delta: 2.4
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 75.9
+    developer_ergonomics: 16.7
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 9.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshop/refs/heads/main/screenshots/freshop-2026-07-25T215203.png
 security:

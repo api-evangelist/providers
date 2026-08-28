@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-24'
+  score: 23.8
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Queue-backed batch inference and worker coordination.
@@ -181,18 +185,18 @@ overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 10
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 48.9
+  delta: 3.8
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 30.3
-    contract_quality: 49.7
-    developer_ergonomics: 54.2
-    discoverability: 92.6
+    contract_quality: 48.3
+    developer_ergonomics: 73.2
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 47.3
+  previous_composite: 45.1
   provenance:
     conformance: first-party
     contracts:
@@ -202,8 +206,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/screenshots/tensorwave-2026-08-17T082314.png
 security:

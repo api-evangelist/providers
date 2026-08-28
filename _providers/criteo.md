@@ -12,25 +12,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.9
-  scored_at: '2026-08-24'
+  score: 42.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 4
@@ -278,18 +283,18 @@ scopes:
   summary_line: 22 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.3
+  composite: 59.0
   delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 30.3
-    contract_quality: 54.7
+    contract_quality: 53.4
     developer_ergonomics: 61.3
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 78.9
-  previous_composite: 59.3
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -300,8 +305,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png
 security:

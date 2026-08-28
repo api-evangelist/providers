@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +63,6 @@ created: '2026-07-26'
 description: 'Properly was a Toronto-based Canadian digital real estate brokerage founded in 2018 that began as one of the country''s only iBuyers — making algorithmic cash offers on Calgary homes — before pivoting to Sale Assurance, a guaranteed-purchase backstop that let a seller buy their next home before selling the current one, wrapped around an online listing search and a machine-generated home valuation. It sat in the challenger layer of the Canadian value chain alongside HouseSigma, Wahi, and Zolo, competing on visibility into listing data controlled by CREA, the national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF) syndicating member boards'' listings, in a market where land registration is provincially privatised and the public record is itself a commercial product. Properly was acquired by Pine Canada Financial Corporation in October 2023 and the brand has since been absorbed: properly.ca and www.properly.ca now answer HTTP 301 from an Amazon S3
   and CloudFront redirect bucket to www.pine.ca, and the word "Properly" no longer appears anywhere on the surviving Pine real estate pages. Its API posture is closed and, as of this profile, non-existent. No developer portal, no API program page, no partner or data licensing page, and no published terms of API use were found. The developer., developers., api., docs., app., and blog. subdomains of properly.ca do not resolve in DNS, and every contract path probed — /openapi.json, /swagger.json, /api-docs, /$metadata, /odata — redirects into a Pine 404. The successor host api.pine.ca resolves to an AWS API Gateway that answers every path with HTTP 403 MissingAuthenticationTokenException: a private first-party backend, not a developer product. RESO is absent, which is the honest Canadian answer — Properly and Pine appear nowhere on RESO''s own Canadian membership roster, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was observed.
   No open, unlicensed dataset is published. The underlying listings reach the platform through licensed channels — CREA MLS trademark attribution appears in the site footer and listing media is served from cdn.repliers.io, the CDN of the licensed MLS data vendor Repliers, whose own developer guide names "Pine (formerly Properly)" as a customer — which is a brokerage and vendor licensing posture, not anything a third-party developer can sign up for.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 modified: '2026-07-26'
 name: Properly
@@ -72,22 +75,22 @@ overview: 'Properly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 11
 score:
   band: minimal
-  composite: 6.0
-  delta: 0.0
+  composite: 4.9
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 1.2
-    discoverability: 57.4
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.0
+  previous_composite: 5.2
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

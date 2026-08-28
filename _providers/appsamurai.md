@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.9
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Campaign Spend API from Appsamurai — 1 operation(s) for campaign spend.
@@ -221,30 +225,30 @@ rate_limits:
   name: Appsamurai Rate Limits
   slug: appsamurai-rate-limits
 score:
-  band: strong
-  composite: 57.1
+  band: developing
+  composite: 51.5
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 30.3
-    contract_quality: 60.1
+    contract_quality: 37.8
     developer_ergonomics: 55.4
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 57.1
+  previous_composite: 51.5
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 50.0
+      derived: 1
+      marker_coverage: 100.0
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:

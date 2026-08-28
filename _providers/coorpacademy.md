@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 api_count: 14
 apis:
 - description: Manages the Coorpacademy content repository per brand — external courses and external contents, skills and custom skills, certifications and certification snapshots, custom playlists, bulk external co
@@ -189,18 +193,18 @@ rate_limits:
   slug: coorpacademy-rate-limits
 score:
   band: developing
-  composite: 46.6
+  composite: 45.5
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 30.3
-    contract_quality: 54.4
+    contract_quality: 52.9
     developer_ergonomics: 37.5
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 46.6
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -211,8 +215,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.0
-  scored_at: '2026-08-24'
+  score: 52.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -8251,18 +8255,18 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 82.9
-  delta: 0.0
+  composite: 83.0
+  delta: 0.6
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 43.9
-    contract_quality: 83.0
+    contract_quality: 83.3
     developer_ergonomics: 94.6
     discoverability: 87.0
     governance: 43.9
     operational_transparency: 71.1
-  previous_composite: 82.9
+  previous_composite: 82.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -8273,8 +8277,8 @@ score:
       total: 56
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:

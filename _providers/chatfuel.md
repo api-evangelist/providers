@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The only documented Chatfuel API operation as of 2026-08-13. POST https://panel.chatfuel.com/api/contacts/{automation_id}/whatsapp/ imports a batch of up to 1,000 WhatsApp phone numbers into an automa
@@ -168,7 +172,7 @@ rate_limits:
   slug: chatfuel-rate-limits
 score:
   band: developing
-  composite: 42.2
+  composite: 41.5
   delta: 0.0
   facets:
     access_clarity: 71.1
@@ -176,15 +180,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 42.2
+  previous_composite: 41.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
 security:

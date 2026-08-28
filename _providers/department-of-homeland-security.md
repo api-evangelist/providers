@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-24'
+  score: 20.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -270,18 +274,18 @@ rate_limits:
   slug: department-of-homeland-security-rate-limits
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 36.1
+  delta: 5.8
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 15.2
-    contract_quality: 51.7
-    developer_ergonomics: 2.4
+    contract_quality: 50.3
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 15.2
-    operational_transparency: 10.5
-  previous_composite: 30.6
+    operational_transparency: 26.3
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -295,9 +299,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/screenshots/department-of-homeland-security-2026-06-20T175917.png
 security:
 - kind: domain-security

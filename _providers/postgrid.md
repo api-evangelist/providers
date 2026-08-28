@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 16.7
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: A REST API for programmatically sending letters, postcards, checks, and self-mailers. Handles printing, postage, and delivery with support for templates, contacts, tracking, webhooks, and both test an
@@ -138,20 +142,20 @@ rate_limits:
   slug: postgrid-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 32.7
+  delta: 1.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 39.4
+    contract_quality: 44.0
     developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 31.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 31.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postgrid/refs/heads/main/screenshots/postgrid-2026-06-20T191958.png
 security:

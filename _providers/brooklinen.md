@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-08-24'
+  score: 53.1
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
@@ -201,18 +205,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.0
+  composite: 47.7
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
-    contract_quality: 54.7
+    contract_quality: 53.2
     developer_ergonomics: 54.8
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 48.0
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     contracts:
@@ -228,8 +232,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:

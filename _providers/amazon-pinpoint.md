@@ -12,26 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.6
-  scored_at: '2026-08-24'
+  score: 33.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -7577,18 +7580,18 @@ rules:
   slug: amazon-pinpoint-spectral-rules
 score:
   band: exemplar
-  composite: 83.0
+  composite: 83.1
   delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 59.1
-    contract_quality: 78.8
+    contract_quality: 79.4
     developer_ergonomics: 85.1
     discoverability: 75.9
     governance: 59.1
     operational_transparency: 81.6
-  previous_composite: 83.0
+  previous_composite: 83.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -7605,8 +7608,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/screenshots/amazon-pinpoint-2026-06-20T171757.png
 security:

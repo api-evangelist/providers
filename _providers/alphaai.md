@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: na
     mcp_server: verified
     openapi_examples: documented
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 70.7
-  scored_at: '2026-08-24'
+  score: 68.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,18 +258,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.4
+  composite: 73.7
   delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
     contract_governance: 16.7
-    contract_quality: 67.1
+    contract_quality: 68.0
     developer_ergonomics: 85.7
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 84.2
-  previous_composite: 73.4
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,8 +286,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 71.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/screenshots/alphaai-2026-08-17T080047.png
 security:

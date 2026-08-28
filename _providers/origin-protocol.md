@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: The account API from Origin Protocol — 2 operation(s) for account.
@@ -215,18 +219,18 @@ overview: 'Origin Protocol publishes 17 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 0
 score:
   band: thin
-  composite: 31.8
+  composite: 31.5
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 45.9
+    contract_quality: 44.7
     developer_ergonomics: 42.3
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 31.8
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +240,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/screenshots/origin-protocol-2026-08-07T190935.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-24'
+  score: 33.3
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -199,18 +203,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.4
+  composite: 47.0
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 44.4
+    contract_quality: 46.8
     developer_ergonomics: 54.8
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 46.4
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/screenshots/cure-hydration-2026-08-17T080844.png
 security:

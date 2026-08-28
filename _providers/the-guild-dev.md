@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.9
-  scored_at: '2026-08-24'
+  score: 16.7
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -542,21 +546,21 @@ rules:
     warn: 4
   slug: schema-stitching-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.4
-  delta: 0.0
+  band: developing
+  composite: 39.3
+  delta: 1.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 25.0
-    contract_quality: 63.3
-    developer_ergonomics: 23.8
+    contract_quality: 64.9
+    developer_ergonomics: 31.0
     discoverability: 72.2
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 37.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 37.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/screenshots/schema-stitching-2026-06-20T193517.png
 security:

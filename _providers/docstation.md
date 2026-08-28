@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.5
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 6
 asyncapis:
@@ -166,18 +170,18 @@ rate_limits:
   slug: docstation-rate-limits
 score:
   band: developing
-  composite: 52.0
+  composite: 51.4
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 28.6
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 52.0
+  previous_composite: 51.4
   provenance:
     conformance: first-party
   regulatory:
@@ -186,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/screenshots/docstation-2026-07-25T212211.png
 security:

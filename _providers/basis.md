@@ -12,26 +12,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-24'
+  score: 43.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -280,18 +284,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 54.0
+  delta: 2.3
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 55.3
-    contract_quality: 57.3
-    developer_ergonomics: 37.5
-    discoverability: 87.0
+    contract_quality: 59.2
+    developer_ergonomics: 44.6
+    discoverability: 79.6
     governance: 55.3
     operational_transparency: 31.6
-  previous_composite: 52.8
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,8 +306,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/screenshots/basis-2026-06-20T173036.png
 security:

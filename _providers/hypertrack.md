@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 43.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The HyperTrack REST API for Orders, Workers, Places, Routes, Visits, Geotags, Nearby search, Tracking views and Export jobs. Authenticated with OAuth 2.0 client_credentials (or HTTP Basic with Account
@@ -177,18 +181,30 @@ rate_limits:
   slug: hypertrack-rate-limits
 score:
   band: strong
-  composite: 59.1
+  composite: 61.3
+  delta: 3.4
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 30.3
-    contract_quality: 60.0
-    developer_ergonomics: 66.7
+    contract_governance: 16.7
+    contract_quality: 61.8
+    developer_ergonomics: 78.6
     discoverability: 87.0
-    governance: 30.3
-    operational_transparency: 34.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    governance: 16.7
+    operational_transparency: 42.1
+  previous_composite: 57.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Hypertrack Authentication

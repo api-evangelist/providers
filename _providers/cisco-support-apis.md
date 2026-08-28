@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.5
-  scored_at: '2026-08-24'
+  score: 20.5
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: The EoX API returns Cisco end-of-life and end-of-support milestones for hardware and software, queried by product ID, serial number, software release string, or a date range across all products. It is
@@ -207,23 +211,23 @@ rate_limits:
   slug: cisco-support-apis-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: -2.4
+  composite: 33.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 36.3
+  previous_composite: 33.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

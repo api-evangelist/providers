@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-24'
+  score: 41.6
+  scored_at: '2026-08-26'
 api_count: 27
 apis:
 - description: The Accounts API from Tower — 2 operation(s) for accounts.
@@ -355,18 +359,18 @@ scopes:
   summary_line: 53 scopes
 score:
   band: strong
-  composite: 56.3
-  delta: 0.0
+  composite: 57.3
+  delta: 1.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 66.5
-    developer_ergonomics: 73.8
+    contract_quality: 64.7
+    developer_ergonomics: 81.0
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 56.3
+  previous_composite: 55.8
   provenance:
     conformance: derived
     contracts:
@@ -376,8 +380,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/screenshots/tower-2026-08-17T082413.png
 security:

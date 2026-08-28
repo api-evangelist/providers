@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 23.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -376,22 +380,22 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 40.1
-  delta: 0.0
+  composite: 40.2
+  delta: 0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 73.3
-    developer_ergonomics: 32.1
+    contract_quality: 67.9
+    developer_ergonomics: 39.3
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 40.1
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -401,8 +405,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 47.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/screenshots/amdocs-2026-06-20T171859.png
 security:

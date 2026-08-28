@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 32.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -208,18 +212,18 @@ overview: 'Ardent publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 8
 score:
   band: developing
-  composite: 46.3
+  composite: 45.9
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 57.4
+    contract_quality: 55.8
     developer_ergonomics: 70.8
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 46.3
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,8 +234,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
 security:

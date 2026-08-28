@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.4
-  scored_at: '2026-08-24'
+  score: 55.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
@@ -232,18 +236,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 60.3
+  delta: 1.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 16.7
-    contract_quality: 61.4
+    contract_quality: 59.7
     developer_ergonomics: 47.0
     discoverability: 92.6
     governance: 16.7
-    operational_transparency: 52.6
-  previous_composite: 59.7
+    operational_transparency: 60.5
+  previous_composite: 59.3
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +257,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:

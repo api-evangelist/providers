@@ -5,24 +5,32 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.1
-  scored_at: '2026-08-24'
+  score: 20.4
+  scored_at: '2026-08-26'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/vekia-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -75,6 +83,10 @@ created: '2026-08-17'
 description: Vekia is a French supply-chain software vendor founded in 2008 in Lille by Manuel Davy (Vekia SAS, 143 rue d'Athènes, 59800 Lille, RCS Lille Métropole 503 225 716). Its platform, Vekia Engine, applies probabilistic artificial intelligence and machine learning to demand and stock forecasting, then generates optimised purchase-order proposals that are pushed back into the customer's existing ERP rather than replacing it, alongside shortage-risk alerting and a logistics control tower. Vekia Disrupt covers disruption and shortage management. The platform is hosted on Microsoft Azure in Europe and marketed to retail and specialised distribution, e-commerce, industry, energy and telecom, with published case studies at ENGIE, Mr Bricolage and Okaïdi. Vekia publishes no public API, no developer portal, no API reference and no machine-readable contract; ERP, WMS and TMS integration is delivered as a project by Vekia rather than through a self-serve developer surface.
 image: https://www.vekia.fr/wp-content/uploads/2019/04/solution-supply-chain-vekia.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Vekia MCP Server
+  slug: vekia-mcp-server
 modified: '2026-08-17'
 name: Vekia
 nav: Providers
@@ -82,7 +94,7 @@ network: true
 overview: 'Vekia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Demand Forecasting, Inventory Optimization, and Replenishment.
 
 
-  Vekia''s developer surface includes engineering blog and 7 more developer resources.'
+  Vekia''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Vekia Plans Pricing
   plan_count: 0
@@ -93,8 +105,8 @@ rate_limits:
   name: Vekia Rate Limits
   slug: vekia-rate-limits
 score:
-  band: emerging
-  composite: 11.6
+  band: minimal
+  composite: 10.9
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -102,15 +114,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 11.6
+  previous_composite: 10.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

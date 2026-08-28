@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-24'
+  score: 39.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The partner-facing read-only Lokki API — seven GET operations over rental providers (stores), their store items with date-range pricing and stock, and the two-level verticale / category taxonomy. Docu
@@ -194,18 +198,18 @@ rate_limits:
   slug: lokki-rate-limits
 score:
   band: developing
-  composite: 48.7
+  composite: 48.4
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 44.2
+    contract_quality: 43.0
     developer_ergonomics: 71.4
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 48.7
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +219,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -12,26 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: true
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.3
-  scored_at: '2026-08-24'
+  score: 36.7
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -429,23 +432,23 @@ rules:
   slug: cisco-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 47.8
+  delta: 1.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 30.3
-    contract_quality: 47.8
-    developer_ergonomics: 61.9
-    discoverability: 92.6
+    contract_quality: 45.7
+    developer_ergonomics: 69.0
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 46.4
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:

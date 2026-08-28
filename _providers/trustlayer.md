@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.3
-  scored_at: '2026-08-24'
+  score: 34.3
+  scored_at: '2026-08-26'
 api_count: 21
 apis:
 - description: The Auth API from TrustLayer — 1 operation(s) for auth.
@@ -294,18 +298,18 @@ overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 6
 score:
   band: developing
-  composite: 48.9
+  composite: 48.5
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
-    contract_quality: 62.5
+    contract_quality: 60.8
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 48.9
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -321,8 +325,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/screenshots/trustlayer-2026-08-17T082453.png
 security:

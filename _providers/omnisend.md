@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.2
-  scored_at: '2026-08-24'
+  score: 52.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -605,30 +609,30 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 70.3
+  composite: 69.9
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 40.2
-    contract_quality: 74.5
+    contract_quality: 73.1
     developer_ergonomics: 47.0
     discoverability: 92.6
     governance: 40.2
     operational_transparency: 97.4
-  previous_composite: 70.3
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 80.0
+      callable: 100.0
       derived: 0
       marker_coverage: 100.0
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png
 security:

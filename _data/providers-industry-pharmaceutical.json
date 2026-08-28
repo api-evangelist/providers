@@ -16,21 +16,21 @@
      "slug": "johnson-and-johnson",
      "description": "Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such as LifeScan (OneTouch blood glucose monitoring), which was divested to Platinum Equity in 2018 and continues to operate the LifeScan developer portal referenced here. Consumer health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked in a separate kenvue index.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png",
-     "score": 27.2,
+     "score": 28.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 51.0,
+      "contract_quality": 46.3,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 21.4,
+      "developer_ergonomics": 31.0,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -38,14 +38,14 @@
       "score": 15.0,
       "matched_via": "tags"
      },
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "na",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": false,
@@ -55,7 +55,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na"
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 1
     }
@@ -67,8 +71,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "GSK",
@@ -88,8 +92,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -114,7 +118,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 2
     },
@@ -136,8 +144,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -145,7 +153,7 @@
       "score": 17.5,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -162,7 +170,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 3
     },
@@ -184,8 +196,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -210,9 +222,65 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 4
+    },
+    {
+     "name": "Vertex Pharmaceuticals",
+     "slug": "vertex-pharmaceuticals",
+     "description": "Vertex Pharmaceuticals is a global biotechnology company headquartered in Boston, Massachusetts, focused on scientific innovation to create transformative medicines for people with serious diseases. The company specializes in cystic fibrosis, sickle cell disease, beta thalassemia, APOL1-mediated kidney disease, pain, and other serious conditions. Vertex is committed to responsible sharing of clinical trial data with qualified researchers through formal data request processes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/screenshots/vertex-pharmaceuticals-2026-06-20T200951.png",
+     "score": 11.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
     },
     {
      "name": "AstraZeneca",
@@ -231,8 +299,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -257,9 +325,58 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
+    },
+    {
+     "name": "Catalent",
+     "slug": "catalent",
+     "description": "Catalent is a major US corporation and Fortune 1000 company. The Catalent API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalent/refs/heads/main/screenshots/catalent-2026-06-20T174043.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
     }
    ],
    "open": true
@@ -269,20 +386,20 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 19,
-   "shown": 19,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Regeneron Pharmaceuticals",
      "slug": "regeneron-pharmaceuticals",
      "description": "Regeneron Pharmaceuticals is a leading biotechnology company that invents, develops, and commercializes life-transforming medicines for people with serious diseases in eye disease, cancer, inflammation, infectious disease, and rare diseases. The Regeneron Genetics Center (RGC) is a wholly owned subsidiary that has sequenced over 3 million human exomes and pioneered the use of large-scale genomics to discover and validate drug targets. Regeneron open-sources bioinformatics tools including regenie (whole genome regression), CLAMMS (CNV detection), and TCRAI (T-cell receptor analysis) through its GitHub organizations at github.com/rgcgithub and github.com/regeneron-mpds.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png",
-     "score": 10.2,
+     "score": 10.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 44.4,
-      "contract_quality": 11.3,
+      "contract_quality": 10.7,
       "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 5.3,
@@ -290,8 +407,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -316,57 +433,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 6
-    },
-    {
-     "name": "Vertex Pharmaceuticals",
-     "slug": "vertex-pharmaceuticals",
-     "description": "Vertex Pharmaceuticals is a global biotechnology company headquartered in Boston, Massachusetts, focused on scientific innovation to create transformative medicines for people with serious diseases. The company specializes in cystic fibrosis, sickle cell disease, beta thalassemia, APOL1-mediated kidney disease, pain, and other serious conditions. Vertex is committed to responsible sharing of clinical trial data with qualified researchers through formal data request processes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/screenshots/vertex-pharmaceuticals-2026-06-20T200951.png",
-     "score": 10.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "AbbVie",
@@ -386,8 +459,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -412,21 +485,77 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
+    },
+    {
+     "name": "Bristol Myers Squibb",
+     "slug": "bristol-myers-squibb",
+     "description": "Bristol Myers Squibb (BMS) is a global Fortune 500 biopharmaceutical company committed to discovering, developing, and delivering innovative medicines for patients with serious diseases. BMS focuses on oncology, immunology, cardiovascular, fibrosis, and cell therapy (CAR T). The company operates BMS Study Connect for clinical trial recruitment, a Medical Information portal for healthcare providers, and the BMS Business Development platform for research partnerships and data sharing. BMS actively pursues technology partnerships in protein degradation, advanced treatment modalities, and digital health.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/screenshots/bristol-myers-squibb-2026-06-20T173708.png",
+     "score": 9.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
     },
     {
      "name": "Roche",
      "slug": "roche",
      "description": "F. Hoffmann-La Roche is a Swiss multinational healthcare company with two divisions: Roche Pharma and Roche Diagnostics. Roche does not publish a general public developer API but exposes interoperability through the navify diagnostics platform, the cobas infinity laboratory software, and an open-source GitHub presence focused on data-science tooling such as pyreadstat, foxops, and OligoGym.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/roche/refs/heads/main/screenshots/roche-2026-06-20T193147.png",
-     "score": 9.8,
+     "score": 9.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 11.3,
+      "contract_quality": 10.7,
       "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 5.3,
@@ -434,8 +563,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -460,96 +589,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Catalent",
-     "slug": "catalent",
-     "description": "Catalent is a major US corporation and Fortune 1000 company. The Catalent API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalent/refs/heads/main/screenshots/catalent-2026-06-20T174043.png",
-     "score": 9.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Bristol Myers Squibb",
-     "slug": "bristol-myers-squibb",
-     "description": "Bristol Myers Squibb (BMS) is a global Fortune 500 biopharmaceutical company committed to discovering, developing, and delivering innovative medicines for patients with serious diseases. BMS focuses on oncology, immunology, cardiovascular, fibrosis, and cell therapy (CAR T). The company operates BMS Study Connect for clinical trial recruitment, a Medical Information portal for healthcare providers, and the BMS Business Development platform for research partnerships and data sharing. BMS actively pursues technology partnerships in protein degradation, advanced treatment modalities, and digital health.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/screenshots/bristol-myers-squibb-2026-06-20T173708.png",
-     "score": 7.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 11
     },
@@ -571,8 +615,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -597,7 +641,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 12
     },
@@ -619,8 +667,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -645,7 +693,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 13
     },
@@ -667,8 +719,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -693,7 +745,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 14
     },
@@ -715,8 +771,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -741,7 +797,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 15
     },
@@ -763,8 +823,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -789,7 +849,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 16
     },
@@ -811,8 +875,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -837,7 +901,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 17
     },
@@ -859,8 +927,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -885,7 +953,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 18
     },
@@ -907,8 +979,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -926,7 +998,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 19
     },
@@ -948,8 +1024,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -972,7 +1048,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 20
     },
@@ -993,8 +1073,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1012,7 +1092,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 21
     },
@@ -1034,8 +1118,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1060,7 +1144,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 22
     },
@@ -1082,8 +1170,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -1106,7 +1194,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 23
     },
@@ -1128,8 +1220,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1154,7 +1246,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 24
     }

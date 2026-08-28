@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: true
+    delegated_identity: documented
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.2
-  scored_at: '2026-08-24'
+  score: 40.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: OpenAPI 3.0.3-described REST API for ordering and managing translation, proofreading and copywriting work. 54 operations across Projects (create, quote, finalize, launch sync/async, pause, resume, can
@@ -162,30 +167,30 @@ scopes:
   summary_line: 22 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.8
-  delta: 0.0
+  composite: 48.0
+  delta: 5.7
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 30.3
-    contract_quality: 53.8
-    developer_ergonomics: 51.8
+    contract_quality: 55.8
+    developer_ergonomics: 75.6
     discoverability: 75.9
     governance: 30.3
-    operational_transparency: 13.2
-  previous_composite: 41.8
+    operational_transparency: 21.1
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Textmaster Authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 3.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible chat surface), dev sessions with managed GPUs, distributed training jobs, and batch processing. Endpoints are deplo
@@ -104,20 +108,20 @@ rate_limits:
   slug: lepton-ai-rate-limits
 score:
   band: emerging
-  composite: 12.4
-  delta: 0.0
+  composite: 14.1
+  delta: 1.7
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 6.7
     developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 12.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lepton-ai/refs/heads/main/screenshots/lepton-ai-2026-06-20T184428.png
 security:

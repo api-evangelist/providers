@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-24'
+  score: 34.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Sui full-node JSON-RPC API (OpenRPC 1.2.6) for reading objects, coins, balances, events, checkpoints, dynamic fields, and system state, and for dry-running/executing transaction blocks. 56 methods
@@ -194,24 +197,24 @@ overview: 'Mysten Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 1
 score:
   band: developing
-  composite: 44.7
+  composite: 44.1
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 78.6
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 44.7
+  previous_composite: 44.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mysten-labs/refs/heads/main/screenshots/mysten-labs-2026-08-07T184544.png
 security:

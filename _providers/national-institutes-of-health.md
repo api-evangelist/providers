@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 17.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -111,18 +115,18 @@ rate_limits:
   slug: national-institutes-of-health-rate-limits
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 25.6
+  delta: 1.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 49.7
-    developer_ergonomics: 9.5
+    contract_quality: 48.3
+    developer_ergonomics: 19.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.0
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     contracts:
@@ -136,8 +140,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
 security:

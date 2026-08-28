@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: true
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.8
-  scored_at: '2026-08-24'
+  score: 9.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Orval generates TypeScript API clients, TanStack Query/SWR hooks, Angular services, SolidStart primitives, Hono server handlers, Zod and Effect schemas, MSW mocks, and MCP servers from OpenAPI v3 or S
@@ -170,23 +174,23 @@ rate_limits:
   slug: orval-rate-limits
 score:
   band: thin
-  composite: 30.3
+  composite: 31.6
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 18.2
-    contract_quality: 1.4
+    contract_quality: 6.7
     developer_ergonomics: 60.7
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 30.3
+  previous_composite: 31.6
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orval/refs/heads/main/screenshots/orval-2026-06-20T191211.png
 security:

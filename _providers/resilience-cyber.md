@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The only publicly documented, machine-readable surface Resilience operates. portal.cyberresilience.com — the gated client and broker application — redirects through /v2/api/auth/login to an Auth0 tena
@@ -164,7 +168,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 21.4
+  composite: 20.7
   delta: 0.0
   facets:
     access_clarity: 22.4
@@ -172,10 +176,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 20.7
   provenance:
     conformance: first-party
   regulatory:
@@ -184,8 +188,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 59.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

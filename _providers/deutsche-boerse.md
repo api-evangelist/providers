@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-24'
+  score: 25.4
+  scored_at: '2026-08-26'
 api_count: 13
 apis:
 - description: Constructed historical order books for the T7 trading venues of Deutsche Börse Group (Eurex, Xetra) with nanosecond granularity, accessed over REST with bearer-token authentication.
@@ -297,18 +301,18 @@ overview: 'Deutsche Börse publishes 12 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 5
 score:
   band: strong
-  composite: 55.5
+  composite: 54.4
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 63.5
+    contract_quality: 62.1
     developer_ergonomics: 66.1
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 55.5
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -324,8 +328,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png
 security:

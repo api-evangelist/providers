@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.8
-  scored_at: '2026-08-24'
+  score: 37.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 6
@@ -278,23 +282,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 42.6
+  delta: 1.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 20.5
-    contract_quality: 53.0
+    contract_quality: 56.8
     developer_ergonomics: 42.3
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 20.5
     operational_transparency: 18.4
-  previous_composite: 42.4
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 94.4
       derived: 0
       marker_coverage: 0.0
       total: 18
@@ -305,8 +309,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png
 security:

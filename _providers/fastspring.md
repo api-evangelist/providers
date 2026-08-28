@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.4
-  scored_at: '2026-08-24'
+  score: 20.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -210,18 +214,18 @@ rules:
   slug: fastspring-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 33.8
+  delta: 1.7
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 13.6
-    contract_quality: 57.3
-    developer_ergonomics: 13.1
+    contract_quality: 55.8
+    developer_ergonomics: 19.0
     discoverability: 81.5
     governance: 13.6
-    operational_transparency: 2.6
-  previous_composite: 32.5
+    operational_transparency: 6.6
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +239,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/screenshots/fastspring-2026-06-20T181053.png
 security:

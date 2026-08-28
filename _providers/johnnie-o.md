@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 38.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Anonymous, fully introspectable GraphQL endpoint served from Johnnie-O's own Hydrogen storefront host. This is the Shopify Storefront API for merchant tenant 22750137; the Hydrogen app proxies the req
@@ -159,18 +163,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.1
+  composite: 32.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 38.9
-    developer_ergonomics: 33.3
+    contract_quality: 37.2
+    developer_ergonomics: 28.0
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 32.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Johnnie O Authentication

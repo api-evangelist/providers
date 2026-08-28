@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-24'
+  score: 54.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -216,18 +220,18 @@ rate_limits:
   slug: equals-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 49.1
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 18.6
+    contract_quality: 18.1
     developer_ergonomics: 61.9
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 49.2
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,8 +242,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/screenshots/equals-2026-07-25T213540.png
 security:

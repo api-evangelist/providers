@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -233,19 +237,19 @@ overview: 'Rigetti & Co publishes 9 APIs on the [APIs.io](https://apis.io/) netw
   Rigetti & Co''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 2
 score:
-  band: developing
-  composite: 40.0
+  band: thin
+  composite: 38.9
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 56.6
+    contract_quality: 55.0
     developer_ergonomics: 37.5
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 40.0
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +260,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti-and-co/refs/heads/main/screenshots/rigetti-and-co-2026-08-17T081558.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 5.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'The Libryo Platform''s partner-facing RESTful API. Third-party applications integrate on behalf of a Libryo user using the OAuth 2.0 authorization-code flow, then call the versioned /api/v1 surface to '
@@ -129,18 +133,18 @@ scopes:
   summary_line: 3 scopes
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 24.5
+  delta: 3.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 75.9
+    developer_ergonomics: 26.2
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.7
+  previous_composite: 20.9
   provenance:
     conformance: first-party
   regulatory:
@@ -148,9 +152,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 40.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 47.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/libryo/refs/heads/main/screenshots/libryo-2026-07-25T225027.png
 security:

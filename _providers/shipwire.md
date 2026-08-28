@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: Create new orders and update, cancel, or get information about existing outbound B2C orders. Includes shipment details such as shipping box dimensions, contents, and tracking information.
@@ -160,26 +164,26 @@ rate_limits:
   slug: shipwire-rate-limits
 score:
   band: thin
-  composite: 35.4
+  composite: 35.0
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 43.3
+    contract_quality: 41.5
     developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 35.4
+  previous_composite: 35.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipwire/refs/heads/main/screenshots/shipwire-2026-06-20T193825.png
 security:

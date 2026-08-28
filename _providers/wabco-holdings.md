@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: WABCO's fleet management and telematics capabilities, now delivered through ZF's Commercial Vehicle Control Systems division. Provides remote diagnostics, vehicle connectivity, real-time fleet trackin
@@ -112,20 +116,20 @@ rate_limits:
   slug: wabco-holdings-rate-limits
 score:
   band: emerging
-  composite: 16.3
-  delta: 0.0
+  composite: 18.1
+  delta: 1.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 11.3
-    developer_ergonomics: 10.7
+    contract_quality: 10.7
+    developer_ergonomics: 20.2
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 16.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/screenshots/wabco-holdings-2026-06-20T201202.png
 security:

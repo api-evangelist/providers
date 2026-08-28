@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 29.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
@@ -225,23 +229,23 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 63.1
+  delta: 1.8
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 48.9
+    contract_governance: 33.3
+    contract_quality: 46.8
     developer_ergonomics: 57.1
     discoverability: 87.0
-    governance: 18.2
+    governance: 33.3
     operational_transparency: 68.4
-  previous_composite: 61.8
+  previous_composite: 61.3
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/screenshots/sprout-social-2026-08-17T082048.png
 security:

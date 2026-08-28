@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 17.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for managing products, variants, offer codes, custom fields, sales, subscribers, license keys, resource subscriptions (webhooks), and the authenticated user account on Gumroad. Authentication
@@ -95,20 +99,20 @@ overview: 'Gumroad publishes 1 API on the [APIs.io](https://apis.io/) network: v
 random_paper: 16
 score:
   band: thin
-  composite: 29.0
+  composite: 28.4
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 56.7
+    contract_quality: 54.3
     developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 29.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 28.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumroad/refs/heads/main/screenshots/gumroad-2026-06-20T182434.png
 security:

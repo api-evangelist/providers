@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 27.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -456,18 +460,18 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 54.8
-  delta: 0.0
+  composite: 55.0
+  delta: 0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 77.0
+    contract_quality: 77.6
     developer_ergonomics: 64.3
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 54.8
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -475,8 +479,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: CarMD's vehicle API provides access to code definitions, vehicle images, and diagnostics for predicting upcoming vehicle issues.
@@ -77,20 +81,20 @@ rate_limits:
   slug: carmd-rate-limits
 score:
   band: emerging
-  composite: 16.2
-  delta: 0.0
+  composite: 17.8
+  delta: 1.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 28.2
-    developer_ergonomics: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 16.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 15.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/screenshots/carmd-2026-06-20T174011.png
 security:

@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.1
-  scored_at: '2026-08-24'
+  score: 24.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -183,18 +187,18 @@ rate_limits:
   slug: teelaunch-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 36.2
+  delta: 0.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 54.2
-    developer_ergonomics: 23.8
+    contract_quality: 52.8
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.6
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +206,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

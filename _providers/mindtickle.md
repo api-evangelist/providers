@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 37.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Core REST API for managing users, groups, modules, learner details, and reporting within the Mindtickle revenue productivity platform. Supports SCIM-based user provisioning and returns JSON responses.
@@ -208,18 +212,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.7
+  composite: 48.3
   delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 18.2
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 14.3
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 48.7
+  previous_composite: 48.3
   provenance:
     conformance: first-party
   regulatory:
@@ -228,8 +232,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 70.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/screenshots/mindtickle-2026-06-20T185602.png
 security:

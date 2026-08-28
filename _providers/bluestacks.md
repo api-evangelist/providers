@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-24'
+  score: 22.7
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: OAuth 2.0 identity API for now.gg Login. Publishers exchange an authorization code for a token and refresh_token, verify id_token/token server-side, and read user profile and session information for t
@@ -189,18 +193,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 50.7
+  composite: 50.2
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 47.8
+    contract_quality: 45.7
     developer_ergonomics: 78.6
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 50.7
+  previous_composite: 50.2
   provenance:
     conformance: first-party
   regulatory:
@@ -209,8 +213,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluestacks/refs/heads/main/screenshots/bluestacks-2026-08-17T080648.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.5
-  scored_at: '2026-08-24'
+  score: 30.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Swan''s Partner API is a GraphQL API for embedding banking: accounts and account holders, memberships, cards, SEPA credit transfers and direct debits, standing orders, merchant payments, onboarding, an'
@@ -200,18 +204,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: strong
-  composite: 56.1
+  composite: 55.5
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 64.3
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.1
+  previous_composite: 55.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -221,8 +225,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swan/refs/heads/main/screenshots/swan-2026-08-17T082209.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Chewy provides vendor and supplier integration through the Dsco platform, enabling third-party brands and logistics providers to connect with Chewy's e-commerce marketplace. The integration supports E
@@ -139,26 +143,26 @@ rate_limits:
   slug: chewy-rate-limits
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 24.3
+  delta: 1.8
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 38.9
-    developer_ergonomics: 0.0
+    contract_quality: 37.2
+    developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.9
+  previous_composite: 22.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chewy/refs/heads/main/screenshots/chewy-2026-07-25T205222.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-08-24'
+  score: 24.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'The SmartCustomer Business API (published under the pre-rebrand Sitejabber name at api.sitejabber.com) is the review-management API behind SmartCustomer''s business product. It covers business profile '
@@ -150,18 +154,18 @@ rate_limits:
   slug: sitejabber-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 47.4
+  delta: 2.3
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 54.5
-    developer_ergonomics: 13.7
+    contract_quality: 53.1
+    developer_ergonomics: 25.6
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 45.4
+  previous_composite: 45.1
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +175,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/screenshots/sitejabber-2026-08-17T081908.png
 security:

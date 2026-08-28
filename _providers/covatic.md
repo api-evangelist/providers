@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-24'
+  score: 29.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'REST API behind the Covatic client platform (platform.covatic.io) for building and operating privacy-preserving audiences and campaigns: audience profiles, traits (behavioural, event and retargeting),'
@@ -183,18 +187,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.8
+  composite: 39.7
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 30.3
-    contract_quality: 58.7
+    contract_quality: 57.1
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 40.8
+  previous_composite: 39.7
   provenance:
     conformance: first-party
     contracts:
@@ -204,8 +208,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/screenshots/covatic-2026-07-25T210538.png
 security:

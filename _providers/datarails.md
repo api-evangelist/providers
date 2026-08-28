@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-24'
+  score: 59.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,25 +226,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.9
+  composite: 57.7
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
-    contract_quality: 35.7
+    contract_quality: 34.7
     developer_ergonomics: 61.9
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 55.3
-  previous_composite: 57.9
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Live OAI-PMH 2.0 metadata harvesting endpoint for Deep Blue Documents, the University of Michigan Library's DSpace institutional repository of articles, dissertations, theses and archival collections.
@@ -310,18 +314,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.7
-  delta: -0.3
+  composite: 60.3
+  delta: 2.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 78.8
-    contract_quality: 65.7
-    developer_ergonomics: 38.1
+    contract_quality: 66.7
+    developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 78.8
     operational_transparency: 23.7
-  previous_composite: 58.0
+  previous_composite: 57.9
   provenance:
     conformance: first-party
     contracts:
@@ -335,8 +339,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

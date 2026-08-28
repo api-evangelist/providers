@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -194,25 +198,25 @@ overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 4
 score:
   band: developing
-  composite: 41.2
+  composite: 40.1
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 53.8
+    contract_quality: 52.4
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 41.2
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:

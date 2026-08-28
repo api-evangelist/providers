@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: flavored
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-24'
+  score: 63.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -210,13 +214,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.2
+  composite: 21.8
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 58.6
+    contract_quality: 57.1
     developer_ergonomics: 1.8
     discoverability: 51.9
     governance: 16.7
@@ -227,7 +231,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.2
+  previous_composite: 21.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +242,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

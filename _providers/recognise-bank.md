@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-24'
+  score: 31.7
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Shared UK Open Banking Open Data standard for public, unauthenticated reference data (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards). Included as
@@ -134,23 +138,23 @@ scopes:
   slug: recognise-bank-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 39.8
+  delta: 1.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 51.2
-    developer_ergonomics: 14.3
+    contract_quality: 49.0
+    developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
-      callable: 25.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -159,9 +163,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 88.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 78.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

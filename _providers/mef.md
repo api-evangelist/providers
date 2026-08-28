@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.3
-  scored_at: '2026-08-24'
+  score: 28.4
+  scored_at: '2026-08-26'
 api_count: 95
 apis:
 - description: MEF 133.1 streaming template — the AsyncAPI definition published by Mplify (formerly MEF) in the MEF LSO Interlude SDK, Kylie release. LSO Interlude is the Interface Reference Point between two Servic
@@ -834,19 +838,19 @@ scopes:
   slug: mef-scopes
   summary_line: 218 scopes · clientCredentials
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 54.0
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 55.0
+    contract_quality: 53.7
     developer_ergonomics: 85.1
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 54.4
+  previous_composite: 54.0
   provenance:
     conformance: derived
     contracts:
@@ -862,8 +866,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png
 security:

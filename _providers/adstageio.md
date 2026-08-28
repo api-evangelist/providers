@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Pull normalized advertising data of any granularity from many ad networks and marketing analytics tools through a unified HAL+JSON interface (v1 and v2). Access user/organization/advertising-entity da
@@ -63,15 +67,15 @@ overview: 'AdStage.io publishes 1 API on the [APIs.io](https://apis.io/) network
   AdStage.io''s developer surface includes documentation and 2 more developer resources.'
 random_paper: 0
 score:
-  band: minimal
-  composite: 9.1
-  delta: 0.0
+  band: emerging
+  composite: 12.9
+  delta: 3.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
@@ -82,8 +86,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 9.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adstageio/refs/heads/main/screenshots/adstageio-2026-07-25T181704.png
 security:

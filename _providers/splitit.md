@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-24'
+  score: 28.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -259,18 +263,18 @@ rules:
   slug: splitit-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.9
+  composite: 57.5
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 9.8
-    contract_quality: 67.4
+    contract_quality: 65.6
     developer_ergonomics: 64.3
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 57.9
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/screenshots/splitit-2026-06-20T194331.png
 security:

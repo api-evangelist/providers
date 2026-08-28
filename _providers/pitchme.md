@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: PitchMe advertises a "Custom Integration via API" for connecting any ATS or recruitment platform not covered by its native marketplace connectors. As of 2026-08-14 the company publishes no developer p
@@ -117,7 +121,7 @@ rate_limits:
   slug: pitchme-rate-limits
 score:
   band: emerging
-  composite: 14.9
+  composite: 14.1
   delta: 0.0
   facets:
     access_clarity: 18.4
@@ -125,15 +129,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 14.9
+  previous_composite: 14.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

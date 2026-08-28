@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.7
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 api_count: 13
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
@@ -214,22 +218,22 @@ overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 2
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 50.9
+  delta: -2.4
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
     contract_governance: 30.3
-    contract_quality: 37.1
+    contract_quality: 32.7
     developer_ergonomics: 28.6
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 53.5
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -238,9 +242,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 72.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 62.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/screenshots/starling-bank-2026-08-17T082108.png
 security:

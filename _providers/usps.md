@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 12.9
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Token endpoint for OAuth 2.0 Client Credentials authentication used to authorize requests to all USPS API products.
@@ -99,20 +103,20 @@ overview: 'USPS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 18
 score:
   band: emerging
-  composite: 25.2
+  composite: 24.8
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 24.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/screenshots/usps-2026-06-20T200718.png
 security:

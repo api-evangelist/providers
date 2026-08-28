@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.5
-  scored_at: '2026-08-24'
+  score: 10.1
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -367,18 +371,18 @@ rate_limits:
   slug: osfi-rate-limits
 score:
   band: developing
-  composite: 45.9
+  composite: 46.2
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 33.3
-    contract_quality: 22.5
+    contract_quality: 26.7
     developer_ergonomics: 56.5
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 33.3
     operational_transparency: 52.6
-  previous_composite: 45.9
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -389,8 +393,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/screenshots/osfi-2026-08-07T191000.png
 security:

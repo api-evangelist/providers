@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 34.7
+  scored_at: '2026-08-26'
 api_count: 14
 apis:
 - description: The Accounts API from Newcastle Permanent Building Society — 6 operation(s) for accounts.
@@ -258,18 +262,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.1
+  composite: 45.7
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 16.7
-    contract_quality: 52.1
+    contract_quality: 50.7
     developer_ergonomics: 35.1
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 15.8
-  previous_composite: 46.1
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -281,12 +285,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: consumer-data-standards
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:

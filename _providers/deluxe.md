@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-24'
+  score: 32.8
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: 'The DPP Gateway Experience API is the core Deluxe Payments Platform contract: 37 operations across payments (sale, authorize, complete, cancel, search, batch), EMV card-present processing and device m'
@@ -223,18 +226,18 @@ rate_limits:
   slug: deluxe-rate-limits
 score:
   band: thin
-  composite: 28.4
+  composite: 26.4
   delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 16.7
-    contract_quality: 22.5
+    contract_quality: 21.9
     developer_ergonomics: 33.9
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 28.4
+  previous_composite: 26.4
   provenance:
     conformance: derived
     contracts:
@@ -250,8 +253,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png
 security:

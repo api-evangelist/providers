@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: A range of APIs for address verification, geocoding, demographics, property data, and location intelligence.
@@ -116,8 +120,8 @@ rate_limits:
   slug: precisely-rate-limits
 score:
   band: emerging
-  composite: 18.8
-  delta: 0.0
+  composite: 19.5
+  delta: 0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -126,10 +130,10 @@ score:
     developer_ergonomics: 16.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 23.7
+    operational_transparency: 28.9
   previous_composite: 18.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely/refs/heads/main/screenshots/precisely-2026-06-20T192040.png
 security:

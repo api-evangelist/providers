@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.3
-  scored_at: '2026-08-24'
+  score: 35.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -218,30 +222,30 @@ rate_limits:
   slug: albacross-rate-limits
 score:
   band: developing
-  composite: 48.6
+  composite: 39.3
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 57.3
+    contract_quality: 20.1
     developer_ergonomics: 37.5
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 48.6
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/screenshots/albacross-2026-08-17T080546.png
 security:

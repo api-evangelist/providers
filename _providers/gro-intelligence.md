@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 10.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Read-only REST API over the Gro ontology and its agricultural, climate and trade time series. Every operation was an HTTP GET under /v2/, authenticated with a bearer token issued from the Gro web appl
@@ -136,6 +140,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -145,8 +150,12 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 39.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.0
+  provenance:
+    conformance: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Gro Intelligence Authentication

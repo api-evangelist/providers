@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.6
-  scored_at: '2026-08-24'
+  score: 27.8
+  scored_at: '2026-08-26'
 api_count: 34
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -385,18 +389,18 @@ overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 4
 score:
   band: developing
-  composite: 50.9
+  composite: 49.8
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 30.3
-    contract_quality: 55.6
+    contract_quality: 54.1
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 31.6
-  previous_composite: 50.9
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     contracts:
@@ -412,8 +416,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/screenshots/unlock-protocol-2026-08-17T082632.png
 security:

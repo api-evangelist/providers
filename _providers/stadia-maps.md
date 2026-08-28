@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-24'
+  score: 23.2
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: The Attributes API from Stadia Maps — 1 operation(s) for attributes.
@@ -279,26 +283,26 @@ rules:
   slug: stadia-maps-rules
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 45.3
+  delta: 1.8
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 13.6
-    contract_quality: 66.8
+    contract_governance: 28.8
+    contract_quality: 64.9
     developer_ergonomics: 52.4
     discoverability: 81.5
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 43.9
+  previous_composite: 43.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/screenshots/stadia-maps-2026-06-20T194456.png
 security:

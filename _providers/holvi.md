@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 21.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -196,18 +200,18 @@ overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 0
 score:
   band: developing
-  composite: 47.5
+  composite: 47.1
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 18.2
-    contract_quality: 57.9
+    contract_quality: 56.3
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 47.5
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +228,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:

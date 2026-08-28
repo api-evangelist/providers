@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.1
-  scored_at: '2026-08-24'
+  score: 32.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -346,18 +350,18 @@ rules:
   slug: truework-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.0
-  delta: 0.0
+  composite: 57.4
+  delta: 0.8
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 9.8
-    contract_quality: 69.2
+    contract_quality: 70.7
     developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 73.7
-  previous_composite: 57.0
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -371,8 +375,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:

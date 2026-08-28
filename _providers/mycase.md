@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-24'
+  score: 17.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -260,18 +264,18 @@ rules:
   slug: mycase-rules
 score:
   band: developing
-  composite: 43.0
+  composite: 42.6
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 45.5
-    contract_quality: 63.0
+    contract_quality: 61.4
     developer_ergonomics: 45.2
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 43.0
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -285,8 +289,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-08-17T083502.png
 security:

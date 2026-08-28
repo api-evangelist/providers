@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.8
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Publisher app and placement (inventory) management.
@@ -237,30 +241,30 @@ rate_limits:
   name: Opera Rate Limits
   slug: opera-rate-limits
 score:
-  band: strong
-  composite: 57.3
+  band: developing
+  composite: 46.7
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 30.3
-    contract_quality: 57.1
+    contract_quality: 14.7
     developer_ergonomics: 73.2
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 57.3
+  previous_composite: 46.7
   provenance:
     conformance: first-party
     contracts:
       callable: 83.3
-      derived: 0
-      marker_coverage: 0.0
+      derived: 6
+      marker_coverage: 100.0
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png
 security:

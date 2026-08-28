@@ -12,26 +12,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-24'
+  score: 34.7
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Core Makinari platform API covering Visitors (tracking and identification), Finder (contact and company search), Robots (browser-automation instances), Instances, Requirements, and Secure Tokens. API-
@@ -236,25 +239,25 @@ rate_limits:
   name: Uncodie Rate Limits
   slug: uncodie-rate-limits
 score:
-  band: strong
-  composite: 55.6
+  band: developing
+  composite: 54.2
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.6
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncodie/refs/heads/main/screenshots/uncodie-2026-08-17T082555.png
 security:

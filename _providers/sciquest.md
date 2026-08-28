@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'REST/JSON API surface for the JAGGAER (formerly SciQuest) Advanced Sourcing Optimizer, secured with OAuth 2.0 client-credentials. Grouped into the Customer Host Entity Service (query ASO events for a '
@@ -99,22 +103,22 @@ overview: 'SciQuest publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 20
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 34.1
+  delta: 3.4
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 28.6
+    contract_quality: 42.7
+    developer_ergonomics: 40.5
     discoverability: 68.5
     governance: 18.2
-    operational_transparency: 0.0
-  previous_composite: 31.3
+    operational_transparency: 7.9
+  previous_composite: 30.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

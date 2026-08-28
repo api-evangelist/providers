@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-24'
+  score: 32.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -517,18 +521,18 @@ rules:
   slug: eth-zurich-rules
 score:
   band: developing
-  composite: 44.0
-  delta: -3.2
+  composite: 46.2
+  delta: 2.6
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
+    access_clarity: 52.6
+    commercial_clarity: 52.6
     contract_governance: 25.0
-    contract_quality: 58.1
+    contract_quality: 56.5
     developer_ergonomics: 23.8
     discoverability: 70.4
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 47.2
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -543,8 +547,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png
 security:

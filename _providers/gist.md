@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.4
-  scored_at: '2026-08-24'
+  score: 29.3
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST API behind Gist Answers. Creates chats against a publisher's licensed corpus, streams the answer back over Server-Sent Events, and returns the citations and the per-source attribution credit dist
@@ -206,18 +210,18 @@ rate_limits:
   slug: gist-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 43.5
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 54.2
+    contract_quality: 52.7
     developer_ergonomics: 62.5
     discoverability: 72.2
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 43.9
+  previous_composite: 43.5
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +231,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
 security:

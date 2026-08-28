@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -37,7 +42,7 @@ agentic_access:
   operation_count: 85
   slug: honeycomb-io-agentic-access
   summary_line: 85 operations · 50 acting
-api_count: 21
+api_count: 22
 apis:
 - description: API Keys have various scopes permissions and belong to a specific Team or Environment. Any valid Honeycomb ingest or configuration API Key will work with this endpoint. Learn more about [API keys](htt
   name: Honeycomb Auth API
@@ -102,7 +107,14 @@ apis:
 - description: 'Triggers let you receive notifications when your data in Honeycomb crosses the thresholds that you configure. The graph on which to alert is as flexible as a Honeycomb query, which helps reduce false '
   name: Honeycomb Triggers API
   slug: honeycomb-io-triggers-api
-artifact_total: 96
+- description: The Anomaly Detection API exposes Honeycomb Signals - the anomaly detection profiles Honeycomb maintains per service - and their historical anomalies. List and retrieve Signals, update a Signal's conf
+  name: Honeycomb Anomaly Detection API
+  slug: honeycomb-io-anomaly-detection-api
+artifact_total: 102
+asyncapis:
+- description: ''
+  name: Honeycomb Io Webhooks
+  slug: honeycomb-io-webhooks
 collections:
 - collection_type: postman
   name: Honeycomb Auth API
@@ -270,6 +282,10 @@ collections:
   name: Honeycomb Triggers API
   slug: open-honeycomb-triggers-api
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/honeycomb-io-authentication.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -310,10 +326,6 @@ common:
   title: ''
   type: Blog
   url: https://www.honeycomb.io/blog
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://www.honeycomb.io/changelog
 - group: commercial
   title: ''
   type: Pricing
@@ -328,10 +340,6 @@ common:
   url: https://support.honeycomb.io/
 - group: company
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/honeycomb-io/
-- group: company
-  title: ''
   type: Twitter
   url: https://twitter.com/honeycombio
 - group: build
@@ -342,14 +350,6 @@ common:
   title: ''
   type: Website
   url: https://www.honeycomb.io/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://www.honeycomb.io/product/honeycomb-intelligence
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://www.honeycomb.io/product/telemetry-pipeline
 - group: other
   title: ''
   type: Standards
@@ -438,6 +438,165 @@ common:
   title: ''
   type: Documentation
   url: https://github.com/honeycombio/honeycomb-mcp
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://api-changelog.honeycomb.io/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://changelog.honeycomb.io/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/honeycomb.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.honeycomb.io/platform/telemetry-pipeline
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.honeycomb.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.honeycomb.io/api/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.honeycomb.io/get-started/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/honeycombio
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ui.honeycomb.io/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://ui.honeycomb.io/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.honeycomb.io/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.honeycomb.io/privacy
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/honeycomb-io-sandbox.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/honeycomb-io-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: https://docs.honeycomb.io/security-compliance/bug-bounty-program/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.honeycomb.io/security-compliance/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/honeycomb-io-well-known.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/honeycomb-io-a2a.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/honeycomb-io-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/honeycomb-io-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/honeycomb-io-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/honeycomb-io-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/honeycomb-io-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/honeycomb-io-cli.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/honeycomb-io-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/honeycomb-io-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/honeycomb-io-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/honeycomb-io-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.honeycomb.io/troubleshoot/product-lifecycle/release-stages/
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/honeycomb-io-scopes.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/honeycomb-io-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/honeycomb-io-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/honeycomb-io-webhooks.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.honeycomb.io/notify/webhooks/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.honeycomb.io/integrations/mcp/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.honeycomb.io/integrations/agent-skills/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/honeycombio/agent-skill
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.honeycomb.io/
+created: '2026-05-25'
+description: 'Honeycomb is an observability platform for understanding complex distributed systems through high-cardinality, high-dimensional telemetry. Founded in 2016 by Charity Majors and Christine Yen and headquartered in San Francisco, it stores traces, logs and metrics as wide events and lets engineers query arbitrarily across every field at interactive speed, rather than pre-defining dashboards and thresholds. Honeycomb is OpenTelemetry-native: OTLP is the documented ingest path and the company has moved its own proprietary Beelines and distributions to End of Life in favour of upstream OpenTelemetry SDKs. The public REST API is described by a single OpenAPI 3.1 contract covering 89 operations across 22 resource groups - events, datasets, columns, calculated fields, queries, query data, boards, triggers, SLOs, burn alerts, markers, recipients, service maps, environments, API keys and anomaly detection signals - split across US and EU regions. Honeycomb also runs a first-party OAuth-protected
+  Model Context Protocol server at mcp.honeycomb.io, publishes A2A and Agent Skills discovery documents from its docs host, and ships an official agent-skills plugin, making it one of the more complete agent-facing surfaces in the observability category. Products include the core observability platform, Refinery tail-based sampling, Telemetry Pipeline, and Canvas AI-assisted investigations.'
 examples:
 - key_count: 2
   name: Honeycomb Create Marker Example
@@ -485,16 +644,21 @@ jsonld:
   property_count: 12
   slug: honeycomb-io-context
 layout: provider
+mcp_servers:
+- description: 'Honeycomb operates a first-party hosted Model Context Protocol server at https://mcp.honeycomb.io/mcp (EU: https://mcp.eu1.honeycomb.io/mcp). It is OAuth-protected: an unauthenticated POST returns 401'
+  name: Honeycomb MCP
+  slug: honeycomb-mcp
+modified: '2026-08-24'
 name: Honeycomb
 nav: Providers
 network: true
-overview: 'Honeycomb publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Boards API, Burn Alerts API, and 18 more. Tagged areas include Observability, Tracing, Distributed Tracing, Telemetry, and OpenTelemetry.
+overview: 'Honeycomb publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Boards API, Burn Alerts API, and 19 more. Tagged areas include Observability, Tracing, Distributed Tracing, Telemetry, and OpenTelemetry.
 
 
-  The Honeycomb catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Honeycomb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Honeycomb''s developer surface includes documentation, developer portal, authentication, engineering blog, changelog, pricing, support, and 35 more developer resources.'
+  Honeycomb''s developer surface includes authentication, documentation, developer portal, engineering blog, pricing, support, tooling, and 71 more developer resources.'
 plans:
 - name: Honeycomb Io Plans Pricing
   plan_count: 4
@@ -527,36 +691,52 @@ rules:
     info: 0
     warn: 6
   slug: honeycomb-rules
+scopes:
+- name: Honeycomb Io Scopes
+  scope_count: 0
+  slug: honeycomb-io-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.3
-  delta: 0.0
+  band: exemplar
+  composite: 84.8
+  delta: 24.8
   facets:
-    access_clarity: 57.9
-    commercial_clarity: 57.9
-    contract_governance: 13.6
-    contract_quality: 67.7
-    developer_ergonomics: 50.0
-    discoverability: 59.3
-    governance: 13.6
-    operational_transparency: 63.2
-  previous_composite: 54.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 43.9
+    contract_quality: 74.2
+    developer_ergonomics: 100.0
+    discoverability: 87.0
+    governance: 43.9
+    operational_transparency: 94.7
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+      total: 22
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:
+- kind: authentication
+  name: Honeycomb Io Authentication
+  slug: honeycomb-io-authentication
+  summary_line: apiKey/http/oauth2 · 5 schemes
 - kind: domain-security
   name: Honeycomb Io Domain Security
   slug: honeycomb-io-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Honeycomb Io Vulnerability Disclosure
+  slug: honeycomb-io-vulnerability-disclosure
+  summary_line: contact published
 - kind: trust-center
   name: Honeycomb Io Trust Center
   slug: honeycomb-io-trust-center

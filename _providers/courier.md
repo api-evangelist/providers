@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.2
-  scored_at: '2026-08-24'
+  score: 30.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -272,18 +276,18 @@ rules:
   slug: courier-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 33.5
+  delta: 1.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
-    contract_quality: 70.2
-    developer_ergonomics: 14.3
+    contract_quality: 68.7
+    developer_ergonomics: 23.8
     discoverability: 55.6
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 32.0
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -297,8 +301,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:

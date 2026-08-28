@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.7
-  scored_at: '2026-08-24'
+  score: 34.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -304,18 +307,18 @@ rules:
   slug: refersion-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.5
+  composite: 64.1
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 41.7
-    contract_quality: 74.7
+    contract_quality: 72.9
     developer_ergonomics: 39.9
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 60.5
-  previous_composite: 64.5
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,8 +329,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.7
-  scored_at: '2026-08-24'
+  score: 25.4
+  scored_at: '2026-08-26'
 api_count: 16
 apis:
 - description: OpenAI-style Chat/Research API. POST /responses with a surf-2.0 or surf-2.0-instant model and a natural-language crypto question; returns synthesized answers with inline citations drawn from live mark
@@ -238,18 +242,18 @@ overview: 'Surf publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 7
 score:
   band: developing
-  composite: 42.1
+  composite: 41.8
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 54.5
+    contract_quality: 53.1
     developer_ergonomics: 71.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.1
+  previous_composite: 41.8
   provenance:
     conformance: derived
     contracts:
@@ -265,8 +269,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

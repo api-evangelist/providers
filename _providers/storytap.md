@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The JSON API behind StoryTap's embeddable video widgets. Brands load a first-party loader script from StoryTap's CDN, and that script POSTs to api.storytap.com/w/* to fetch an embed's configuration an
@@ -174,23 +178,23 @@ rate_limits:
   slug: storytap-rate-limits
 score:
   band: thin
-  composite: 38.5
+  composite: 37.9
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 19.0
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 38.5
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/screenshots/storytap-2026-08-17T082128.png
 security:

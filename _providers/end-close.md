@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.9
-  scored_at: '2026-08-24'
+  score: 32.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -222,19 +226,19 @@ overview: 'End Close publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   End Close''s developer surface includes authentication and 19 more developer resources.'
 random_paper: 8
 score:
-  band: thin
-  composite: 37.3
-  delta: 0.0
+  band: developing
+  composite: 40.2
+  delta: 3.3
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 16.7
-    contract_quality: 63.2
-    developer_ergonomics: 21.4
+    contract_quality: 61.5
+    developer_ergonomics: 38.1
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 37.3
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +254,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:

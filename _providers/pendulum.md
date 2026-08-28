@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.5
-  scored_at: '2026-08-24'
+  score: 23.9
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +84,7 @@ overview: Pendulum is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 13
 score:
   band: emerging
-  composite: 12.3
+  composite: 13.4
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -91,7 +95,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.3
+  previous_composite: 13.4
   provenance:
     mcp: first-party
     skills: first-party
@@ -100,9 +104,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 25.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

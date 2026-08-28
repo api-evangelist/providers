@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 13.3
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 4
 common:
@@ -146,7 +150,7 @@ rate_limits:
   slug: klara-rate-limits
 score:
   band: thin
-  composite: 26.6
+  composite: 27.0
   delta: 0.0
   facets:
     access_clarity: 42.1
@@ -154,10 +158,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 26.6
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -165,9 +169,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 52.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klara/refs/heads/main/screenshots/klara-2026-07-25T223943.png
 security:

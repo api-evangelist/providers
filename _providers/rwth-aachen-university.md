@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 28.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -461,19 +465,19 @@ rules:
     warn: 5
   slug: rwth-aachen-university-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.0
+  band: developing
+  composite: 40.4
+  delta: 1.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 64.3
-    developer_ergonomics: 21.4
+    contract_quality: 62.5
+    developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 9.8
-    operational_transparency: 21.1
-  previous_composite: 38.2
+    operational_transparency: 26.3
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -487,8 +491,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/screenshots/rwth-aachen-university-2026-06-20T193306.png
 security:

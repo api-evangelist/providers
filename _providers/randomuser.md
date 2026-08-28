@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-24'
+  score: 28.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,18 +220,18 @@ rules:
   slug: randomuser-rules
 score:
   band: thin
-  composite: 28.5
-  delta: 0.0
+  composite: 32.8
+  delta: 4.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 26.2
-    developer_ergonomics: 14.3
+    contract_quality: 28.2
+    developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 28.5
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +239,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/screenshots/randomuser-2026-06-20T192554.png
 security:

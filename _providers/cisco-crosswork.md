@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.8
-  scored_at: '2026-08-24'
+  score: 31.7
+  scored_at: '2026-08-26'
 api_count: 99
 apis:
 - description: The Add Credentials API from Cisco Crosswork — 1 operation(s) for add credentials.
@@ -519,18 +523,18 @@ rate_limits:
   slug: cisco-crosswork-rate-limits
 score:
   band: developing
-  composite: 53.3
-  delta: -0.3
+  composite: 52.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 12.1
-    contract_quality: 57.3
+    contract_quality: 55.7
     developer_ergonomics: 78.0
-    discoverability: 66.7
+    discoverability: 59.3
     governance: 12.1
     operational_transparency: 36.8
-  previous_composite: 53.6
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -546,8 +550,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

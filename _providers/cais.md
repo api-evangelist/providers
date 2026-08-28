@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.2
-  scored_at: '2026-08-24'
+  score: 30.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: CAIS operates a remote Model Context Protocol server at https://mcp.caisgroup.com/mcp, announced 2026-05-19 as the first surface of the company's "Alts Engine" strategy and initially available to a se
@@ -156,7 +160,7 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.3
+  composite: 24.6
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -164,15 +168,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 25.3
+  previous_composite: 24.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/screenshots/cais-2026-08-07T162901.png
 security:

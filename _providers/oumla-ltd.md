@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-08-24'
+  score: 24.3
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: The addresses API from Oumla Ltd — 5 operation(s) for addresses.
@@ -233,18 +237,18 @@ overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 8
 score:
   band: developing
-  composite: 51.0
+  composite: 49.9
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 30.3
-    contract_quality: 58.6
+    contract_quality: 57.0
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 51.0
+  previous_composite: 49.9
   provenance:
     conformance: first-party
     contracts:
@@ -260,8 +264,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
 security:

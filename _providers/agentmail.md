@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.8
-  scored_at: '2026-08-24'
+  score: 45.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -375,18 +379,18 @@ overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 1
 score:
   band: strong
-  composite: 55.2
+  composite: 54.7
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 16.7
-    contract_quality: 67.5
+    contract_quality: 65.6
     developer_ergonomics: 78.6
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 55.2
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,8 +401,8 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/screenshots/agentmail-2026-07-25T195240.png
 security:

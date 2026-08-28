@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-24'
+  score: 38.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -268,18 +272,18 @@ scopes:
   summary_line: 128 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.6
+  composite: 58.3
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 30.3
-    contract_quality: 51.1
+    contract_quality: 49.8
     developer_ergonomics: 32.7
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 58.6
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,8 +300,8 @@ score:
     regime: Health
     regime_id: health
     score: 77.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:

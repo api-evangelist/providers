@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.4
-  scored_at: '2026-08-24'
+  score: 60.6
+  scored_at: '2026-08-26'
 api_count: 26
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -353,22 +357,22 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 61.4
+  delta: 0.4
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 30.3
-    contract_quality: 56.9
+    contract_quality: 57.1
     developer_ergonomics: 76.2
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 61.3
+  previous_composite: 61.0
   provenance:
     conformance: first-party
     contracts:
-      callable: 65.4
+      callable: 96.2
       derived: 0
       marker_coverage: 0.0
       total: 26
@@ -380,8 +384,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/screenshots/terabase-energy-2026-08-17T082317.png
 security:

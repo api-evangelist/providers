@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.2
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -444,18 +448,18 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 53.8
+  delta: 0.8
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 73.8
+    contract_quality: 75.0
     developer_ergonomics: 7.1
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 53.5
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -469,8 +473,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:

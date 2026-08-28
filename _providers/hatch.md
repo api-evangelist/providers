@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The contacts API from Hatch — 1 operation(s) for contacts.
@@ -182,18 +186,18 @@ rate_limits:
   slug: hatch-rate-limits
 score:
   band: developing
-  composite: 50.0
+  composite: 49.6
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
-    contract_quality: 62.9
+    contract_quality: 61.2
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 50.0
+  previous_composite: 49.6
   provenance:
     conformance: derived
     contracts:
@@ -209,8 +213,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/screenshots/hatch-2026-07-25T220750.png
 security:

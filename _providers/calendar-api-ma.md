@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: National Open business days
@@ -165,18 +169,18 @@ rate_limits:
   slug: calendar-api-ma-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 50.5
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 56.2
+    contract_quality: 57.4
     developer_ergonomics: 68.5
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
-    operational_transparency: 15.8
-  previous_composite: 50.2
+    operational_transparency: 21.1
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +196,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

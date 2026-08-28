@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.2
-  scored_at: '2026-08-24'
+  score: 41.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -288,30 +292,30 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.6
+  composite: 63.3
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 16.7
-    contract_quality: 69.6
+    contract_quality: 68.5
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 81.6
-  previous_composite: 63.6
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 75.0
+      callable: 100.0
       derived: 0
       marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/screenshots/hootsuite-2026-06-20T182835.png
 security:

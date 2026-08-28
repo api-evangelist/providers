@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.0
-  scored_at: '2026-08-24'
+  score: 21.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'The Quantcast Platform GraphQL API (v2) is the primary programmatic interface to the Quantcast advertising platform. It exposes queries and mutations for reporting, campaign and line item management, '
@@ -262,15 +266,15 @@ scopes:
   slug: quantcast-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: thin
-  composite: 38.9
-  delta: 0.0
+  band: developing
+  composite: 40.9
+  delta: 2.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 70.8
+    developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 50.0
@@ -279,8 +283,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcast/refs/heads/main/screenshots/quantcast-2026-06-20T192410.png
 security:

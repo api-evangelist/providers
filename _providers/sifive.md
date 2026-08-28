@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.1
-  scored_at: '2026-08-24'
+  score: 21.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization server that fronts the SiFive Cloud Services (SCS) portal at scs.sifive.com, where SiFive Core Designer and the rest of the SiFive development tooling are delivered. It pub
@@ -172,7 +176,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.8
+  composite: 31.1
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -180,15 +184,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 31.8
+  previous_composite: 31.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

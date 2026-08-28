@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-24'
+  score: 29.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 8
@@ -378,18 +383,18 @@ rules:
   slug: coder-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 43.6
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 56.5
+    contract_quality: 55.0
     developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 50.0
-  previous_composite: 44.0
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -397,8 +402,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/screenshots/coder-2026-06-20T174705.png
 security:

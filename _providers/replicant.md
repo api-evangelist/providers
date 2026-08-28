@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-24'
+  score: 29.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -180,19 +184,19 @@ rate_limits:
   name: Replicant Rate Limits
   slug: replicant-rate-limits
 score:
-  band: developing
-  composite: 53.1
-  delta: 0.0
+  band: strong
+  composite: 56.0
+  delta: 3.4
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 30.3
-    contract_quality: 68.5
-    developer_ergonomics: 20.8
+    contract_quality: 66.7
+    developer_ergonomics: 37.5
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 53.1
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -203,8 +207,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/screenshots/replicant-2026-08-17T081526.png
 security:

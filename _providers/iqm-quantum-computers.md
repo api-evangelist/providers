@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.1
-  scored_at: '2026-08-24'
+  score: 8.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The REST API behind IQM Resonance, IQM's quantum cloud service. It lists the quantum computers available on a server, reports their health and calibration state, accepts circuit and sweep jobs for exe
@@ -165,19 +169,25 @@ rate_limits:
   name: Iqm Quantum Computers Rate Limits
   slug: iqm-quantum-computers-rate-limits
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 37.9
+  delta: -0.3
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.9
-    governance: 18.2
-    operational_transparency: 26.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    discoverability: 68.5
+    governance: 4.5
+    operational_transparency: 23.7
+  previous_composite: 38.2
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Iqm Quantum Computers Authentication

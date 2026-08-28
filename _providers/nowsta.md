@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: verified
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.6
-  scored_at: '2026-08-24'
+  score: 31.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -166,18 +170,18 @@ overview: 'Nowsta publishes 1 API on the [APIs.io](https://apis.io/) network: In
 random_paper: 17
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 35.6
+  delta: 3.8
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 16.7
-    contract_quality: 62.2
-    developer_ergonomics: 13.7
-    discoverability: 75.9
+    contract_quality: 60.5
+    developer_ergonomics: 32.7
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 32.9
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,8 +192,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
 security:

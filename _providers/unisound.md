@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'Multi-modal MaaS API for Unisound U2 models: OpenAI-compatible chat completions and Anthropic-compatible messages for the U2 and U2-Med LLMs (streaming, function calling, structured output, context ca'
@@ -171,7 +175,7 @@ rate_limits:
   slug: unisound-rate-limits
 score:
   band: developing
-  composite: 48.9
+  composite: 47.0
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -179,10 +183,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 48.9
+  previous_composite: 47.0
   provenance:
     conformance: first-party
   regulatory:
@@ -191,8 +195,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/screenshots/unisound-2026-08-17T082618.png
 security:

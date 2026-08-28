@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.8
-  scored_at: '2026-08-24'
+  score: 18.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,18 +178,18 @@ rules:
   slug: hyperliquid-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 37.2
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
-    contract_quality: 62.3
+    contract_quality: 60.8
     developer_ergonomics: 14.3
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 52.6
-  previous_composite: 37.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/screenshots/hyperliquid-2026-06-20T183045.png
 security:

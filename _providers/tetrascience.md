@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 7
@@ -503,19 +507,19 @@ rules:
     warn: 6
   slug: tetrascience-rules
 score:
-  band: developing
-  composite: 53.4
-  delta: 0.0
+  band: strong
+  composite: 56.2
+  delta: 3.3
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 54.5
-    contract_quality: 66.8
-    developer_ergonomics: 29.8
+    contract_governance: 69.7
+    contract_quality: 65.0
+    developer_ergonomics: 36.9
     discoverability: 75.9
-    governance: 54.5
+    governance: 69.7
     operational_transparency: 42.1
-  previous_composite: 53.4
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -529,8 +533,8 @@ score:
     regime: Health
     regime_id: health
     score: 24.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/screenshots/tetrascience-2026-06-20T195201.png
 security:

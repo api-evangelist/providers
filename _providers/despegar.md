@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-24'
+  score: 34.6
+  scored_at: '2026-08-26'
 api_count: 20
 apis:
 - description: The Availability API from Despegar — 2 operation(s) for availability.
@@ -270,18 +273,18 @@ overview: 'Despegar publishes 20 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: thin
-  composite: 32.8
+  composite: 32.4
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 52.2
+    contract_quality: 50.8
     developer_ergonomics: 44.6
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -291,8 +294,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/screenshots/despegar-2026-07-25T211758.png
 security:

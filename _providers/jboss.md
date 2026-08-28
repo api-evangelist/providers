@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring of server configuration, deployments, and runtime state.
@@ -103,21 +107,21 @@ rate_limits:
   name: Jboss Rate Limits
   slug: jboss-rate-limits
 score:
-  band: emerging
-  composite: 23.8
-  delta: 0.0
+  band: thin
+  composite: 26.7
+  delta: 3.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 28.2
-    developer_ergonomics: 28.6
+    contract_quality: 26.7
+    developer_ergonomics: 45.2
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 23.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 23.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/screenshots/jboss-2026-06-20T183710.png
 security:

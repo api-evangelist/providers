@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-24'
+  score: 32.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -390,22 +394,22 @@ rate_limits:
   slug: permit-io-rate-limits
 score:
   band: developing
-  composite: 41.2
-  delta: 0.0
+  composite: 42.1
+  delta: 1.3
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 56.8
+    contract_quality: 60.7
     developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 41.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 43
@@ -415,8 +419,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 34.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/screenshots/permit-io-2026-06-20T191609.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for the CCO.IO Automated Direct platform. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, customers, accoun
@@ -211,27 +215,27 @@ rules:
     warn: 3
   slug: clear-channel-outdoor-hldgs-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.5
-  delta: 0.0
+  band: developing
+  composite: 42.1
+  delta: 4.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 54.5
-    contract_quality: 50.7
-    developer_ergonomics: 19.0
+    contract_quality: 48.0
+    developer_ergonomics: 40.5
     discoverability: 63.0
     governance: 54.5
     operational_transparency: 26.3
-  previous_composite: 38.5
+  previous_composite: 37.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor-hldgs/refs/heads/main/screenshots/clear-channel-outdoor-hldgs-2026-06-20T174457.png
 security:

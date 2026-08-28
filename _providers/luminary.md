@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 29.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -209,18 +213,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 41.6
+  composite: 40.5
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
-    contract_quality: 54.5
+    contract_quality: 53.1
     developer_ergonomics: 28.0
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 41.6
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +235,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/screenshots/luminary-2026-07-25T225714.png
 security:

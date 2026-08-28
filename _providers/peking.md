@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: Unauthenticated read API over the university's scholarly record — communities that mirror the faculty structure (理学部, 人文学部, 专利 with 25,721 items), their collections, items, Dublin Core metadata, attac
@@ -217,18 +221,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.6
-  delta: 0.4
+  composite: 43.7
+  delta: 1.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 22.0
-    contract_quality: 62.6
-    developer_ergonomics: 11.9
+    contract_quality: 63.6
+    developer_ergonomics: 21.4
     discoverability: 64.8
     governance: 22.0
     operational_transparency: 23.7
-  previous_composite: 41.2
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     contracts:
@@ -242,8 +246,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/screenshots/peking-2026-06-20T191532.png
 security:

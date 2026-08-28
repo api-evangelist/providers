@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-24'
+  score: 35.4
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Discovery API from Voidpet — 1 operation(s) for discovery.
@@ -126,18 +129,18 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 7
 score:
   band: developing
-  composite: 42.7
+  composite: 42.4
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
-    contract_quality: 44.1
+    contract_quality: 42.9
     developer_ergonomics: 38.1
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 42.7
+  previous_composite: 42.4
   provenance:
     conformance: derived
     contracts:
@@ -153,8 +156,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

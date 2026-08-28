@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Atlas is Duplo''s global payments API for African and emerging-market businesses: collect payments (checkout, payment links, virtual accounts), disburse funds (single and bulk bank payouts, internation'
@@ -175,19 +179,19 @@ overview: 'Duplo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   Duplo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
 random_paper: 2
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 53.7
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 54.3
+  previous_composite: 53.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -198,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duplo/refs/heads/main/screenshots/duplo-2026-07-25T212511.png
 security:

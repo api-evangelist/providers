@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Account management
@@ -221,18 +225,18 @@ overview: 'Sigma360 publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 11
 score:
   band: developing
-  composite: 49.1
+  composite: 48.6
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 65.5
+    contract_quality: 63.8
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 49.1
+  previous_composite: 48.6
   provenance:
     conformance: derived
     contracts:
@@ -242,8 +246,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/screenshots/sigma-ratings-2026-08-17T081849.png
 security:

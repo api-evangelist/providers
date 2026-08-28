@@ -14,23 +14,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.8
-  scored_at: '2026-08-24'
+  score: 29.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -218,24 +222,24 @@ scopes:
   slug: tebra-scopes
   summary_line: 27 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 63.3
-  delta: 0.0
+  band: exemplar
+  composite: 67.6
+  delta: 5.4
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
     contract_governance: 12.1
-    contract_quality: 57.3
-    developer_ergonomics: 28.6
-    discoverability: 81.5
+    contract_quality: 53.2
+    developer_ergonomics: 58.9
+    discoverability: 74.1
     governance: 12.1
     operational_transparency: 47.4
-  previous_composite: 63.3
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 25.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -243,13 +247,19 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: us-core
+    - jurisdiction: US
+      standard: uscdi
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 86.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/screenshots/tebra-2026-08-17T082258.png
 security:
 - kind: authentication

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.7
-  scored_at: '2026-08-24'
+  score: 28.8
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: UNSWorks is the UNSW open-access institutional repository, running DSpace 7.0 on UNSW infrastructure and administered by the UNSW Library. The HAL/REST server at /server/api is readable without creden
@@ -301,18 +305,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.5
-  delta: -0.3
+  composite: 53.4
+  delta: 2.7
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 15.2
-    contract_quality: 63.6
+    contract_quality: 64.6
     developer_ergonomics: 38.1
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 23.7
-  previous_composite: 50.8
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     contracts:
@@ -326,8 +330,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/screenshots/unsw-sydney-2026-06-20T200413.png
 security:

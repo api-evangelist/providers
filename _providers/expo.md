@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 9.4
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Cloud compilation and code-signing service for Android and iOS React Native apps. Submits build jobs via eas-cli or programmatic token access, returns build artifacts, and fires BUILD webhooks on comp
@@ -154,20 +158,20 @@ rate_limits:
   slug: expo-rate-limits
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 34.7
+  delta: 3.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 0.0
-    contract_quality: 15.5
-    developer_ergonomics: 19.0
+    contract_quality: 14.7
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 31.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    operational_transparency: 44.7
+  previous_composite: 31.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/screenshots/expo-2026-06-20T180939.png
 security:

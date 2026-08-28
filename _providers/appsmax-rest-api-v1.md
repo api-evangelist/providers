@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 30.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -266,19 +270,19 @@ scopes:
   slug: appsmax-rest-api-v1-scopes
   summary_line: 12 scopes
 score:
-  band: developing
-  composite: 46.9
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: 10.6
   facets:
-    access_clarity: 44.7
-    commercial_clarity: 44.7
+    access_clarity: 76.3
+    commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 55.5
-    developer_ergonomics: 42.3
+    contract_quality: 56.7
+    developer_ergonomics: 63.7
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 42.1
-  previous_composite: 46.9
+    operational_transparency: 47.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,9 +293,9 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/screenshots/appsmax-rest-api-v1-2026-08-17T080613.png
 security:
 - kind: authentication

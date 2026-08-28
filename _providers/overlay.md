@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-24'
+  score: 25.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: CoinGecko/CMC-style aggregator market-data feed.
@@ -159,18 +163,18 @@ overview: 'Overlay publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 14
 score:
   band: thin
-  composite: 33.6
+  composite: 33.3
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 51.0
+    contract_quality: 49.7
     developer_ergonomics: 57.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 33.6
+  previous_composite: 33.3
   provenance:
     conformance: derived
     contracts:
@@ -186,8 +190,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/screenshots/overlay-2026-08-07T191129.png
 security:

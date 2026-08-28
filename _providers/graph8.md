@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 10.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: One REST API across the revenue surface — contacts, companies, campaigns and events — plus SDKs, a CLI and an MCP server. Preview access; a workspace endpoint is issued on request.
@@ -85,18 +89,18 @@ plans:
   slug: graph8-plans
 random_paper: 19
 score:
-  band: emerging
-  composite: 17.6
-  delta: 0.0
+  band: thin
+  composite: 27.9
+  delta: 10.3
   facets:
-    access_clarity: 10.5
-    commercial_clarity: 10.5
+    access_clarity: 23.7
+    commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 52.4
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 39.5
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
@@ -104,9 +108,9 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 17.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/graph8/refs/heads/main/screenshots/graph8-2026-08-07T165820.png
 slug: graph8
 tags:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -323,18 +327,18 @@ rules:
   slug: smithery-rules
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 45.6
+  delta: 3.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 13.6
-    contract_quality: 72.8
-    developer_ergonomics: 50.0
+    contract_governance: 28.8
+    contract_quality: 70.9
+    developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 42.9
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -342,8 +346,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/screenshots/smithery-2026-08-17T081933.png
 security:

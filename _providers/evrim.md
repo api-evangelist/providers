@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 18
 apis:
 - description: The answers API from Evrim — 2 operation(s) for answers.
@@ -261,22 +265,22 @@ rate_limits:
   slug: evrim-rate-limits
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 33.2
+  delta: 1.3
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 30.3
-    contract_quality: 43.2
+    contract_quality: 47.5
     developer_ergonomics: 25.6
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 32.9
+  previous_composite: 31.9
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 18
@@ -288,8 +292,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/screenshots/evrim-2026-07-25T213819.png
 security:

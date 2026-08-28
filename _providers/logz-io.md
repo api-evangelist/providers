@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-24'
+  score: 22.2
+  scored_at: '2026-08-26'
 api_count: 19
 apis:
 - description: 'Query indexed logs against the Logz.io managed Elasticsearch / OpenSearch cluster using a request body that mirrors the upstream Elasticsearch Search API. Includes `/v1/search` for ad-hoc queries and '
@@ -510,13 +514,13 @@ rules:
   slug: logz-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.6
+  composite: 65.2
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 61.6
+    contract_quality: 60.1
     developer_ergonomics: 71.4
     discoverability: 74.1
     governance: 9.8
@@ -527,15 +531,15 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 65.6
+  previous_composite: 65.2
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/screenshots/logz-io-2026-06-20T184702.png
 security:

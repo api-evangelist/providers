@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Amedisys API provides access to platform services and data for enterprise integration and automation.
@@ -73,14 +77,14 @@ rate_limits:
   slug: amedisys-rate-limits
 score:
   band: minimal
-  composite: 6.6
-  delta: 0.0
+  composite: 8.5
+  delta: 1.9
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
@@ -91,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amedisys/refs/heads/main/screenshots/amedisys-2026-06-20T171900.png
 security:

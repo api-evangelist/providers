@@ -16,21 +16,21 @@
      "slug": "portone",
      "description": "PortOne (formerly Iamport) is a Korea-based payment orchestration platform that lets online businesses integrate one API to reach 100+ Korean and global payment methods and PSPs. The V2 REST API (api.portone.io) covers payments, billing keys, scheduled/recurring payments, identity verification, cash receipts, B2B tax invoices, and partner settlement, with the legacy V1 API still served at api.iamport.kr.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/screenshots/portone-2026-08-17T081325.png",
-     "score": 61.8,
+     "score": 62.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 65.4,
+      "contract_quality": 63.6,
       "governance": 16.7,
       "contract_governance": 16.7,
       "operational_transparency": 65.8,
-      "developer_ergonomics": 78.0,
+      "developer_ergonomics": 85.1,
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -38,14 +38,14 @@
       "score": 43.8,
       "matched_via": "tags"
      },
-     "agent_score": 55.1,
+     "agent_score": 41.7,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": "documented",
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "verified",
       "openapi_examples": "partial",
@@ -55,7 +55,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 1
     }
@@ -75,12 +79,12 @@
      "slug": "snu",
      "description": "Seoul National University (SNU) is South Korea's flagship national research university, a national university corporation in Seoul ranked in the QS World top 40 and identified by ROR as https://ror.org/04h9pn542. Like most universities it is a federation of buyers rather than a producer of APIs: it operates no developer portal, no open-data portal, no API gateway, no official GitHub organization, and no OAuth or OIDC authorization server. It publishes no API documentation of any kind, and every contract in this repository was written from live probing rather than from something SNU wrote. What it does operate — verified on its own hosts and its own address block on 2026-08-19 — is four machine-readable surfaces. Two OAI-PMH 2.0 data providers: S-Space, the SNU Open Repository and Archive (DSpace 5.5, content from 2008, twelve metadata formats, 100+ sets, three harvesting contexts including OpenAIRE and DRIVER), and KOSSDA, the Korea Social Science Data Archive (DSpace 5.6, content from 2017). An OpenSearch 1.1 search interface over S-Space. And a SAML 2.0 Identity Provider, entityID https://kafegw.snu.ac.kr/idp/simplesamlphp, registered in the KAFE national federation and exported into eduGAIN with REFEDS Research & Scholarship support and a Sirtfi assurance assertion — the single most consequential programmable surface the institution runs, and one no catalog had recorded. Two honest limits belong in the same breath. The repository hosts front everything except OAI-PMH with a JavaScript bot challenge that returns HTTP 200 and an HTML shell to any machine client, so the OpenSearch interface is gated rather than open. And SNU's library discovery runs on Ex Libris Alma and Primo under institution code 82SNU — real, but a tenancy, recorded below as such and never scored as SNU's engineering.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png",
-     "score": 51.0,
+     "score": 50.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.2,
+      "contract_quality": 61.5,
       "governance": 67.4,
       "contract_governance": 67.4,
       "operational_transparency": 21.1,
@@ -88,8 +92,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -97,14 +101,14 @@
       "score": 72.2,
       "matched_via": "tags"
      },
-     "agent_score": 32.9,
+     "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "verified",
@@ -114,7 +118,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 2
     },
@@ -123,21 +131,21 @@
      "slug": "sk-telecom",
      "description": "SK Telecom Co., Ltd. is South Korea's largest mobile network operator, headquartered at SK T-Tower in Jung-gu, Seoul, and the telecom arm of SK Group. It runs the country's largest 5G and LTE network, sells fixed broadband and IPTV through subsidiary SK Broadband, operates the T world retail and care channel, and has repositioned itself as an \"AI company\" around its A.X sovereign Korean LLM family, the NUGU voice assistant, and the A. (A dot) assistant. Its position in the telecom value chain is that of a facilities-based incumbent carrier: it owns the radio access network, spectrum, SIM base, and identity rails that the rest of the Korean digital economy authenticates against. Its API posture is split in an unusual way. SK Telecom does run a genuine, self-serve public developer portal — SK open API at openapi.sk.com, operated by SK Telecom Co., Ltd. — but what it publishes there is AI, big-data and mobility product APIs (speech synthesis, face recognition, congestion and floating-population analytics, video analysis), not network APIs. The legacy T developers subdomains developer.sktelecom.com and developers.sktelecom.com both resolve in DNS to 211.188.149.18 and refuse connections on port 443 — a dead developer programme with dangling hostnames. On the network-API side SK Telecom is a named CAMARA participant and appears in the CAMARA landscape as an operator, has an organisation page in GSMA's Open Gateway directory, signed a domestic MoU with KT and LG Uplus in October 2024 to standardise six network APIs through Korea's TTA, endorsed the Bridge Alliance API Exchange, and signed an MoU with Aduna through subsidiary SK telink in September 2025 — but no CAMARA endpoint (Number Verification, SIM Swap, KYC Match, Quality on Demand) is callable from any SK Telecom-operated developer portal. Developers who want SK Telecom network capability reach it through aggregators — Bridge Alliance BAEx on Singtel's Paragon platform, surfaced through Nokia's Network as Code developer portal, or Aduna — not from SK Telecom directly.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/screenshots/sk-telecom-2026-08-17T081910.png",
-     "score": 44.9,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 51.3,
+      "contract_quality": 49.9,
       "governance": 16.7,
       "contract_governance": 16.7,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 47.0,
+      "developer_ergonomics": 56.5,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -145,14 +153,14 @@
       "score": 43.1,
       "matched_via": "tags"
      },
-     "agent_score": 53.2,
+     "agent_score": 43.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": "verified",
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
@@ -162,7 +170,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 3
     },
@@ -171,12 +183,12 @@
      "slug": "payple",
      "description": "Payple (페이플) is a South Korean payment gateway (PG) and fintech provider that lets merchants accept online payments across domestic and international cards, real-time bank-account payments, recurring / billing-key charges, link payments, identity verification, and settlement / payout (Hub) services. Integration is offered through a hosted payment window initialized in the browser with a public client key, plus a server-side REST API (v2) authorized with partner credentials (PCD_CST_ID / PCD_CUST_KEY). Payple is a registered Korean electronic financial business with an Innovative Financial Service (혁신금융서비스) designation, and it publishes official language sample source, policy documents, and a developer center. This profile was enriched by the API Evangelist pipeline from the Payple developer center and the PAYPLECORP GitHub organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/screenshots/payple-2026-08-07T191656.png",
-     "score": 43.6,
+     "score": 42.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 45.1,
+      "discoverability": 68.5,
+      "contract_quality": 42.7,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
@@ -184,8 +196,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -193,14 +205,14 @@
       "score": 46.9,
       "matched_via": "tags"
      },
-     "agent_score": 36.3,
-     "agent_band": "agent-ready",
+     "agent_score": 25.9,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -210,7 +222,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 4
     },
@@ -219,12 +235,12 @@
      "slug": "barogo",
      "description": "Barogo (바로고) is a South Korean last-mile delivery platform founded in 2014 and headquartered in Gangnam-gu, Seoul. It operates a nationwide two-wheeler dispatch network for food and goods, with rider, merchant and hub-manager apps and a store POS program, and counts McDonald's, Burger King, KFC, Krispy Kreme, Baskin Robbins and Dunkin among its clients. Its developer-facing product is Gorela (고릴라), a delivery-brokerage platform that sits between an \"order agency\" — a POS, marketplace or commerce platform that takes the customer's order — and the delivery agencies that assign riders. The Gorela API covers fare quoting and serviceability, order intake in fixed-fare and flexible-fare modes, order read/amend/cancel, store mapping, prepaid store balances, delivery-agency status and delivery zones, plus twenty callbacks pushed back to the partner as an order fans out into its child deliveries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png",
-     "score": 42.2,
+     "score": 41.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 69.3,
+      "discoverability": 85.2,
+      "contract_quality": 70.1,
       "governance": 16.7,
       "contract_governance": 16.7,
       "operational_transparency": 10.5,
@@ -232,16 +248,16 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 50.6,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
@@ -251,7 +267,11 @@
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 5
     },
@@ -260,12 +280,12 @@
      "slug": "korbit",
      "description": "Korbit is South Korea's first cryptocurrency exchange, founded in 2013 and headquartered in Seoul, offering KRW-denominated spot trading of bitcoin, ether and other digital assets to Korean retail and institutional customers. Korbit publishes the Korbit Open API v2, a REST and WebSocket interface covering market data (tickers, orderbook, trades, candlesticks, tick-size policy), order placement and cancellation, order and trade history, balances, cryptocurrency deposit-address management and withdrawals, and KRW deposit/withdrawal push notifications. Authentication is by API key (X-KAPI-KEY) with per-request HMAC-SHA256 or ED25519 signatures, granular key permissions and optional IP allowlisting. Korbit is unusually agent-forward for an exchange: it ships an official Go CLI with a bundled MCP server and Agent Skill, a documented llms.txt, and a downloadable local sandbox that mocks the full REST and WebSocket surface for no-risk development.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png",
-     "score": 41.5,
+     "score": 41.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 68.3,
+      "contract_quality": 66.6,
       "governance": 16.7,
       "contract_governance": 16.7,
       "operational_transparency": 42.1,
@@ -273,8 +293,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -282,14 +302,14 @@
       "score": 28.3,
       "matched_via": "tags"
      },
-     "agent_score": 52.2,
+     "agent_score": 39.2,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": "documented",
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "verified",
       "openapi_examples": "verified",
@@ -299,7 +319,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 6
     }
@@ -311,20 +335,20 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Mindlogic",
      "slug": "mindlogic",
      "description": "Mindlogic is a South Korean generative-AI company whose products include FactChat (a multi-LLM enterprise chat platform with Studio chatbot building, deep research, meeting notes, and image/video generation), Bliss (a persona chatbot that learns a person's voice and personality for fan engagement), and Informe (a multilingual document-grounded website chatbot). For developers, Mindlogic operates the FactChat API Gateway — a unified, OpenAI- and Anthropic-compatible LLM proxy that fronts models from OpenAI, Anthropic, Google Gemini, xAI and Perplexity behind a single API key, metered in credits, with chat completions, an OpenAI Responses pass-through, an Anthropic Messages pass-through, text-to-speech, and image/video generation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/screenshots/mindlogic-2026-08-07T172941.png",
-     "score": 39.1,
+     "score": 38.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 45.1,
+      "contract_quality": 43.8,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 0.0,
@@ -332,16 +356,16 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 25.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
@@ -351,70 +375,33 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 7
-    },
-    {
-     "name": "Kurly",
-     "slug": "kurly",
-     "description": "Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight \"dawn delivery\" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper's stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly's Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.7,
-      "governance": 31.8,
-      "contract_governance": 31.8,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 31.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 46.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
     },
     {
      "name": "Toss Payments",
      "slug": "toss-payments",
      "description": "Toss Payments is a South Korean payment gateway (PG) operated by Viva Republica, the company behind the Toss super-app. Its REST API lets merchants accept and manage online payments across cards, Korean easy-pay wallets (Toss Pay, KakaoPay, Naver Pay), virtual accounts, bank transfer, and mobile-phone billing. The Core API (base https://api.tosspayments.com) covers payment confirmation and cancellation, recurring billing keys, virtual account issuance, cash receipts, transaction and settlement queries, and seller payouts, with asynchronous results delivered by webhooks. Authentication is HTTP Basic using a secret API key.",
-     "score": 36.7,
+     "score": 38.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 58.2,
+      "contract_quality": 56.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 31.6,
-      "developer_ergonomics": 23.8,
+      "developer_ergonomics": 35.7,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -422,14 +409,14 @@
       "score": 18.8,
       "matched_via": "tags"
      },
-     "agent_score": 38.8,
-     "agent_band": "agent-ready",
+     "agent_score": 28.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "verified",
       "error_semantics": false,
       "openapi_examples": false,
@@ -439,30 +426,34 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Yonsei University",
      "slug": "yonsei",
      "description": "Yonsei University is a private research university in Seoul, South Korea, founded in 1885 and ranked #73 in the QS World University Rankings 2025. Its public, machine-readable footprint is limited and primarily research- and library-oriented: the Yonsei Research Information portal runs on Elsevier Pure (which exposes Pure OAI-PMH and REST endpoints, but they require credentials/IP allow-listing and return HTTP 401 publicly), and the medical library operates a DSpace 5.5 institutional repository (YUHSpace) whose RSS feed is publicly reachable while its OAI-PMH/REST paths are not currently resolvable. No official, documented public developer portal or open API was confirmed; the only related GitHub presence is a student-run Google Developer Group (gdg-yonsei), not an official institutional API organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png",
-     "score": 35.1,
+     "score": 36.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 61.1,
+      "contract_quality": 59.4,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 21.4,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -470,14 +461,14 @@
       "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 35.9,
-     "agent_band": "agent-ready",
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
@@ -487,93 +478,94 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
-     "name": "Kakao",
-     "slug": "kakao",
-     "description": "Kakao Corp. is the South Korean technology group behind KakaoTalk — the dominant mobile messenger in Korea — along with KakaoPay (payments), Kakao Bank (digital bank), KakaoMobility (taxi, navigation, parking), KakaoMap, Kakao Games, Kakao Entertainment (Melon, Kakao Webtoon, Daum), and KakaoCloud. Kakao runs its public developer platform at developers.kakao.com, exposing REST APIs for Kakao Login (OAuth 2.0), Kakao Sync, KakaoTalk Share / Message / Friend Picker / Channel, KakaoStory, KakaoNavi, KakaoMap, Local search, Daum Search, KakaoPay (PG / online easy-pay), and KoGPT generative AI. KakaoMobility and Kakao Enterprise / KakaoCloud each operate additional partner- facing developer surfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png",
-     "score": 34.8,
+     "name": "Kurly",
+     "slug": "kurly",
+     "description": "Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight \"dawn delivery\" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper's stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly's Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png",
+     "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 54.5,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "discoverability": 85.2,
+      "contract_quality": 50.3,
+      "governance": 31.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 31.5,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 18.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Bithumb",
-     "slug": "bithumb",
-     "description": "Bithumb is South Korea's leading cryptocurrency exchange platform offering REST and WebSocket APIs for spot trading across KRW, BTC, and USDT markets. The APIs cover market data, order management, account management, deposit and withdrawal operations, and real-time streaming for 396+ cryptocurrencies.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 53.0,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 20.2,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 30.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.1,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 34.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Bithumb",
+     "slug": "bithumb",
+     "description": "Bithumb is South Korea's leading cryptocurrency exchange platform offering REST and WebSocket APIs for spot trading across KRW, BTC, and USDT markets. The APIs cover market data, order management, account management, deposit and withdrawal operations, and real-time streaming for 396+ cryptocurrencies.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png",
+     "score": 35.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 48.1,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 20.2,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 33.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "partial",
@@ -583,7 +575,63 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Kakao",
+     "slug": "kakao",
+     "description": "Kakao Corp. is the South Korean technology group behind KakaoTalk — the dominant mobile messenger in Korea — along with KakaoPay (payments), Kakao Bank (digital bank), KakaoMobility (taxi, navigation, parking), KakaoMap, Kakao Games, Kakao Entertainment (Melon, Kakao Webtoon, Daum), and KakaoCloud. Kakao runs its public developer platform at developers.kakao.com, exposing REST APIs for Kakao Login (OAuth 2.0), Kakao Sync, KakaoTalk Share / Message / Friend Picker / Channel, KakaoStory, KakaoNavi, KakaoMap, Local search, Daum Search, KakaoPay (PG / online easy-pay), and KoGPT generative AI. KakaoMobility and Kakao Enterprise / KakaoCloud each operate additional partner- facing developer surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png",
+     "score": 34.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 53.1,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 18.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 12
     },
@@ -592,11 +640,11 @@
      "slug": "dunamu",
      "description": "Dunamu Inc. (두나무 주식회사) is a South Korean fintech and blockchain company founded in April 2012 and headquartered at 369 Gangnam-daero, Seocho-gu, Seoul. Dunamu operates Upbit, Korea's largest digital asset exchange (launched 2017, the country's first registered VASP), and Stockplus, a securities trading application launched in 2014, alongside Stockplus Unlisted for pre-IPO share trading. The group also spun out Lambda256 (blockchain infrastructure, now trading as Nodit) in 2019 and runs the Dunamu & Partners venture arm. Dunamu itself publishes no developer program at dunamu.com — its entire public API surface is served under the Upbit brand through the Upbit Developer Center, which offers REST and WebSocket APIs for market data, orders, accounts, deposits, withdrawals and Travel Rule compliance, plus first-party Python, TypeScript and Go SDKs, a CLI and packaged agent skills published from the upbit-official GitHub organization. That API surface is catalogued separately at the Upbit provider profile; this record profiles the corporate parent.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/screenshots/dunamu-2026-08-17T080906.png",
-     "score": 31.6,
+     "score": 30.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -605,8 +653,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -614,14 +662,14 @@
       "score": 46.7,
       "matched_via": "tags"
      },
-     "agent_score": 23.1,
+     "agent_score": 14.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -631,7 +679,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 13
     },
@@ -653,16 +705,16 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 26.3,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 17.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "verified",
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -672,9 +724,65 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 14
+    },
+    {
+     "name": "Hanyang University",
+     "slug": "hanyang",
+     "description": "Hanyang University is a private research university in Seoul and Ansan, South Korea, ranked #162 in the QS World University Rankings 2025. It operates an official API Developer Center at api.hanyang.ac.kr that publishes REST-style Open APIs returning XML or JSON, with OAuth-based authentication, Android and iOS SDKs, an API testing console, and a developer community. Access to the Open APIs requires developer registration and authentication through the university's HY-in portal; individual endpoints and personal-data (\"Private\") APIs are gated behind that login, so they are not publicly enumerable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/screenshots/hanyang-2026-06-20T182515.png",
+     "score": 26.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
     }
    ]
   },
@@ -683,20 +791,20 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Toss",
      "slug": "toss",
      "description": "Toss is a Korean financial super-app operated by Viva Republica that provides REST APIs for payments, banking, credit scoring, identity verification, and financial services across the Toss ecosystem. The Toss Payments platform supports card payments, virtual accounts, mobile phone billing, bank transfers, and digital wallets including TossPay, KakaoPay, NaverPay, and SamsungPay, serving over 30 million registered users across South Korea.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toss/refs/heads/main/screenshots/toss-2026-06-20T195501.png",
-     "score": 26.1,
+     "score": 25.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 28.2,
+      "contract_quality": 26.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
@@ -704,8 +812,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -713,7 +821,7 @@
       "score": 9.4,
       "matched_via": "tags"
      },
-     "agent_score": 18.4,
+     "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -730,45 +838,42 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
-     "name": "Hanyang University",
-     "slug": "hanyang",
-     "description": "Hanyang University is a private research university in Seoul and Ansan, South Korea, ranked #162 in the QS World University Rankings 2025. It operates an official API Developer Center at api.hanyang.ac.kr that publishes REST-style Open APIs returning XML or JSON, with OAuth-based authentication, Android and iOS SDKs, an API testing console, and a developer community. Access to the Open APIs requires developer registration and authentication through the university's HY-in portal; individual endpoints and personal-data (\"Private\") APIs are gated behind that login, so they are not publicly enumerable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/screenshots/hanyang-2026-06-20T182515.png",
-     "score": 22.1,
+     "name": "Coupang",
+     "slug": "coupang",
+     "description": "Coupang is a South Korean e-commerce company offering rapid delivery of a wide range of products including groceries, electronics, fashion, and household goods through its mobile app and website. Coupang exposes an Open API platform for marketplace sellers (vendors) to integrate product catalog, order, return, cancellation, settlement, and inquiry workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coupang/refs/heads/main/screenshots/coupang-2026-06-20T175107.png",
+     "score": 21.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 11.3,
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 36.8,
+      "access_clarity": 36.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.5,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -778,9 +883,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "KakaoBank",
@@ -800,8 +909,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -809,7 +918,7 @@
       "score": 7.6,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -826,19 +935,23 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "PUBLY",
      "slug": "publy",
      "description": "PUBLY is a Korean career-development and content membership platform operated by NEWNEEK Co., Ltd. (뉴닉). It offers a subscription-based Career Membership giving working professionals access to curated career content, series, templates and job-transition guides, personalized daily recommendations by career stage, an AI feature (Perdy, beta), and a newsletter. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network; PUBLY publishes a consumer web product and does not expose a public developer API, so this profile carries identity and security-posture signal only.",
-     "score": 19.9,
+     "score": 19.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -847,8 +960,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -866,71 +979,42 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Kakao Entertainment",
-     "slug": "kakao-entertainment",
-     "description": "Kakao Entertainment Corp. is the South Korean entertainment subsidiary of Kakao Corp., formed from the 2021 merger of Kakao Page and Kakao M. It operates three business lines — Story (Kakao Page and Kakao Webtoon serialized webtoon and web-novel platforms, plus the overseas Tapas and Radish properties), Music (the Melon streaming service and the StarShip, IST, EDAM and Antenna labels), and Media (film, drama and artist management). Its public machine-readable API surface is agent-native rather than REST: Melon publishes a first-party remote Model Context Protocol (MCP) server at https://mcp.melon.com/mcp, in beta, exposing 18 anonymously-introspectable tools for music search, official Melon charts, artist and album detail, genre browsing, personalized DJ Mallang recommendations, listening history and playlist/playback URL generation. Access is authenticated with OAuth 2.0 against the Melon Alliance Auth v3 platform, which publishes RFC 8414 authorization server metadata and an RFC 7591 dynamic client registration endpoint. Kakao Entertainment publishes no OpenAPI, no REST developer portal, and no SDKs; the corporate site and the Melon consumer properties carry no developer program. Kakao Corp's general developer platform at developers.kakao.com belongs to the parent company and is profiled separately as `kakao`.",
-     "score": 18.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 23.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 19
     },
     {
-     "name": "Coupang",
-     "slug": "coupang",
-     "description": "Coupang is a South Korean e-commerce company offering rapid delivery of a wide range of products including groceries, electronics, fashion, and household goods through its mobile app and website. Coupang exposes an Open API platform for marketplace sellers (vendors) to integrate product catalog, order, return, cancellation, settlement, and inquiry workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coupang/refs/heads/main/screenshots/coupang-2026-06-20T175107.png",
-     "score": 17.5,
+     "name": "Pohang University of Science and Technology",
+     "slug": "postech",
+     "description": "Pohang University of Science and Technology (POSTECH) is a private research university in Pohang, South Korea, founded in 1986 by the steelmaker POSCO and ranked #87 in the QS World University Rankings 2025. POSTECH operates a public English-language website and a range of authenticated institutional systems (PODIUM portal, PLMS learning management, admissions, and certificate services). Its primary confirmed public, machine-readable API surface is the POSTECH Library OASIS institutional repository, a DSpace platform that exposes a live OAI-PMH 2.0 metadata-harvesting endpoint. No general-purpose developer portal or open-data API program was found; most other systems are login-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/screenshots/postech-2026-06-20T192013.png",
+     "score": 18.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 0.0,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 3.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -947,9 +1031,161 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 20
+    },
+    {
+     "name": "Sungkyunkwan University",
+     "slug": "skku",
+     "description": "Sungkyunkwan University (SKKU) is a private research university in Seoul and Suwon, South Korea, with roots dating to 1398, and is ranked #123 in the QS World University Rankings 2025. Its digital footprint centers on the Kingo Portal single sign-on environment, the iCampus learning system, the university library, and the KINGO-M mobile app. As of this review SKKU publishes no public, documented developer API or open-data portal; integration and identity services (Kingo SSO, eduroam) are gated to enrolled students, faculty, and staff. Public software activity exists mainly through research-lab and student developer-community GitHub organizations rather than a central institutional developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png",
+     "score": 18.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "Kakao Entertainment",
+     "slug": "kakao-entertainment",
+     "description": "Kakao Entertainment Corp. is the South Korean entertainment subsidiary of Kakao Corp., formed from the 2021 merger of Kakao Page and Kakao M. It operates three business lines — Story (Kakao Page and Kakao Webtoon serialized webtoon and web-novel platforms, plus the overseas Tapas and Radish properties), Music (the Melon streaming service and the StarShip, IST, EDAM and Antenna labels), and Media (film, drama and artist management). Its public machine-readable API surface is agent-native rather than REST: Melon publishes a first-party remote Model Context Protocol (MCP) server at https://mcp.melon.com/mcp, in beta, exposing 18 anonymously-introspectable tools for music search, official Melon charts, artist and album detail, genre browsing, personalized DJ Mallang recommendations, listening history and playlist/playback URL generation. Access is authenticated with OAuth 2.0 against the Melon Alliance Auth v3 platform, which publishes RFC 8414 authorization server metadata and an RFC 7591 dynamic client registration endpoint. Kakao Entertainment publishes no OpenAPI, no REST developer portal, and no SDKs; the corporate site and the Melon consumer properties carry no developer program. Kakao Corp's general developer platform at developers.kakao.com belongs to the parent company and is profiled separately as `kakao`.",
+     "score": 17.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 25.6,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 24.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "Naver",
+     "slug": "naver",
+     "description": "Naver Corp. is South Korea's largest internet company, operating the Naver search portal, Naver Webtoon, Naver Pay, Naver Maps, Naver Shopping, WORKS Mobile, and the LINE messenger platform (jointly with SoftBank via LY Corporation). Naver runs two distinct public developer surfaces: Naver Developers (developers.naver.com) which hosts Naver's classic Open APIs — Search (blog, news, book, encyclopedia, café, knowledge, web, image, shop, doc), Papago N2MT translation, Naver Login (OAuth 2.0), Naver Maps geocoding and static map, Datalab trend, CAPTCHA, and SmartEditor; and Naver Cloud Platform (www.ncloud.com) — Naver's IaaS / PaaS offering with Compute (Server, Container, Functions), Storage (Object, Block, File), Network (VPC, CDN+, Global Edge), AI (CLOVA Speech, CLOVA OCR, Papago, HyperCLOVA X), Maps, SENS (SMS / push messaging), Cloud Search, and Certificate Manager.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/screenshots/naver-2026-06-20T190102.png",
+     "score": 17.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 8.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
     },
     {
      "name": "Simpatico Project",
@@ -968,8 +1204,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -994,151 +1230,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "Pohang University of Science and Technology",
-     "slug": "postech",
-     "description": "Pohang University of Science and Technology (POSTECH) is a private research university in Pohang, South Korea, founded in 1986 by the steelmaker POSCO and ranked #87 in the QS World University Rankings 2025. POSTECH operates a public English-language website and a range of authenticated institutional systems (PODIUM portal, PLMS learning management, admissions, and certificate services). Its primary confirmed public, machine-readable API surface is the POSTECH Library OASIS institutional repository, a DSpace platform that exposes a live OAI-PMH 2.0 metadata-harvesting endpoint. No general-purpose developer portal or open-data API program was found; most other systems are login-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/screenshots/postech-2026-06-20T192013.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 11.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 22
-    },
-    {
-     "name": "Sungkyunkwan University",
-     "slug": "skku",
-     "description": "Sungkyunkwan University (SKKU) is a private research university in Seoul and Suwon, South Korea, with roots dating to 1398, and is ranked #123 in the QS World University Rankings 2025. Its digital footprint centers on the Kingo Portal single sign-on environment, the iCampus learning system, the university library, and the KINGO-M mobile app. As of this review SKKU publishes no public, documented developer API or open-data portal; integration and identity services (Kingo SSO, eduroam) are gated to enrolled students, faculty, and staff. Public software activity exists mainly through research-lab and student developer-community GitHub organizations rather than a central institutional developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png",
-     "score": 16.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 11.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "Naver",
-     "slug": "naver",
-     "description": "Naver Corp. is South Korea's largest internet company, operating the Naver search portal, Naver Webtoon, Naver Pay, Naver Maps, Naver Shopping, WORKS Mobile, and the LINE messenger platform (jointly with SoftBank via LY Corporation). Naver runs two distinct public developer surfaces: Naver Developers (developers.naver.com) which hosts Naver's classic Open APIs — Search (blog, news, book, encyclopedia, café, knowledge, web, image, shop, doc), Papago N2MT translation, Naver Login (OAuth 2.0), Naver Maps geocoding and static map, Datalab trend, CAPTCHA, and SmartEditor; and Naver Cloud Platform (www.ncloud.com) — Naver's IaaS / PaaS offering with Compute (Server, Container, Functions), Storage (Object, Block, File), Network (VPC, CDN+, Global Edge), AI (CLOVA Speech, CLOVA OCR, Papago, HyperCLOVA X), Maps, SENS (SMS / push messaging), Cloud Search, and Certificate Manager.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/screenshots/naver-2026-06-20T190102.png",
-     "score": 15.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 8.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 24
     },
@@ -1147,11 +1243,11 @@
      "slug": "newneek",
      "description": "Newneek (뉴닉) is a South Korean knowledge and media platform that makes news and current events easy and fun to follow. Founded by Kim So-yeon and operated by Newneek Co., Ltd. from Seoul's Mapo district, the company is best known for its conversational email newsletter delivered by the mascot \"Gosuni,\" alongside a mobile app, a Slack news bot, and active social channels. Newneek is a consumer content brand rather than an API producer: it publishes no public developer portal, API documentation, or machine-readable API surface. It appears in the API Evangelist network as a 500 Global portfolio company, and this profile captures its identity and domain-security posture. Enrichment probes found no OpenAPI, well-known, OAuth, MCP, or webhook surface to harvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/screenshots/newneek-2026-08-07T185122.png",
-     "score": 14.3,
+     "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1160,9 +1256,9 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 3.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1179,7 +1275,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 25
     },
@@ -1201,8 +1301,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1220,7 +1320,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 26
     },
@@ -1241,8 +1345,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1260,7 +1364,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 27
     },
@@ -1281,8 +1389,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1300,49 +1408,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 28
-    },
-    {
-     "name": "VCNC",
-     "slug": "vcnc",
-     "description": "VCNC is a South Korean mobile technology company behind Between, a private messaging and photo-sharing app for couples, and TADA, a ride-hailing and mobility service operating in Korea. A 500 Global portfolio company, VCNC maintains an open source presence on GitHub, including Haeinsa, a multi-row transaction library for HBase published on Maven Central. The company does not currently publish a public developer API, developer portal, or API client SDKs.",
-     "score": 11.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 29
     },
     {
      "name": "Gridwiz",
@@ -1361,8 +1433,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1370,7 +1442,7 @@
       "score": 20.3,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1387,30 +1459,33 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
-     "name": "KokkanLogis Co.,Ltd.",
-     "slug": "kokkanlogis-coltd",
-     "description": "KokkanLogis Co.,Ltd. (주식회사 곳간, branded KOKKAN / 도심창고 곳간) is a South Korean urban self-storage and logistics operator headquartered in Gangnam-gu, Seoul. It rents managed storage units in five sizes (S, M, L, XL, XXL, from 1.0m cubes up to 2.0 x 2.0 x 2.0m) across 22 branches in Seoul, Busan, Incheon, Gyeonggi and Chungbuk, serving households storing seasonal appliances, clothing, bedding and baby goods as well as businesses storing samples, inventory, documents and office equipment. Customers select a branch, choose a unit size, pay and manage their contract through the KOKKAN mobile apps for iOS and Android, with recurring monthly card billing through a Korean payment gateway, long-term and promotional discounting, an address-rental (주소지 임대) product, and an optional pickup service for moving stored goods. The company also runs a franchise and partnership program for operators who want to open a KOKKAN branch. It was surfaced through the 500 Global portfolio. As of this profile KokkanLogis publishes no public API, developer portal, SDK or technical documentation — the product surface is a consumer website plus native mobile apps.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kokkanlogis-coltd/refs/heads/main/screenshots/kokkanlogis-coltd-2026-07-25T224128.png",
-     "score": 11.4,
+     "name": "VCNC",
+     "slug": "vcnc",
+     "description": "VCNC is a South Korean mobile technology company behind Between, a private messaging and photo-sharing app for couples, and TADA, a ride-hailing and mobility service operating in Korea. A 500 Global portfolio company, VCNC maintains an open source presence on GitHub, including Haeinsa, a multi-row transaction library for HBase published on Maven Central. The company does not currently publish a public developer API, developer portal, or API client SDKs.",
+     "score": 11.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1428,9 +1503,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     }
    ]
   },
@@ -1439,29 +1518,29 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 34,
-   "shown": 34,
+   "count": 35,
+   "shown": 35,
    "providers": [
     {
-     "name": "B612",
-     "slug": "b612",
-     "description": "B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/screenshots/b612-2026-07-25T202145.png",
-     "score": 10.9,
+     "name": "KokkanLogis Co.,Ltd.",
+     "slug": "kokkanlogis-coltd",
+     "description": "KokkanLogis Co.,Ltd. (주식회사 곳간, branded KOKKAN / 도심창고 곳간) is a South Korean urban self-storage and logistics operator headquartered in Gangnam-gu, Seoul. It rents managed storage units in five sizes (S, M, L, XL, XXL, from 1.0m cubes up to 2.0 x 2.0 x 2.0m) across 22 branches in Seoul, Busan, Incheon, Gyeonggi and Chungbuk, serving households storing seasonal appliances, clothing, bedding and baby goods as well as businesses storing samples, inventory, documents and office equipment. Customers select a branch, choose a unit size, pay and manage their contract through the KOKKAN mobile apps for iOS and Android, with recurring monthly card billing through a Korean payment gateway, long-term and promotional discounting, an address-rental (주소지 임대) product, and an optional pickup service for moving stored goods. The company also runs a franchise and partnership program for operators who want to open a KOKKAN branch. It was surfaced through the 500 Global portfolio. As of this profile KokkanLogis publishes no public API, developer portal, SDK or technical documentation — the product surface is a consumer website plus native mobile apps.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kokkanlogis-coltd/refs/heads/main/screenshots/kokkanlogis-coltd-2026-07-25T224128.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1479,7 +1558,56 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 31
+    },
+    {
+     "name": "B612",
+     "slug": "b612",
+     "description": "B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/screenshots/b612-2026-07-25T202145.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 32
     },
@@ -1501,8 +1629,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1520,7 +1648,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 33
     },
@@ -1542,8 +1674,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1561,7 +1693,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 34
     },
@@ -1583,8 +1719,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1609,7 +1745,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 35
     },
@@ -1630,9 +1770,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 3.4,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1649,50 +1789,13 @@
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 36
-    },
-    {
-     "name": "Levit",
-     "slug": "levit",
-     "description": "Levit Inc. (레브잇) is a software company headquartered in Seoul, South Korea, best known for Alwayz (올웨이즈) — a mobile-first team-purchase commerce app launched in July 2021 that lets shoppers group together with other buyers to unlock prices below normal retail. Levit describes itself as building \"a service that everybody uses everyday,\" and previously launched Ping in March 2021. The company runs the Alwayz Seller Center for merchants selling on the platform and publishes a seller-focused commerce blog. As of this profile Levit publishes no public developer API program, no API documentation or reference, no developer portal, and no SDKs — the enrichment pipeline probed the company and product domains and found no developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/levit/refs/heads/main/screenshots/levit-2026-07-25T224955.png",
-     "score": 9.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 37
     },
     {
      "name": "21 Market",
@@ -1712,8 +1815,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1731,9 +1834,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Veluga",
@@ -1752,8 +1859,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1771,9 +1878,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "H2O Hospitality",
@@ -1793,8 +1904,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1812,9 +1923,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Incheon Open Data",
@@ -1834,8 +1949,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1843,7 +1958,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1860,7 +1975,56 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
+     "name": "Levit",
+     "slug": "levit",
+     "description": "Levit Inc. (레브잇) is a software company headquartered in Seoul, South Korea, best known for Alwayz (올웨이즈) — a mobile-first team-purchase commerce app launched in July 2021 that lets shoppers group together with other buyers to unlock prices below normal retail. Levit describes itself as building \"a service that everybody uses everyday,\" and previously launched Ping in March 2021. The company runs the Alwayz Seller Center for merchants selling on the platform and publishes a seller-focused commerce blog. As of this profile Levit publishes no public developer API program, no API documentation or reference, no developer portal, and no SDKs — the enrichment pipeline probed the company and product domains and found no developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/levit/refs/heads/main/screenshots/levit-2026-07-25T224955.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 41
     },
@@ -1882,8 +2046,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1901,7 +2065,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 42
     },
@@ -1923,8 +2091,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1942,7 +2110,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 43
     },
@@ -1964,8 +2136,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1983,7 +2155,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 44
     },
@@ -2005,9 +2181,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 10.3,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2024,7 +2200,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 45
     },
@@ -2046,8 +2226,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2065,7 +2245,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 46
     },
@@ -2087,8 +2271,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2106,7 +2290,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 47
     },
@@ -2128,8 +2316,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2147,7 +2335,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 48
     },
@@ -2169,8 +2361,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2188,7 +2380,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 49
     },
@@ -2209,8 +2405,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2228,7 +2424,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 50
     },
@@ -2250,8 +2450,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2269,7 +2469,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 51
     },
@@ -2291,8 +2495,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2310,7 +2514,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 52
     },
@@ -2331,8 +2539,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2350,7 +2558,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 53
     },
@@ -2371,8 +2583,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2390,7 +2602,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 54
     },
@@ -2411,8 +2627,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2430,7 +2646,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 55
     },
@@ -2451,8 +2671,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2470,7 +2690,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 56
     },
@@ -2491,8 +2715,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2510,7 +2734,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 57
     },
@@ -2531,8 +2759,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2550,7 +2778,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 58
     },
@@ -2571,8 +2803,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2590,7 +2822,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 59
     },
@@ -2611,8 +2847,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2630,7 +2866,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 60
     },
@@ -2652,8 +2892,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2678,7 +2918,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 61
     },
@@ -2699,8 +2943,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2725,7 +2969,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 62
     },
@@ -2746,8 +2994,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2772,7 +3020,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 63
     },
@@ -2793,8 +3045,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2819,7 +3071,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 64
     },
@@ -2840,8 +3096,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2866,7 +3122,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 65
     }

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 68.2
-  scored_at: '2026-08-24'
+  score: 47.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -688,18 +692,18 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 79.7
+  composite: 79.2
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 59.1
-    contract_quality: 75.3
+    contract_quality: 73.3
     developer_ergonomics: 83.3
     discoverability: 83.3
     governance: 59.1
     operational_transparency: 84.2
-  previous_composite: 79.7
+  previous_composite: 79.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -716,8 +720,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:

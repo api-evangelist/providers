@@ -12,26 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.3
-  scored_at: '2026-08-24'
+  score: 37.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -1608,18 +1611,18 @@ rules:
   slug: hugging-face-spectral-rules
 score:
   band: strong
-  composite: 54.3
-  delta: 0.0
+  composite: 57.3
+  delta: 3.4
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 13.6
-    contract_quality: 70.3
-    developer_ergonomics: 69.0
+    contract_quality: 68.7
+    developer_ergonomics: 85.7
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 54.3
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1631,8 +1634,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png
 security:

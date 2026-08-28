@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-24'
+  score: 33.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 2
@@ -325,18 +329,18 @@ rules:
   slug: together-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 36.5
+  delta: 1.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 11.4
-    contract_quality: 69.0
-    developer_ergonomics: 23.8
+    contract_quality: 67.3
+    developer_ergonomics: 31.0
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -344,8 +348,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/screenshots/together-ai-2026-06-20T195434.png
 security:

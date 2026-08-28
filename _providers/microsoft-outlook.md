@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.0
-  scored_at: '2026-08-24'
+  score: 46.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -551,18 +555,18 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.0
-  delta: 0.0
+  composite: 67.1
+  delta: 0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 30.3
-    contract_quality: 87.0
+    contract_quality: 87.4
     developer_ergonomics: 83.3
     discoverability: 100.0
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 67.0
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -572,8 +576,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:

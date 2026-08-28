@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: flavored
     agent_skills: derived
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.3
-  scored_at: '2026-08-24'
+  score: 17.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,18 +80,18 @@ overview: 'Symbiotic publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 13
 score:
   band: emerging
-  composite: 16.1
+  composite: 15.8
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 37.1
+    contract_quality: 36.1
     developer_ergonomics: 1.8
     discoverability: 44.4
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 15.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -98,8 +102,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

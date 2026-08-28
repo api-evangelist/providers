@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.8
-  scored_at: '2026-08-24'
+  score: 32.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -257,18 +261,18 @@ rules:
   slug: us-abilityone-commission-spectral-rules
 score:
   band: emerging
-  composite: 22.6
+  composite: 22.4
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
-    contract_quality: 28.5
+    contract_quality: 27.7
     developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 22.6
+  previous_composite: 22.4
   provenance:
     agentic_access: derived
     contracts:
@@ -282,8 +286,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/screenshots/us-abilityone-commission-2026-06-20T200541.png
 security:

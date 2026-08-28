@@ -1,36 +1,40 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Retired - public platform shut down 2026-01-31
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
-  - authentication
+  - lifecycle
+  - dns-probe
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -72,41 +76,9 @@ common:
   title: ''
   type: Authentication
   url: authentication/ready-player-me-authentication.yml
-- group: start
-  title: ''
-  type: Portal
-  url: https://readyplayer.me/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://docs.readyplayer.me/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://docs.readyplayer.me/ready-player-me/api-reference
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://docs.readyplayer.me/ready-player-me/integration-guides
-- group: start
-  title: ''
-  type: Portal
-  url: https://studio.readyplayer.me/
-- group: start
-  title: ''
-  type: Portal
-  url: https://readyplayer.me/developers
-- group: start
-  title: ''
-  type: Portal
-  url: https://readyplayer.me/hub
-- group: company
-  title: ''
-  type: Blog
-  url: https://readyplayer.me/blog
 - group: build
   title: ''
-  type: Github
+  type: GitHubOrganization
   url: https://github.com/readyplayerme
 - group: company
   title: ''
@@ -184,6 +156,57 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/ready-player-me-context.jsonld
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ready-player-me-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ready-player-me-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/ready-player-me-components.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ready-player-me-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ready-player-me-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ready-player-me-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ready-player-me-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ready-player-me-llms.txt
+coverage:
+  checked: '2026-08-26'
+  detail: Netflix acquired Ready Player Me in December 2025 and shut the public platform down on 2026-01-31; the retirement is now complete at the DNS layer, so readyplayer.me, api.readyplayer.me, docs.readyplayer.me and studio.readyplayer.me all fail to resolve and there is no first-party surface left to read.
+  evidence:
+  - status: 0
+    url: https://api.readyplayer.me/openapi.json
+  - status: 0
+    url: https://docs.readyplayer.me/
+  - status: 0
+    url: https://readyplayer.me/developers
+  - status: 0
+    url: https://api.readyplayer.me/.well-known/agent-card.json
+  - status: 200
+    url: https://api.github.com/orgs/readyplayerme
+  reason: defunct
+  state: none
+created: '2026-05-25'
+description: 'Ready Player Me was a cross-game avatar platform: a hosted Avatar Creator plus REST APIs that produced interoperable 3D character avatars as binary glTF (.glb) and 2D PNG renders for Unity, Unreal, web, iOS and Android. The Avatars, Assets and Auth APIs covered draft/save avatar creation, template-based creation, wearable-asset equipping and discovery, colour palettes, render precompilation and anonymous/email-code user authentication, all scoped to a studio application via an X-APP-ID header. Netflix acquired the company in December 2025 and the public platform - Avatar Creator, PlayerZero and the developer APIs at api.readyplayer.me - was shut down on 31 January 2026. As of 26 August 2026 readyplayer.me publishes MX and TXT records but no A record, and api.readyplayer.me, docs.readyplayer.me and studio.readyplayer.me are NXDOMAIN, so every first-party developer surface is gone. Avatars already exported as .glb files still load in any glTF 2.0 engine; the readyplayerme GitHub
+  organization and two npm packages remain public.'
 examples:
 - key_count: 2
   name: Ready Player Me Asset Example
@@ -213,6 +236,7 @@ jsonld:
   property_count: 8
   slug: ready-player-me-context
 layout: provider
+modified: '2026-08-26'
 name: Ready Player Me
 nav: Providers
 network: true
@@ -222,7 +246,7 @@ overview: 'Ready Player Me publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Ready Player Me catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ready Player Me''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, YouTube channel, support, and 23 more developer resources.'
+  Ready Player Me''s developer surface includes authentication, YouTube channel, support, tooling, and 26 more developer resources.'
 plans:
 - name: Ready Player Me Plans Pricing
   plan_count: 3
@@ -255,35 +279,36 @@ rules:
     warn: 6
   slug: ready-player-me-rules
 score:
-  band: developing
-  composite: 43.4
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  delta: -6.8
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
-    contract_governance: 28.8
-    contract_quality: 58.4
-    developer_ergonomics: 54.8
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 0.0
+    access_clarity: 15.8
+    commercial_clarity: 15.8
+    contract_governance: 40.9
+    contract_quality: 53.4
+    developer_ergonomics: 33.3
+    discoverability: 74.1
+    governance: 40.9
+    operational_transparency: 5.3
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 43.4
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: falling
 security:
 - kind: authentication
   name: Ready Player Me Authentication
@@ -303,5 +328,4 @@ tags:
 - Unreal
 - Web
 - Mobile
-website: https://readyplayer.me/
 ---

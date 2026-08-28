@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.1
-  scored_at: '2026-08-24'
+  score: 45.1
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: 'REST API for the Crypto.com Exchange covering public reference and market data (instruments, order book, candlesticks, trades, tickers, valuations, settlement prices, insurance fund, risk parameters) '
@@ -253,22 +257,22 @@ rate_limits:
   slug: crypto-com-rate-limits
 score:
   band: exemplar
-  composite: 72.1
+  composite: 72.6
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 59.4
+    contract_quality: 61.2
     developer_ergonomics: 85.7
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 92.1
-  previous_composite: 72.1
+  previous_composite: 72.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -280,8 +284,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 70.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/screenshots/crypto-com-2026-08-17T080411.png
 security:

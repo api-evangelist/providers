@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -198,18 +202,18 @@ rate_limits:
   slug: runwayml-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 47.0
+  delta: 2.3
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 62.3
-    developer_ergonomics: 23.8
+    contract_quality: 60.8
+    developer_ergonomics: 35.7
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 45.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/screenshots/runwayml-2026-06-20T193258.png
 security:

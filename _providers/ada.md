@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.7
-  scored_at: '2026-08-24'
+  score: 43.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -407,18 +411,18 @@ scopes:
   summary_line: 8 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 76.2
+  composite: 75.7
   delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
     contract_governance: 55.3
-    contract_quality: 74.7
+    contract_quality: 72.9
     developer_ergonomics: 85.7
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 60.5
-  previous_composite: 76.2
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -429,8 +433,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:

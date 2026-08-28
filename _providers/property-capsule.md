@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.4
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Property Capsule''s Developer API, announced live on 2020-06-18 in the company''s public release notes: "Our robust API is now live! Now your developers can access PropertyCapsule data outside of our pl'
@@ -127,7 +131,7 @@ rate_limits:
   slug: property-capsule-rate-limits
 score:
   band: emerging
-  composite: 16.3
+  composite: 14.4
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -135,7 +139,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
   needs_work:
@@ -144,9 +148,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 16.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 14.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

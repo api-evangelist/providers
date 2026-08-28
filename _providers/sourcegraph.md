@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.1
-  scored_at: '2026-08-24'
+  score: 6.0
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -201,20 +205,20 @@ rate_limits:
   slug: sourcegraph-rate-limits
 score:
   band: thin
-  composite: 27.1
-  delta: 0.0
+  composite: 29.5
+  delta: 2.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 40.5
+    developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 27.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/screenshots/sourcegraph-2026-06-20T194223.png
 security:

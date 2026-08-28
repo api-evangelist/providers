@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.7
-  scored_at: '2026-08-24'
+  score: 22.8
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API for connecting an institute's ERP, finance or student-information system to Jodo fee collection. Covers user registration and hosted-flow access tokens, student master data and fee structures
@@ -172,25 +176,37 @@ rate_limits:
   name: Jodo Rate Limits
   slug: jodo-rate-limits
 score:
-  band: strong
-  composite: 56.7
+  band: developing
+  composite: 43.2
+  delta: -0.6
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 63.0
-    developer_ergonomics: 71.4
-    discoverability: 87.0
-    governance: 30.3
-    operational_transparency: 28.9
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 16.7
+    contract_quality: 25.2
+    developer_ergonomics: 66.1
+    discoverability: 79.6
+    governance: 16.7
+    operational_transparency: 34.2
+  previous_composite: 43.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Jodo Authentication

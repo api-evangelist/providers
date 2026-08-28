@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 12.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public GraphQL subgraph that indexes useful state about the Goldfinch Protocol (senior pool, tranched pools, backers, borrowers, staked positions, membership) for use by the Goldfinch Interface and an
@@ -115,23 +119,23 @@ overview: 'Warblerlabs publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 14
 score:
   band: emerging
-  composite: 23.9
+  composite: 23.5
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 31.9
     developer_ergonomics: 28.6
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 23.9
+  previous_composite: 23.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-24'
+  score: 25.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -360,18 +365,18 @@ rules:
   slug: magento-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 32.5
+  delta: 1.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 70.0
-    developer_ergonomics: 11.9
+    contract_quality: 68.3
+    developer_ergonomics: 21.4
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 31.0
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -383,8 +388,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png
 security:

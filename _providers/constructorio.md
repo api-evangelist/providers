@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 28.1
+  scored_at: '2026-08-26'
 api_count: 18
 apis:
 - description: AI-optimized keyword and natural-language search results for products and other index sections, returned by search query with filtering, faceting, sorting, pagination and variations mapping.
@@ -286,18 +290,18 @@ scopes:
   summary_line: 37 scopes
 score:
   band: developing
-  composite: 51.8
+  composite: 51.4
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
-    contract_quality: 62.3
+    contract_quality: 60.6
     developer_ergonomics: 57.7
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 22.4
-  previous_composite: 51.8
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     contracts:
@@ -307,8 +311,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:

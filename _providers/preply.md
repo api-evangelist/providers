@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
-    consent_identity: true
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.3
-  scored_at: '2026-08-24'
+  score: 21.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,18 +145,18 @@ overview: 'Preply publishes 1 API on the [APIs.io](https://apis.io/) network: Ch
 random_paper: 17
 score:
   band: developing
-  composite: 40.7
+  composite: 40.3
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
-    contract_quality: 44.8
+    contract_quality: 43.5
     developer_ergonomics: 8.9
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 40.7
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -169,8 +173,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

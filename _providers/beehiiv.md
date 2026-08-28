@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.0
-  scored_at: '2026-08-24'
+  score: 52.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -555,18 +559,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.8
+  composite: 73.3
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 43.9
-    contract_quality: 73.5
+    contract_quality: 71.5
     developer_ergonomics: 71.4
     discoverability: 87.0
     governance: 43.9
     operational_transparency: 55.3
-  previous_composite: 73.8
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -577,8 +581,8 @@ score:
       total: 26
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
 security:

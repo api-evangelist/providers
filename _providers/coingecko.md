@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.2
-  scored_at: '2026-08-24'
+  score: 24.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -416,18 +420,18 @@ rules:
   slug: coingecko-rules
 score:
   band: developing
-  composite: 51.4
+  composite: 50.9
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 13.6
-    contract_quality: 67.4
+    contract_quality: 65.5
     developer_ergonomics: 40.5
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 51.4
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -441,8 +445,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:

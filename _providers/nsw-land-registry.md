@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-24'
+  score: 23.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: A live Cantaloupe Image Server exposing the International Image Interoperability Framework (IIIF) Image API 2.x over the scanned NSW land record images behind the Historical Land Records Viewer. Verif
@@ -233,18 +237,18 @@ overview: 'NSW Land Registry Services publishes 3 APIs on the [APIs.io](https://
 random_paper: 16
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 49.8
+  delta: 1.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 33.3
-    contract_quality: 46.5
-    developer_ergonomics: 38.1
-    discoverability: 81.5
+    contract_quality: 49.3
+    developer_ergonomics: 45.2
+    discoverability: 74.1
     governance: 33.3
     operational_transparency: 39.5
-  previous_composite: 48.5
+  previous_composite: 48.4
   provenance:
     conformance: first-party
   regulatory:
@@ -253,8 +257,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 41.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/screenshots/nsw-land-registry-2026-07-27T125345.png
 security:

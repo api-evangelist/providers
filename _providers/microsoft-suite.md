@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -180,19 +184,19 @@ scopes:
   slug: microsoft-suite-scopes
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 31.2
-  delta: 0.0
+  band: developing
+  composite: 39.7
+  delta: 8.9
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 54.5
-    developer_ergonomics: 16.7
+    contract_quality: 53.1
+    developer_ergonomics: 45.2
     discoverability: 44.4
     governance: 0.0
-    operational_transparency: 18.4
-  previous_composite: 31.2
+    operational_transparency: 26.3
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -200,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/screenshots/microsoft-suite-2026-06-20T185537.png
 security:
 - kind: authentication

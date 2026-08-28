@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.8
-  scored_at: '2026-08-24'
+  score: 32.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,18 +160,18 @@ rules:
   slug: agify-io-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.1
+  composite: 22.0
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 16.6
+    contract_quality: 16.2
     developer_ergonomics: 19.0
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 22.1
+  previous_composite: 22.0
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +179,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/screenshots/agify-io-2026-06-20T170134.png
 security:

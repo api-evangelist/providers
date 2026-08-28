@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.4
-  scored_at: '2026-08-24'
+  score: 39.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -340,18 +344,18 @@ rules:
   slug: smtp2go-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.1
+  composite: 73.6
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 40.2
-    contract_quality: 73.5
+    contract_quality: 71.5
     developer_ergonomics: 63.1
     discoverability: 81.5
     governance: 40.2
     operational_transparency: 76.3
-  previous_composite: 74.1
+  previous_composite: 73.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -368,8 +372,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/screenshots/smtp2go-2026-06-20T194102.png
 security:

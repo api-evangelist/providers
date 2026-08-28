@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-24'
+  score: 48.6
+  scored_at: '2026-08-26'
 api_count: 25
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -380,18 +384,18 @@ scopes:
   summary_line: 64 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 69.6
+  composite: 69.1
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 68.8
+    contract_quality: 66.9
     developer_ergonomics: 78.6
     discoverability: 68.5
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 69.6
+  previous_composite: 69.1
   provenance:
     conformance: first-party
     contracts:
@@ -407,8 +411,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png
 security:

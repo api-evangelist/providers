@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 8.3
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The collections service of the CIONIC research platform. Path-versioned REST endpoints under /c/v{version}/{org}/ covering studies, protocols and protocol versions, collections and their files, stream
@@ -145,7 +149,7 @@ overview: 'CIONIC publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 20
 score:
   band: thin
-  composite: 32.5
+  composite: 31.7
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -153,10 +157,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.5
+  previous_composite: 31.7
   provenance:
     conformance: first-party
   regulatory:
@@ -165,8 +169,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

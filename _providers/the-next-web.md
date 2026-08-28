@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Next Web provides an RSS 2.0 feed updated hourly with the latest technology news, analysis, and articles published on thenextweb.com. The feed covers topics including artificial intelligence, star
@@ -171,13 +175,13 @@ rules:
   slug: the-next-web-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.8
+  composite: 21.6
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 25.0
-    contract_quality: 11.3
+    contract_quality: 10.7
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 25.0
@@ -188,9 +192,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 21.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/screenshots/the-next-web-2026-06-20T195230.png
 security:

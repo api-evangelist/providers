@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 30.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -343,18 +347,18 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 27.6
-  delta: 0.0
+  composite: 29.2
+  delta: 2.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 45.5
-    contract_quality: 27.0
-    developer_ergonomics: 14.3
-    discoverability: 81.5
+    contract_quality: 29.0
+    developer_ergonomics: 23.8
+    discoverability: 74.1
     governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 27.6
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -370,8 +374,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:

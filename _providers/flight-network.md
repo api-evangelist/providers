@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: true
+    agentic_commerce: false
     auth_clarity: false
-    consent_identity: true
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.1
-  scored_at: '2026-08-24'
+  score: 7.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +141,6 @@ common:
 created: '2026-07-28'
 description: 'Flight Network (Flight Network Ltd, 145 King St. West Suite 2850, Toronto, Ontario, TICO Registration 50009248) is a Canadian online travel agency founded in 2005 and owned by Sweden''s Etraveli Group since 2019. It retails flights plus hotels and car rentals to consumers across 75+ markets in 35 languages, sourcing air content through the GDSs - its own About Us page carries the Amadeus and Sabre marks and claims "IATA Certified Travel Agents" - and reaching buyers through its own sites, its iOS/Android apps, metasearch deep links from Skyscanner and Kayak, and third-party affiliate networks. It sits in the distribution chain as a retailer downstream of the GDSs and of its Etraveli sibling TripStack (the group''s B2B LCC/NDC/virtual-interlining API), not as a content owner. Its API posture is honest and thin: no developer portal, no published API documentation, no machine-readable specification, and no exit path. developer/developers/docs/api.flightnetwork.com are all NXDOMAIN,
   /openapi.json and /swagger.json return 404, and the only machine-readable surfaces reachable are the consumer booking site, a security.txt pointing at security@etraveligroup.com, the iOS/Android app-link declarations, and - the one genuine find - a substantial provider-published llms.txt at the site root that hands agents a regional domain map, a product and ancillary catalogue, a support-escalation hierarchy, and explicit DO/DON''T directives for AI systems. Flight Network is thus addressable by agents as a referral target while remaining entirely uncallable. Any B2B or travel-seller access is arranged by commercial agreement off-web.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 modified: '2026-07-28'
 name: Flight Network
@@ -150,23 +153,23 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 12
 score:
   band: emerging
-  composite: 19.1
-  delta: 0.0
+  composite: 18.8
+  delta: -0.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 68.5
+    discoverability: 64.8
     governance: 4.5
     operational_transparency: 15.8
   previous_composite: 19.1
   provenance:
     agentic_access: first-party
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flight-network/refs/heads/main/screenshots/flight-network-2026-08-07T165345.png
 security:

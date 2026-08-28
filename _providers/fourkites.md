@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: FourKites Tracking API provides shipment creation, status, and ETA updates plus carrier integrations across modes (TL, LTL, ocean, rail, parcel) for real-time supply chain visibility.
@@ -100,20 +104,20 @@ rate_limits:
   slug: fourkites-rate-limits
 score:
   band: emerging
-  composite: 21.4
+  composite: 20.9
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 43.3
+    contract_quality: 41.5
     developer_ergonomics: 4.8
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 20.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourkites/refs/heads/main/screenshots/fourkites-2026-06-20T181456.png
 security:

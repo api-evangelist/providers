@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.5
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: RESTful API for the Litmos learning management system enabling management of users, teams, courses, learning paths, enrollments, assessments, and completion records. Supports JSON and XML data formats
@@ -120,26 +124,26 @@ rate_limits:
   slug: litmos-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 33.0
   delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 33.4
+  previous_composite: 33.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmos/refs/heads/main/screenshots/litmos-2026-06-20T184608.png
 security:

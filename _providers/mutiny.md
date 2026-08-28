@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-24'
+  score: 32.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Mutiny''s first-party hosted, remote Model Context Protocol server — the company''s only machine-callable surface. It lets an MCP-compatible assistant (Claude web, Claude Desktop, Claude Code, ChatGPT) '
@@ -175,7 +179,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.0
+  composite: 38.2
   delta: 0.0
   facets:
     access_clarity: 77.6
@@ -183,15 +187,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 39.0
+  previous_composite: 38.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/screenshots/mutiny-2026-08-07T184451.png
 security:

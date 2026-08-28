@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-24'
+  score: 24.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Akkio's current public API, served and documented as "Akkio Public API (Beta)". Covers projects (including the Chat Explore custom-instruction fields), asynchronous model training, and Chat Explore na
@@ -205,18 +209,18 @@ rate_limits:
   slug: akkio-rate-limits
 score:
   band: developing
-  composite: 53.1
+  composite: 51.6
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 30.3
-    contract_quality: 52.2
+    contract_quality: 50.8
     developer_ergonomics: 66.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 53.1
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     contracts:
@@ -226,8 +230,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/screenshots/akkio-2026-07-25T195516.png
 security:

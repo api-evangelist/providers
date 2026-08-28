@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -219,18 +223,18 @@ rules:
   slug: nexus-mutual-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.2
+  composite: 41.9
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 54.5
+    contract_quality: 53.2
     developer_ergonomics: 19.0
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 44.7
-  previous_composite: 42.2
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +248,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

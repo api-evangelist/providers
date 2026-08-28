@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.2
-  scored_at: '2026-08-24'
+  score: 34.6
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API for the Affise Performance platform enabling admins and affiliates to manage offers, track conversions, retrieve statistics, handle publisher payouts, and automate billing operations programm
@@ -244,18 +247,18 @@ rate_limits:
   slug: affise-rate-limits
 score:
   band: strong
-  composite: 66.0
+  composite: 65.5
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
-    contract_quality: 67.7
+    contract_quality: 65.8
     developer_ergonomics: 78.0
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 66.0
+  previous_composite: 65.5
   provenance:
     conformance: first-party
     contracts:
@@ -265,8 +268,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/screenshots/affise-2026-06-20T165649.png
 security:

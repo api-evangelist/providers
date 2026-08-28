@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 24.6
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Assignments between KMS configurations and tenants
@@ -227,18 +231,18 @@ overview: 'IronCore Labs publishes 5 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 5
 score:
   band: strong
-  composite: 56.8
+  composite: 56.4
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
-    contract_quality: 58.3
+    contract_quality: 56.7
     developer_ergonomics: 73.2
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 56.8
+  previous_composite: 56.4
   provenance:
     conformance: derived
     contracts:
@@ -248,8 +252,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
 security:

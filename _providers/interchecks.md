@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-24'
+  score: 37.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for creating and managing recipients, destination payment accounts (bank, card, PayPal, Venmo, prepaid), payments accepted in the Recipient Portal or a hosted widget, and transactions for imm
@@ -169,24 +173,36 @@ rate_limits:
   slug: interchecks-rate-limits
 score:
   band: developing
-  composite: 48.9
+  composite: 48.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
-    contract_quality: 58.0
-    developer_ergonomics: 69.0
+    contract_quality: 59.8
+    developer_ergonomics: 63.7
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 26.3
+  previous_composite: 48.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Interchecks Authentication

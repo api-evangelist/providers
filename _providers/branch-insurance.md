@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 6.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Branch's Quote to Bind GraphQL API exposes everything an affinity partner needs to go from initial quote to final purchase of Branch home + auto (and optional umbrella) insurance without leaving their
@@ -144,27 +148,27 @@ overview: 'Branch publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   Branch''s developer surface includes developer portal, signup flow, getting-started guide, sandbox, engineering blog, documentation, support, and 15 more developer resources.'
 random_paper: 18
 score:
-  band: emerging
-  composite: 21.5
-  delta: 0.0
+  band: thin
+  composite: 26.2
+  delta: 4.7
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 41.7
+    developer_ergonomics: 53.6
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 10.5
   previous_composite: 21.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 21.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 30.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/branch-insurance/refs/heads/main/screenshots/branch-insurance-2026-06-20T173630.png
 security:

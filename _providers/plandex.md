@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Paid (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: paid
@@ -9,28 +9,32 @@ access_model:
   - plans
   - authentication
   trial: true
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -507,27 +511,27 @@ rules:
   slug: plandex-rules
 score:
   band: developing
-  composite: 50.5
+  composite: 50.0
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 28.8
-    contract_quality: 66.6
+    contract_quality: 64.6
     developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 50.5
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

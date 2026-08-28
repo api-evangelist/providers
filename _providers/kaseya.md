@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: The Kaseya BMS (Business Management Solution) V2 REST API exposes the professional services automation surface of BMS — tickets, accounts, contacts, contracts, opportunities, projects, timesheets, exp
@@ -233,18 +237,18 @@ rate_limits:
   slug: kaseya-rate-limits
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 53.0
+  delta: 1.4
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 53.0
-    developer_ergonomics: 56.5
+    contract_quality: 51.6
+    developer_ergonomics: 63.7
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 51.9
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -254,8 +258,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaseya/refs/heads/main/screenshots/kaseya-2026-08-07T171103.png
 security:

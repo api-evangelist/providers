@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.1
-  scored_at: '2026-08-24'
+  score: 26.9
+  scored_at: '2026-08-26'
 api_count: 34
 apis:
 - description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
@@ -352,18 +356,18 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 8
 score:
   band: developing
-  composite: 40.6
+  composite: 40.2
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 12.1
-    contract_quality: 61.5
+    contract_quality: 59.8
     developer_ergonomics: 34.5
     discoverability: 81.5
     governance: 12.1
     operational_transparency: 18.4
-  previous_composite: 40.6
+  previous_composite: 40.2
   provenance:
     contracts:
       callable: 100.0
@@ -371,8 +375,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:

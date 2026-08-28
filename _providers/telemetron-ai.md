@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.8
-  scored_at: '2026-08-24'
+  score: 32.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -183,31 +187,31 @@ overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   Telemetron''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
 random_paper: 11
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 31.1
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 59.5
+    contract_quality: 14.5
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 42.3
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 4
+      marker_coverage: 100.0
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/screenshots/telemetron-ai-2026-08-17T082304.png
 security:

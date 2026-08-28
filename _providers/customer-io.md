@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-24'
+  score: 50.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -514,18 +518,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 87.8
+  composite: 87.3
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 59.1
-    contract_quality: 76.6
+    contract_quality: 74.7
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 59.1
     operational_transparency: 84.2
-  previous_composite: 87.8
+  previous_composite: 87.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -542,8 +546,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/screenshots/customer-io-2026-06-20T175348.png
 security:

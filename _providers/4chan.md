@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -340,18 +344,18 @@ rules:
   slug: 4chan-rules
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 35.7
+  delta: 5.7
   facets:
-    access_clarity: 21.1
-    commercial_clarity: 21.1
+    access_clarity: 44.7
+    commercial_clarity: 44.7
     contract_governance: 28.8
-    contract_quality: 21.5
-    developer_ergonomics: 26.2
+    contract_quality: 20.9
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 30.1
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -359,9 +363,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:
 - kind: domain-security

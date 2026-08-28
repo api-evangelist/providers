@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Restricted REST API for approved partners covering restaurant content, availability, reservations, and CRM. Access is granted through the OpenTable Partner Portal under contractual agreement.
@@ -159,21 +163,21 @@ rate_limits:
   slug: opentable-rate-limits
 score:
   band: emerging
-  composite: 14.9
-  delta: 0.0
+  composite: 23.2
+  delta: 8.3
   facets:
-    access_clarity: 18.4
-    commercial_clarity: 18.4
+    access_clarity: 31.6
+    commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.5
+    developer_ergonomics: 44.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 14.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentable/refs/heads/main/screenshots/opentable-2026-06-20T191050.png
 security:
 - kind: domain-security

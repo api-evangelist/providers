@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.0
-  scored_at: '2026-08-24'
+  score: 20.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'FusionFeed is Infinite Athlete''s sports and performance data API, built on the Tempus Ex platform. It provides schedules, team rosters on a game-by-game basis, official stats delivered the moment the '
@@ -130,7 +134,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.3
+  composite: 23.6
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -138,14 +142,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 24.3
+  previous_composite: 23.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinite-athlete/refs/heads/main/screenshots/infinite-athlete-2026-07-25T222606.png
 security:

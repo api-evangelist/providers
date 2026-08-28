@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Public REST API for the 4TU.ResearchData repository, the science/engineering/design research data repository of the 4TU.Federation, hosted and operated by TU Delft Library. Twelve endpoints verified l
@@ -240,18 +244,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.9
-  delta: -0.3
+  composite: 63.3
+  delta: 0.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 67.4
-    contract_quality: 66.4
+    contract_quality: 68.0
     developer_ergonomics: 35.7
     discoverability: 85.2
     governance: 67.4
     operational_transparency: 23.7
-  previous_composite: 63.2
+  previous_composite: 62.4
   provenance:
     conformance: first-party
     contracts:
@@ -265,8 +269,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 90.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

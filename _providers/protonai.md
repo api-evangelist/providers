@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-08-24'
+  score: 21.8
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
@@ -189,18 +193,18 @@ overview: 'Proton.ai publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 15
 score:
   band: developing
-  composite: 41.3
+  composite: 40.9
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 54.8
+    contract_quality: 53.3
     developer_ergonomics: 42.3
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 41.3
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +214,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

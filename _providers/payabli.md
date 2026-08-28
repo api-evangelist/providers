@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-24'
+  score: 50.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -525,18 +529,18 @@ overview: 'Payabli publishes 33 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 3
 score:
   band: strong
-  composite: 63.8
+  composite: 63.5
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
-    contract_quality: 57.1
+    contract_quality: 55.6
     developer_ergonomics: 90.5
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 63.8
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -553,8 +557,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/screenshots/payabli-2026-08-07T191624.png
 security:

@@ -1,0 +1,130 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-26'
+api_count: 0
+artifact_total: 1
+common:
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/paq-therapeutics-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/paq-therapeutics-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.paqtx.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.paqtx.com/news-archive/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.paqtx.com/feed/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.paqtx.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.paqtx.com/terms-and-conditions/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/paq-therapeutics
+coverage:
+  checked: '2026-08-26'
+  detail: PAQ Therapeutics is a clinical-stage drug developer whose entire public surface is a four-page WordPress marketing site — no api., developer., developers., docs. or portal. subdomain resolves in DNS for paqtx.com, and every contract-discovery path on www.paqtx.com (/openapi.json, /swagger.json, /graphql, /api-docs, /llms.txt, every /.well-known/*) returns 404.
+  evidence:
+  - status: 404
+    url: https://www.paqtx.com/openapi.json
+  - status: 404
+    url: https://www.paqtx.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.paqtx.com/llms.txt
+  - status: 0
+    url: https://api.paqtx.com/
+  - status: 200
+    url: https://www.paqtx.com/
+  reason: not-a-software-company
+  state: none
+created: '2026-08-26'
+description: 'PAQ Therapeutics is a clinical-stage biotechnology company headquartered at 100 Summit Drive, Burlington, Massachusetts, developing targeted protein degradation (TPD) medicines for KRAS-driven cancers. Rather than inhibiting the KRAS oncoprotein, PAQ''s autophagy-based degrader chemistry recruits the cell''s own natural degradation machinery to remove the protein outright, an approach the company applies to the KRAS mutations found in roughly a quarter of human tumors, most notably lung, colorectal and pancreatic cancer. Its lead program, PT0511, is a pan-KRAS degrader that dosed its first patient in a Phase 1 trial in January 2026. The company was co-founded by Nan Ji (Chief Executive Officer) and Huaixiang Hao (Head of Research), with Andrew Krivoshik as Chief Medical Officer. PAQ Therapeutics is a therapeutics developer, not a software vendor: it operates a four-page corporate WordPress site and publishes no API, SDK, developer portal or machine-readable contract of any
+  kind.'
+image: https://www.paqtx.com/wp-content/uploads/2023/03/paq-therapeutics.jpg
+layout: provider
+modified: '2026-08-26'
+name: PAQ Therapeutics
+nav: Providers
+network: true
+overview: 'PAQ Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Therapeutics.
+
+
+  PAQ Therapeutics'' developer surface includes engineering blog and 7 more developer resources.'
+random_paper: 5
+score:
+  band: minimal
+  composite: 9.5
+  facets:
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
+    discoverability: 50.0
+    governance: 0.0
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 17.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+security:
+- kind: domain-security
+  name: Paq Therapeutics Domain Security
+  slug: paq-therapeutics-domain-security
+  summary_line: TLSv1.3
+slug: paq-therapeutics
+tags:
+- Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Therapeutics
+- Drug Discovery
+- Targeted Protein Degradation
+- Life Sciences
+- Clinical Stage
+- Massachusetts
+website: https://www.paqtx.com/
+---

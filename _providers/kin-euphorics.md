@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: true
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.4
-  scored_at: '2026-08-24'
+  score: 27.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Kin Euphorics Shopify storefront agent-commerce surface. Its UCP discovery document (/.well-known/ucp) advertises a Universal Commerce Protocol shopping service over MCP transport, supporting cata
@@ -117,15 +121,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 21.0
+  delta: 1.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 87.0
+    developer_ergonomics: 31.0
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 0.0
   needs_work:
@@ -134,11 +138,11 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 19.8
+  previous_composite: 19.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kin-euphorics/refs/heads/main/screenshots/kin-euphorics-2026-08-07T171224.png
 security:

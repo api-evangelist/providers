@@ -13,25 +13,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.6
-  scored_at: '2026-08-24'
+  score: 41.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 0
@@ -267,31 +272,31 @@ scopes:
   slug: crunchbase-data-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.0
+  band: developing
+  composite: 47.1
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 16.7
-    contract_quality: 52.4
+    contract_quality: 12.8
     developer_ergonomics: 39.9
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 57.0
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 5
+      marker_coverage: 100.0
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/screenshots/crunchbase-data-2026-07-25T210816.png
 security:

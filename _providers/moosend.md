@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 35.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Moosend REST API (v3) enables programmatic access to email marketing and automation capabilities including managing email lists, subscribers, campaigns, segments, and transactional emails. Authent
@@ -236,18 +240,18 @@ rate_limits:
   slug: moosend-rate-limits
 score:
   band: exemplar
-  composite: 68.3
+  composite: 67.9
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 16.7
-    contract_quality: 62.2
+    contract_quality: 60.5
     developer_ergonomics: 50.6
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 68.3
+  previous_composite: 67.9
   provenance:
     conformance: derived
     contracts:
@@ -263,8 +267,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
 security:

@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -221,27 +225,27 @@ rules:
   slug: events-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.1
-  delta: 0.0
+  composite: 25.1
+  delta: 10.2
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 10.5
+    commercial_clarity: 10.5
     contract_governance: 25.0
-    contract_quality: 15.5
-    developer_ergonomics: 9.5
+    contract_quality: 14.7
+    developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 15.1
+  previous_composite: 14.9
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:
 - kind: domain-security

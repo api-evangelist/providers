@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-24'
+  score: 24.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -418,18 +422,18 @@ rules:
   slug: art-institute-of-chicago-rules
 score:
   band: thin
-  composite: 28.3
-  delta: 0.0
+  composite: 35.0
+  delta: 7.1
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
-    contract_quality: 65.7
-    developer_ergonomics: 2.4
+    contract_quality: 67.3
+    developer_ergonomics: 23.8
     discoverability: 57.4
     governance: 13.6
-    operational_transparency: 0.0
-  previous_composite: 28.3
+    operational_transparency: 2.6
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -442,10 +446,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 31.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/screenshots/art-institute-of-chicago-2026-06-20T172440.png
 security:
 - kind: domain-security

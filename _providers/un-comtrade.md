@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-24'
+  score: 22.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,19 +115,19 @@ rules:
     warn: 3
   slug: un-comtrade-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 24.2
-  delta: 0.0
+  band: thin
+  composite: 34.2
+  delta: 10.5
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 35.2
-    developer_ergonomics: 0.0
+    contract_quality: 33.3
+    developer_ergonomics: 28.6
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     contracts:
@@ -131,9 +135,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/screenshots/un-comtrade-2026-06-20T200015.png
 security:
 - kind: authentication

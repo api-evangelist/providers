@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-24'
+  score: 41.2
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Anonymous, read-only access to the editorial and marketing content behind www.iconaircraft.com via the WordPress core REST API (WordPress 6.7.1) — news posts, marketing and policy pages, the media lib
@@ -166,18 +170,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.6
+  composite: 38.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 30.3
-    contract_quality: 49.0
-    developer_ergonomics: 35.7
+    contract_quality: 51.0
+    developer_ergonomics: 30.4
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 38.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Icon Aircraft Authentication

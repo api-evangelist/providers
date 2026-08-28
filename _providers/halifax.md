@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.9
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: Public, unauthenticated OBIE Open Data API returning the location and details of every Halifax cashpoint (ATM) in the UK. Confirmed live (HTTP 200, JSON) at the v2.2 base.
@@ -172,22 +176,22 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 40.8
+  delta: -0.9
   facets:
     access_clarity: 21.4
     commercial_clarity: 21.4
     contract_governance: 30.3
-    contract_quality: 37.1
-    developer_ergonomics: 56.5
-    discoverability: 81.5
+    contract_quality: 32.7
+    developer_ergonomics: 63.7
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 42.7
+  previous_composite: 41.7
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -198,9 +202,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 57.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
 security:

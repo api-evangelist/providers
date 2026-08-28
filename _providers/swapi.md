@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.3
-  scored_at: '2026-08-24'
+  score: 21.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -286,19 +290,19 @@ rules:
     warn: 24
   slug: swapi-spectral-rules
 score:
-  band: emerging
-  composite: 25.7
-  delta: 0.0
+  band: thin
+  composite: 28.1
+  delta: 1.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
-    contract_quality: 21.0
-    developer_ergonomics: 16.7
+    contract_quality: 23.1
+    developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 25.7
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -306,8 +310,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/screenshots/swapi-2026-06-20T194754.png
 security:

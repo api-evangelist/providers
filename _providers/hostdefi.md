@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Token risk scanning for Solana mints — authority state, liquidity, holder concentration, Token-2022 extension flags and sell simulation. 26 operations, API-key authentication.
@@ -62,18 +66,18 @@ overview: 'HostDeFi publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 14
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 21.3
+  delta: 3.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 56.2
-    developer_ergonomics: 9.5
+    contract_quality: 54.7
+    developer_ergonomics: 26.2
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.3
+  previous_composite: 17.9
   provenance:
     contracts:
       callable: 100.0
@@ -86,8 +90,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 slug: hostdefi
 tags:

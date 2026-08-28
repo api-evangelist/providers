@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public HTTPS/JSON API that gives retailers programmatic access to the structured circular ("publication") data that powers the Flipp platform - publications by merchant and store/postal code, publicat
@@ -169,18 +173,18 @@ rate_limits:
   slug: flipp-wishabi-rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 33.7
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
-    contract_quality: 46.9
+    contract_quality: 45.6
     developer_ergonomics: 44.6
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 34.7
+  previous_composite: 33.7
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +194,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/screenshots/flipp-wishabi-2026-07-25T214802.png
 security:

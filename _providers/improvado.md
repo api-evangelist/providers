@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.2
-  scored_at: '2026-08-24'
+  score: 56.7
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Workspace-scoped REST API for embedding Improvado's data extraction, transformation, and load pipeline into agency and platform products. Manages data sources, connections, accounts, extraction templa
@@ -254,18 +258,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.8
+  composite: 64.2
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
-    contract_quality: 55.2
+    contract_quality: 53.7
     developer_ergonomics: 71.4
     discoverability: 92.6
     governance: 30.3
-    operational_transparency: 34.2
-  previous_composite: 63.8
+    operational_transparency: 39.5
+  previous_composite: 64.2
   provenance:
     conformance: first-party
     contracts:
@@ -275,8 +279,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/screenshots/improvado-2026-07-25T222205.png
 security:

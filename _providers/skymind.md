@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Model Upload API from Pathmind — 1 operation(s) for model upload.
@@ -124,18 +128,18 @@ overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 11
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 32.4
+  delta: 2.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 51.7
-    developer_ergonomics: 25.6
-    discoverability: 87.0
+    contract_quality: 50.3
+    developer_ergonomics: 37.5
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 31.1
+  previous_composite: 30.1
   provenance:
     conformance: derived
     contracts:
@@ -144,8 +148,8 @@ score:
       marker_coverage: 0.0
       total: 2
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.6
-  scored_at: '2026-08-24'
+  score: 21.1
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 6
 common:
@@ -176,7 +180,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.3
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -184,10 +188,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 26.1
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/screenshots/clarify-health-2026-07-25T205504.png
 security:

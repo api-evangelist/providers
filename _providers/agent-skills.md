@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Anthropic Tool Use API allows AI agents built on Claude to call client-defined functions or Anthropic-provided server tools such as web search, code execution, and web fetch. Tools are declared in
@@ -204,22 +208,22 @@ rules:
     warn: 4
   slug: agent-skills-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 20.9
-  delta: 0.0
+  band: thin
+  composite: 26.4
+  delta: 5.7
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 15.5
-    developer_ergonomics: 0.0
+    contract_quality: 14.7
+    developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 20.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 20.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-skills/refs/heads/main/screenshots/agent-skills-2026-06-20T165939.png
 security:
 - kind: domain-security

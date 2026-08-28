@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -456,18 +460,18 @@ rules:
   slug: ankr-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 64.7
+  delta: 0.8
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
-    contract_quality: 78.1
+    contract_quality: 79.3
     developer_ergonomics: 66.7
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 64.4
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     contracts:
@@ -479,8 +483,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/screenshots/ankr-2026-06-20T172009.png
 security:

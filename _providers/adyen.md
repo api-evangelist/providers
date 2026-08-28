@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.4
-  scored_at: '2026-08-24'
+  score: 39.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -22351,18 +22355,18 @@ rules:
   slug: adyen-spectral-rules
 score:
   band: exemplar
-  composite: 67.6
+  composite: 67.1
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 28.8
-    contract_quality: 78.5
+    contract_quality: 76.6
     developer_ergonomics: 69.0
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 67.6
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     contracts:
@@ -22376,8 +22380,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:

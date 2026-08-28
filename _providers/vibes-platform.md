@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.8
-  scored_at: '2026-08-24'
+  score: 45.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -359,23 +363,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 73.1
+  composite: 72.6
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 43.9
-    contract_quality: 70.7
+    contract_quality: 69.0
     developer_ergonomics: 61.3
     discoverability: 81.5
     governance: 43.9
     operational_transparency: 76.3
-  previous_composite: 73.1
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 92.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
@@ -387,8 +391,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:

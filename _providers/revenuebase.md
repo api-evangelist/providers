@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-24'
+  score: 40.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -264,18 +268,18 @@ rate_limits:
   slug: revenuebase-rate-limits
 score:
   band: strong
-  composite: 60.0
+  composite: 59.6
   delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 30.3
-    contract_quality: 55.2
+    contract_quality: 53.7
     developer_ergonomics: 71.4
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 60.0
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +290,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/screenshots/revenuebase-2026-08-17T081544.png
 security:

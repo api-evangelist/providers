@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.0
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 api_count: 50
 apis:
 - description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
@@ -473,29 +477,29 @@ overview: 'Wispr AI publishes 50 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 14
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 45.0
+  delta: 1.3
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 48.7
+    contract_quality: 52.8
     developer_ergonomics: 20.8
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 44.0
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/screenshots/wispr-ai-2026-08-17T130429.png
 security:

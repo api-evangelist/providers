@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 44.1
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Company agents
@@ -191,30 +196,30 @@ scopes:
   slug: alterestate-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 42.6
-  delta: 0.0
+  band: thin
+  composite: 34.2
+  delta: 2.4
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 57.3
-    developer_ergonomics: 47.0
+    contract_quality: 13.9
+    developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 42.6
+  previous_composite: 31.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 5
+      marker_coverage: 100.0
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/screenshots/alterestate-2026-07-25T195823.png
 security:

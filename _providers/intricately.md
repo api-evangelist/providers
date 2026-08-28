@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Cloud Dynamics API (formerly the Intricately API) provides access to cloud adoption, usage, and spend data on companies, products, applications, and domains. Requests authenticate with an X-API-KE
@@ -124,14 +128,14 @@ rate_limits:
   slug: intricately-rate-limits
 score:
   band: thin
-  composite: 26.3
-  delta: 0.0
+  composite: 30.6
+  delta: 4.3
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 35.7
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
@@ -139,8 +143,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/screenshots/intricately-2026-07-25T222720.png
 security:

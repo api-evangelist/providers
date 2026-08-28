@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.8
-  scored_at: '2026-08-24'
+  score: 27.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Official hosted, OAuth-protected Model Context Protocol server that exposes the SuperMe professional network to AI clients (Claude, ChatGPT, Cursor) over SSE / Streamable HTTP.
@@ -100,7 +104,7 @@ overview: 'SuperMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 13
 score:
   band: emerging
-  composite: 18.9
+  composite: 18.1
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -108,14 +112,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.9
+  previous_composite: 18.1
   provenance:
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.5
-  scored_at: '2026-08-24'
+  score: 55.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -205,18 +209,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.7
+  composite: 52.2
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
-    contract_quality: 67.8
+    contract_quality: 66.0
     developer_ergonomics: 66.1
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 52.7
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +231,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/screenshots/sprig-2026-08-17T082046.png
 security:

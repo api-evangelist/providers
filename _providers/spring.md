@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -301,18 +305,18 @@ rules:
   slug: spring-rules
 score:
   band: developing
-  composite: 43.0
-  delta: 0.0
+  composite: 47.0
+  delta: 4.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 69.7
-    contract_quality: 69.4
-    developer_ergonomics: 26.2
+    contract_quality: 70.3
+    developer_ergonomics: 45.2
     discoverability: 63.0
     governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 43.0
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -320,8 +324,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194408.png
 security:

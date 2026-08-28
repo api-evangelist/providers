@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-24'
+  score: 35.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -481,18 +484,18 @@ overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 20
 score:
   band: developing
-  composite: 49.5
+  composite: 49.1
   delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 16.7
-    contract_quality: 59.7
+    contract_quality: 58.1
     developer_ergonomics: 60.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 49.5
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -503,8 +506,8 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/screenshots/bigeye-2026-08-07T162422.png
 security:

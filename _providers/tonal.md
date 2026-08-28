@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.3
-  scored_at: '2026-08-24'
+  score: 20.3
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 2
 common:
@@ -119,7 +123,7 @@ overview: 'Tonal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 17
 score:
   band: emerging
-  composite: 18.7
+  composite: 19.8
   delta: 0.0
   facets:
     access_clarity: 38.2
@@ -130,7 +134,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 18.7
+  previous_composite: 19.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -139,9 +143,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 31.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

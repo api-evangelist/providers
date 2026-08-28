@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 24.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -252,22 +256,22 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 35.9
+  delta: -0.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 63.4
+    contract_quality: 58.3
     developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 37.2
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 9
@@ -277,8 +281,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/screenshots/td-ameritrade-holding-2026-06-20T194947.png
 security:

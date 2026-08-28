@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: flavored
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-24'
+  score: 54.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -282,18 +286,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.4
+  composite: 62.9
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 30.3
-    contract_quality: 65.6
+    contract_quality: 63.8
     developer_ergonomics: 64.3
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 63.4
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,8 +308,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png
 security:

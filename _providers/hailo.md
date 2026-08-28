@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.2
-  scored_at: '2026-08-24'
+  score: 11.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: HailoRT is Hailo's production runtime library for the Hailo-8, Hailo-10 and Hailo-15 device families. It is a host-side, user-space C/C++ library with a Python binding (pyHailoRT), a hailortcli comman
@@ -150,18 +154,25 @@ rate_limits:
   slug: hailo-rate-limits
 score:
   band: thin
-  composite: 28.8
+  composite: 26.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 66.7
-    governance: 18.2
+    discoverability: 59.3
+    governance: 4.5
     operational_transparency: 18.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 26.4
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Hailo Authentication

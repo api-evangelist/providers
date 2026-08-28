@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: true
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-24'
+  score: 25.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'A remote Model Context Protocol server operated by DeepIP at https://app.deepip.ai/mcp, letting an MCP-capable agent act inside a DeepIP tenant on behalf of a signed-in user. It is protected by OAuth '
@@ -163,7 +167,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.1
+  composite: 26.3
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -171,15 +175,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 27.1
+  previous_composite: 26.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepip/refs/heads/main/screenshots/deepip-2026-07-25T211555.png
 security:

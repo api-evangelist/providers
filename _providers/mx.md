@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'The MX Platform API aggregates and enhances financial data, connecting apps and websites to tens of thousands of financial institutions. Covers users, members, accounts, transactions, categorization, '
@@ -228,18 +232,18 @@ rate_limits:
   slug: mx-rate-limits
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 65.7
+  delta: 1.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
-    contract_quality: 63.7
-    developer_ergonomics: 49.4
+    contract_quality: 61.9
+    developer_ergonomics: 56.5
     discoverability: 83.3
     governance: 30.3
     operational_transparency: 92.1
-  previous_composite: 64.8
+  previous_composite: 64.3
   provenance:
     conformance: first-party
     contracts:
@@ -255,8 +259,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/screenshots/mx-2026-08-07T184503.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: flavored
     agent_skills: derived
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-24'
+  score: 28.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -100,18 +104,18 @@ overview: Tano publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 14
 score:
   band: emerging
-  composite: 19.7
+  composite: 19.4
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 53.2
+    contract_quality: 51.8
     developer_ergonomics: 1.8
     discoverability: 40.7
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 19.7
+  previous_composite: 19.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -122,8 +126,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

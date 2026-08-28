@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -204,18 +208,18 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 46.1
+  delta: 1.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 51.0
-    developer_ergonomics: 49.4
+    contract_quality: 49.7
+    developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.0
+  previous_composite: 44.6
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +235,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png
 security:

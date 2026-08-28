@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-24'
+  score: 38.2
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
@@ -208,18 +212,18 @@ rate_limits:
   slug: crescendo-lab-rate-limits
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 61.2
+  delta: 2.1
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 60.8
+    contract_quality: 59.1
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 23.7
-  previous_composite: 59.5
+    operational_transparency: 31.6
+  previous_composite: 59.1
   provenance:
     conformance: derived
     contracts:
@@ -234,9 +238,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 27.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 34.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:

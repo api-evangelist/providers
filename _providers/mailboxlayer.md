@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.3
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -358,18 +362,18 @@ rules:
   slug: mailboxlayer-rules
 score:
   band: exemplar
-  composite: 75.0
-  delta: 0.0
+  composite: 74.0
+  delta: 0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 59.1
-    contract_quality: 71.3
+    contract_quality: 72.1
     developer_ergonomics: 86.3
-    discoverability: 94.4
+    discoverability: 83.3
     governance: 59.1
     operational_transparency: 50.0
-  previous_composite: 75.0
+  previous_composite: 73.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -380,8 +384,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-08-17T124041.png
 security:

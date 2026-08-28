@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.9
-  scored_at: '2026-08-24'
+  score: 39.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -266,18 +270,18 @@ rate_limits:
   slug: vitally-rate-limits
 score:
   band: strong
-  composite: 61.3
+  composite: 60.9
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 67.6
+    contract_quality: 65.8
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 61.3
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +292,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/screenshots/vitally-2026-08-17T082804.png
 security:

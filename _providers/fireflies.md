@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-24'
+  score: 61.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -373,18 +377,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.7
-  delta: 0.0
+  composite: 73.8
+  delta: 0.6
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 55.3
-    contract_quality: 80.2
+    contract_quality: 80.7
     developer_ergonomics: 59.5
     discoverability: 92.6
     governance: 55.3
     operational_transparency: 44.7
-  previous_composite: 73.7
+  previous_composite: 73.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -395,8 +399,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png
 security:

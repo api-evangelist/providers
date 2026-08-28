@@ -1,0 +1,104 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-26'
+api_count: 0
+artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://forgeglobal.com/mobcrush_stock/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Mobcrush
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mobcrush-packages.yml
+coverage:
+  checked: '2026-08-25'
+  detail: Mobcrush was acquired by Super League Gaming on 2 June 2021 and the brand retired; its domain mobcrush.com is still registered and still delegated to four Route 53 name servers, but the hosted zone behind them was deleted, so every public resolver returns SERVFAIL for mobcrush.com and every subdomain and no HTTP request to any Mobcrush host can even open a connection — and Wayback shows the company never published a developer portal, reference or spec while it was alive, only an internal /api/ used by its own site and apps.
+  evidence:
+  - status: 0
+    url: https://mobcrush.com/
+  - status: 0
+    url: https://api.mobcrush.com/openapi.json
+  - status: 0
+    url: https://mobcrush.com/.well-known/agent-card.json
+  - status: 0
+    url: https://mobcrush.com/.well-known/agent.json
+  - status: 0
+    url: https://mobcrush.com/llms.txt
+  - status: 404
+    url: https://www.mobcrush.com/api/
+  - status: 404
+    url: https://www.superleague.com/mobcrush
+  - status: 200
+    url: https://api.github.com/orgs/Mobcrush
+  - status: 200
+    url: https://www.superleague.com/
+  reason: defunct
+  state: none
+created: '2026-08-25'
+description: 'Mobcrush Streaming, Inc. was a Santa Monica, California live-streaming technology company, founded in 2013 by Royce Disini with James Hurley, Travis Rogers and Stephen Dao, that made it possible for mobile gamers to broadcast gameplay straight from an iOS or Android device with no capture card, no desktop encoder and no third-party software. Its differentiator was simulcast: a creator went live once and Mobcrush relayed the same broadcast simultaneously to Twitch, YouTube, Facebook, Twitter and Periscope at no extra charge, which turned the product from a competing destination into distribution infrastructure for creators who already had audiences elsewhere. The company added an advertising and sponsorship layer in 2018 ("Go Live, Get Paid") and operated Mineville, one of six official Minecraft server partners under agreement with Microsoft, reaching more than twenty million players a year. It raised roughly $35.9M across its rounds, including an $11M Series A in September
+  2015 led by Kleiner Perkins Caufield & Byers and a $20M round in 2016, with First Round Capital and Lowercase Capital also participating. Super League Gaming announced its acquisition of Mobcrush on 11 March 2021 and closed it on 2 June 2021 for approximately 12.6 million shares of common stock; the acquirer now trades as Super League Enterprise, Inc. and does not carry the Mobcrush brand forward as a product. Mobcrush ran a JSON web API at www.mobcrush.com/api/ that backed its own site and mobile apps, but it never published a developer portal, an API reference, a first-party SDK or any machine-readable specification, so there is no public API surface to catalog — and the mobcrush.com domain, while still registered, no longer resolves at all. This profile is retained as a historical record.'
+image: https://avatars.githubusercontent.com/u/14281215?v=4
+layout: provider
+modified: '2026-08-25'
+name: Mobcrush
+nav: Providers
+network: true
+overview: Mobcrush is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Gaming, and Live Streaming.
+random_paper: 6
+score:
+  band: minimal
+  composite: 5.3
+  facets:
+    access_clarity: 0.0
+    commercial_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 50.0
+    governance: 0.0
+    operational_transparency: 2.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+slug: mobcrush
+tags:
+- Company
+- Defunct
+- Acquired
+- Gaming
+- Live Streaming
+- Video
+- Mobile
+- Creator Economy
+- Media
+- Advertising
+website: https://forgeglobal.com/mobcrush_stock/
+---

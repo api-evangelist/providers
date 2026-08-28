@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.5
-  scored_at: '2026-08-24'
+  score: 31.2
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Create and download workspace-scoped evidence exports.
@@ -126,34 +130,34 @@ overview: 'Venue Authority publishes 5 APIs on the [APIs.io](https://apis.io/) n
   Venue Authority''s developer surface includes support and 16 more developer resources.'
 random_paper: 15
 score:
-  band: thin
-  composite: 32.6
-  delta: 3.7
+  band: developing
+  composite: 46.1
+  delta: 13.2
   facets:
-    access_clarity: 21.1
-    commercial_clarity: 21.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 54.8
-    developer_ergonomics: 26.2
+    contract_quality: 53.3
+    developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 28.9
+    operational_transparency: 39.5
+  previous_composite: 32.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 31.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 slug: venueauthority
 tags:
 - Facility Verification

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.3
-  scored_at: '2026-08-24'
+  score: 8.6
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Chainguard API v2 is the current REST API for the Chainguard platform. Endpoints cover Identity and Access Management (IAM), image registry operations, and vulnerability data under /iam/v2beta1/, /reg
@@ -190,20 +194,20 @@ rate_limits:
   slug: chainguard-rate-limits
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 24.2
+  delta: 2.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 40.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 21.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/screenshots/chainguard-2026-06-20T174155.png
 security:

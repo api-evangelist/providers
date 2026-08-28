@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.1
-  scored_at: '2026-08-24'
+  score: 28.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -217,30 +221,30 @@ overview: 'Mirage publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 20
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 49.8
+  delta: 1.4
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 16.7
-    contract_quality: 53.0
+    contract_quality: 57.0
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 48.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/screenshots/mirage-2026-08-07T183717.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-24'
+  score: 39.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -235,19 +239,19 @@ overview: 'WAODAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   WAODAO''s developer surface includes documentation, support, authentication, code examples, and 28 more developer resources.'
 random_paper: 5
 score:
-  band: thin
-  composite: 36.5
-  delta: 0.0
+  band: developing
+  composite: 40.6
+  delta: 3.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 30.3
-    contract_quality: 57.9
-    developer_ergonomics: 42.3
+    contract_quality: 59.0
+    developer_ergonomics: 61.3
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 36.5
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,8 +262,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

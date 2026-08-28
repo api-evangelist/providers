@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.3
-  scored_at: '2026-08-24'
+  score: 33.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -162,23 +166,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 39.5
-  delta: 0.0
+  composite: 40.8
+  delta: 1.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 51.2
-    developer_ergonomics: 19.0
+    contract_quality: 49.0
+    developer_ergonomics: 35.7
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.5
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 25.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -187,9 +191,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 77.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/screenshots/monument-bank-2026-08-07T184223.png
 security:

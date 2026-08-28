@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Authenticated member web and mobile dashboard for viewing 100+ lab biomarkers, trends across testing rounds, clinician notes, biological age, and a personalized action plan. There is no documented pub
@@ -111,27 +115,27 @@ rate_limits:
   name: Function Health Rate Limits
   slug: function-health-rate-limits
 score:
-  band: emerging
-  composite: 24.9
-  delta: 0.0
+  band: thin
+  composite: 27.4
+  delta: 2.7
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 28.7
+    contract_quality: 27.9
     developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.9
+  previous_composite: 24.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

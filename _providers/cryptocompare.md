@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: derived
     idempotency: na
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-24'
+  score: 60.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -531,18 +535,18 @@ rules:
   slug: cryptocompare-rules
 score:
   band: strong
-  composite: 55.0
-  delta: 0.0
+  composite: 54.6
+  delta: 0.8
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 45.5
-    contract_quality: 74.3
+    contract_quality: 75.5
     developer_ergonomics: 29.2
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 45.5
     operational_transparency: 42.1
-  previous_composite: 55.0
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -559,8 +563,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:

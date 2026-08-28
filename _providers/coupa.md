@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-08-24'
+  score: 31.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -415,18 +419,18 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 53.4
+  delta: 4.3
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 54.5
-    contract_quality: 75.9
-    developer_ergonomics: 28.6
+    contract_governance: 69.7
+    contract_quality: 74.1
+    developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 54.5
-    operational_transparency: 23.7
-  previous_composite: 49.6
+    governance: 69.7
+    operational_transparency: 31.6
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     contracts:
@@ -434,8 +438,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/screenshots/coupa-2026-06-20T175107.png
 security:

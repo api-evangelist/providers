@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Read-only REST API providing access to U.S. Congressional data including bills and resolutions, roll call votes, member profiles, committee information, cosponsorship records, and congressional roles.
@@ -108,26 +112,26 @@ rate_limits:
   slug: govtrack-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 23.7
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 28.2
+    contract_quality: 26.7
     developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.1
+  previous_composite: 23.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/screenshots/govtrack-2026-06-20T182304.png
 security:

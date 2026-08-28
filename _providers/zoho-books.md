@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.4
-  scored_at: '2026-08-24'
+  score: 17.2
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The Contacts API from Zoho Books — 4 operation(s) for contacts.
@@ -136,18 +140,18 @@ overview: 'Zoho Books publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 6
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 37.6
+  delta: 3.5
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 0.0
-    contract_quality: 52.4
-    developer_ergonomics: 23.8
+    contract_quality: 51.0
+    developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.4
+  previous_composite: 34.1
   provenance:
     contracts:
       callable: 100.0
@@ -159,9 +163,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 25.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 32.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/screenshots/zoho-books-2026-06-20T201932.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.5
-  scored_at: '2026-08-24'
+  score: 34.2
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The ACCC-operated Consumer Data Right Register, the ecosystem's source of truth for who is allowed to participate. Unauthenticated endpoints return the energy data holder brand summary (84 brands with
@@ -285,18 +289,18 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.8
+  composite: 63.4
   delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 30.3
-    contract_quality: 61.8
+    contract_quality: 62.8
     developer_ergonomics: 80.4
-    discoverability: 83.3
+    discoverability: 75.9
     governance: 30.3
     operational_transparency: 97.4
-  previous_composite: 63.8
+  previous_composite: 63.4
   provenance:
     conformance: first-party
     contracts:
@@ -312,8 +316,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
 security:

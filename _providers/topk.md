@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.3
-  scored_at: '2026-08-24'
+  score: 6.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Structured document store and query surface. Create collections with typed, indexed fields (keyword_index, semantic_index, vector index), upsert/update/delete documents by `_id`, and run hybrid querie
@@ -202,8 +206,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/screenshots/topk-2026-08-17T082413.png
 security:

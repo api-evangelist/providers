@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.2
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Exchange account credentials for a short-lived API token.
@@ -152,25 +156,25 @@ overview: 'Tank Utility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
   Tank Utility''s developer surface includes authentication, CLI, support, engineering blog, and 16 more developer resources.'
 random_paper: 3
 score:
-  band: thin
-  composite: 37.5
+  band: emerging
+  composite: 25.7
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 58.4
+    contract_quality: 14.2
     developer_ergonomics: 28.0
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 37.5
+  previous_composite: 25.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
     mcp: derived
     skills: derived
@@ -180,8 +184,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Pachyderm's platform API, exposed over gRPC/protobuf. Core services are PFS (data versioning — repos, commits, branches, files) and PPS (pipelines — jobs, datums, pipelines, logs), plus an Auth servic
@@ -111,23 +115,23 @@ overview: 'Pachyderm publishes 1 API on the [APIs.io](https://apis.io/) network.
   Pachyderm''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 10 more developer resources.'
 random_paper: 12
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 25.8
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 28.2
+    contract_quality: 26.7
     developer_ergonomics: 42.9
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 26.2
+  previous_composite: 25.8
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pachyderm/refs/heads/main/screenshots/pachyderm-2026-08-07T191241.png
 security:

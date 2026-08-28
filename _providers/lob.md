@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.5
-  scored_at: '2026-08-24'
+  score: 34.5
+  scored_at: '2026-08-26'
 api_count: 46
 apis:
 - description: The Accounts API from Lob — 1 operation(s) for accounts.
@@ -422,26 +425,26 @@ rate_limits:
   slug: lob-rate-limits
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 45.5
+  delta: 1.9
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 0.0
-    contract_quality: 61.2
-    developer_ergonomics: 38.1
+    contract_quality: 59.6
+    developer_ergonomics: 47.6
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 44.0
+  previous_composite: 43.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/screenshots/lob-2026-06-20T184627.png
 security:

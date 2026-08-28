@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-24'
+  score: 39.0
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: REST API for Google Flow (Veo 3.1 video, Gemini Omni Flash audio-native video, Imagen 4 and Nano Banana image generation) driven through one or more linked Google accounts, with a captcha-solver pipel
@@ -277,18 +281,18 @@ overview: 'useapi.net publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 17
 score:
   band: strong
-  composite: 55.8
+  composite: 55.4
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 66.2
+    contract_quality: 64.4
     developer_ergonomics: 73.2
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 55.8
+  previous_composite: 55.4
   provenance:
     conformance: derived
     contracts:
@@ -298,8 +302,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/screenshots/useapi-2026-08-17T082646.png
 security:

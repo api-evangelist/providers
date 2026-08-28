@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-24'
+  score: 41.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 15
@@ -493,18 +498,18 @@ rate_limits:
   slug: kibana-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 34.9
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 57.9
+    contract_quality: 56.3
     developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 35.3
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -512,8 +517,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 60
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/screenshots/kibana-2026-06-20T184031.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.9
-  scored_at: '2026-08-24'
+  score: 28.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Hosted MCP server (https://mcp.rindler.ai) that exposes mapped websites as deterministic, typed agent tools over HTTP with OAuth 2.0 PKCE. Core tools: start_session, dispatch_action, extract_content, '
@@ -140,8 +144,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

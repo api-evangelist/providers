@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-24'
+  score: 31.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'REST API v3 for the Eagle Eye Networks cloud VMS: devices (bridges, cameras, speakers, switches, multi-cameras), live and recorded media streaming, archiving/exports/downloads, locations/floors/layout'
@@ -184,24 +188,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 39.1
+  composite: 38.5
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 49.4
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 38.2
-  previous_composite: 39.1
+  previous_composite: 38.5
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eagle-eye-networks/refs/heads/main/screenshots/eagle-eye-networks-2026-07-25T212634.png
 security:

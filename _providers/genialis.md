@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.6
-  scored_at: '2026-08-24'
+  score: 34.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The REST API behind the Genialis Expressions platform, built on the open-source Resolwe dataflow engine and Django REST Framework. Covers data objects, samples, collections, relations, processes, desc
@@ -158,24 +162,36 @@ rate_limits:
   slug: genialis-rate-limits
 score:
   band: developing
-  composite: 48.0
+  composite: 48.2
+  delta: 2.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 12.1
-    contract_quality: 44.1
-    developer_ergonomics: 71.4
-    discoverability: 87.0
+    contract_quality: 48.3
+    developer_ergonomics: 66.1
+    discoverability: 79.6
     governance: 12.1
     operational_transparency: 18.4
+  previous_composite: 45.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 43.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Genialis Authentication

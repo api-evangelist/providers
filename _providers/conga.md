@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Conga Advantage Platform REST API exposes Conga's Revenue Lifecycle Management services - Contract Lifecycle Management (CLM), cart/CPQ, catalog, user management, X-Author authoring, document- and
@@ -243,18 +248,18 @@ scopes:
   summary_line: 28 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.9
+  composite: 61.5
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 30.3
-    contract_quality: 63.1
+    contract_quality: 61.4
     developer_ergonomics: 66.1
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 71.1
-  previous_composite: 61.9
+  previous_composite: 61.5
   provenance:
     conformance: first-party
     contracts:
@@ -264,8 +269,8 @@ score:
       total: 31
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/screenshots/conga-2026-07-25T210254.png
 security:

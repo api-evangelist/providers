@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 16.1
-  scored_at: '2026-08-24'
+  score: 8.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Glia's REST API for managing engagements, operators, sites, and Glia Functions. Authenticates via a bearer token exchanged from a Site ID and API Key (POST /operator_authentication/tokens).
@@ -148,7 +152,7 @@ overview: 'Glia (fka SaleMove) publishes 1 API on the [APIs.io](https://apis.io/
 random_paper: 10
 score:
   band: thin
-  composite: 34.7
+  composite: 34.0
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -156,10 +160,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 34.7
+  previous_composite: 34.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -169,8 +173,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glia-fka-salemove/refs/heads/main/screenshots/glia-fka-salemove-2026-07-25T215857.png
 security:

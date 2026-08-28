@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.6
-  scored_at: '2026-08-24'
+  score: 39.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -687,18 +691,18 @@ rules:
   slug: candid-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 0.0
+  composite: 65.7
+  delta: 1.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
     contract_governance: 37.1
-    contract_quality: 60.5
-    developer_ergonomics: 73.2
+    contract_quality: 61.6
+    developer_ergonomics: 78.0
     discoverability: 68.5
     governance: 37.1
     operational_transparency: 47.4
-  previous_composite: 64.5
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -715,8 +719,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-07-25T204340.png
 security:

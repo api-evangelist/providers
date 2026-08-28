@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.3
-  scored_at: '2026-08-24'
+  score: 12.1
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -192,7 +196,7 @@ overview: 'Finite State publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 11
 score:
   band: thin
-  composite: 36.4
+  composite: 35.3
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -200,16 +204,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 36.4
+  previous_composite: 35.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
 security:

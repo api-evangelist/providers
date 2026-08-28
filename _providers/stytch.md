@@ -12,26 +12,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.4
-  scored_at: '2026-08-24'
+  score: 36.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -3830,18 +3833,18 @@ rules:
   slug: stytch-rules
 score:
   band: developing
-  composite: 51.2
+  composite: 51.4
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 69.2
+    contract_quality: 70.0
     developer_ergonomics: 69.0
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 51.2
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -3849,8 +3852,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:

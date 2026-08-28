@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-24'
+  score: 18.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: White-labeled embedded finance REST API for offering business financing — creating businesses, persons, and bank accounts; generating capital offers; creating capital, line-of-credit, and pay-over-tim
@@ -132,7 +136,7 @@ overview: 'Parafin publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 2
 score:
   band: emerging
-  composite: 16.7
+  composite: 15.9
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -140,10 +144,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.7
+  previous_composite: 15.9
   provenance:
     mcp: first-party
   regulatory:
@@ -152,8 +156,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/screenshots/parafin-2026-08-07T191409.png
 security:

@@ -8,29 +8,29 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Moneris",
      "slug": "moneris",
      "description": "Moneris (Moneris Solutions Corporation) is Canada's largest payment processor and merchant-acquiring company, founded in December 2000 as a joint venture equally owned by Royal Bank of Canada (RBC) and Bank of Montreal (BMO). It is a payment-technology and card-acquiring company rather than a deposit-taking Schedule I bank, sitting in the payments-infrastructure layer of Canadian financial services: it serves roughly 325,000 points of commerce, processes close to five billion transactions a year, and handles on the order of one in three Canadian card transactions. In 2025-2026 RBC and BMO explored a sale of the venture, with Francisco Partners (owner of Verifone) reported as the lead buyer. Unlike its bank owners, Moneris is not subject to Canada's coming Consumer-Driven Banking framework; its \"open\" surface is a commercial, self-serve first-party developer program. Moneris runs a real, public developer portal at developer.moneris.com documenting the Moneris Unified API (REST, OpenAPI 3.0.3, hosts api.moneris.io production / api.sb.moneris.io sandbox) covering payments, tokenized payment methods, refunds, recurring billing/subscriptions, 3-D Secure, Kount fraud/risk, disputes, multi-currency pricing, and third-party merchant onboarding, secured with OAuth 2.0 client credentials and API keys, with a published Postman workspace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png",
-     "score": 48.2,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 70.2,
+      "discoverability": 81.5,
+      "contract_quality": 68.3,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 36.3,
+      "developer_ergonomics": 43.5,
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -38,24 +38,28 @@
       "score": 64.1,
       "matched_via": "tags"
      },
-     "agent_score": 71.5,
+     "agent_score": 52.6,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": "verified",
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "verified",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Payments & Infrastructure",
      "rank": 1
@@ -65,21 +69,21 @@
      "slug": "payments-canada",
      "description": "Payments Canada (formerly the Canadian Payments Association) is the public-purpose organization created by federal statute (the Canadian Payments Act) that owns and operates Canada's core national payment clearing and settlement infrastructure, under the oversight of the Bank of Canada and the Minister of Finance. Its members are Canada's financial institutions. It operates Lynx (the high-value, ISO 20022 real-time gross settlement system that replaced LVTS), the Automated Clearing Settlement System (ACSS, Canada's retail batch/ACH rail), and is building the Real-Time Rail (RTR) — a 24/7/365 irrevocable faster-payments system fully based on the ISO 20022 messaging standard. Payments Canada is payments infrastructure, distinct from Canada's Consumer-Driven Banking (open banking) framework, which is legislated but not yet operational and overseen by the FCAC. It runs a real, publicly registerable API developer portal (developer.payments.ca, launched February 19, 2020) exposing member/registered-user sandbox and data-extract APIs — including downloadable RTR sandbox OpenAPI specifications — secured with OAuth2 client-credentials (Consumer Key/Secret via Apigee); production access is license/agreement gated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png",
-     "score": 44.9,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 48.1,
+      "contract_quality": 46.8,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 61.3,
+      "developer_ergonomics": 68.5,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -87,14 +91,14 @@
       "score": 67.2,
       "matched_via": "tags"
      },
-     "agent_score": 30.6,
+     "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -104,10 +108,67 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Market Bodies & Standards",
      "rank": 2
+    },
+    {
+     "name": "Scotiabank",
+     "slug": "scotiabank",
+     "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
+     "score": 42.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 69.9,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Big Six",
+     "rank": 3
     }
    ],
    "open": true
@@ -117,57 +178,61 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
-     "name": "Scotiabank",
-     "slug": "scotiabank",
-     "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
-     "score": 33.8,
+     "name": "Nuvei",
+     "slug": "nuvei",
+     "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
+     "score": 33.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 68.4,
+      "contract_quality": 66.9,
       "governance": 13.6,
       "contract_governance": 13.6,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 48.1,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 17.2,
       "matched_via": "tags"
      },
-     "agent_score": 29.1,
+     "agent_score": 20.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "tier": "Big Six",
-     "rank": 3
+     "tier": "Fintech & Challenger",
+     "rank": 4
     },
     {
      "name": "BMO Financial Group",
@@ -187,8 +252,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -196,14 +261,14 @@
       "score": 39.2,
       "matched_via": "tags"
      },
-     "agent_score": 8.5,
+     "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -213,58 +278,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Big Six",
-     "rank": 4
-    },
-    {
-     "name": "Nuvei",
-     "slug": "nuvei",
-     "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
-     "score": 32.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 68.4,
-      "governance": 13.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 17.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Fintech & Challenger",
      "rank": 5
     },
     {
@@ -272,7 +292,7 @@
      "slug": "interac",
      "description": "Interac Corp. is Canada's domestic payments and digital verification network, founded in 1984 as the Interac Association and reorganized as a for-profit corporation in 2018 (through the merger of Interac Association and Acxsys). Headquartered in Toronto and owned by a consortium of Canadian financial institutions and payment processors, Interac is shared national payment infrastructure rather than a chartered bank — it has no Schedule I / Schedule II banking charter. It operates the Interac Debit domestic debit network, Interac e-Transfer (used by roughly 88% of Canadians), and Interac verification / digital identity services, connecting 300+ financial institutions and processing on the order of 18.6 million transactions a day. As one of the core Canadian rails alongside Payments Canada, Interac runs the Interac Innovation Hub developer program. Its most openly documented public API surface is the Interac Hub Verification Service, an HTTP identity-verification API built on OAuth 2.0 and OpenID Connect (Authorization Code Grant with Pushed Authorization Requests); a self-serve sandbox is available through the Hub Verification developer portal, while full production access and other products (Business Request Money, Interac Direct) are partner-gated behind a commercial relationship with an issuing financial institution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/screenshots/interac-2026-07-25T222655.png",
-     "score": 29.5,
+     "score": 30.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -281,12 +301,12 @@
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 48.2,
+      "developer_ergonomics": 51.8,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -294,14 +314,14 @@
       "score": 60.8,
       "matched_via": "tags"
      },
-     "agent_score": 13.0,
+     "agent_score": 14.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -311,7 +331,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Payments & Infrastructure",
      "rank": 6
@@ -344,8 +368,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -353,14 +377,14 @@
       "score": 60.8,
       "matched_via": "tags"
      },
-     "agent_score": 8.5,
+     "agent_score": 15.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -370,7 +394,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
      "rank": 7
@@ -392,8 +420,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -401,7 +429,7 @@
       "score": 31.6,
       "matched_via": "tags"
      },
-     "agent_score": 2.6,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -416,9 +444,13 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Fintech & Challenger",
      "rank": 8
@@ -440,8 +472,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -466,59 +498,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Big Six",
      "rank": 9
-    },
-    {
-     "name": "Coast Capital Savings",
-     "slug": "coast-capital",
-     "description": "Coast Capital Savings is a member-owned financial co-operative headquartered in Surrey, British Columbia, serving over 600,000 members across roughly 45 branches. On November 1, 2018 it became Canada's first British Columbia-based federal credit union (regulated federally rather than provincially), and in May 2026 it completed a merger with Prospera Credit Union. With approximately $21.9 billion CAD in total assets it is one of Canada's largest credit unions. As a cooperative credit union rather than a Schedule I/II bank, Coast Capital operates within Canada's voluntary and still-fragmented open-finance landscape: the federal Consumer-Driven Banking (open banking) framework legislated under Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational. Coast Capital publishes NO public first-party developer portal or documented API; consumer financial-data access today is aggregator-mediated (e.g. Plaid) via screen-scraping/credential-based connections rather than a first-party API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coast-capital/refs/heads/main/screenshots/coast-capital-2026-07-25T205833.png",
-     "score": 16.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 48.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Credit Union & Caisse",
-     "rank": 10
     },
     {
      "name": "connectFirst Credit Union",
@@ -538,8 +525,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -547,14 +534,14 @@
       "score": 55.7,
       "matched_via": "tags"
      },
-     "agent_score": 8.5,
+     "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -564,10 +551,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "KOHO",
@@ -586,8 +577,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -595,7 +586,7 @@
       "score": 31.6,
       "matched_via": "tags"
      },
-     "agent_score": 2.6,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -610,12 +601,16 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Fintech & Challenger",
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Canadian Tire Bank",
@@ -635,8 +630,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -644,14 +639,14 @@
       "score": 55.7,
       "matched_via": "tags"
      },
-     "agent_score": 8.5,
+     "agent_score": 15.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -661,10 +656,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Alterna Savings",
@@ -684,8 +683,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -693,14 +692,14 @@
       "score": 46.8,
       "matched_via": "tags"
      },
-     "agent_score": 8.5,
-     "agent_band": "agent-aware",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -710,7 +709,64 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Credit Union & Caisse",
+     "rank": 13
+    },
+    {
+     "name": "Coast Capital Savings",
+     "slug": "coast-capital",
+     "description": "Coast Capital Savings is a member-owned financial co-operative headquartered in Surrey, British Columbia, serving over 600,000 members across roughly 45 branches. On November 1, 2018 it became Canada's first British Columbia-based federal credit union (regulated federally rather than provincially), and in May 2026 it completed a merger with Prospera Credit Union. With approximately $21.9 billion CAD in total assets it is one of Canada's largest credit unions. As a cooperative credit union rather than a Schedule I/II bank, Coast Capital operates within Canada's voluntary and still-fragmented open-finance landscape: the federal Consumer-Driven Banking (open banking) framework legislated under Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational. Coast Capital publishes NO public first-party developer portal or documented API; consumer financial-data access today is aggregator-mediated (e.g. Plaid) via screen-scraping/credential-based connections rather than a first-party API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coast-capital/refs/heads/main/screenshots/coast-capital-2026-07-25T205833.png",
+     "score": 15.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 61.1,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
      "rank": 14
@@ -733,8 +789,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -742,7 +798,7 @@
       "score": 25.3,
       "matched_via": "tags"
      },
-     "agent_score": 2.6,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -757,9 +813,13 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 15
@@ -781,8 +841,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -807,7 +867,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 16
@@ -829,8 +893,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -855,7 +919,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Digital Arm",
      "rank": 17
@@ -870,6 +938,59 @@
    "count": 25,
    "shown": 25,
    "providers": [
+    {
+     "name": "National Bank of Canada",
+     "slug": "national-bank-of-canada",
+     "description": "National Bank of Canada (Banque Nationale du Canada, TSX: NA) is a Schedule I chartered bank headquartered in Montreal, Quebec, founded in 1859. It is the sixth-largest of Canada's Big Six banks and the leading bank in Quebec, serving personal, commercial, wealth-management, and financial-markets clients. On open finance, National Bank is a notable first-mover: it was the first major Canadian bank to launch a secure, consent-based data-sharing API for retail customers, but it does NOT operate a public self-serve first-party developer portal. Programmatic access to customer financial data is delivered through aggregators rather than a downloadable public API — principally Flinks, the Montreal aggregator in which National Bank holds an ~80% stake, via its Open Banking Environment (OBE), and also through Plaid. National Bank and Flinks are founding participants of the FDX Canada working group, aligning their data-sharing on the FDX technical standard, and the bank is positioning ahead of Canada's forthcoming, legislated-but-not-yet-operational Consumer-Driven Banking framework (Budget 2024 / FCAC oversight). Today access is voluntary and aggregator-mediated; there is no operational open-banking mandate and no public first-party API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-bank-of-canada/refs/heads/main/screenshots/national-bank-of-canada-2026-08-07T184639.png",
+     "score": 10.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Big Six",
+     "rank": 18
+    },
     {
      "name": "Conexus Credit Union",
      "slug": "conexus-credit-union",
@@ -888,8 +1009,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -914,10 +1035,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "CIBC",
@@ -937,8 +1062,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -963,10 +1088,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Big Six",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Bridgewater Bank",
@@ -986,8 +1115,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1012,10 +1141,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Citibank Canada",
@@ -1035,8 +1168,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1061,10 +1194,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule II (Foreign-Owned)",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Simplii Financial",
@@ -1083,8 +1220,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1109,10 +1246,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Digital Arm",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Affinity Credit Union",
@@ -1132,8 +1273,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1158,10 +1299,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Servus Credit Union",
@@ -1180,8 +1325,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1206,10 +1351,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "PC Financial",
@@ -1229,8 +1378,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1255,10 +1404,14 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Digital Arm",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Neo Financial",
@@ -1278,8 +1431,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1304,58 +1457,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Fintech & Challenger",
-     "rank": 26
-    },
-    {
-     "name": "National Bank of Canada",
-     "slug": "national-bank-of-canada",
-     "description": "National Bank of Canada (Banque Nationale du Canada, TSX: NA) is a Schedule I chartered bank headquartered in Montreal, Quebec, founded in 1859. It is the sixth-largest of Canada's Big Six banks and the leading bank in Quebec, serving personal, commercial, wealth-management, and financial-markets clients. On open finance, National Bank is a notable first-mover: it was the first major Canadian bank to launch a secure, consent-based data-sharing API for retail customers, but it does NOT operate a public self-serve first-party developer portal. Programmatic access to customer financial data is delivered through aggregators rather than a downloadable public API — principally Flinks, the Montreal aggregator in which National Bank holds an ~80% stake, via its Open Banking Environment (OBE), and also through Plaid. National Bank and Flinks are founding participants of the FDX Canada working group, aligning their data-sharing on the FDX technical standard, and the bank is positioning ahead of Canada's forthcoming, legislated-but-not-yet-operational Consumer-Driven Banking framework (Budget 2024 / FCAC oversight). Today access is voluntary and aggregator-mediated; there is no operational open-banking mandate and no public first-party API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-bank-of-canada/refs/heads/main/screenshots/national-bank-of-canada-2026-08-07T184639.png",
-     "score": 8.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Big Six",
      "rank": 27
     },
     {
@@ -1376,8 +1484,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1402,7 +1510,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 28
@@ -1425,8 +1537,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1451,7 +1563,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule II (Foreign-Owned)",
      "rank": 29
@@ -1474,8 +1590,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1500,7 +1616,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 30
@@ -1523,8 +1643,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1549,7 +1669,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Provincial / Crown",
      "rank": 31
@@ -1571,8 +1695,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1597,7 +1721,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Big Six",
      "rank": 32
@@ -1619,8 +1747,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1645,7 +1773,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
      "rank": 33
@@ -1655,7 +1787,7 @@
      "slug": "equitable-bank",
      "description": "Equitable Bank is Canada's seventh largest independent Schedule I bank by assets and a wholly owned subsidiary of EQB Inc. (TSX: EQB), a Toronto-based Canadian financial services company with over CAD $144 billion in combined assets under management and administration. Federally chartered and Canadian owned, Equitable Bank markets itself as \"Canada's Challenger Bank\" and, in 2016, launched EQ Bank, its digital-only banking platform offering high interest savings accounts, GICs, and payments alongside the parent bank's single-family residential and commercial lending. Equitable Bank and Equitable Trust are members of the Canada Deposit Insurance Corporation (CDIC). On the open-finance front, Equitable Bank does not operate a public first-party developer portal or publish downloadable API specifications; consumer permissioned data sharing is delivered through the Canadian aggregator Flinks (Flinks Outbound) rather than a first-party API. Canada's federal Consumer-Driven Banking framework (legislated in Budget 2024 with the Financial Consumer Agency of Canada as overseer) is not yet operational, so the bank's data-access posture today is voluntary and aggregator-mediated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equitable-bank/refs/heads/main/screenshots/equitable-bank-2026-07-25T213552.png",
-     "score": 3.1,
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1664,12 +1796,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1694,7 +1826,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 34
@@ -1717,8 +1853,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1743,7 +1879,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Fintech & Challenger",
      "rank": 35
@@ -1765,8 +1905,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1791,7 +1931,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
      "rank": 36
@@ -1814,8 +1958,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1840,7 +1984,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 37
@@ -1863,8 +2011,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1889,7 +2037,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
      "rank": 38
@@ -1912,8 +2064,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1938,7 +2090,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
      "rank": 39
@@ -1961,8 +2117,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1987,7 +2143,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 40
@@ -2010,8 +2170,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2036,7 +2196,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 41
@@ -2059,8 +2223,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2085,7 +2249,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
      "rank": 42

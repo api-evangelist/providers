@@ -12,26 +12,30 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Real-time read API for retrieving an activated model record (customer profile and its mapped activation attributes) by lookup key, for personalization use cases in apps and websites. Authenticated wit
@@ -193,23 +197,23 @@ rate_limits:
   slug: dinmo-rate-limits
 score:
   band: strong
-  composite: 55.1
+  composite: 54.5
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 57.1
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 55.1
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png
 security:

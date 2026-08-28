@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.8
-  scored_at: '2026-08-24'
+  score: 36.0
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST API for CisionOne that allows connection of media monitoring data with internal tools and BI platforms. Provides access to mention streams, aggregated analytics, and media coverage data. Response
@@ -221,30 +225,30 @@ rate_limits:
   name: Cision Rate Limits
   slug: cision-rate-limits
 score:
-  band: strong
-  composite: 61.2
+  band: developing
+  composite: 50.3
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
-    contract_quality: 65.0
+    contract_quality: 24.5
     developer_ergonomics: 49.4
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 61.2
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.5
-  scored_at: '2026-08-24'
+  score: 30.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -313,18 +317,18 @@ rules:
   slug: google-gemini-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 53.7
+  delta: 11.3
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 79.6
-    developer_ergonomics: 21.4
+    contract_quality: 77.7
+    developer_ergonomics: 57.1
     discoverability: 63.0
     governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 42.9
+    operational_transparency: 42.1
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -332,9 +336,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/screenshots/google-gemini-2026-06-20T182205.png
 security:
 - kind: authentication

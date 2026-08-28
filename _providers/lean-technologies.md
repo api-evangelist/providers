@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.9
-  scored_at: '2026-08-24'
+  score: 53.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -614,18 +618,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.2
+  composite: 54.8
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 68.7
+    contract_quality: 66.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 55.2
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -642,8 +646,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:

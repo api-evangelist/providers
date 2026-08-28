@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-24'
+  score: 40.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for speaker diarization, speaker identification with voiceprints, and speech-to-text orchestration over audio files, plus a streaming WebSocket gateway for real-time diarization. Jobs are asy
@@ -201,18 +205,18 @@ rate_limits:
   slug: pyannoteai-rate-limits
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 62.9
+  delta: 1.5
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 0.0
-    contract_quality: 60.8
+    contract_governance: 12.1
+    contract_quality: 59.2
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 0.0
+    governance: 12.1
     operational_transparency: 57.9
-  previous_composite: 61.8
+  previous_composite: 61.4
   provenance:
     contracts:
       callable: 100.0
@@ -220,8 +224,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

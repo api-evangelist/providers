@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: ANU's current quantum random number service, operated by the ANU Quantum Optics group on ANU's own AWS account under ANU's own domain. Returns arrays of uint8, uint16, hex8 or hex16 values, length 1-1
@@ -259,18 +263,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.3
-  delta: -1.8
+  composite: 52.4
+  delta: 3.6
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 73.7
+    commercial_clarity: 73.7
     contract_governance: 11.4
-    contract_quality: 38.0
+    contract_quality: 39.7
     developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 11.4
-    operational_transparency: 34.2
-  previous_composite: 50.1
+    operational_transparency: 42.1
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     contracts:
@@ -284,8 +288,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 79.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/screenshots/anu-2026-06-20T172029.png
 security:

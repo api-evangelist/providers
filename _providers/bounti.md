@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-24'
+  score: 28.3
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Llms Full.txt API from Bounti — 1 operation(s) for llms full.txt.
@@ -189,18 +193,18 @@ rate_limits:
   slug: bounti-rate-limits
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 44.4
+  delta: 1.4
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 16.7
-    contract_quality: 48.3
-    developer_ergonomics: 26.2
+    contract_quality: 46.9
+    developer_ergonomics: 33.3
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 43.3
+  previous_composite: 43.0
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +214,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/screenshots/bounti-2026-07-25T203646.png
 security:

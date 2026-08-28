@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 24.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -608,19 +612,19 @@ rules:
     warn: 17
   slug: amazon-rds-spectral-rules
 score:
-  band: developing
-  composite: 54.0
-  delta: 0.0
+  band: strong
+  composite: 61.5
+  delta: 7.3
   facets:
-    access_clarity: 59.2
-    commercial_clarity: 59.2
+    access_clarity: 69.7
+    commercial_clarity: 69.7
     contract_governance: 28.8
-    contract_quality: 71.9
-    developer_ergonomics: 42.9
+    contract_quality: 72.6
+    developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 54.0
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -628,9 +632,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/screenshots/amazon-rds-2026-06-20T171805.png
 security:
 - kind: authentication

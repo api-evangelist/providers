@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-24'
+  score: 27.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -354,23 +358,23 @@ overview: 'Shop-Ware publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 15
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 44.5
+  delta: 1.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 53.8
+    contract_quality: 57.8
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 44.3
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 30
@@ -382,8 +386,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shop-ware/refs/heads/main/screenshots/shop-ware-2026-08-17T081834.png
 security:

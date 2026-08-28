@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.3
-  scored_at: '2026-08-24'
+  score: 32.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -227,18 +231,18 @@ rules:
   slug: helius-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 33.6
+  delta: 1.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 64.6
-    developer_ergonomics: 11.9
+    contract_quality: 63.1
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.1
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +250,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/screenshots/helius-2026-06-20T182630.png
 security:

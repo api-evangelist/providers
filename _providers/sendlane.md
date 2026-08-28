@@ -10,26 +10,30 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.7
-  scored_at: '2026-08-24'
+  score: 25.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for managing contacts, lists, campaigns, automations, custom fields, sender profiles, tags, and custom integration events for e-commerce email and SMS marketing.
@@ -232,18 +236,18 @@ rate_limits:
   slug: sendlane-rate-limits
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 65.3
+  delta: 1.4
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 16.7
-    contract_quality: 70.8
-    developer_ergonomics: 63.7
-    discoverability: 75.9
+    contract_quality: 68.9
+    developer_ergonomics: 70.8
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 65.1
+  previous_composite: 63.9
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +257,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png
 security:

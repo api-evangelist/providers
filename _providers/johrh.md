@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-08-24'
+  score: 20.4
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: The Account API from Johrh — 9 operation(s) for account.
@@ -133,26 +137,26 @@ overview: Johrh publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 14
 score:
   band: emerging
-  composite: 17.7
-  delta: 0.0
+  composite: 20.2
+  delta: 2.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 41.0
-    developer_ergonomics: 0.0
+    contract_quality: 45.4
+    developer_ergonomics: 7.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.7
+  previous_composite: 17.4
   provenance:
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/screenshots/johrh-2026-07-25T223224.png
 security:

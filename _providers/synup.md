@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.1
-  scored_at: '2026-08-24'
+  score: 39.2
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API v4 for managing business locations, syndicating listings to 80+ directories, aggregating and responding to reviews, running review campaigns, tracking local search rankings with grid-rank hea
@@ -265,18 +269,18 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 61.3
+  composite: 61.5
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 31.8
-    contract_quality: 71.0
+    contract_quality: 71.8
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 26.3
-  previous_composite: 61.3
+  previous_composite: 61.5
   provenance:
     conformance: derived
     contracts:
@@ -286,8 +290,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/screenshots/synup-2026-06-20T194835.png
 security:

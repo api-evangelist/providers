@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.3
-  scored_at: '2026-08-24'
+  score: 17.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Receive data from remote device.
@@ -162,18 +166,18 @@ overview: 'UBTech publishes 1 API on the [APIs.io](https://apis.io/) network: su
 random_paper: 5
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 45.9
+  delta: 3.8
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 50.3
-    developer_ergonomics: 37.5
-    discoverability: 75.9
+    contract_quality: 49.0
+    developer_ergonomics: 56.5
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 43.1
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -189,8 +193,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

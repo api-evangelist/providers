@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -189,18 +193,18 @@ rules:
   slug: harbin-institute-of-technology-rules
 score:
   band: developing
-  composite: 41.1
-  delta: 0.0
+  composite: 42.6
+  delta: 2.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 67.1
-    developer_ergonomics: 21.4
+    contract_quality: 65.3
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 41.1
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +218,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/screenshots/harbin-institute-of-technology-2026-06-20T182524.png
 security:

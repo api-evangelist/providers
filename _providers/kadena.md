@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.9
-  scored_at: '2026-08-24'
+  score: 22.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -256,18 +260,18 @@ overview: 'Kadena publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 3
 score:
   band: thin
-  composite: 28.6
+  composite: 28.3
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 47.7
+    contract_quality: 46.4
     developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 28.6
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,8 +281,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadena/refs/heads/main/screenshots/kadena-2026-07-25T223401.png
 security:

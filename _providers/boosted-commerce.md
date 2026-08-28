@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.1
-  scored_at: '2026-08-24'
+  score: 21.6
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Anonymous agent-commerce surface for the Prime Labs supplement storefront, implementing the Universal Commerce Protocol 2026-04-08 over MCP. Thirteen tools cover catalog search, product lookup, cart l
@@ -135,14 +139,14 @@ overview: 'Boosted Commerce publishes 4 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 2
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 22.4
+  delta: 1.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 18.5
+    developer_ergonomics: 28.0
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
@@ -157,8 +161,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

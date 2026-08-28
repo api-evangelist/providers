@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-24'
+  score: 39.7
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Supplier product catalog retrieval, filtering and upload.
@@ -185,30 +190,30 @@ scopes:
   slug: recurrency-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  delta: 3.8
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 60.8
-    developer_ergonomics: 47.0
+    contract_quality: 14.8
+    developer_ergonomics: 66.1
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 13.2
-  previous_composite: 43.9
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/screenshots/recurrency-2026-08-17T081457.png
 security:

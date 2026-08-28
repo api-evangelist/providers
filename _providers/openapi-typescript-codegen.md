@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The openapi CLI and Node.js library. Consumes an OpenAPI 2.0 or 3.0 specification and writes a typed TypeScript client (models, services, and core runtime) for fetch, node-fetch, XHR, Axios, or Angula
@@ -143,7 +147,7 @@ rate_limits:
   slug: openapi-typescript-codegen-rate-limits
 score:
   band: emerging
-  composite: 24.7
+  composite: 24.0
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -151,14 +155,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 66.7
+    discoverability: 59.3
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 24.7
+  previous_composite: 24.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/screenshots/openapi-typescript-codegen-2026-06-20T190912.png
 slug: openapi-typescript-codegen

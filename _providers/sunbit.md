@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.1
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Server-to-server REST API for Sunbit partners and SaaS platforms. Covers pre-qualification links, "As Low As" payment estimation, Text to Pay-Over-Time SMS links, checkout transaction initialization a
@@ -172,18 +176,18 @@ overview: 'Sunbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 10
 score:
   band: developing
-  composite: 48.3
+  composite: 47.0
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 63.7
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 48.3
+  previous_composite: 47.0
   provenance:
     conformance: derived
     skills: derived
@@ -193,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/screenshots/sunbit-2026-08-17T082155.png
 security:

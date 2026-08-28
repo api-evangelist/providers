@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.8
-  scored_at: '2026-08-24'
+  score: 28.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,18 +177,18 @@ rules:
   slug: apptio-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 37.6
+  delta: 2.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 13.6
-    contract_quality: 69.9
+    contract_governance: 28.8
+    contract_quality: 70.7
     developer_ergonomics: 19.0
     discoverability: 55.6
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 35.6
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/screenshots/apptio-2026-06-20T172335.png
 security:

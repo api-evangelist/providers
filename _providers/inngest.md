@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-24'
+  score: 22.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -480,18 +484,18 @@ rules:
   slug: inngest-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 62.4
+  delta: 2.7
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 9.8
-    contract_quality: 67.7
+    contract_governance: 25.0
+    contract_quality: 69.3
     developer_ergonomics: 76.2
     discoverability: 81.5
-    governance: 9.8
+    governance: 25.0
     operational_transparency: 60.5
-  previous_composite: 60.1
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -499,8 +503,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/screenshots/inngest-2026-06-20T183358.png
 security:

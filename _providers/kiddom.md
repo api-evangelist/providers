@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.5
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Kiddom is a certified 1EdTech LTI Advantage 1.3 Tool (Assignment and Grade Services 2.0, Names and Role Provisioning Services 2.0, Deep Linking 2.0). The publicly reachable surface is the OIDC third-p
@@ -140,24 +144,29 @@ rate_limits:
   slug: kiddom-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 28.2
+  delta: -3.8
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 87.0
     governance: 18.2
-    operational_transparency: 21.1
+    operational_transparency: 2.6
+  previous_composite: 32.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Kiddom Authentication

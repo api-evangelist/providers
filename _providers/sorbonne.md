@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: HAL Sorbonne Université is the institution's open archive of scholarly publications. Its metadata is harvestable through the standards-based OAI-PMH protocol served by the central HAL infrastructure (
@@ -110,26 +114,26 @@ rate_limits:
   slug: sorbonne-rate-limits
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 21.1
+  delta: 1.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 15.5
-    developer_ergonomics: 0.0
+    contract_quality: 14.7
+    developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 19.4
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorbonne/refs/heads/main/screenshots/sorbonne-2026-06-20T194214.png
 security:

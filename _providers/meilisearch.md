@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.2
-  scored_at: '2026-08-24'
+  score: 25.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -210,18 +215,18 @@ rate_limits:
   slug: meilisearch-rate-limits
 score:
   band: developing
-  composite: 39.4
-  delta: 0.0
+  composite: 44.3
+  delta: 5.3
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 0.0
-    contract_quality: 56.7
-    developer_ergonomics: 35.7
+    contract_quality: 55.3
+    developer_ergonomics: 61.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.4
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -229,9 +234,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/screenshots/meilisearch-2026-06-20T185134.png
 security:
 - kind: authentication

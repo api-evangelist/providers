@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Real-time generative video platform. A REST token endpoint mints session-scoped JWTs; a WebRTC data channel carries the command/event interface that controls model generation and streams video frames '
@@ -175,24 +179,24 @@ overview: 'Reactor publishes 1 API on the [APIs.io](https://apis.io/) network: R
 random_paper: 17
 score:
   band: developing
-  composite: 46.7
+  composite: 46.3
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 44.4
+    contract_quality: 42.6
     developer_ergonomics: 81.0
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 46.7
+  previous_composite: 46.3
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reactor/refs/heads/main/screenshots/reactor-2026-08-17T081450.png
 security:

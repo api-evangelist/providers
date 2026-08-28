@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.1
-  scored_at: '2026-08-24'
+  score: 41.3
+  scored_at: '2026-08-26'
 api_count: 101
 apis:
 - description: The Address Details API from Remote — 1 operation(s) for address details.
@@ -1119,18 +1123,18 @@ scopes:
   summary_line: 86 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.2
+  composite: 47.7
   delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 30.3
-    contract_quality: 70.3
+    contract_quality: 68.3
     developer_ergonomics: 72.0
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 48.2
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     contracts:
@@ -1140,8 +1144,8 @@ score:
       total: 101
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote/refs/heads/main/screenshots/remote-2026-08-17T081516.png
 security:

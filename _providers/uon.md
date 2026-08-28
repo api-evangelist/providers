@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -236,18 +240,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 40.6
-  delta: 0.0
+  composite: 42.0
+  delta: 1.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 68.1
-    developer_ergonomics: 11.9
+    contract_quality: 66.2
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 40.6
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -261,8 +265,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/screenshots/uon-2026-06-20T200428.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -193,18 +197,18 @@ rules:
   slug: shazam-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 49.5
+  delta: 6.4
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 71.1
+    commercial_clarity: 71.1
     contract_governance: 9.8
-    contract_quality: 60.1
-    developer_ergonomics: 16.7
+    contract_quality: 58.5
+    developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 43.5
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -212,9 +216,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/screenshots/shazam-2026-06-20T193748.png
 security:
 - kind: authentication

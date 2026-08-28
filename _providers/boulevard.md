@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Query and mutate client (customer) records synced from Boulevard's CRM - profiles, contact details, custom fields, loyalty point balances, and appointment history. Third parties such as Klaviyo and Ex
@@ -126,26 +130,26 @@ rate_limits:
   slug: boulevard-rate-limits
 score:
   band: thin
-  composite: 26.5
-  delta: 0.0
+  composite: 28.9
+  delta: 2.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 38.9
-    developer_ergonomics: 2.4
+    contract_quality: 37.2
+    developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 26.5
+  previous_composite: 26.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boulevard/refs/heads/main/screenshots/boulevard-2026-07-25T203646.png
 security:

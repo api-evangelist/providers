@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 32.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -782,19 +786,19 @@ scopes:
   slug: gitea-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.9
-  delta: 0.0
+  band: exemplar
+  composite: 70.2
+  delta: 4.7
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 45.5
-    contract_quality: 62.0
-    developer_ergonomics: 64.3
+    contract_quality: 63.7
+    developer_ergonomics: 83.3
     discoverability: 77.8
     governance: 45.5
     operational_transparency: 65.8
-  previous_composite: 65.9
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -804,8 +808,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:

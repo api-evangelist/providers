@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.6
-  scored_at: '2026-08-24'
+  score: 29.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Aspire''s public REST API for business finance automation: payout/transfer operations across 30+ currencies (local and SWIFT), FX quotes, virtual card issuance and controls, and bank-feed/transaction r'
@@ -132,18 +136,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 40.8
-  delta: 0.0
+  composite: 47.6
+  delta: 7.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 42.9
+    contract_quality: 42.7
+    developer_ergonomics: 61.9
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 10.5
-  previous_composite: 40.8
+    operational_transparency: 18.4
+  previous_composite: 40.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,10 +156,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 45.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 62.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspire/refs/heads/main/screenshots/aspire-2026-07-25T201432.png
 security:
 - kind: authentication

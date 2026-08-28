@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 18
 apis:
 - description: Exchanges Base64-encoded Reveal REST credentials for a short-lived bearer authorization token (valid ~20 minutes) via GET /token. Subsequent API calls send an Atmosphere authorization header combining
@@ -143,20 +147,20 @@ rate_limits:
   slug: verizon-connect-rate-limits
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 21.6
+  delta: 1.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 34.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -756,18 +760,18 @@ scopes:
   summary_line: 8 scopes · authorizationCode/implicit
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 49.8
+  delta: 1.4
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 28.8
-    contract_quality: 26.0
-    developer_ergonomics: 47.6
+    contract_quality: 28.0
+    developer_ergonomics: 54.8
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 47.9
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -775,8 +779,8 @@ score:
       derived: 20
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:

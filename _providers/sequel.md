@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-24'
+  score: 52.0
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: The Analytics API from Sequel — 2 operation(s) for analytics.
@@ -302,18 +306,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.8
+  composite: 60.4
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 16.7
-    contract_quality: 60.3
+    contract_quality: 58.7
     developer_ergonomics: 53.0
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 60.8
+  previous_composite: 60.4
   provenance:
     conformance: derived
     contracts:
@@ -323,8 +327,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/screenshots/sequel-2026-08-17T081812.png
 security:

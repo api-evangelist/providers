@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.7
-  scored_at: '2026-08-24'
+  score: 43.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'The Blueshift REST API: 81 operations across 21 resource groups covering customer profiles and privacy operations (create/update, bulk, merge, forget/unforget, delete), event ingestion (single, bulk, '
@@ -180,19 +184,19 @@ scopes:
   slug: blueshift-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.1
-  delta: 0.0
+  band: exemplar
+  composite: 71.1
+  delta: 6.4
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 12.1
-    contract_quality: 65.7
-    developer_ergonomics: 42.9
+    contract_quality: 63.9
+    developer_ergonomics: 63.7
     discoverability: 75.9
     governance: 12.1
-    operational_transparency: 65.8
-  previous_composite: 65.1
+    operational_transparency: 73.7
+  previous_composite: 64.7
   provenance:
     conformance: first-party
     contracts:
@@ -207,10 +211,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 56.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 65.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/screenshots/blueshift-2026-08-17T080647.png
 security:
 - kind: authentication

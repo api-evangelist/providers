@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 32.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -753,18 +757,18 @@ scopes:
   summary_line: 74 scopes · authorizationCode/clientCredentials/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: exemplar
-  composite: 70.4
-  delta: 0.0
+  composite: 70.7
+  delta: 0.8
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 45.5
-    contract_quality: 71.5
+    contract_quality: 72.8
     developer_ergonomics: 73.8
     discoverability: 75.9
     governance: 45.5
     operational_transparency: 68.4
-  previous_composite: 70.4
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -774,8 +778,8 @@ score:
       marker_coverage: 0.0
       total: 39
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

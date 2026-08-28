@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-24'
+  score: 30.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -688,18 +692,18 @@ rules:
   slug: daytona-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 66.0
+  delta: 0.8
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 28.8
-    contract_quality: 65.2
+    contract_quality: 66.8
     developer_ergonomics: 92.9
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 65.6
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     contracts:
@@ -707,8 +711,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/screenshots/daytona-io-2026-06-20T175734.png
 security:

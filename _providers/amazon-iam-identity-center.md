@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 4
@@ -2232,18 +2236,18 @@ rules:
   slug: amazon-iam-identity-center-spectral-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 51.8
+  delta: 2.4
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 28.8
-    contract_quality: 67.1
-    developer_ergonomics: 50.0
+    contract_quality: 65.3
+    developer_ergonomics: 61.9
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -2251,8 +2255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 56
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/screenshots/amazon-iam-identity-center-2026-06-20T171703.png
 security:

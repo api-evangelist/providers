@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The BNSF API Center provides customer APIs for programmatic integration with BNSF Railway freight shipping operations. APIs enable real-time shipment tracing, intermodal hub operations, pricing and ra
@@ -104,15 +108,15 @@ rate_limits:
   name: Berkshire Hathaway Rate Limits
   slug: berkshire-hathaway-rate-limits
 score:
-  band: minimal
-  composite: 8.4
-  delta: 0.0
+  band: emerging
+  composite: 16.5
+  delta: 8.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 40.5
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
@@ -123,9 +127,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/screenshots/berkshire-hathaway-2026-06-20T173143.png
 security:
 - kind: domain-security

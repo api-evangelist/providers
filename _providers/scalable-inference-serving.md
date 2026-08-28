@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 30.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -272,19 +276,19 @@ rules:
     warn: 5
   slug: scalable-inference-serving-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.0
-  delta: 0.0
+  band: developing
+  composite: 44.0
+  delta: 6.5
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 18.4
+    commercial_clarity: 18.4
     contract_governance: 69.7
-    contract_quality: 62.4
-    developer_ergonomics: 23.8
+    contract_quality: 60.7
+    developer_ergonomics: 40.5
     discoverability: 55.6
     governance: 69.7
-    operational_transparency: 7.9
-  previous_composite: 38.0
+    operational_transparency: 23.7
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -292,9 +296,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/screenshots/scalable-inference-serving-2026-06-20T193501.png
 slug: scalable-inference-serving
 tags:

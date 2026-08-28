@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 41.2
+  scored_at: '2026-08-26'
 api_count: 42
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -599,18 +604,18 @@ scopes:
   summary_line: 62 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.9
+  composite: 62.5
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
-    contract_quality: 69.7
+    contract_quality: 67.8
     developer_ergonomics: 78.0
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 60.5
-  previous_composite: 62.9
+  previous_composite: 62.5
   provenance:
     conformance: derived
     contracts:
@@ -620,8 +625,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
 security:

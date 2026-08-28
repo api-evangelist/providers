@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.4
-  scored_at: '2026-08-24'
+  score: 0.0
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +90,6 @@ common:
 created: '2026-07-27'
 description: AutoGrid Systems is a United States grid-technology company founded in 2011 by Amit Narayan in Redwood City, California, that built AI and machine-learning software for distributed energy resource management (DERMS), virtual power plants, and automated demand response under the AutoGrid Flex platform, selling to investor-owned utilities, retailers, and aggregators rather than to end consumers. It sits on the grid-tech / DERMS layer of the energy value chain - a buyer and orchestrator of utility and device data, not a data custodian - so no Green Button, Consumer Data Right, or smart-meter data-sharing obligation attaches to it. Schneider Electric took control of AutoGrid and then sold it to Uplight in a deal announced 14 December 2023 and closed in early 2024; auto-grid.com now serves only a 270-byte meta-refresh to uplight.com (on an expired TLS certificate as of 27 July 2026) and every developer, docs, api, and data subdomain fails to resolve. Its API posture is therefore
   honestly none-published - no public developer portal, no OpenAPI, no SDK, no consumer usage API, and no open market data. Its machine-readable contract is instead expressed as protocol conformance, and that is real and still published by the certifying bodies. AutoGrid is a certified OpenADR 2.0a and 2.0b VTN (server) - AutoGrid DROMS and OpenDR Server 2.0, Simple HTTP + XMPP, pull and push - and holds SunSpec Alliance certificate CS-000074 for AutoGrid Flex as an IEEE 2030.5-2018 / CSIP server, tested by Intertek on 12 December 2023 and awarded 22 January 2024. Both surfaces authenticate with mutual TLS x.509 client certificates and were reachable only under commercial contract. The successor surface at docs.uplight.com is real but fully login-gated, redirecting anonymous visitors to a ReadMe dashboard login, and api.uplight.com answers HTTP 401 with "Invalid or no token provided" - partner and customer access only.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 modified: '2026-07-27'
 name: AutoGrid
@@ -95,19 +98,19 @@ network: true
 overview: AutoGrid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Utilities, Electricity, and Grid.
 random_paper: 2
 score:
-  band: emerging
-  composite: 11.3
-  delta: 0.0
+  band: minimal
+  composite: 9.8
+  delta: -0.4
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 68.5
+    discoverability: 53.7
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 11.3
+  previous_composite: 10.2
   provenance:
     conformance: first-party
   regulatory:
@@ -116,8 +119,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autogrid/refs/heads/main/screenshots/autogrid-2026-08-07T161954.png
 security:

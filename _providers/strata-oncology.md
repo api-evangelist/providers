@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.6
-  scored_at: '2026-08-24'
+  score: 19.4
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Registered types, taxonomies and statuses.
@@ -207,18 +211,18 @@ overview: 'Strata Oncology publishes 10 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 20
 score:
   band: emerging
-  composite: 25.9
+  composite: 25.1
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
-    contract_quality: 13.5
+    contract_quality: 13.1
     developer_ergonomics: 4.2
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 25.9
+  previous_composite: 25.1
   provenance:
     conformance: derived
     contracts:
@@ -234,8 +238,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -107,20 +111,20 @@ overview: 'Blassa Inc. is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 2
 score:
   band: thin
-  composite: 27.7
+  composite: 27.1
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 27.4
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 27.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png
 security:

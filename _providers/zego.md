@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Match external users to Zego customers.
@@ -138,23 +142,23 @@ overview: 'Zego publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 17
 score:
   band: thin
-  composite: 33.3
-  delta: 0.0
+  composite: 29.3
+  delta: 6.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 61.5
-    developer_ergonomics: 18.5
-    discoverability: 81.5
+    contract_quality: 21.1
+    developer_ergonomics: 30.4
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 33.3
+    operational_transparency: 34.2
+  previous_composite: 22.4
   provenance:
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 5
+      marker_coverage: 100.0
       total: 5
     mcp: derived
     skills: derived
@@ -163,10 +167,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 30.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 39.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Zego Authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The 24SEVEN ACCESS customer portal enables businesses to digitally manage Brink's cash management services including tracking cash deposits, ordering change, and monitoring operations through mobile d
@@ -100,21 +104,21 @@ rate_limits:
   name: Brinks Rate Limits
   slug: brinks-rate-limits
 score:
-  band: minimal
-  composite: 9.6
-  delta: 0.0
+  band: emerging
+  composite: 11.5
+  delta: 1.9
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 9.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/screenshots/brinks-2026-06-20T173710.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.6
-  scored_at: '2026-08-24'
+  score: 28.5
+  scored_at: '2026-08-26'
 api_count: 20
 apis:
 - description: The Allowances API from Angle — 1 operation(s) for allowances.
@@ -281,18 +285,18 @@ overview: 'Angle publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 15
 score:
   band: thin
-  composite: 29.7
-  delta: 0.0
+  composite: 30.8
+  delta: 1.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 44.0
-    developer_ergonomics: 30.4
+    contract_quality: 42.8
+    developer_ergonomics: 37.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 29.7
+  previous_composite: 29.4
   provenance:
     conformance: derived
     contracts:
@@ -302,8 +306,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/screenshots/angle-2026-07-25T200241.png
 security:

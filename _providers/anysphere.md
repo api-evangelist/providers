@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-24'
+  score: 27.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -257,18 +261,18 @@ rate_limits:
   slug: anysphere-rate-limits
 score:
   band: developing
-  composite: 42.2
+  composite: 41.8
   delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 16.7
-    contract_quality: 58.8
+    contract_quality: 57.2
     developer_ergonomics: 30.4
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 42.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +283,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/screenshots/anysphere-2026-07-25T200524.png
 security:

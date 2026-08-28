@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: true
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-08-24'
+  score: 60.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1218
   human_in_the_loop: 20
@@ -294,18 +298,18 @@ scopes:
   summary_line: 21 scopes · authorizationCode/refreshToken/clientCredentials
 score:
   band: strong
-  composite: 57.1
+  composite: 56.8
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 36.7
+    contract_quality: 35.7
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 57.1
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,8 +320,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/screenshots/automattic-2026-08-07T161958.png
 security:

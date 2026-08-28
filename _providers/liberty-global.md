@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.0
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -173,19 +177,19 @@ overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 22 more developer resources.'
 random_paper: 5
 score:
-  band: thin
-  composite: 38.1
-  delta: 0.0
+  band: developing
+  composite: 41.1
+  delta: 3.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 30.3
-    contract_quality: 40.3
-    developer_ergonomics: 23.2
+    contract_quality: 39.2
+    developer_ergonomics: 39.9
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 38.1
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -202,8 +206,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
 security:

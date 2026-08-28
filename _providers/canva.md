@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-24'
+  score: 47.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -1026,18 +1030,18 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.6
-  delta: 0.0
+  composite: 69.7
+  delta: 0.7
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 43.9
-    contract_quality: 81.5
+    contract_quality: 82.0
     developer_ergonomics: 83.3
     discoverability: 83.3
     governance: 43.9
     operational_transparency: 60.5
-  previous_composite: 69.6
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1048,8 +1052,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:

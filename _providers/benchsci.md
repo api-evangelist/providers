@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for searching scientific reagents, experimental data, literature, antibodies, and accelerating preclinical drug discovery workflows. Provides programmatic access to BenchSci's curated databas
@@ -116,26 +120,26 @@ rate_limits:
   slug: benchsci-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 28.6
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 0.0
-    contract_quality: 28.2
+    contract_quality: 26.7
     developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.9
+  previous_composite: 28.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchsci/refs/heads/main/screenshots/benchsci-2026-06-20T173155.png
 security:

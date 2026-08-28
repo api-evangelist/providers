@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Vidyard Dashboard API provides full CRUD access to your Vidyard account assets including players, videos, chapters, organizations, teams, users, roles, events, campaigns, tags, webhooks, embeds, a
@@ -246,23 +250,23 @@ rate_limits:
   slug: vidyard-rate-limits
 score:
   band: exemplar
-  composite: 69.6
+  composite: 68.8
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 60.6
+    contract_quality: 57.3
     developer_ergonomics: 76.2
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 69.6
+  previous_composite: 68.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/screenshots/vidyard-2026-06-20T201023.png
 security:

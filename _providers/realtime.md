@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.5
-  scored_at: '2026-08-24'
+  score: 1.3
+  scored_at: '2026-08-26'
 api_count: 26
 apis:
 - description: A full-duplex communication protocol over a single TCP connection, standardized by the IETF as RFC 6455 and defined in the WHATWG WebSocket API on the client side. WebSocket is the most widely deploye
@@ -230,21 +234,21 @@ rules:
   slug: realtime-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.9
-  delta: 0.0
+  composite: 25.0
+  delta: 8.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 10.5
+    commercial_clarity: 10.5
     contract_governance: 25.0
-    contract_quality: 16.9
-    developer_ergonomics: 9.5
+    contract_quality: 21.3
+    developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 25.0
-    operational_transparency: 2.6
-  previous_composite: 15.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    operational_transparency: 18.4
+  previous_composite: 17.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtime/refs/heads/main/screenshots/realtime-2026-06-20T192649.png
 security:
 - kind: domain-security

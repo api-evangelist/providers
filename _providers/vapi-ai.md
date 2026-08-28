@@ -12,26 +12,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-24'
+  score: 36.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -724,18 +727,18 @@ rules:
   slug: vapi-ai-rules
 score:
   band: exemplar
-  composite: 74.9
+  composite: 75.1
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 30.3
-    contract_quality: 77.7
+    contract_quality: 78.3
     developer_ergonomics: 78.6
     discoverability: 77.8
     governance: 30.3
     operational_transparency: 76.3
-  previous_composite: 74.9
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -745,8 +748,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

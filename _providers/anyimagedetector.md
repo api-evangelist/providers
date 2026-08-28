@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.8
-  scored_at: '2026-08-24'
+  score: 32.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API with a single endpoint (POST /v1/image/detect) that detects whether an image is AI-generated. Accepts a multipart file upload (JPG, PNG or WebP, up to 8 MB) or a JSON body with a public image
@@ -159,18 +163,18 @@ rate_limits:
   slug: anyimagedetector-rate-limits
 score:
   band: developing
-  composite: 39.4
+  composite: 39.3
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 15.4
+    contract_quality: 15.0
     developer_ergonomics: 47.0
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 39.4
+  previous_composite: 39.3
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +184,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
 security:

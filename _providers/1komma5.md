@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-24'
+  score: 33.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -339,23 +343,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 38.4
+  composite: 37.4
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 45.0
+    contract_quality: 43.9
     developer_ergonomics: 20.8
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 38.4
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 96.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 27
@@ -367,8 +371,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
 security:

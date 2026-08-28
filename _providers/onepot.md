@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.6
-  scored_at: '2026-08-24'
+  score: 3.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Programmatic access to onepot CORE for make-on-demand molecule discovery and synthesis. Run similarity (Tanimoto) and substructure (SMILES/SMARTS) search, optional retrosynthetic decomposition with bu
@@ -116,7 +120,7 @@ overview: 'Onepot publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 10
 score:
   band: emerging
-  composite: 19.3
+  composite: 18.6
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -124,10 +128,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 61.3
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.3
+  previous_composite: 18.6
   provenance:
     mcp: derived
     skills: derived
@@ -137,8 +141,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onepot/refs/heads/main/screenshots/onepot-2026-08-07T190333.png
 security:

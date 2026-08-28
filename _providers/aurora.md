@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Ethereum-compatible JSON-RPC 2.0 API for the Aurora EVM network of virtual chains on NEAR. Exposes the standard eth_* method set over HTTPS (and WebSocket subscriptions) on public mainnet and testnet '
@@ -144,7 +148,7 @@ overview: 'Aurora publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 20
 score:
   band: emerging
-  composite: 24.3
+  composite: 23.5
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -152,14 +156,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 24.3
+  previous_composite: 23.5
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora/refs/heads/main/screenshots/aurora-2026-07-25T201745.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: derived
     idempotency: documented
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-24'
+  score: 58.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -951,18 +955,18 @@ rules:
   slug: knock-app-rules
 score:
   band: exemplar
-  composite: 71.8
+  composite: 71.9
   delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 45.5
-    contract_quality: 75.0
+    contract_quality: 75.6
     developer_ergonomics: 85.7
     discoverability: 77.8
     governance: 45.5
     operational_transparency: 73.7
-  previous_composite: 71.8
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -978,8 +982,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/screenshots/knock-app-2026-06-20T184113.png
 security:

@@ -4,23 +4,27 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.1
-  scored_at: '2026-08-24'
+  score: 45.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Green Check Access is Green Check's public REST API suite for service providers — financial institutions, payroll companies, CRMs and other platforms serving the cannabis industry. It exposes 49 opera
@@ -177,24 +181,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.7
+  composite: 47.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 50.5
-    developer_ergonomics: 71.4
+    contract_governance: 16.7
+    contract_quality: 52.5
+    developer_ergonomics: 66.1
     discoverability: 87.0
-    governance: 30.3
+    governance: 16.7
     operational_transparency: 2.6
+  previous_composite: 47.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Green Check Verified Authentication

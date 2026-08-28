@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.8
-  scored_at: '2026-08-24'
+  score: 41.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -312,19 +316,19 @@ overview: 'Goodstack publishes 21 APIs on the [APIs.io](https://apis.io/) networ
   Goodstack''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
 random_paper: 14
 score:
-  band: strong
-  composite: 54.5
+  band: developing
+  composite: 54.0
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 64.1
+    contract_quality: 62.3
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 54.5
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,8 +345,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/screenshots/goodstack-2026-07-25T220057.png
 security:

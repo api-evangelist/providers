@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 33.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The backend API of the Hilbert growth-infrastructure application. Its OpenAPI 3.0.0 document is published unauthenticated through a Swagger UI at https://app-api.hilberts.ai/api-docs. The document dec
@@ -109,18 +113,18 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 35.3
+  delta: 5.7
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
-    contract_quality: 32.9
-    developer_ergonomics: 2.4
-    discoverability: 87.0
+    contract_quality: 32.0
+    developer_ergonomics: 31.0
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 30.6
+  previous_composite: 29.6
   provenance:
     conformance: derived
     contracts:
@@ -128,9 +132,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hilberts-ai/refs/heads/main/screenshots/hilberts-ai-2026-07-25T221242.png
 security:
 - kind: authentication

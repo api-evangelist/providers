@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 20.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Hidden Road prime brokerage and clearing API suite, announced generally available on 2023-05-04. Four service surfaces are confirmed live under https://api.hiddenroad.com/v0/ — accountactivity, me
@@ -118,25 +122,31 @@ scopes:
   slug: hidden-road-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.2
+  band: thin
+  composite: 28.4
+  delta: 2.4
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 87.0
+    developer_ergonomics: 16.7
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 26.0
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 66.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 76.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Hidden Road Authentication

@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.7
-  scored_at: '2026-08-24'
+  score: 14.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Real-time Nasdaq market data delivered over Apache Kafka (TLS) with SASL/OAUTHBEARER authentication against a Keycloak pro-realm token endpoint. Topics documented in the NCDS Java and Python SDKs: GID'
@@ -79,14 +83,14 @@ rules:
   slug: nasdaq-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 19.5
-  delta: 0.0
+  composite: 20.3
+  delta: 1.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 52.2
-    developer_ergonomics: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 7.1
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 2.6
@@ -96,9 +100,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 19.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 18.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png
 security:

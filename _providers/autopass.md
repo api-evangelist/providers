@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-24'
+  score: 33.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Partner parking locations (POIs)
@@ -159,18 +163,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.2
+  composite: 41.7
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 12.1
-    contract_quality: 64.3
+    contract_quality: 62.6
     developer_ergonomics: 39.9
     discoverability: 92.6
     governance: 12.1
     operational_transparency: 7.9
-  previous_composite: 42.2
+  previous_composite: 41.7
   provenance:
     contracts:
       callable: 100.0
@@ -185,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
 security:

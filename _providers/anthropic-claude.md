@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-24'
+  score: 28.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -230,18 +234,18 @@ rules:
   slug: anthropic-claude-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 50.3
+  delta: 2.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 11.4
-    contract_quality: 64.7
-    developer_ergonomics: 50.0
+    contract_quality: 62.9
+    developer_ergonomics: 61.9
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 48.3
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -249,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/screenshots/anthropic-claude-2026-06-20T172031.png
 security:

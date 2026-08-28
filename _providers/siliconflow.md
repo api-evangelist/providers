@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -168,27 +172,27 @@ rate_limits:
   slug: siliconflow-rate-limits
 score:
   band: thin
-  composite: 28.2
-  delta: 0.0
+  composite: 33.9
+  delta: 6.1
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 36.8
+    commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 55.9
-    developer_ergonomics: 11.9
+    contract_quality: 54.4
+    developer_ergonomics: 19.0
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.2
+  previous_composite: 27.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:
 - kind: domain-security

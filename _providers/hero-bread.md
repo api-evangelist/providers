@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.2
-  scored_at: '2026-08-24'
+  score: 28.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The agent-facing commerce interface for the Hero Bread online store. An MCP server at https://shop.hero.co/api/ucp/mcp implements the Universal Commerce Protocol shopping service (dev.ucp.shopping) wi
@@ -159,18 +163,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.7
+  composite: 24.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 30.4
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 24.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Hero Bread Authentication

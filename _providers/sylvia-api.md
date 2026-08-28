@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: true
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: na
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 88.6
-  scored_at: '2026-08-24'
+  score: 64.4
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: The Live API from Sylvia API — 1 operation(s) for live.
@@ -231,18 +235,18 @@ rate_limits:
   slug: sylvia-api-rate-limits
 score:
   band: strong
-  composite: 57.9
+  composite: 57.5
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 30.3
-    contract_quality: 60.1
+    contract_quality: 58.4
     developer_ergonomics: 59.5
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 57.9
+  previous_composite: 57.5
   provenance:
     conformance: unknown
     contracts:
@@ -252,8 +256,8 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

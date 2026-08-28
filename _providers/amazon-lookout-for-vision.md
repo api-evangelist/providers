@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.9
-  scored_at: '2026-08-24'
+  score: 25.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -1394,18 +1398,18 @@ rules:
   slug: amazon-lookout-for-vision-spectral-rules
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 48.6
+  delta: 2.1
   facets:
-    access_clarity: 51.3
-    commercial_clarity: 51.3
+    access_clarity: 61.8
+    commercial_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 67.1
+    contract_quality: 65.3
     developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 47.0
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1413,8 +1417,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/screenshots/amazon-lookout-for-vision-2026-06-20T171731.png
 security:

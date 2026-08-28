@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 25.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -478,18 +482,18 @@ rules:
   slug: reactome-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.9
+  composite: 25.6
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 9.8
-    contract_quality: 52.5
+    contract_quality: 51.1
     developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 25.9
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     contracts:
@@ -503,8 +507,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/screenshots/reactome-2026-06-20T192632.png
 security:

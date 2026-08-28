@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: 'GDScript is Godot''s first-class scripting language, a high-level dynamically typed (and gradually statically typed) language with Python-like syntax and tight integration with the engine, the editor, '
@@ -192,20 +196,20 @@ rate_limits:
   slug: godot-rate-limits
 score:
   band: thin
-  composite: 28.7
-  delta: 0.0
+  composite: 30.6
+  delta: 1.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 45.2
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 28.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/godot/refs/heads/main/screenshots/godot-2026-06-20T181943.png
 security:

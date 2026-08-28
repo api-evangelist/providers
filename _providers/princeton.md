@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 api_count: 14
 apis:
 - description: The backend API for allsearch.princeton.edu, Princeton University Library's federated search. Fourteen operations fan one uniform envelope — number, records, more — across the catalog, articles, the A
@@ -250,22 +254,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.5
-  delta: 0.8
+  composite: 42.0
+  delta: 2.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 29.5
-    contract_quality: 44.6
-    developer_ergonomics: 19.0
+    contract_quality: 47.1
+    developer_ergonomics: 28.6
     discoverability: 55.6
     governance: 29.5
     operational_transparency: 23.7
-  previous_composite: 38.7
+  previous_composite: 39.5
   provenance:
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 100.0
       derived: 1
       marker_coverage: 50.0
       total: 2
@@ -275,8 +279,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/screenshots/princeton-2026-06-20T192107.png
 security:

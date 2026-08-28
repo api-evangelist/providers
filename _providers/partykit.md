@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.2
-  scored_at: '2026-08-24'
+  score: 17.8
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Library API for defining server-side logic for a "party" - a backend object backed by a Cloudflare Durable Object. Provides lifecycle hooks for connections, messages, requests, alarms, and state persi
@@ -140,20 +144,20 @@ rules:
   slug: partykit-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 40.1
-  delta: 0.0
+  composite: 43.9
+  delta: 3.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 11.4
-    contract_quality: 46.7
-    developer_ergonomics: 31.0
+    contract_quality: 48.9
+    developer_ergonomics: 47.6
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 40.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 40.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partykit/refs/heads/main/screenshots/partykit-2026-06-20T191429.png
 security:

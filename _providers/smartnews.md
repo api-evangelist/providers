@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -309,18 +313,18 @@ rate_limits:
   slug: smartnews-rate-limits
 score:
   band: developing
-  composite: 53.7
+  composite: 53.3
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 31.8
-    contract_quality: 61.3
+    contract_quality: 59.7
     developer_ergonomics: 63.7
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 52.6
-  previous_composite: 53.7
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +335,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/screenshots/smartnews-2026-08-17T081937.png
 security:

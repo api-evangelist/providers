@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The next generation of JUnit for Java 8 and beyond, providing an expressive API for writing tests and extensions.
@@ -114,21 +118,21 @@ rules:
   slug: junit-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 23.2
+  delta: 5.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 19.7
-    developer_ergonomics: 9.5
+    contract_quality: 18.7
+    developer_ergonomics: 28.6
     discoverability: 50.0
     governance: 9.8
-    operational_transparency: 10.5
-  previous_composite: 17.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    operational_transparency: 26.3
+  previous_composite: 17.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/junit/refs/heads/main/screenshots/junit-2026-06-20T183830.png
 security:
 - kind: domain-security

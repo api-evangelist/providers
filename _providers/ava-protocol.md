@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.8
-  scored_at: '2026-08-24'
+  score: 32.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -252,23 +256,23 @@ overview: 'Ava Protocol publishes 10 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 0
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 46.1
+  delta: -0.8
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 51.5
+    contract_quality: 46.7
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 47.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 10
@@ -280,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:

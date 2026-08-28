@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.8
-  scored_at: '2026-08-24'
+  score: 26.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -256,19 +260,19 @@ rules:
     warn: 10
   slug: rutter-spectral-rules
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 39.2
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 62.7
+    contract_quality: 61.0
     developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.7
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -282,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
 security:

@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
-    dry_run_mode: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-24'
+  score: 35.1
+  scored_at: '2026-08-26'
 api_count: 126
 apis:
 - description: Active Directory is supported as an external authorization and authentication provider. Active Directory may store and provide user and group attributes used by both NFS and SMB protocols. Active Dire
@@ -910,18 +913,18 @@ overview: 'VAST Data publishes 126 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 16
 score:
   band: thin
-  composite: 39.0
+  composite: 38.6
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 49.5
+    contract_quality: 48.2
     developer_ergonomics: 71.4
     discoverability: 57.4
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 39.0
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -931,8 +934,8 @@ score:
       total: 126
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

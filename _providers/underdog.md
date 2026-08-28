@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-24'
+  score: 32.1
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: 'The Universal Commerce Protocol (UCP) shopping service Underdog serves from its own domain. A remote MCP endpoint that answers tools/list anonymously with 13 tools covering catalog search and lookup, '
@@ -156,20 +160,20 @@ overview: 'Underdog publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 16
 score:
   band: thin
-  composite: 31.4
+  composite: 31.0
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 33.3
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 31.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

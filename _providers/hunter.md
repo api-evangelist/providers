@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.8
-  scored_at: '2026-08-24'
+  score: 51.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -775,18 +779,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 72.6
+  composite: 71.4
   delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 59.1
-    contract_quality: 78.1
+    contract_quality: 76.0
     developer_ergonomics: 64.3
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 59.1
     operational_transparency: 68.4
-  previous_composite: 72.6
+  previous_composite: 71.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -797,8 +801,8 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:

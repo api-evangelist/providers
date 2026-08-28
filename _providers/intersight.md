@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bound
+    consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-24'
+  score: 31.8
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: Fabric interconnect, Ethernet and Fibre Channel port, VLAN/VSAN, link aggregation and network policy operations for Cisco UCS domains managed by Intersight. 629 operations across 369 paths and 8 resou
@@ -233,18 +237,18 @@ scopes:
   summary_line: 3317 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 59.8
-  delta: -0.3
+  composite: 58.7
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 16.7
-    contract_quality: 51.7
+    contract_quality: 50.3
     developer_ergonomics: 75.6
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 60.1
+  previous_composite: 58.7
   provenance:
     conformance: derived
     contracts:
@@ -254,8 +258,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

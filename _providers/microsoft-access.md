@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: API for programmatic access to Microsoft Access databases through various interfaces including ODBC, OLE DB, and DAO.
@@ -175,20 +179,20 @@ rules:
   slug: microsoft-access-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 35.3
+  delta: 3.8
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 35.2
-    developer_ergonomics: 26.2
+    contract_quality: 33.3
+    developer_ergonomics: 45.2
     discoverability: 53.7
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 32.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 31.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/screenshots/microsoft-access-2026-06-20T185353.png
 security:

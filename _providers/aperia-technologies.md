@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 8.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Halo Connect Partner API is the read-only REST integration surface of the Halo Connect tire-management portal. Partners and fleet platforms authenticate with HTTP Basic credentials and pull vehicl
@@ -136,8 +140,8 @@ score:
   previous_composite: 29.6
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/screenshots/aperia-technologies-2026-08-07T161450.png
 security:

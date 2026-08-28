@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-24'
+  score: 46.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Dolls Kill Universal Commerce Protocol (UCP) endpoint, served over MCP at /api/ucp/mcp. Anonymous tools/list returns 13 tools with full JSON Schema input contracts covering catalog search and look
@@ -157,24 +161,24 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.8
+  composite: 38.4
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 43.3
+    contract_quality: 41.5
     developer_ergonomics: 28.0
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 38.8
+  previous_composite: 38.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

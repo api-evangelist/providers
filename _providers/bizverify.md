@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.4
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
@@ -153,27 +157,27 @@ overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network
   BizVerify''s developer surface includes documentation and 11 more developer resources.'
 random_paper: 20
 score:
-  band: emerging
-  composite: 25.7
-  delta: 0.0
+  band: thin
+  composite: 30.0
+  delta: 4.6
   facets:
-    access_clarity: 21.1
-    commercial_clarity: 21.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 43.5
+    contract_quality: 47.8
     developer_ergonomics: 16.7
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 25.7
+    operational_transparency: 5.3
+  previous_composite: 25.4
   provenance:
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify

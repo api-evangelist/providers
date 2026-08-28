@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Create, retrieve, update, renew, replace, and convert physical and virtual cards; manage card status, cardholder details, card images, encrypted card data, and bulk card creation. The core issuing sur
@@ -178,18 +182,18 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 42.3
+  composite: 41.7
   delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 32.1
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 42.3
+  previous_composite: 41.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -199,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/screenshots/thredd-2026-08-17T082352.png
 security:

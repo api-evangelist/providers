@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.5
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: An OpenAI-compatible LLM inference API operated by King's e-Research for researchers, students and staff. Per King's documentation it serves chat completions against a curated set of hosted models, im
@@ -242,18 +246,18 @@ rate_limits:
   slug: kings-college-london-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: -0.3
+  composite: 36.6
+  delta: 1.4
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 4.0
-    developer_ergonomics: 38.1
+    contract_quality: 3.8
+    developer_ergonomics: 45.2
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 35.6
+  previous_composite: 35.2
   provenance:
     conformance: first-party
   regulatory:
@@ -262,8 +266,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/screenshots/kings-college-london-2026-08-17T083326.png
 security:

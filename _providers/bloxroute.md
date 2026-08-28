@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Low-latency Solana trading API (gRPC, HTTP/REST with per-region Swagger UI, WebSocket, and QUIC) for transaction submission, batching, sniping, bundle execution, DEX quoting/swaps (Jupiter, Raydium, P
@@ -171,18 +175,18 @@ rate_limits:
   slug: bloxroute-rate-limits
 score:
   band: developing
-  composite: 40.9
+  composite: 40.3
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 47.8
+    contract_quality: 45.7
     developer_ergonomics: 70.8
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 40.9
+  previous_composite: 40.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -193,8 +197,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/screenshots/bloxroute-2026-07-25T203421.png
 security:

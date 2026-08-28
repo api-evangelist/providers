@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.8
-  scored_at: '2026-08-24'
+  score: 52.6
+  scored_at: '2026-08-26'
 api_count: 37
 apis:
 - description: Administrative reporting routes.
@@ -416,18 +420,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.1
+  composite: 49.7
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
-    contract_quality: 63.3
+    contract_quality: 61.6
     developer_ergonomics: 37.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.1
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -437,8 +441,8 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/screenshots/openwork-2026-08-17T124245.png
 security:

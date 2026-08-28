@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.7
-  scored_at: '2026-08-24'
+  score: 31.3
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Global View APIs for alerts, external alert ingestion, and on-prem storage dashboards. Function-based JSON POST bodies over a Solr-style query engine, served from the Virtana cloud platform.
@@ -181,23 +185,23 @@ overview: 'Virtana (Virtual Instruments) publishes 3 APIs on the [APIs.io](https
 random_paper: 11
 score:
   band: developing
-  composite: 48.6
+  composite: 48.0
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 64.3
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 48.6
+  previous_composite: 48.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/screenshots/virtual-instruments-2026-08-17T082756.png
 security:

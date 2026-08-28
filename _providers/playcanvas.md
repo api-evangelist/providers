@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: Published applications and self-hostable app downloads.
@@ -231,18 +235,18 @@ rate_limits:
   slug: playcanvas-rate-limits
 score:
   band: developing
-  composite: 54.0
+  composite: 53.6
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 60.9
+    contract_quality: 59.2
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 54.0
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +256,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/screenshots/playcanvas-2026-08-17T081259.png
 security:

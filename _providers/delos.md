@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.1
-  scored_at: '2026-08-24'
+  score: 32.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -181,18 +184,18 @@ rate_limits:
   slug: delos-rate-limits
 score:
   band: thin
-  composite: 38.6
+  composite: 36.4
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 58.2
+    contract_quality: 56.6
     developer_ergonomics: 37.5
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.6
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +206,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png
 security:

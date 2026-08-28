@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.5
-  scored_at: '2026-08-24'
+  score: 24.7
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Klue Content API returns an organization's published Klue cards and battlecards to external tools and agents, filterable by competitor, battlecard, tag and date range. Access is authenticated with
@@ -192,7 +196,7 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.6
+  composite: 30.8
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -200,16 +204,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 31.6
+  previous_composite: 30.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klue/refs/heads/main/screenshots/klue-2026-07-25T223952.png
 security:

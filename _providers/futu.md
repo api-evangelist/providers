@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.6
-  scored_at: '2026-08-24'
+  score: 23.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Programmatic trading and market-data API for global markets, options, futures, crypto and event contracts. Proprietary Protocol Buffers protocol spoken over TCP to a locally run OpenD gateway (default
@@ -115,18 +119,18 @@ overview: 'Futu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 11
 score:
   band: emerging
-  composite: 21.7
+  composite: 21.3
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 28.2
+    contract_quality: 26.7
     developer_ergonomics: 52.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 21.7
+  previous_composite: 21.3
   provenance:
     mcp: first-party
     skills: first-party
@@ -136,8 +140,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/futu/refs/heads/main/screenshots/futu-2026-07-25T215329.png
 security:

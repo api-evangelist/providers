@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 32.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -289,18 +293,18 @@ rate_limits:
   slug: pverify-rate-limits
 score:
   band: strong
-  composite: 57.7
+  composite: 56.5
   delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 45.5
-    contract_quality: 64.4
+    contract_quality: 62.6
     developer_ergonomics: 49.4
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 45.5
     operational_transparency: 34.2
-  previous_composite: 57.7
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,8 +321,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png
 security:

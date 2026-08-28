@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.3
-  scored_at: '2026-08-24'
+  score: 6.1
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Visual Studio Extensibility API enables developers to create extensions that customize and extend Visual Studio IDE functionality. Extensions can add custom tool windows, commands, code analyzers,
@@ -110,20 +114,20 @@ rate_limits:
   slug: microsoft-visual-studio-rate-limits
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 23.8
+  delta: 2.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 42.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 21.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/screenshots/microsoft-visual-studio-2026-06-20T185541.png
 security:

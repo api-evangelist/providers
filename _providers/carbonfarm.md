@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 39.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Directus 10.10.7 headless CMS that serves carbonfarm.tech's news posts and image assets. It publishes a real OpenAPI 3.0.1 (14 operations) and a full GraphQL SDL anonymously at /server/specs/oas a
@@ -131,24 +136,24 @@ rate_limits:
   slug: carbonfarm-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 30.9
   delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 30.3
-    contract_quality: 50.6
+    contract_quality: 49.4
     developer_ergonomics: 20.8
-    discoverability: 77.8
+    discoverability: 70.4
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 32.0
+  previous_composite: 30.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

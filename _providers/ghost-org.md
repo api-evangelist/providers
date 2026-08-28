@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-24'
+  score: 30.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -580,18 +584,18 @@ rules:
   slug: ghost-org-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.8
-  delta: 0.0
+  composite: 75.4
+  delta: 1.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 43.9
-    contract_quality: 67.3
-    developer_ergonomics: 85.7
+    contract_quality: 65.6
+    developer_ergonomics: 90.5
     discoverability: 81.5
     governance: 43.9
     operational_transparency: 81.6
-  previous_composite: 74.8
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -602,8 +606,8 @@ score:
       total: 33
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:

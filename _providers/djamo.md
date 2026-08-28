@@ -13,23 +13,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: derived
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.7
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for businesses to collect payments, send single and mass transfers, check balance, manage sub-companies, and receive HMAC-signed webhooks.
@@ -98,19 +102,19 @@ overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Bus
   Djamo''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
 random_paper: 19
 score:
-  band: thin
-  composite: 30.4
-  delta: 0.0
+  band: developing
+  composite: 42.8
+  delta: 13.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 47.8
-    developer_ergonomics: 16.7
+    contract_quality: 45.7
+    developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 4.5
-    operational_transparency: 0.0
-  previous_composite: 30.4
+    operational_transparency: 7.9
+  previous_composite: 29.8
   provenance:
     conformance: derived
     mcp: derived
@@ -120,10 +124,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 17.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 31.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/djamo/refs/heads/main/screenshots/djamo-2026-07-25T212138.png
 security:
 - kind: authentication

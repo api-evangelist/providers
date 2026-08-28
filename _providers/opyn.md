@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 16.7
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: GraphQL API powered by The Graph that indexes all on-chain Squeeth events on Ethereum mainnet. Enables developers to query oSQTH positions, short vaults, vault collateral and debt, funding (mark/index
@@ -142,26 +146,26 @@ rate_limits:
   slug: opyn-rate-limits
 score:
   band: thin
-  composite: 27.9
-  delta: 0.0
+  composite: 28.9
+  delta: 1.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 42.6
     developer_ergonomics: 14.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 27.9
+  previous_composite: 27.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/screenshots/opyn-2026-06-20T191115.png
 security:

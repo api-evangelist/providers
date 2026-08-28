@@ -12,26 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-24'
+  score: 37.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 0
@@ -311,18 +314,18 @@ rules:
   slug: weblate-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 44.8
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 62.0
+    contract_quality: 60.3
     developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 45.2
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -330,8 +333,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/screenshots/weblate-2026-06-20T201333.png
 security:

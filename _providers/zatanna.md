@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.3
-  scored_at: '2026-08-24'
+  score: 27.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Zatanna's hosted, remote Model Context Protocol (MCP) server — the agent-facing surface of its reverse-engineered portal integrations. Live at https://api.zatanna.ai/mcp over Streamable HTTP (JSON-RPC
@@ -82,14 +86,14 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 15.1
-  delta: 0.0
+  composite: 17.5
+  delta: 2.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 11.9
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
@@ -97,8 +101,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

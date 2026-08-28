@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.8
-  scored_at: '2026-08-24'
+  score: 29.1
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -143,18 +147,18 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 38.5
+  composite: 37.2
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 19.0
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 38.5
+  previous_composite: 37.2
   provenance:
     conformance: first-party
   regulatory:
@@ -163,8 +167,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

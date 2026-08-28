@@ -12,26 +12,30 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-24'
+  score: 27.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
@@ -313,18 +317,18 @@ rules:
   slug: healthie-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 68.8
+  composite: 68.5
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 29.5
-    contract_quality: 52.3
+    contract_quality: 54.0
     developer_ergonomics: 61.3
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 29.5
     operational_transparency: 86.8
-  previous_composite: 68.8
+  previous_composite: 68.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -335,8 +339,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png
 security:

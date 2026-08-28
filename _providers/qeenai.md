@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Qeen's first-party mobile analytics and commerce-event SDK, shipped as a binary XCFramework for iOS (Swift Package Manager) and an AAR for Android (self-hosted Maven). It exposes a typed commerce even
@@ -165,7 +169,7 @@ rate_limits:
   slug: qeenai-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 31.4
   delta: 0.0
   facets:
     access_clarity: 69.7
@@ -173,14 +177,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 33.3
+  previous_composite: 31.4
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

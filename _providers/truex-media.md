@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.4
-  scored_at: '2026-08-24'
+  score: 31.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Server-side ad request API. A GET against the versioned endpoint with a placement key, user id, IP and user agent returns a JSON `ad` object (creative id, campaign id, window URL and dimensions, curre
@@ -207,23 +211,23 @@ rate_limits:
   slug: truex-media-rate-limits
 score:
   band: developing
-  composite: 47.2
+  composite: 46.6
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 71.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 47.2
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/screenshots/truex-media-2026-08-17T082454.png
 security:

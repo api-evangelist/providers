@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-24'
+  score: 30.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -200,18 +204,18 @@ overview: 'Narrative Sports publishes 6 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 3
 score:
   band: developing
-  composite: 42.5
+  composite: 42.2
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 49.9
+    contract_quality: 48.5
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 42.5
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +226,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/screenshots/usenarrative-2026-08-17T082657.png
 security:

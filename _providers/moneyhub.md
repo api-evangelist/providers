@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.6
-  scored_at: '2026-08-24'
+  score: 37.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -228,30 +232,34 @@ scopes:
   summary_line: 108 scopes
 score:
   band: strong
-  composite: 61.9
+  composite: 61.2
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
-    contract_quality: 52.1
+    contract_quality: 49.3
     developer_ergonomics: 60.7
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 48.7
-  previous_composite: 61.9
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: UK
+      standard: uk-open-banking
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.0
-  scored_at: '2026-08-24'
+  score: 32.4
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: The Compliance API from Zaius — 7 operation(s) for compliance.
@@ -319,18 +323,18 @@ rate_limits:
   slug: zaius-rate-limits
 score:
   band: strong
-  composite: 63.2
+  composite: 61.7
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 57.5
+    contract_quality: 56.0
     developer_ergonomics: 66.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 30.3
     operational_transparency: 80.3
-  previous_composite: 63.2
+  previous_composite: 61.7
   provenance:
     conformance: first-party
     contracts:
@@ -340,8 +344,8 @@ score:
       total: 17
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:

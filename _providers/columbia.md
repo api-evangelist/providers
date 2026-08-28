@@ -13,26 +13,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: true
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.3
-  scored_at: '2026-08-24'
+  score: 36.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -264,18 +267,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.6
-  delta: -0.3
+  composite: 45.3
+  delta: 4.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 42.1
+    commercial_clarity: 42.1
     contract_governance: 3.8
-    contract_quality: 68.5
-    developer_ergonomics: 21.4
+    contract_quality: 69.4
+    developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 40.9
+  previous_composite: 40.8
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -290,8 +293,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/screenshots/columbia-2026-06-20T174808.png
 security:

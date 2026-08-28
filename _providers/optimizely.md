@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.4
-  scored_at: '2026-08-24'
+  score: 39.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -954,18 +958,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 75.7
+  composite: 75.1
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 59.1
-    contract_quality: 82.2
+    contract_quality: 79.9
     developer_ergonomics: 76.2
     discoverability: 75.9
     governance: 59.1
     operational_transparency: 76.3
-  previous_composite: 75.7
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -976,8 +980,8 @@ score:
       total: 34
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png
 security:

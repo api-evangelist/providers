@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.7
-  scored_at: '2026-08-24'
+  score: 34.9
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'REST API over the HackNotice threat-intelligence platform: authentication, leak and leak-file search, first-party domain watchlists and alerts, third-party vendor watchlists, hacks and alerts, end-use'
@@ -200,19 +203,31 @@ rate_limits:
   name: Hacknotice Rate Limits
   slug: hacknotice-rate-limits
 score:
-  band: strong
-  composite: 57.7
+  band: developing
+  composite: 53.6
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 30.3
-    contract_quality: 64.5
-    developer_ergonomics: 54.8
-    discoverability: 87.0
-    governance: 30.3
+    contract_governance: 16.7
+    contract_quality: 66.1
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    governance: 16.7
     operational_transparency: 31.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 53.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Hacknotice Authentication

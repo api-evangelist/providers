@@ -12,25 +12,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 39.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -855,18 +860,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 85.7
+  composite: 85.2
   delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 55.3
-    contract_quality: 62.3
+    contract_quality: 63.2
     developer_ergonomics: 82.7
-    discoverability: 83.3
+    discoverability: 75.9
     governance: 55.3
     operational_transparency: 84.2
-  previous_composite: 85.7
+  previous_composite: 85.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -883,8 +888,8 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:

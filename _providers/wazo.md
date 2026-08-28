@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-24'
+  score: 32.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 540
   human_in_the_loop: 26
@@ -350,26 +354,26 @@ rate_limits:
   name: Wazo Rate Limits
   slug: wazo-rate-limits
 score:
-  band: developing
-  composite: 42.4
+  band: thin
+  composite: 34.6
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 56.7
+    contract_quality: 25.6
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 42.4
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 13
+      marker_coverage: 100.0
       total: 13
     mcp: derived
     skills: derived
@@ -379,8 +383,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

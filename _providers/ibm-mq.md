@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 20.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -249,19 +253,19 @@ rules:
     warn: 0
   slug: ibm-mq-rules
 score:
-  band: thin
-  composite: 37.9
-  delta: 0.0
+  band: developing
+  composite: 40.8
+  delta: 3.3
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 68.5
-    developer_ergonomics: 31.0
+    contract_quality: 66.9
+    developer_ergonomics: 47.6
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 37.9
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -269,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/screenshots/ibm-mq-2026-06-20T183135.png
 security:

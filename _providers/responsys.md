@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 26.1
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Responsys REST API (v1.3) manages profile lists and recipients, profile extension tables, supplemental data tables, campaigns and campaign schedules, programs, folders, the content library, trigge
@@ -205,22 +209,22 @@ rate_limits:
   slug: responsys-rate-limits
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 53.8
+  delta: 1.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 16.7
-    contract_quality: 45.0
+    contract_quality: 49.2
     developer_ergonomics: 63.7
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 68.4
-  previous_composite: 53.5
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -232,8 +236,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/screenshots/responsys-2026-08-17T081535.png
 security:

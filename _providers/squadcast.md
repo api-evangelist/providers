@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-24'
+  score: 17.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -124,18 +128,18 @@ overview: 'Squadcast publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: thin
-  composite: 30.3
+  composite: 29.9
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 56.9
+    contract_quality: 55.3
     developer_ergonomics: 17.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 30.3
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -143,8 +147,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/screenshots/squadcast-2026-06-20T194432.png
 security:

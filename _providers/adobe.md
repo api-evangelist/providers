@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.9
-  scored_at: '2026-08-24'
+  score: 44.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -1051,18 +1055,18 @@ rules:
   slug: adobe-spectral-rules
 score:
   band: exemplar
-  composite: 81.0
-  delta: 0.0
+  composite: 82.3
+  delta: 1.9
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 59.1
-    contract_quality: 83.4
-    developer_ergonomics: 85.7
+    contract_quality: 81.1
+    developer_ergonomics: 95.2
     discoverability: 66.7
     governance: 59.1
     operational_transparency: 71.1
-  previous_composite: 81.0
+  previous_composite: 80.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1073,8 +1077,8 @@ score:
       total: 20
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:

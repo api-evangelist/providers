@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-24'
+  score: 40.6
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API as served from AG1's own storefront host, shop.drinkag1.com. Anonymous schema introspection succeeds, exposing 35 query fields, 41 mutations and 416 types covering p
@@ -153,18 +158,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.6
+  composite: 35.2
   delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 18.2
-    contract_quality: 43.3
+    contract_quality: 41.5
     developer_ergonomics: 28.0
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 35.6
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -175,8 +180,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/screenshots/athletic-greens-2026-08-07T161847.png
 security:

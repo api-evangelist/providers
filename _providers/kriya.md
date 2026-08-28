@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.4
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The Buyers API from Kriya — 6 operation(s) for buyers.
@@ -208,18 +212,18 @@ overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 19
 score:
   band: developing
-  composite: 42.3
+  composite: 40.1
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 60.6
+    contract_quality: 59.0
     developer_ergonomics: 28.0
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 42.3
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
@@ -235,8 +239,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/screenshots/kriya-2026-07-25T224301.png
 security:

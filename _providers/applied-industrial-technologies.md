@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 24.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -158,22 +162,22 @@ rules:
   slug: applied-industrial-technologies-spectral-rules
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 31.5
+  delta: 1.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 13.6
-    contract_quality: 69.9
+    contract_governance: 28.8
+    contract_quality: 67.3
     developer_ergonomics: 11.9
     discoverability: 53.7
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 30.4
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -183,8 +187,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

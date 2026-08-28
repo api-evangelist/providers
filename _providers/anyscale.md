@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.6
-  scored_at: '2026-08-24'
+  score: 19.1
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Manages Anyscale Workspaces - cloud-hosted, GPU-backed development environments preconfigured with Ray for interactive development and debugging.
@@ -139,20 +143,20 @@ rate_limits:
   slug: anyscale-rate-limits
 score:
   band: thin
-  composite: 27.3
+  composite: 26.9
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 16.7
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 27.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 26.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyscale/refs/heads/main/screenshots/anyscale-2026-06-20T172029.png
 security:

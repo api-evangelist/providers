@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.0
-  scored_at: '2026-08-24'
+  score: 9.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Free keyless RESTful JSON API serving random anime/neko images across many categories with rich metadata, a tags endpoint, session mechanism, and content ratings.
@@ -200,23 +204,23 @@ rate_limits:
   slug: nekosia-rate-limits
 score:
   band: thin
-  composite: 32.9
-  delta: -3.7
+  composite: 33.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 1.4
+    contract_quality: 6.7
     developer_ergonomics: 61.9
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 36.6
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

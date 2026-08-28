@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.0
-  scored_at: '2026-08-24'
+  score: 56.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -748,18 +752,18 @@ scopes:
   summary_line: 42 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 84.7
-  delta: 0.0
+  composite: 86.0
+  delta: 2.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 43.9
-    contract_quality: 74.8
-    developer_ergonomics: 70.8
-    discoverability: 100.0
+    contract_quality: 75.4
+    developer_ergonomics: 80.4
+    discoverability: 92.6
     governance: 43.9
     operational_transparency: 76.3
-  previous_composite: 84.7
+  previous_composite: 83.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -776,8 +780,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:

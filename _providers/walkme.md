@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: WalkMe Public APIs provide programmatic access to insights data, account/system metadata, content publishing, and integration with the WalkMe digital adoption platform.
@@ -104,20 +108,20 @@ rate_limits:
   slug: walkme-rate-limits
 score:
   band: emerging
-  composite: 12.6
-  delta: 0.0
+  composite: 13.8
+  delta: 1.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 13.1
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 12.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walkme/refs/heads/main/screenshots/walkme-2026-06-20T201212.png
 security:

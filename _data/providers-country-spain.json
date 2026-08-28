@@ -1,6 +1,6 @@
 {
- "total": 35,
- "shown": 35,
+ "total": 36,
+ "shown": 36,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "openmercantil",
      "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 80+ official public sources (BOE, CNMV, CNMC, AEAT, AEPD, PLACSP, TED EU, BDNS, OEPM, EPO, WIPO, CENDOJ, GLEIF, OpenSanctions, ICIJ and more) to expose company and person search, structured company reports, BORME registry event timelines, documentary officer mentions, CNAE sector navigation and ratios, daily BORME summaries, public-procurement notices and rankings, documentary risk signals, a corporate relationship graph, a Spanish mercantile-law corpus that bridges registry acts to the governing BOE norm, account-plane datasets and HMAC-signed outbound webhooks, and CSV/JSON bulk exports. The live OpenAPI 3.1 contract (v1.9.3) declares 118 paths and 139 operations. The public read plane is free and anonymous with no API key, rate-limited at 60 req/min and 200 req/day per IP, with paid Profesional, MAX and Enterprise tiers raising the quota. Derived data is CC BY 4.0 and every response carries its own source and attribution metadata. The project is informational and does not replace official Registro Mercantil certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 87.7,
+     "score": 87.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 77.4,
+      "contract_quality": 78.0,
       "governance": 59.1,
       "contract_governance": 59.1,
       "operational_transparency": 94.7,
@@ -29,8 +29,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -38,14 +38,14 @@
       "score": 85.2,
       "matched_via": "tags"
      },
-     "agent_score": 55.8,
+     "agent_score": 42.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "partial",
@@ -55,67 +55,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Clevergy",
-     "slug": "clevergy",
-     "description": "Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform ingests household consumption data — pulled directly from Spanish distributors and the Datadis smart-meter hub via the CUPS supply-point code, or from connected solar inverters and smart devices — and turns it into consumption analytics, invoice breakdowns, savings recommendations, appliance-level disaggregation, virtual battery and wallet balances, energy-community shares, and sales leads the retailer can act on. Integrators consume it two ways: the Connect API, a Swagger 2.0 REST API on connect.clever.gy with 83 operations spanning users, houses, contracts, invoices, tariffs, equipment, energy telemetry, tickets and sales opportunities; and a catalog of roughly thirty embeddable \"microfrontend\" web components that drop Clevergy's end-user experiences straight into the retailer's own app or webview, authenticated with a short-lived per-user JWT. Clevergy raised a €3.2M round in October 2025 co-led by Racine² (Serena and Makesense) and Axon Partners Group, with Satgana, Wayra and Angels participating.",
-     "score": 54.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 66.4,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 55.3,
-      "access_clarity": 55.3
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 43.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 2
     }
    ],
    "open": true
@@ -125,20 +71,71 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 5,
+   "shown": 5,
    "providers": [
+    {
+     "name": "Clevergy",
+     "slug": "clevergy",
+     "description": "Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform ingests household consumption data — pulled directly from Spanish distributors and the Datadis smart-meter hub via the CUPS supply-point code, or from connected solar inverters and smart devices — and turns it into consumption analytics, invoice breakdowns, savings recommendations, appliance-level disaggregation, virtual battery and wallet balances, energy-community shares, and sales leads the retailer can act on. Integrators consume it two ways: the Connect API, a Swagger 2.0 REST API on connect.clever.gy with 83 operations spanning users, houses, contracts, invoices, tariffs, equipment, energy telemetry, tickets and sales opportunities; and a catalog of roughly thirty embeddable \"microfrontend\" web components that drop Clevergy's end-user experiences straight into the retailer's own app or webview, authenticated with a short-lived per-user JWT. Clevergy raised a €3.2M round in October 2025 co-led by Racine² (Serena and Makesense) and Axon Partners Group, with Satgana, Wayra and Angels participating.",
+     "score": 54.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 64.6,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 55.3,
+      "access_clarity": 55.3
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 43.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
     {
      "name": "Factorial",
      "slug": "factorial-hr",
      "description": "Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 \"Legendre\") covering employees, contracts, attendance, time off, payroll, ATS, performance, trainings, projects, finance, banking, procurement, IT assets, documents, webhooks, and an Approvals workflow surface. Authentication uses OAuth2 (on behalf of a user) or an x-api-key header (on behalf of the company), with 30+ scopes for granular partner access. Factorial publishes the OpenAPI schema and generated SDKs (Ruby, Python, Java, PHP, TypeScript, Node.js) at github.com/factorialco/oas and exposes an llms.txt index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png",
-     "score": 53.2,
+     "score": 53.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 62.9,
+      "contract_quality": 63.9,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 30.3,
@@ -146,16 +143,16 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 40.2,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "verified",
@@ -165,21 +162,69 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 3
+    },
+    {
+     "name": "Multiverse Computing",
+     "slug": "multiverse-computing",
+     "description": "Multiverse Computing, S.L. is a Donostia-San Sebastian (Spain) quantum- and AI-software company whose commercial developer surface is the CompactifAI API — an OpenAI-compatible LLM inference service serving tensor-network-compressed versions of frontier open models (Hypernova 60B, Carina 60B, Mistral Small 3.1 Slim, Whisper Large V3 Turbo Slim) alongside uncompressed third-party models (GPT-OSS 120B, GLM 5.1/5.2, Quasar 438B, Qwen 3.6 27B, Nemotron 3 Nano Omni). The API is published at api.compactif.ai with regional EU and US endpoints, documented at docs.compactif.ai, billed pay-as-you-go per million tokens, and also sold through the AWS Marketplace. The company additionally sells Singularity, a quantum and quantum-inspired optimization product for finance, energy and manufacturing, which has no public developer documentation.",
+     "score": 51.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 59.9,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 59.2,
+      "access_clarity": 59.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 25.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
     },
     {
      "name": "ZenRows",
      "slug": "zenrows",
      "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
-     "score": 50.8,
+     "score": 50.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 65.0,
+      "contract_quality": 63.3,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 52.6,
@@ -187,16 +232,16 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 35.9,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
@@ -206,21 +251,25 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Cobee by Pluxee",
      "slug": "cobee",
      "description": "Cobee is a Madrid-based flexible employee benefits and compensation platform, acquired by Pluxee (Sodexo group) in 2024. It lets companies manage a modular multi-benefit program (meal, transport, training, health and life insurance, wellbeing and employee discounts) from a single dashboard, delivered to employees through a Cobee VISA card and mobile app. Cobee exposes a REST Public API (v3, OpenAPI 3.0.1) for HR and payroll integrations, covering companies, employees, benefit models, payroll cycles, and benefit consumptions, with OAuth 2.0 client-credentials (Auth0-issued JWT) auth and a separate staging sandbox. The Public API is currently available to Spanish customers, with credentials issued by the customer's Customer Success Manager.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png",
-     "score": 46.0,
+     "score": 45.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 49.3,
+      "contract_quality": 48.0,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 0.0,
@@ -228,16 +277,16 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 42.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 30.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
@@ -247,11 +296,16 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "thin",
@@ -297,47 +351,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
-    },
-    {
-     "name": "Koalaboox",
-     "slug": "koalaboox",
-     "description": "Koalaboox is a Belgian cloud invoicing and cash-flow platform for small businesses, self-employed professionals and their accountants, now operating as Cegid Invoice & Financing — API brand Cegid Click & Finance — following its acquisition by Cegid. The platform covers sales invoicing, quotes, purchase-invoice management, recurring invoices, dynamic dashboards, bank-account connections and Peppol-based electronic invoicing for the Belgian 2026 e-invoicing mandate, sold in Belgium and Spain. Alongside the SaaS it offers invoice financing — cash advances against outstanding invoices — underwritten by Cegid Fin Belgium. Koalaboox exposes a public REST API at connect.koalaboox.com secured with OAuth 2.0 authorization-code grants, documented on a Stoplight developer portal, with a first-party Laravel reference architecture published on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png",
-     "score": 29.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 55.3,
-      "access_clarity": 55.3
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 14.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 7
     },
     {
@@ -345,29 +358,29 @@
      "slug": "holded",
      "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
-     "score": 28.9,
+     "score": 29.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 54.2,
+      "contract_quality": 52.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 14.3,
+      "developer_ergonomics": 19.0,
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 26.1,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -377,21 +390,70 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 8
+    },
+    {
+     "name": "Koalaboox",
+     "slug": "koalaboox",
+     "description": "Koalaboox is a Belgian cloud invoicing and cash-flow platform for small businesses, self-employed professionals and their accountants, now operating as Cegid Invoice & Financing — API brand Cegid Click & Finance — following its acquisition by Cegid. The platform covers sales invoicing, quotes, purchase-invoice management, recurring invoices, dynamic dashboards, bank-account connections and Peppol-based electronic invoicing for the Belgian 2026 e-invoicing mandate, sold in Belgium and Spain. Alongside the SaaS it offers invoice financing — cash advances against outstanding invoices — underwritten by Cegid Fin Belgium. Koalaboox exposes a public REST API at connect.koalaboox.com secured with OAuth 2.0 authorization-code grants, documented on a Stoplight developer portal, with a first-party Laravel reference architecture published on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png",
+     "score": 29.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 55.3,
+      "access_clarity": 55.3
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
     },
     {
      "name": "BBVA",
      "slug": "bbva",
      "description": "BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png",
-     "score": 28.8,
+     "score": 28.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 11.3,
+      "contract_quality": 10.7,
       "governance": 54.5,
       "contract_governance": 54.5,
       "operational_transparency": 10.5,
@@ -399,8 +461,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -408,7 +470,7 @@
       "score": 19.0,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -425,57 +487,58 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
-     "name": "Lingokids",
-     "slug": "lingokids",
-     "description": "Lingokids is a children's edutainment platform operated by Monkimun Inc. (Wilmington, Delaware) and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free \"Playlearning\" experience of games, animated shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and web app have been downloaded more than 200 million times. The curriculum is built by parents and educators and covers English-language learning alongside broader academic and life skills. Lingokids is audited and certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data, and honours GDPR rights for EU residents. The company publishes no public developer program or documented API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public help center. Backed by HV Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/screenshots/lingokids-2026-07-25T225243.png",
-     "score": 26.2,
+     "name": "Novicap",
+     "slug": "novicap",
+     "description": "Novicap is a Spanish working-capital and supply-chain-finance fintech that helps companies optimize their circulating capital. Its REST API (base URL https://api.novicap.com/v1) lets partners programmatically register suppliers, submit and manage invoices, and create payment instructions and adjustments across two products: Dynamic Discounting and Confirming Standard (reverse factoring). The API uses Bearer API-key authentication with a required product_id scope, JSON payloads, and URI-path versioning, and is documented in a public developer reference. Novicap is backed by Partech and Techstars.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/screenshots/novicap-2026-08-07T185613.png",
+     "score": 27.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
+      "discoverability": 87.0,
+      "contract_quality": 12.9,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 47.0,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 55.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.6,
-     "agent_band": "human-only",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 19.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     }
    ]
   },
@@ -488,65 +551,76 @@
    "shown": 17,
    "providers": [
     {
-     "name": "Novicap",
-     "slug": "novicap",
-     "description": "Novicap is a Spanish working-capital and supply-chain-finance fintech that helps companies optimize their circulating capital. Its REST API (base URL https://api.novicap.com/v1) lets partners programmatically register suppliers, submit and manage invoices, and create payment instructions and adjustments across two products: Dynamic Discounting and Confirming Standard (reverse factoring). The API uses Bearer API-key authentication with a required product_id scope, JSON payloads, and URI-path versioning, and is documented in a public developer reference. Novicap is backed by Partech and Techstars.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/screenshots/novicap-2026-08-07T185613.png",
-     "score": 24.2,
+     "name": "Lingokids",
+     "slug": "lingokids",
+     "description": "Lingokids is a children's edutainment platform operated by Monkimun Inc. (Wilmington, Delaware) and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free \"Playlearning\" experience of games, animated shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and web app have been downloaded more than 200 million times. The curriculum is built by parents and educators and covers English-language learning alongside broader academic and life skills. Lingokids is audited and certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data, and honours GDPR rights for EU residents. The company publishes no public developer program or documented API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public help center. Backed by HV Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/screenshots/lingokids-2026-07-25T225243.png",
+     "score": 25.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 13.3,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
+      "discoverability": 61.1,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 31.0,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 55.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "University of Barcelona",
      "slug": "university-of-barcelona",
      "description": "The University of Barcelona (Universitat de Barcelona, UB) is a public research university founded in 1450 and based in Barcelona, Catalonia, Spain. It is ranked #165 in the QS World University Rankings 2025. Its publicly documented developer/API footprint is limited and primarily centered on library and scholarly infrastructure: the Dipòsit Digital de la Universitat de Barcelona runs DSpace 7.6.6, exposing a public REST API and an OAI-PMH metadata-harvesting endpoint. The university also operates centralized single sign-on (SSO) supporting SAML 2.0 / CAS, and publishes institutional open data through its transparency portal. No central, branded public developer portal or official organization-wide GitHub account was confirmed.",
-     "score": 21.3,
+     "score": 23.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 11.3,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 14.3,
+      "developer_ergonomics": 23.8,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -554,14 +628,14 @@
       "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 11.5,
-     "agent_band": "agent-aware",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -571,30 +645,34 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Autonomous University of Madrid",
      "slug": "uam",
      "description": "The Autonomous University of Madrid (Universidad Autónoma de Madrid, UAM) is a public research university in Madrid, Spain, founded in 1968 and ranked #198 in the QS World University Rankings 2025. Its primary public, machine-readable API footprint is delivered through Biblos-e Archivo, the UAM institutional repository running DSpace 7.6.5, which exposes a HAL-based REST API and an OAI-PMH 2.0 metadata-harvesting endpoint. UAM does not publish a centralized developer portal; authentication is handled through the gated ID-UAM federated identity service, and most institutional systems (secretaria virtual, mobile app backend) are not openly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png",
-     "score": 21.2,
+     "score": 22.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 11.3,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 21.4,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -602,14 +680,14 @@
       "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 11.5,
-     "agent_band": "agent-aware",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -619,20 +697,172 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
+    },
+    {
+     "name": "Casavo",
+     "slug": "casavo",
+     "description": "Casavo Management S.p.A. is an Italian proptech company founded in Milan in 2017 by Giorgio Tinacci that operates a digital residential real estate platform across Italy, Spain, France and Portugal. It began as an iBuyer — instantly valuing, buying, renovating and reselling homes — and has since shifted to a marketplace and brokerage model that connects sellers, buyers and partner estate agents, wrapping the transaction in mortgage brokerage, document management and renovation services. Casavo's developer-facing surface is not its consumer marketplace but the virtual-tour platform it acquired, Realisti.co (marketed as Casavo Virtual Tools): a versioned REST API at editor.realisti.co that lets partner agencies and property-management software create virtual tours, retrieve tour URLs, and activate or deactivate a tour at the end of a mandate. The company also runs a public GitHub organization of DevOps tooling, Helm charts, Terraform modules and the Habitat design system, and an engineering blog.",
+     "score": 22.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Universitat Pompeu Fabra",
+     "slug": "universitat-pompeu-fabra",
+     "description": "Universitat Pompeu Fabra (UPF) is a public research university in Barcelona, Spain, ranked #266 in the QS World University Rankings 2025. Its public developer footprint centers on the \"UPF en Xifres 2.0\" linked open data portal (data.upf.edu), which exposes institutional datasets via a CKAN action API and a Virtuoso SPARQL endpoint, and on the UPF Digital Repository (e-Repositori), built on DSpace 7.6 with a public REST API and an OAI-PMH harvesting endpoint. Identity is handled through an adAS / Shibboleth SAML single sign-on service. Most other software is published by research groups (e.g. the Music Technology Group) on GitHub rather than as institutional APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/screenshots/universitat-pompeu-fabra-2026-06-20T200116.png",
+     "score": 21.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 14.3,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Complutense University of Madrid",
+     "slug": "complutense-university-of-madrid",
+     "description": "Complutense University of Madrid (Universidad Complutense de Madrid, UCM) is a major public research university in Spain, ranked #164 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on open data: UCM is a founding member of UniversiDATA, a collaborative open-data portal for Spanish higher education built on DKAN, which exposes a documented DataStore API, CKAN Dataset API, and DCAT catalog API covering UCM datasets (degree programs, enrollments, staff, budgets, mobility, and procurement). UCM also operates Docta Complutense, its institutional repository on DSpace 7, and maintains an official GitHub organization. No general-purpose UCM developer portal for SIS, course, or library APIs was found publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png",
+     "score": 21.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
     },
     {
      "name": "IDOVEN",
      "slug": "idoven",
      "description": "Idoven builds artificial-intelligence solutions for cardiovascular care. Its flagship platform, Willem, is a CE-marked Class IIa medical device that analyzes electrocardiograms (ECGs) to detect, diagnose, and monitor cardiac disease, identifying 22 cardiac patterns and 4 intervals across ambulatory devices, diagnostic ECGs, and insertable cardiac monitors. Idoven serves MedTech companies, Life Sciences (cardiotoxicity monitoring and disease-risk scoring for pharma trials), and preventative remote-screening programs. The Willem API supports bi-directional data exchange in EDF, HL7, DICOM, JSON, XML, and PDF. The company is headquartered in Spain, holds an extensive ISO and IEC certification program, and is backed by Insight Partners and Northzone. Sector: healthcare / cardiology AI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/idoven/refs/heads/main/screenshots/idoven-2026-07-25T222035.png",
-     "score": 21.0,
+     "score": 20.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -641,8 +871,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -667,191 +897,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 14
-    },
-    {
-     "name": "Casavo",
-     "slug": "casavo",
-     "description": "Casavo Management S.p.A. is an Italian proptech company founded in Milan in 2017 by Giorgio Tinacci that operates a digital residential real estate platform across Italy, Spain, France and Portugal. It began as an iBuyer — instantly valuing, buying, renovating and reselling homes — and has since shifted to a marketplace and brokerage model that connects sellers, buyers and partner estate agents, wrapping the transaction in mortgage brokerage, document management and renovation services. Casavo's developer-facing surface is not its consumer marketplace but the virtual-tour platform it acquired, Realisti.co (marketed as Casavo Virtual Tools): a versioned REST API at editor.realisti.co that lets partner agencies and property-management software create virtual tours, retrieve tour URLs, and activate or deactivate a tour at the end of a mandate. The company also runs a public GitHub organization of DevOps tooling, Helm charts, Terraform modules and the Habitat design system, and an engineering blog.",
-     "score": 20.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Universitat Pompeu Fabra",
-     "slug": "universitat-pompeu-fabra",
-     "description": "Universitat Pompeu Fabra (UPF) is a public research university in Barcelona, Spain, ranked #266 in the QS World University Rankings 2025. Its public developer footprint centers on the \"UPF en Xifres 2.0\" linked open data portal (data.upf.edu), which exposes institutional datasets via a CKAN action API and a Virtuoso SPARQL endpoint, and on the UPF Digital Repository (e-Repositori), built on DSpace 7.6 with a public REST API and an OAI-PMH harvesting endpoint. Identity is handled through an adAS / Shibboleth SAML single sign-on service. Most other software is published by research groups (e.g. the Music Technology Group) on GitHub rather than as institutional APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/screenshots/universitat-pompeu-fabra-2026-06-20T200116.png",
-     "score": 20.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 11.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Complutense University of Madrid",
-     "slug": "complutense-university-of-madrid",
-     "description": "Complutense University of Madrid (Universidad Complutense de Madrid, UCM) is a major public research university in Spain, ranked #164 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on open data: UCM is a founding member of UniversiDATA, a collaborative open-data portal for Spanish higher education built on DKAN, which exposes a documented DataStore API, CKAN Dataset API, and DCAT catalog API covering UCM datasets (degree programs, enrollments, staff, budgets, mobility, and procurement). UCM also operates Docta Complutense, its institutional repository on DSpace 7, and maintains an official GitHub organization. No general-purpose UCM developer portal for SIS, course, or library APIs was found publicly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png",
-     "score": 19.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 11.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "University of Navarra",
-     "slug": "university-of-navarra",
-     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with additional campuses in San Sebastian and Madrid. It is ranked #249 in the QS World University Rankings 2025. Its public, machine-consumable developer footprint is limited: the principal documented interface is DADUN (Deposito Academico Digital de la Universidad de Navarra), the institutional open-access repository running on DSpace, which exposes metadata harvesting through the OAI-PMH protocol. No general-purpose public developer portal, open-data API platform, or official GitHub organization could be independently confirmed for the institution at the time of review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 11.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 18
     },
@@ -860,21 +910,21 @@
      "slug": "uab",
      "description": "The Autonomous University of Barcelona (Universitat Autònoma de Barcelona, UAB) is a public research university in Bellaterra, near Barcelona, Spain, founded in 1968 and ranked #175 in the QS World University Rankings 2025. UAB's public, machine-accessible footprint centers on its open scholarly infrastructure rather than a formal developer portal: the Dipòsit Digital de Documents (DDD), the institutional repository built on the Invenio platform, exposes an OAI-PMH 2.0 metadata endpoint and is OpenAIRE-compliant. Research data is published through the Catalan consortium (CSUC) federated research data repository. No dedicated, publicly documented UAB developer/API program or official institutional GitHub organization was confirmed; student-facing academic services (SIA) are gated login portals without public API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/screenshots/uab-2026-06-20T195920.png",
-     "score": 16.2,
+     "score": 17.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 11.3,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -882,7 +932,7 @@
       "score": 20.4,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -899,9 +949,65 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 19
+    },
+    {
+     "name": "University of Navarra",
+     "slug": "university-of-navarra",
+     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with additional campuses in San Sebastian and Madrid. It is ranked #249 in the QS World University Rankings 2025. Its public, machine-consumable developer footprint is limited: the principal documented interface is DADUN (Deposito Academico Digital de la Universidad de Navarra), the institutional open-access repository running on DSpace, which exposes metadata harvesting through the OAI-PMH protocol. No general-purpose public developer portal, open-data API platform, or official GitHub organization could be independently confirmed for the institution at the time of review.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
+     "score": 17.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
     },
     {
      "name": "Aragón Open Data",
@@ -921,8 +1027,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -930,7 +1036,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -947,9 +1053,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Bienvenido a OpenData UGR",
@@ -969,8 +1079,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -978,7 +1088,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -995,9 +1105,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Datos abiertos",
@@ -1017,8 +1131,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1026,7 +1140,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1043,9 +1157,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Madrid Region Open Data",
@@ -1065,8 +1183,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1074,7 +1192,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1091,9 +1209,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
@@ -1113,8 +1235,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1122,7 +1244,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1139,9 +1261,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
@@ -1161,8 +1287,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1170,7 +1296,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1187,9 +1313,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Ontruck",
@@ -1209,8 +1339,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1228,19 +1358,23 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Impress",
      "slug": "impress",
      "description": "Impress (legal entity Smile2Impress SL) is a Barcelona-founded chain of clear-aligner orthodontic clinics, launched in 2019 by Vladimir Lupenko, Diliara Lupenko and Dr. Khaled Kasem, and today Europe's largest invisible-orthodontics clinic network. It runs 110+ doctor-led clinics across ten countries — Spain, Italy, Portugal, France, the United Kingdom, Germany, the Netherlands, Sweden, Ukraine and the United States — has treated more than 500,000 patients, and pairs in-clinic 3D intraoral scanning and patented diagnostics with AI-assisted treatment planning and remote monitoring through its patient mobile app. Impress publishes no developer portal, API reference, SDK, CLI, status page, changelog or machine-readable specification of any kind: contract discovery found no OpenAPI, Swagger, GraphQL SDL, AsyncAPI, MCP server, A2A agent card or .well-known document on any host it operates. Its one API host, api.smile2impress.com, is the private backend for the Impress patient app and the Impress Clinics practitioner app; it resolves and is live but answers HTTP 403 to every anonymous request, including every spec and .well-known path probed. Its GitHub organization, github.com/smile2impress, is real but carries only internal engineering tooling — five forks of Node.js/TypeScript infrastructure libraries and one first-party static-analysis tool, fe-explorer — and no client library for any Impress service. Products sold are orthodontic treatment, retainers and teeth whitening, priced and booked through the consumer site.",
-     "score": 12.7,
+     "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1249,8 +1383,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1275,9 +1409,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     }
    ]
   },
@@ -1307,8 +1445,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1326,9 +1464,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Magnific",
@@ -1348,8 +1490,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1367,9 +1509,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Goin",
@@ -1389,8 +1535,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1415,9 +1561,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "UPM YODA Open Data Portal",
@@ -1437,8 +1587,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1446,7 +1596,7 @@
       "score": 11.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1463,9 +1613,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Blink Booking",
@@ -1485,8 +1639,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1504,9 +1658,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Circular",
@@ -1525,8 +1683,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1544,9 +1702,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Masmovil",
@@ -1566,8 +1728,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1592,9 +1754,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Groupalia",
@@ -1614,8 +1780,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1640,9 +1806,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     }
    ]
   }

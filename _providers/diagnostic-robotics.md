@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-24'
+  score: 29.3
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'REST API for the Proactive Patient Risk Feed: upload FHIR R4 US Core / CCLF / custom claims and EHR datasets, then retrieve ranked actionable risk lists, per-patient risk profiles with contributing fa'
@@ -186,23 +190,23 @@ scopes:
   slug: diagnostic-robotics-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 55.9
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 30.3
-    contract_quality: 50.2
+    contract_quality: 46.6
     developer_ergonomics: 66.1
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 18.4
-  previous_composite: 55.9
+  previous_composite: 53.8
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 33.3
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -214,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 68.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
 security:

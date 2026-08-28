@@ -1,6 +1,6 @@
 {
- "total": 7,
- "shown": 7,
+ "total": 10,
+ "shown": 10,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "dow-jones",
      "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 67.1,
+     "score": 66.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 65.7,
+      "contract_quality": 64.4,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 76.3,
@@ -29,8 +29,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -38,14 +38,14 @@
       "score": 80.0,
       "matched_via": "tags"
      },
-     "agent_score": 48.1,
+     "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "partial",
@@ -55,7 +55,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
      },
      "rank": 1
     }
@@ -75,12 +79,12 @@
      "slug": "bloomberg",
      "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-     "score": 65.0,
+     "score": 63.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 69.2,
+      "discoverability": 75.9,
+      "contract_quality": 67.3,
       "governance": 59.1,
       "contract_governance": 59.1,
       "operational_transparency": 36.8,
@@ -88,8 +92,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -97,14 +101,14 @@
       "score": 78.3,
       "matched_via": "tags"
      },
-     "agent_score": 37.4,
+     "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -112,9 +116,13 @@
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 2
     },
@@ -123,21 +131,21 @@
      "slug": "moodys",
      "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-     "score": 58.8,
+     "score": 59.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 53.7,
+      "discoverability": 85.2,
+      "contract_quality": 52.3,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 73.2,
+      "developer_ergonomics": 80.4,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -145,14 +153,14 @@
       "score": 71.2,
       "matched_via": "tags"
      },
-     "agent_score": 45.5,
+     "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
@@ -162,7 +170,11 @@
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 3
     },
@@ -171,12 +183,12 @@
      "slug": "snowflake",
      "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
-     "score": 55.1,
+     "score": 54.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 48.1,
-      "contract_quality": 76.8,
+      "contract_quality": 74.7,
       "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 42.1,
@@ -184,16 +196,16 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 48.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": "documented",
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
@@ -203,7 +215,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 4
     }
@@ -215,29 +231,74 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Wherobots",
+     "slug": "wherobots",
+     "description": "Wherobots is a managed cloud platform for geospatial analytics and spatial AI at planetary scale, built by the creators of Apache Sedona. WherobotsDB is a distributed Spatial SQL engine with 300+ spatial functions, raster and vector processing (RasterFlow), Havasu (Apache Iceberg-compatible) tables, and data federation across AWS Glue, Databricks Unity Catalog and S3. Developers reach it through the Wherobots Cloud API and a Spatial SQL API, with Python (DB-API), JDBC and TypeScript SDKs, a CLI, an Apache Airflow provider, a hosted MCP server, and agent skills for AI-assisted geospatial development.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png",
+     "score": 53.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 53.3,
+      "governance": 30.3,
+      "contract_governance": 30.3,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 29.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
     {
      "name": "Clarivate",
      "slug": "clarivate",
      "description": "Clarivate is a global information services company providing data, insights, and analytics across academia, government, life sciences, healthcare, and intellectual property. Clarivate exposes a unified developer portal at developer.clarivate.com that catalogs APIs across its product families: Web of Science for publication and citation data, Derwent for patent data, Cortellis for life sciences and drug pipeline intelligence, and supporting tools such as InCites and ScholarOne. APIs are subscription-based and authenticated with per-API keys issued through the developer portal after subscription approval.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-     "score": 42.6,
+     "score": 44.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 57.3,
+      "contract_quality": 55.8,
       "governance": 45.5,
       "contract_governance": 45.5,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 28.6,
+      "developer_ergonomics": 38.1,
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -245,14 +306,14 @@
       "score": 31.3,
       "matched_via": "tags"
      },
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "na",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": false,
@@ -262,9 +323,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na"
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     }
    ]
   },
@@ -273,20 +338,65 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Panoply",
+     "slug": "panoply",
+     "description": "Panoply is a managed cloud data warehouse and ELT (Extract, Load, Transform) platform that centralizes data from 100+ sources into a BigQuery- or Redshift-backed warehouse. It pairs pre-built SaaS connectors and a customizable Flex Connector with a SQL workbench, a code-free Query Builder, and in-platform dashboards, so startups and data teams get analytics-ready data without managing infrastructure. Panoply is a SQream company, backed by 500 Global, offering SOC 2 Type 2, HIPAA, GDPR, and FINRA compliance postures. Its programmable surface is the Flex Connector for ingesting external REST APIs; Panoply does not publish a first-party public REST management API or OpenAPI specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/panoply/refs/heads/main/screenshots/panoply-2026-08-07T191340.png",
+     "score": 28.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 17.9,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
     {
      "name": "Palantir",
      "slug": "palantir",
      "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
-     "score": 28.0,
+     "score": 27.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 55.2,
+      "contract_quality": 53.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
@@ -294,8 +404,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -303,14 +413,14 @@
       "score": 33.3,
       "matched_via": "tags"
      },
-     "agent_score": 29.1,
+     "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -320,9 +430,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 8
     }
    ]
   },
@@ -331,20 +445,65 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Netezza",
+     "slug": "netezza",
+     "description": "IBM Netezza Performance Server is a cloud-native data warehouse and analytics appliance for running large-scale SQL analytics and in-database machine learning on structured data. Originally a standalone data-warehouse appliance vendor acquired by IBM, Netezza is now delivered as Netezza Performance Server on IBM Cloud, AWS, and Microsoft Azure and as part of IBM Cloud Pak for Data. It is consumed primarily through SQL over standard database connectivity — the pure-Python nzpy DB-API 2.0 driver, JDBC (nzjdbc) and ODBC drivers, and the nzpyida in-database analytics library — rather than as a public REST API, with a REST interface for backup/restore administration and a web console for monitoring and administration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netezza/refs/heads/main/screenshots/netezza-2026-08-07T184931.png",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 45.2,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
     {
      "name": "Thomson Reuters",
      "slug": "thomson-reuters",
      "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
-     "score": 13.8,
+     "score": 13.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 11.3,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
@@ -352,9 +511,9 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 3.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -371,9 +530,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 10
     }
    ]
   }

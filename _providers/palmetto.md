@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.5
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: Submit customers, designs and pricing into Palmetto's transparent, auditable clean-energy fulfillment pipeline.
@@ -194,18 +198,18 @@ overview: 'Palmetto publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 9
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 53.5
+  delta: 1.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 64.3
-    developer_ergonomics: 58.9
+    contract_quality: 62.6
+    developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 52.5
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +225,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/screenshots/palmetto-2026-08-07T191322.png
 security:

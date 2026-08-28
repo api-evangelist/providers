@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The core REST API for the Atlan platform, providing programmatic access to all platform capabilities including asset management, data lineage, glossary terms, classifications, custom metadata, persona
@@ -134,20 +138,20 @@ rate_limits:
   slug: atlan-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 37.1
+  delta: 2.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 51.1
-    developer_ergonomics: 11.9
+    contract_quality: 48.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 34.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/screenshots/atlan-2026-06-20T172523.png
 security:

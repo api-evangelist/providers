@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.2
-  scored_at: '2026-08-24'
+  score: 29.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -415,18 +419,18 @@ rules:
   slug: prometheus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 43.5
+  delta: 1.4
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 30.3
-    contract_quality: 67.8
-    developer_ergonomics: 45.2
+    contract_quality: 65.9
+    developer_ergonomics: 52.4
     discoverability: 72.2
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 42.6
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -436,8 +440,8 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:

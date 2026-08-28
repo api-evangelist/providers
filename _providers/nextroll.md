@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: documented
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.3
-  scored_at: '2026-08-24'
+  score: 52.2
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: The core REST service behind the AdRoll and AdRoll ABM dashboards. Create and manage organizations, advertisables, campaigns, ad groups, ads, pixels, rules, segments, product feeds, marketplace deals,
@@ -268,24 +272,24 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/password
 score:
   band: strong
-  composite: 56.8
+  composite: 57.5
   delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 46.5
+    contract_quality: 49.3
     developer_ergonomics: 49.4
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 56.8
+  previous_composite: 57.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/screenshots/nextroll-2026-08-07T185216.png
 security:

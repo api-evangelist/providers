@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-24'
+  score: 32.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -640,18 +644,18 @@ rules:
   slug: fabric-com-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 36.8
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 25.0
-    contract_quality: 66.7
+    contract_quality: 64.9
     developer_ergonomics: 26.2
     discoverability: 40.7
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 37.2
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -665,8 +669,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:

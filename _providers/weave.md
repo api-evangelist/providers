@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.6
-  scored_at: '2026-08-24'
+  score: 28.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -308,19 +312,19 @@ scopes:
   slug: weave-scopes
   summary_line: 3 scopes
 score:
-  band: strong
-  composite: 65.9
-  delta: 0.0
+  band: exemplar
+  composite: 67.2
+  delta: 1.7
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 54.8
-    developer_ergonomics: 28.6
+    contract_quality: 53.3
+    developer_ergonomics: 36.9
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 65.9
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,8 +339,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/screenshots/weave-2026-08-17T082900.png
 security:

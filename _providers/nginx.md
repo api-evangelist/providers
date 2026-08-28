@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 25.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -965,18 +969,18 @@ rules:
   slug: nginx-spectral-rules
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 35.0
+  delta: 3.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 17.9
-    developer_ergonomics: 42.9
+    contract_quality: 20.2
+    developer_ergonomics: 59.5
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 31.1
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -984,8 +988,8 @@ score:
       derived: 28
       marker_coverage: 100.0
       total: 28
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:

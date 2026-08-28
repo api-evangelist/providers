@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-24'
+  score: 27.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: The Audio API from RightNow AI — 2 operation(s) for audio.
@@ -226,19 +230,19 @@ overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 25 more developer resources.'
 random_paper: 0
 score:
-  band: developing
-  composite: 53.9
-  delta: 0.0
+  band: strong
+  composite: 55.9
+  delta: 2.4
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
-    contract_quality: 59.6
-    developer_ergonomics: 54.2
+    contract_quality: 58.0
+    developer_ergonomics: 66.1
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 53.9
+  previous_composite: 53.5
   provenance:
     conformance: derived
     contracts:
@@ -248,8 +252,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/screenshots/rightnow-2026-08-17T081603.png
 security:

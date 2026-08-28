@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.1
-  scored_at: '2026-08-24'
+  score: 11.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'Narrowly scoped official API that returns public Substack profile data for a given LinkedIn handle. Access requires accepting the Developer API Terms of Use, applying via form, and generating a token '
@@ -235,23 +239,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode/deviceCode/implicit
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 36.0
+  delta: 3.8
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 81.5
+    developer_ergonomics: 47.6
+    discoverability: 74.1
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 33.0
+  previous_composite: 32.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png
 security:

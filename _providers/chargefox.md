@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-24'
+  score: 34.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Chargefox's documented REST API for fleet customers, described by an OpenAPI 3.0.1 contract titled "Fleets API" version 1.0 that the company renders publicly with Redoc at https://app.chargefox.com/de
@@ -204,18 +208,18 @@ rate_limits:
   slug: chargefox-rate-limits
 score:
   band: developing
-  composite: 52.0
+  composite: 51.6
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 30.3
-    contract_quality: 49.0
+    contract_quality: 50.3
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 52.0
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -226,8 +230,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png
 security:

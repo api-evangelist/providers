@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-24'
+  score: 37.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -215,31 +219,31 @@ scopes:
   slug: nift-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 48.5
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: 1.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
-    contract_quality: 61.5
-    developer_ergonomics: 58.9
+    contract_quality: 15.0
+    developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 13.2
-  previous_composite: 48.5
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/screenshots/nift-2026-08-07T185254.png
 security:

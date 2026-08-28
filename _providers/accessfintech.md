@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.0
-  scored_at: '2026-08-24'
+  score: 15.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The API surface behind Synergy, AccessFintech's post-trade collaboration network. The shipped web client calls a GraphQL endpoint at https://api.accessfintech.com/gql (operation name mirrored into the
@@ -119,7 +123,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode
 score:
   band: emerging
-  composite: 18.4
+  composite: 17.7
   delta: 0.0
   facets:
     access_clarity: 17.1
@@ -127,14 +131,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 18.4
+  previous_composite: 17.7
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessfintech/refs/heads/main/screenshots/accessfintech-2026-08-07T160758.png
 security:

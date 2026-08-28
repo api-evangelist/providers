@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The in-toto specification defines the metadata format for recording software supply chain steps. It includes layout metadata that defines the expected steps and their authorized functionaries, and lin
@@ -172,20 +176,20 @@ rules:
   slug: in-toto-rules
 score:
   band: thin
-  composite: 27.6
-  delta: 0.0
+  composite: 28.6
+  delta: 1.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 29.6
-    developer_ergonomics: 26.2
+    contract_quality: 28.0
+    developer_ergonomics: 33.3
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 27.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 27.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/screenshots/in-toto-2026-06-20T183303.png
 security:

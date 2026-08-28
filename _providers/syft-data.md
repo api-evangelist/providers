@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-24'
+  score: 53.8
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: The Export API from Syft Data — 1 operation(s) for export.
@@ -228,18 +233,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 64.1
+  delta: 3.4
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 16.7
-    contract_quality: 73.7
-    developer_ergonomics: 51.8
+    contract_quality: 71.7
+    developer_ergonomics: 68.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 21.1
-  previous_composite: 61.2
+  previous_composite: 60.7
   provenance:
     conformance: derived
     contracts:
@@ -249,8 +254,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/screenshots/syft-data-2026-08-17T082227.png
 security:

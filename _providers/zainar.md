@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-08-24'
+  score: 16.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Private, credential-gated REST API for the ZaiNar Wi-Fi location cloud. Clients authenticate with a username/password to obtain a bearer token, then trigger and manage locates against tracker and anch
@@ -110,20 +114,20 @@ overview: 'ZaiNar publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 15
 score:
   band: emerging
-  composite: 24.1
+  composite: 21.7
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

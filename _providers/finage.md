@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-24'
+  score: 32.3
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'Read-only REST API for real-time and historical market data: last quotes/trades, OHLCV aggregates, and snapshots for US and global stocks, forex, crypto, CFD indices and ETFs, plus fundamentals (finan'
@@ -198,25 +202,25 @@ rate_limits:
   name: Finage Rate Limits
   slug: finage-rate-limits
 score:
-  band: strong
-  composite: 57.8
+  band: developing
+  composite: 47.3
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 63.6
+    contract_quality: 24.5
     developer_ergonomics: 47.0
-    discoverability: 83.3
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 57.8
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
@@ -226,8 +230,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png
 security:

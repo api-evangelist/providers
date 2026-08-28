@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -192,18 +196,18 @@ overview: 'Garner Health publishes 4 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 12
 score:
   band: developing
-  composite: 51.0
+  composite: 50.6
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 30.3
-    contract_quality: 56.3
+    contract_quality: 54.8
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 51.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,8 +224,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/screenshots/garner-health-2026-07-25T215450.png
 security:

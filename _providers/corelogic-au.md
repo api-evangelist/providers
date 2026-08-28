@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 26.1
+  scored_at: '2026-08-26'
 api_count: 26
 apis:
 - description: OAuth 2.0 token service for every Cotality Australia and New Zealand API. Issues JWT access tokens via client_credentials, authorization_code and refresh_token grants. The developer portal documents P
@@ -338,24 +342,24 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/implicit
 score:
   band: thin
-  composite: 28.1
+  composite: 26.8
   delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 18.5
-    discoverability: 72.2
+    discoverability: 64.8
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 28.1
+  previous_composite: 26.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/screenshots/corelogic-au-2026-07-27T125335.png
 security:

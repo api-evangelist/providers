@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-24'
+  score: 53.4
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Learner training campaign information and operations.
@@ -206,18 +210,18 @@ overview: 'Goethena publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 3
 score:
   band: developing
-  composite: 52.2
+  composite: 51.7
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 73.2
+    contract_quality: 71.2
     developer_ergonomics: 37.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 52.2
+  previous_composite: 51.7
   provenance:
     conformance: derived
     contracts:
@@ -233,8 +237,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/screenshots/goethena-2026-07-25T220018.png
 security:

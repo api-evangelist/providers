@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: JWT-authenticated, practice-scoped REST API for integrating patient billing and payment workflows — practices, patients, appointments, providers, locations, insurance companies and policies, statement
@@ -114,19 +118,19 @@ overview: 'Collectly publishes 1 API on the [APIs.io](https://apis.io/) network.
   Collectly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
 random_paper: 5
 score:
-  band: thin
-  composite: 36.0
-  delta: 0.0
+  band: developing
+  composite: 42.3
+  delta: 6.9
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 27.4
+    contract_quality: 42.7
+    developer_ergonomics: 46.4
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 0.0
-  previous_composite: 36.0
+    operational_transparency: 7.9
+  previous_composite: 35.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -135,10 +139,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 37.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectly/refs/heads/main/screenshots/collectly-2026-07-25T210051.png
 security:
 - kind: authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 3.8
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: System calls for file and directory manipulation, including open, read, write, and file descriptor management.
@@ -144,20 +148,20 @@ rate_limits:
   slug: unix-rate-limits
 score:
   band: emerging
-  composite: 15.8
-  delta: 0.0
+  composite: 17.5
+  delta: 1.7
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 6.7
     developer_ergonomics: 28.6
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 15.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unix/refs/heads/main/screenshots/unix-2026-06-20T200339.png
 security:

@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 10.3
-  scored_at: '2026-08-24'
+  score: 30.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Bartesian Shopify storefront. The store publishes a Universal Commerce Protocol merchant profile at https://bartesian.com/.well-known/ucp declaring UCP version
@@ -99,15 +103,15 @@ scopes:
   slug: bartesian-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
+  band: thin
+  composite: 26.2
+  delta: 2.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 30.4
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 2.6
@@ -116,8 +120,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bartesian/refs/heads/main/screenshots/bartesian-2026-08-07T162210.png
 security:

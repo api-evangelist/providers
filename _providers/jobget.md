@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.2
-  scored_at: '2026-08-24'
+  score: 14.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The production API host that backs the JobGet mobile applications and employer web experience. The host is publicly reachable over HTTPS and returns a structured RFC 9457 application/problem+json erro
@@ -157,8 +161,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/screenshots/jobget-2026-08-07T171009.png
 security:

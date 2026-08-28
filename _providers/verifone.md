@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.7
-  scored_at: '2026-08-24'
+  score: 36.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -1814,18 +1818,18 @@ rules:
   slug: verifone-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.3
-  delta: 0.0
+  composite: 42.9
+  delta: 2.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 62.9
+    contract_quality: 61.1
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 9.8
-    operational_transparency: 0.0
-  previous_composite: 41.3
+    operational_transparency: 15.8
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1839,8 +1843,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/screenshots/verifone-2026-06-20T200926.png
 security:

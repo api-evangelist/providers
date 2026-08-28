@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.2
-  scored_at: '2026-08-24'
+  score: 28.1
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: RESTful shipping API for printing labels and manifesting shipping data for GLS Netherlands. Covers login validation, label creation (parcel ShipType "P" and freight ShipType "F"), label deletion, sing
@@ -89,7 +93,6 @@ common:
 created: '2026-07-30'
 description: 'GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in
   and "restricted" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer''s primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 modified: '2026-07-30'
 name: GLS Group
@@ -101,33 +104,33 @@ overview: 'GLS Group publishes 2 APIs on the [APIs.io](https://apis.io/) network
   GLS Group''s developer surface includes getting-started guide, FAQ, signup flow, API reference, and 6 more developer resources.'
 random_paper: 4
 score:
-  band: emerging
-  composite: 23.0
-  delta: 0.0
+  band: thin
+  composite: 26.7
+  delta: 4.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 50.0
-    developer_ergonomics: 7.1
-    discoverability: 64.8
+    contract_quality: 48.6
+    developer_ergonomics: 23.8
+    discoverability: 61.1
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 7.9
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 23.0
+  previous_composite: 22.7
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png
 slug: gls-group

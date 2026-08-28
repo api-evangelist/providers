@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-24'
+  score: 23.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,23 +191,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 46.8
+  delta: -1.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 30.3
-    contract_quality: 37.1
-    developer_ergonomics: 54.8
+    contract_quality: 32.7
+    developer_ergonomics: 61.9
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 48.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -212,9 +216,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 83.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 73.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png
 security:

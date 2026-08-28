@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-24'
+  score: 44.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -52,7 +56,11 @@ apis:
 - description: Manage webhook endpoints.
   name: Tabby Webhooks API
   slug: tabby-webhooks-api
-artifact_total: 31
+artifact_total: 33
+asyncapis:
+- description: ''
+  name: Tabby Webhooks
+  slug: tabby-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -112,7 +120,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.tabby.ai/pay-in-4-custom-integration/testing-credentials
+  url: https://docs.tabby.ai/testing-guidelines/testing-credentials
 - group: docs
   title: ''
   type: Documentation
@@ -127,7 +135,7 @@ common:
   url: https://docs.tabby.ai/pay-in-4-custom-integration/payment-statuses
 - group: build
   title: ''
-  type: Github
+  type: GitHubOrganization
   url: https://github.com/tabby-ai
 - group: build
   title: ''
@@ -212,23 +220,23 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.tabby.ai/mobile-app-sdks/ios-sdk
+  url: https://docs.tabby.ai/pay-in-4-custom-integration/mobile-apps/sdk-all
 - group: other
   title: ''
   type: Logos
-  url: https://docs.tabby.ai/marketing-resources/brand-assets
+  url: https://docs.tabby.ai/marketing/brand-assets
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/tabby/
+  url: https://www.linkedin.com/company/tabbypay
 - group: company
   title: ''
   type: Twitter
-  url: https://twitter.com/tabby
+  url: https://twitter.com/paywithtabby
 - group: company
   title: ''
   type: Instagram
-  url: https://www.instagram.com/tabby/
+  url: https://www.instagram.com/tabby.uae
 - group: company
   title: ''
   type: Blog
@@ -257,6 +265,131 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/tabby-vocabulary.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.tabby.ai/api-reference/overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.tabby.ai/l/en
+- group: start
+  title: ''
+  type: SignUp
+  url: https://merchant.tabby.ai/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://tabby.ai/en-AE/legal/merchant-terms-and-conditions-b2b/latest
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://tabby.ai/en-AE/legal/privacy-policy/latest
+- group: build
+  title: ''
+  type: Postman
+  url: https://docs.tabby.ai/custom-api.json
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.tabby-status.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.tabby.ai/introduction/ai-tools
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tabby-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/tabby-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/tabby-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tabby-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/tabby-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/tabby-a2a.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/tabby-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/tabby-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/tabby-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/tabby-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tabby-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/tabby-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/tabby-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/tabby-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/tabby-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/tabby-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/tabby-webhooks.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: errors/tabby-decline-codes.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tabby-checkout-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tabby-payments-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tabby-webhooks-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tabby-disputes-api-overlay.yaml
+created: '2026-05-24'
 description: Tabby is the MENA region's largest buy-now-pay-later (BNPL) provider, founded in 2019 by Hosam Arab (ex-Namshi) and Daniil Barkalov, originally in Dubai and now headquartered in Riyadh ahead of a planned IPO. Tabby reached a $3.3B valuation in a February 2025 Series E ($160M co-led by Blue Pool Capital and Hassana Investment Company), making it the most valuable fintech in the Middle East, and reports 15M+ users, 40,000+ merchants, and $10B+ in annualized transaction volume across KSA, UAE, and Kuwait. The Tabby API powers split-purchase checkouts (Pay-in-4 interest-free, monthly plans up to 12 months), payment lifecycle management, webhooks, and dispute resolution, complemented by Tabby Card (Visa-enabled), Tabby Shop discovery, Tabby Care purchase protection, and the Tabby Plus loyalty programme. Public developer surface includes a versioned REST API across two regional hosts (api.tabby.ai for UAE/Kuwait, api.tabby.sa for KSA), an OpenAPI 3.1 specification, iOS / Android /
   Flutter / React Native SDKs, and certified Magento 2, Shopify, WooCommerce, Salla, Zid, OpenCart, ExpandCart, Matjrah, Salesforce, and Odoo plugins.
 examples:
@@ -308,23 +441,28 @@ jsonld:
   property_count: 5
   slug: tabby-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Tabby Docs MCP Server
+  slug: tabby-docs-mcp-server
+modified: '2026-08-26'
 name: Tabby
 nav: Providers
 network: true
 overview: 'Tabby publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Disputes API, Payments API, and 1 more. Tagged areas include BNPL, Buy Now Pay Later, Consumer Finance, E-Commerce, and Fintech.
 
 
-  The Tabby catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Tabby catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Tabby''s developer surface includes authentication, developer portal, documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 39 more developer resources.'
+  Tabby''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, API reference, and 70 more developer resources.'
 plans:
 - name: Tabby Plans Pricing
   plan_count: 3
   slug: tabby-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 3
+- limit_count: 4
   name: Tabby Rate Limits
   slug: tabby-rate-limits
 rules:
@@ -350,41 +488,44 @@ rules:
     warn: 3
   slug: tabby-rules
 score:
-  band: developing
-  composite: 53.9
-  delta: 0.0
+  band: exemplar
+  composite: 83.6
+  delta: 30.2
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 28.8
-    contract_quality: 73.6
-    developer_ergonomics: 61.9
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 31.6
-  previous_composite: 53.9
+    access_clarity: 92.1
+    commercial_clarity: 92.1
+    contract_governance: 59.1
+    contract_quality: 79.7
+    developer_ergonomics: 92.9
+    discoverability: 81.5
+    governance: 59.1
+    operational_transparency: 60.5
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 56.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/screenshots/tabby-2026-06-20T194846.png
 security:
 - kind: authentication
   name: Tabby Authentication
   slug: tabby-authentication
-  summary_line: http · 1 scheme
+  summary_line: 1 scheme
 - kind: domain-security
   name: Tabby Domain Security
   slug: tabby-domain-security

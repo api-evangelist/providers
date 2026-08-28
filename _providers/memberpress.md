@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.1
-  scored_at: '2026-08-24'
+  score: 34.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API exposed by the MemberPress Developer Tools add-on on the site owner's own WordPress installation, under the WordPress REST namespace mp/v1. Covers members, memberships, transactions, subscrip
@@ -197,18 +200,18 @@ rate_limits:
   slug: memberpress-rate-limits
 score:
   band: developing
-  composite: 49.8
+  composite: 49.7
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 25.7
+    contract_quality: 25.0
     developer_ergonomics: 70.8
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/screenshots/memberpress-2026-08-17T081042.png
 security:

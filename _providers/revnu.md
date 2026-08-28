@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-24'
+  score: 32.4
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: A live remote MCP server over streamable HTTP that gives an AI assistant operator-level control of a Revnu store — 49 documented tools across store, products, coupons, analytics, purchases, affiliates
@@ -213,24 +217,24 @@ rate_limits:
   slug: revnu-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 49.6
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 63.7
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 50.2
+  previous_composite: 49.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/screenshots/revnu-2026-08-17T081547.png
 security:

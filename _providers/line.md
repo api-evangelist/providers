@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-24'
+  score: 43.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -321,18 +325,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.6
-  delta: 0.0
+  composite: 72.2
+  delta: 1.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 43.9
-    contract_quality: 59.0
+    contract_quality: 57.4
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 43.9
-    operational_transparency: 84.2
-  previous_composite: 71.6
+    operational_transparency: 92.1
+  previous_composite: 71.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,8 +347,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:

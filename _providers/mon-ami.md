@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: The Care Plans API from Mon Ami — 4 operation(s) for care plans.
@@ -230,18 +234,18 @@ overview: 'Mon Ami publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 14
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 46.3
+  delta: 4.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 30.3
-    contract_quality: 62.8
-    developer_ergonomics: 42.3
+    contract_quality: 61.1
+    developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 30.3
-    operational_transparency: 0.0
-  previous_composite: 42.2
+    operational_transparency: 7.9
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     contracts:
@@ -256,9 +260,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 31.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/screenshots/mon-ami-2026-08-07T184127.png
 security:

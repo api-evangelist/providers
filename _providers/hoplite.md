@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: documented
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-24'
+  score: 31.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Hoplite platform API at api.hoplite.sh. Documented through the developer docs (no public OpenAPI published as of this profiling). Surfaces include model-provider discovery (GET /api/model-provider
@@ -143,23 +147,23 @@ overview: 'Hoplite publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 1
 score:
   band: thin
-  composite: 37.2
+  composite: 36.6
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 37.2
+  previous_composite: 36.6
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/screenshots/hoplite-2026-07-25T221418.png
 security:

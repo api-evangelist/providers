@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.9
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -358,19 +362,19 @@ scopes:
   slug: gcp-cloud-storage-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.8
-  delta: 0.0
+  band: strong
+  composite: 55.4
+  delta: 8.1
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
+    access_clarity: 44.7
+    commercial_clarity: 44.7
     contract_governance: 28.8
-    contract_quality: 73.8
-    developer_ergonomics: 52.4
+    contract_quality: 71.8
+    developer_ergonomics: 61.9
     discoverability: 72.2
     governance: 28.8
-    operational_transparency: 26.3
-  previous_composite: 47.8
+    operational_transparency: 42.1
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -378,9 +382,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/screenshots/gcp-cloud-storage-2026-06-20T181701.png
 security:
 - kind: authentication

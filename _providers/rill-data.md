@@ -10,26 +10,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.6
-  scored_at: '2026-08-24'
+  score: 38.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Orgs API from Rill Data — 17 operation(s) for orgs.
@@ -176,29 +181,29 @@ scopes:
   summary_line: 1 scope · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 49.1
+  delta: 3.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 30.3
-    contract_quality: 42.7
-    developer_ergonomics: 54.2
+    contract_quality: 46.9
+    developer_ergonomics: 66.1
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 45.7
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/screenshots/rill-data-2026-08-17T081604.png
 security:

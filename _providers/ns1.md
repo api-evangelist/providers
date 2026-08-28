@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.4
-  scored_at: '2026-08-24'
+  score: 18.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -116,20 +120,20 @@ overview: 'NS1 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 1
 score:
   band: emerging
-  composite: 25.5
+  composite: 25.1
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 28.2
+    contract_quality: 26.7
     developer_ergonomics: 52.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 25.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/screenshots/ns1-2026-08-07T185658.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-08-24'
+  score: 18.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Connect RPC / gRPC services backing Qpoint''s control plane: an event store service and the qscan scheduler service, with shared protobuf types for connections, requests, issues, PII, and tags.'
@@ -136,23 +140,23 @@ overview: 'Qpoint publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 16
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 35.9
+  delta: 1.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 18.2
-    contract_quality: 28.2
-    developer_ergonomics: 59.5
+    contract_quality: 26.7
+    developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 34.8
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

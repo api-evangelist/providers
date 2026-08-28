@@ -8,20 +8,20 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Apstal",
      "slug": "apstal",
      "description": "AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal is agent-native by design: its primary programmatic surface is a hosted MCP server at https://apstal.com/api/mcp (JSON-RPC 2.0 over Streamable HTTP, protocol 2025-06-18) whose tools/list is answerable anonymously, backed by a documented REST ingestion and stats API, a WebSocket real-time stream, an SSE natural-language query endpoint, an A2A agent card, two provider-authored Agent Skills, an llms.txt, OAuth 2.0 authorization-server and protected-resource metadata, and an MCP server card. The company is based in Poland and publishes a GDPR Data Processing Agreement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png",
-     "score": 53.4,
+     "score": 52.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 70.4,
-      "contract_quality": 45.1,
+      "contract_quality": 42.7,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
@@ -29,16 +29,16 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 45.6,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 33.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "documented",
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -48,7 +48,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": "flavored",
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 1
     },
@@ -57,12 +61,12 @@
      "slug": "infakt",
      "description": "inFakt is a Polish fintech platform that combines invoicing software, online accounting, and dedicated bookkeeper services for sole proprietors (JDG), limited-liability companies (sp. z o.o.), foundations and other business types operating in Poland. Used by over 460,000 companies and headquartered in Kraków, inFakt offers a web app, iOS/Android mobile apps, deep KSeF (Poland's National e-Invoice System) integration, and a REST API (v3, JSON) for third-party integrations. The API exposes invoices, clients, products, costs, bank accounts, VAT exemptions, payment methods and business-activity data so e-commerce shops, CRMs and accounting tools can automate invoicing, cost booking and tax compliance. inFakt also publishes a hosted MCP server so AI agents can operate a company's accounting through Claude and other MCP clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png",
-     "score": 48.8,
+     "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 45.1,
+      "contract_quality": 42.7,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 50.0,
@@ -70,16 +74,16 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -87,9 +91,13 @@
       "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 2
     },
@@ -98,12 +106,12 @@
      "slug": "przelewy24",
      "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
-     "score": 44.3,
+     "score": 43.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.8,
+      "contract_quality": 58.2,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 15.8,
@@ -111,8 +119,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -120,14 +128,14 @@
       "score": 26.6,
       "matched_via": "tags"
      },
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
+     "agent_score": 27.3,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
@@ -137,7 +145,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 3
     },
@@ -146,21 +158,21 @@
      "slug": "university-of-warsaw",
      "description": "The University of Warsaw (Uniwersytet Warszawski) is Poland's largest and highest-ranked university, placed #258 in the QS World University Rankings 2025. Its public developer footprint centers on the USOS API, a documented OAuth-secured REST-like protocol exposing the institution's academic database (courses, grades, exams, users, payments and more), and on the Dane Badawcze UW research data repository, a Dataverse instance that offers a native REST API and an OAI-PMH endpoint for metadata harvesting. Developer access to USOS requires registration for an API key (Consumer Key/Secret) via the USOS developers portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png",
-     "score": 39.7,
+     "score": 43.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 66.4,
+      "contract_quality": 64.6,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -168,14 +180,14 @@
       "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 38.3,
-     "agent_band": "agent-ready",
+     "agent_score": 25.8,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "na",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": "partial",
@@ -185,40 +197,33 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na"
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 4
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
+    },
     {
      "name": "SMSAPI",
      "slug": "smsapi",
      "description": "SMSAPI is a European bulk business-messaging provider headquartered in Poland and part of LINK Mobility. Its REST API delivers SMS, MMS, and voice (VMS) messaging, email marketing, two-factor authentication, contact and group management, sender field registration, subuser administration, and account/profile operations, authenticated with OAuth 2.0 bearer tokens over api.smsapi.com and api.smsapi.eu.",
-     "score": 39.0,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 41.0,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 55.1,
+      "contract_quality": 53.6,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 23.8,
+      "developer_ergonomics": 35.7,
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -226,14 +231,14 @@
       "score": 23.6,
       "matched_via": "tags"
      },
-     "agent_score": 29.1,
+     "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -243,7 +248,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 5
     },
@@ -252,21 +261,21 @@
      "slug": "modivo",
      "description": "MODIVO is a Polish multibrand fashion and lifestyle retailer that operates one of the largest fashion e-commerce platforms in Central and Eastern Europe, selling clothing, footwear, accessories, beauty and home products from more than a thousand brands across Poland, the Czech Republic, Slovakia, Romania, Hungary, Ukraine, the Baltics and Western Europe. MODIVO S.A. is the listed parent of the former CCC Group (renamed MODIVO S.A. in February 2026) and the group behind the eobuwie.pl, CCC, HalfPrice, worldbox and DeeZee retail brands; the MODIVO storefront company itself is the former eobuwie.pl S.A., a consumer-technology investment of SoftBank Vision Fund. MODIVO does not run a developer portal, but its storefront is an Adobe Commerce (Magento 2.4) deployment that serves two live, publicly readable machine contracts from its own domain: a self-describing Swagger 2.0 REST schema at https://modivo.pl/rest/all/schema?services=all and an openly introspectable GraphQL endpoint at https://modivo.pl/graphql. Third-party sellers integrate through a Mirakl-hosted marketplace tenant, and brands buy sponsored placements through MODIVO Ads, the group's retail-media platform spanning MODIVO and eobuwie.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png",
-     "score": 37.6,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 39.8,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 57.7,
+      "discoverability": 74.1,
+      "contract_quality": 56.3,
       "governance": 16.7,
       "contract_governance": 16.7,
       "operational_transparency": 7.9,
-      "developer_ergonomics": 20.8,
+      "developer_ergonomics": 37.5,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -274,14 +283,14 @@
       "score": 39.1,
       "matched_via": "tags"
      },
-     "agent_score": 38.2,
-     "agent_band": "agent-ready",
+     "agent_score": 27.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
@@ -291,38 +300,53 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 6
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
     {
      "name": "Stooq",
      "slug": "stooq",
      "description": "Stooq is a Poland-based financial data platform offering free access to historical and current market data for global equities, indices, currencies, cryptocurrencies, commodities, bonds, and economic indicators. Data is delivered as CSV via a simple REST-style URL interface at https://stooq.com/q/d/l/ using query parameters for ticker symbol, date range, and interval. As of early 2026 an API key (obtained via CAPTCHA on the site) is required. A known daily request quota applies; exceeding it returns an \"Exceeded the daily hits limit\" message. Bulk point-in-time snapshots of the full database (12,000+ securities) are also available as ZIP-compressed CSVs from https://stooq.com/db/h/.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/screenshots/stooq-2026-06-20T194600.png",
-     "score": 33.6,
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 62.2,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "contract_quality": 63.3,
+      "governance": 25.0,
+      "contract_governance": 25.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.0,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
-      "score": 20.0,
+      "score": 28.3,
       "matched_via": "tags"
      },
-     "agent_score": 31.6,
+     "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -339,7 +363,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na"
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 7
     }
@@ -371,8 +399,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -390,7 +418,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 8
     },
@@ -411,8 +443,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -430,7 +462,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 9
     }
@@ -462,8 +498,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -471,7 +507,7 @@
       "score": 22.2,
       "matched_via": "tags"
      },
-     "agent_score": 3.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -488,7 +524,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 10
     }

@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,19 +221,19 @@ rate_limits:
   name: Acma Rate Limits
   slug: acma-rate-limits
 score:
-  band: strong
-  composite: 54.9
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: 1.1
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 16.7
-    contract_quality: 58.7
-    developer_ergonomics: 36.9
-    discoverability: 87.0
+    contract_quality: 59.9
+    developer_ergonomics: 38.7
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 54.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +250,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-17T082235.png
 security:

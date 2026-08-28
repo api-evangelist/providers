@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-24'
+  score: 27.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -224,18 +228,18 @@ overview: 'dope.security publishes 4 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 10
 score:
   band: strong
-  composite: 55.1
+  composite: 54.7
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 30.3
-    contract_quality: 57.9
+    contract_quality: 56.3
     developer_ergonomics: 66.1
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 55.1
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +250,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/screenshots/dopesecurity-2026-07-25T212307.png
 security:

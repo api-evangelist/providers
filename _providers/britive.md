@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.2
-  scored_at: '2026-08-24'
+  score: 29.2
+  scored_at: '2026-08-26'
 api_count: 79
 apis:
 - description: The Britive Secret Manager API covers the Britive vault and secrets lifecycle — vault initialization, static and file secrets, secret versions, secret metadata, password policies, secret templates and
@@ -654,18 +658,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.1
+  composite: 48.7
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 58.8
+    contract_quality: 57.2
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 49.1
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -675,8 +679,8 @@ score:
       total: 78
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/screenshots/britive-2026-08-17T080708.png
 security:

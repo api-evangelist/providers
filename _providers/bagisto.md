@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'RESTful API for managing all Bagisto e-commerce operations including products, categories, customers, orders, inventory, cart, checkout, and administrative functions. Provides separate Shop and Admin '
@@ -150,21 +154,21 @@ rate_limits:
   name: Bagisto Rate Limits
   slug: bagisto-rate-limits
 score:
-  band: thin
-  composite: 38.1
-  delta: 0.0
+  band: developing
+  composite: 40.1
+  delta: 2.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 38.9
-    developer_ergonomics: 16.7
+    contract_quality: 37.2
+    developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 38.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 37.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/screenshots/bagisto-2026-06-20T172936.png
 security:

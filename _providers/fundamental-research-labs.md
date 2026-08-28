@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.7
-  scored_at: '2026-08-24'
+  score: 29.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -239,30 +243,30 @@ rate_limits:
   slug: fundamental-research-labs-rate-limits
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 64.4
+  delta: 1.3
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 30.3
-    contract_quality: 52.4
+    contract_quality: 56.5
     developer_ergonomics: 70.8
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 57.9
-  previous_composite: 63.4
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:

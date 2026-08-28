@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-24'
+  score: 25.3
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: Scheduled times at which an assigned technician performs work for a job.
@@ -237,30 +241,30 @@ overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network
   Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
 random_paper: 8
 score:
-  band: developing
-  composite: 48.7
+  band: thin
+  composite: 37.3
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 67.3
+    contract_quality: 25.0
     developer_ergonomics: 63.7
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 48.7
+  previous_composite: 37.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 11
+      marker_coverage: 100.0
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png
 security:

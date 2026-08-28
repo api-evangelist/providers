@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.1
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: RESTful API for integrating Turnitin's integrity services into third-party platforms — submit a document, generate a Similarity Report, and display it to users. Authenticates with an integration-insta
@@ -151,7 +155,7 @@ overview: 'Turnitin publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 11
 score:
   band: developing
-  composite: 40.3
+  composite: 39.6
   delta: 0.0
   facets:
     access_clarity: 35.5
@@ -159,10 +163,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 40.3
+  previous_composite: 39.6
   provenance:
     conformance: first-party
   regulatory:
@@ -171,8 +175,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 81.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

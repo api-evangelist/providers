@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.2
-  scored_at: '2026-08-24'
+  score: 32.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1.0, 71 operations across 47 paths) for automating accounting and reporting against Float. Read card transactions, account transactions, bills, bill attachments, payments, reimburs
@@ -189,22 +193,22 @@ rate_limits:
   slug: float-financial-rate-limits
 score:
   band: strong
-  composite: 61.4
+  composite: 61.8
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
-    contract_quality: 62.2
+    contract_quality: 63.9
     developer_ergonomics: 45.8
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 61.4
+  previous_composite: 61.8
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -216,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png
 security:

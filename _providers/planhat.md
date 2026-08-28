@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-24'
+  score: 28.6
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Planhat's REST API for reading and writing every core Customer Platform object — companies, end users, licenses, conversations, notes, tasks, opportunities, deals, sales, invoices, assets, issues, tic
@@ -190,23 +194,23 @@ rate_limits:
   slug: planhat-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 51.2
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 61.9
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 52.5
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/screenshots/planhat-2026-08-17T081257.png
 security:

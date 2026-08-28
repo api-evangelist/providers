@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.1
-  scored_at: '2026-08-24'
+  score: 50.9
+  scored_at: '2026-08-26'
 api_count: 38
 apis:
 - description: The Admin API from Tradeshift — 11 operation(s) for admin.
@@ -502,29 +506,29 @@ scopes:
   summary_line: 7 scopes · clientCredentials/implicit
 score:
   band: strong
-  composite: 55.3
-  delta: 0.0
+  composite: 55.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 68.1
+    contract_quality: 66.9
     developer_ergonomics: 35.1
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 55.3
+  previous_composite: 54.9
   provenance:
     conformance: first-party
     contracts:
-      callable: 85.0
+      callable: 97.5
       derived: 0
       marker_coverage: 0.0
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/screenshots/tradeshift-2026-08-17T082420.png
 security:

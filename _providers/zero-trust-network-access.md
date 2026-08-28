@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.9
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: 'Cloudflare Zero Trust (formerly Cloudflare for Teams / Cloudflare Access) provides ZTNA, secure web gateway, browser isolation, CASB, and DLP through a single global edge platform. The Cloudflare API '
@@ -268,26 +272,26 @@ rules:
   slug: zero-trust-network-access-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 36.9
+  delta: 3.8
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 9.8
-    contract_quality: 58.0
-    developer_ergonomics: 19.0
+    contract_quality: 59.2
+    developer_ergonomics: 38.1
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 33.1
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/screenshots/zero-trust-network-access-2026-06-20T201911.png
 security:

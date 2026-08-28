@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.9
-  scored_at: '2026-08-24'
+  score: 29.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -264,18 +268,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.6
+  composite: 57.1
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 70.2
+    contract_quality: 68.3
     developer_ergonomics: 33.3
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 55.3
-  previous_composite: 57.6
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -289,8 +293,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
 security:

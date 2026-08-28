@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.4
-  scored_at: '2026-08-24'
+  score: 35.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -345,23 +349,23 @@ rate_limits:
   slug: light-rate-limits
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 50.8
+  delta: 1.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
-    contract_quality: 45.3
+    contract_quality: 49.5
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 21.1
-  previous_composite: 49.8
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 28
@@ -373,8 +377,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/screenshots/light-2026-07-25T225058.png
 security:

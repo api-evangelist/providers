@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -175,18 +179,18 @@ rate_limits:
   slug: prestmit-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 31.1
   delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 0.0
-    contract_quality: 51.7
+    contract_quality: 50.3
     developer_ergonomics: 39.3
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.5
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/screenshots/prestmit-2026-06-20T192051.png
 security:

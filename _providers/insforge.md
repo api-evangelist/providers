@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-24'
+  score: 57.7
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -264,22 +268,22 @@ scopes:
   summary_line: 11 scopes · authorizationCode/deviceCode
 score:
   band: strong
-  composite: 56.8
-  delta: 0.0
+  composite: 57.8
+  delta: 1.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 49.5
+    contract_quality: 53.6
     developer_ergonomics: 78.6
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 28.9
-  previous_composite: 56.8
+  previous_composite: 56.4
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
@@ -291,8 +295,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:

@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.4
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -322,18 +326,18 @@ rules:
   slug: docling-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 39.8
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 64.2
+    contract_quality: 62.4
     developer_ergonomics: 61.9
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 40.3
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -341,8 +345,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/screenshots/docling-2026-06-20T180109.png
 slug: docling

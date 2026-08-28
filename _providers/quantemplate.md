@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.0
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The FabricAPI API from QuanTemplate — 2 operation(s) for fabricapi.
@@ -178,24 +182,24 @@ overview: 'QuanTemplate publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 16
 score:
   band: developing
-  composite: 50.0
+  composite: 39.3
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 65.0
+    contract_quality: 21.9
     developer_ergonomics: 39.9
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 50.0
+  previous_composite: 39.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     mcp: derived
     skills: derived
@@ -205,8 +209,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/screenshots/quantemplate-2026-08-17T081425.png
 security:

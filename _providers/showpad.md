@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.1
-  scored_at: '2026-08-24'
+  score: 48.2
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Manage assets, query content with ShowQL, get content recommendations, and handle buyer engagement through shares, sharing themes, and digital shared spaces.
@@ -275,19 +279,19 @@ scopes:
   slug: showpad-scopes
   summary_line: 8 scopes · password/authorizationCode
 score:
-  band: exemplar
-  composite: 66.7
+  band: strong
+  composite: 66.2
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
-    contract_quality: 62.7
+    contract_quality: 61.0
     developer_ergonomics: 70.8
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 66.7
+  previous_composite: 66.2
   provenance:
     conformance: first-party
     contracts:
@@ -297,8 +301,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/screenshots/showpad-2026-06-20T193845.png
 security:

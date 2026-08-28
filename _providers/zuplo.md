@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-24'
+  score: 31.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -539,18 +543,18 @@ rules:
   slug: zuplo-rules
 score:
   band: strong
-  composite: 58.6
-  delta: 0.0
+  composite: 61.4
+  delta: 3.3
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 13.6
-    contract_quality: 74.5
-    developer_ergonomics: 52.4
+    contract_governance: 28.8
+    contract_quality: 72.7
+    developer_ergonomics: 59.5
     discoverability: 63.0
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 60.5
-  previous_composite: 58.6
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -558,8 +562,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png
 security:

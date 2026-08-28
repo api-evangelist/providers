@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.1
-  scored_at: '2026-08-24'
+  score: 24.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -323,18 +327,18 @@ rules:
   slug: zenodo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 49.7
+  delta: 1.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 25.0
-    contract_quality: 65.0
-    developer_ergonomics: 38.1
+    contract_quality: 65.9
+    developer_ergonomics: 45.2
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 48.0
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -348,8 +352,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/screenshots/zenodo-2026-06-20T201814.png
 security:

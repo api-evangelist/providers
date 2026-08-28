@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for creating and sending personalized postcards and letters, managing contact lists, tracking delivery, and automating direct mail campaigns with webhook support.
@@ -120,20 +124,20 @@ rate_limits:
   slug: postalytics-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 31.3
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 39.4
+    contract_quality: 37.3
     developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 31.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postalytics/refs/heads/main/screenshots/postalytics-2026-06-20T191950.png
 security:

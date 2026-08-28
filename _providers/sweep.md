@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: true
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-24'
+  score: 46.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 358
   human_in_the_loop: 358
@@ -201,18 +205,18 @@ rate_limits:
   slug: sweep-rate-limits
 score:
   band: developing
-  composite: 53.2
+  composite: 52.9
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
-    contract_quality: 55.7
+    contract_quality: 54.2
     developer_ergonomics: 49.4
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 53.2
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +227,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/screenshots/sweep-2026-08-17T082224.png
 security:

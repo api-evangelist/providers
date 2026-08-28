@@ -1,6 +1,6 @@
 {
- "total": 40,
- "shown": 40,
+ "total": 41,
+ "shown": 41,
  "limit": 1000,
  "bands": [
   {
@@ -8,54 +8,57 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
-     "name": "Telia Company",
-     "slug": "telia",
-     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png",
-     "score": 56.4,
+     "name": "Northmill",
+     "slug": "northmill",
+     "description": "Northmill Bank AB is a Swedish technology-driven bank, founded in Stockholm in 2006 and licensed by Finansinspektionen in 2019, that serves roughly 600,000 private customers and 2,500 businesses across Sweden, Norway and Finland with savings accounts, cards, personal and business lending, business accounts, Swish and card acquiring. Through its Northmill Flo business unit (formerly MoreFlo, acquired and rebranded) it also ships point-of-sale, booking, checkout and e-commerce products for retail and hospitality merchants. Its public developer surface is the Flo API - a Swagger 2.0 REST contract published at api.moreflo.com with 199 operations over articles, stock, orders, receipts, customers, bookings, campaigns, vouchers, SMS and webhooks - alongside a PSD2 open-banking interface for third-party providers documented under the Northmill Bank brand and delivered on Token.io infrastructure.",
+     "score": 58.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 65.0,
-      "governance": 30.3,
-      "contract_governance": 30.3,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 67.3,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "discoverability": 79.6,
+      "contract_quality": 49.7,
+      "governance": 16.7,
+      "contract_governance": 16.7,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 54.2,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 81.9,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 45.6,
       "matched_via": "tags"
      },
-     "agent_score": 57.9,
-     "agent_band": "agent-native",
+     "agent_score": 26.9,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na"
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 1
     },
@@ -64,12 +67,12 @@
      "slug": "safello",
      "description": "Safello is a Swedish cryptocurrency brokerage founded in 2013, registered with the Swedish Financial Supervisory Authority (Finansinspektionen) and listed on Nasdaq First North Growth Market since 2021. It lets people buy, sell, trade, and store digital assets, and exposes a \"Cryptocurrency as a Service\" (CaaS) Institutional API so third-party organisations can embed crypto buying/selling, BankID customer onboarding, KYC and compliance verification, market data, order management, and wallet balances. The v2 Institutional API (base https://api.safello.com) uses OAuth2 with client-credentials, authorization-code, and a custom Swedish BankID grant, plus a staging environment at api.s4f3.io for testing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/screenshots/safello-2026-08-17T081705.png",
-     "score": 55.6,
+     "score": 55.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 58.1,
+      "contract_quality": 56.6,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 13.2,
@@ -77,8 +80,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -86,14 +89,14 @@
       "score": 64.1,
       "matched_via": "tags"
      },
-     "agent_score": 39.0,
+     "agent_score": 36.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "partial",
@@ -103,21 +106,77 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 2
+    },
+    {
+     "name": "Telia Company",
+     "slug": "telia",
+     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png",
+     "score": 55.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 63.3,
+      "governance": 30.3,
+      "contract_governance": 30.3,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 67.3,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 81.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
     },
     {
      "name": "Bokio",
      "slug": "bokio",
      "description": "Bokio is a Swedish cloud accounting and bookkeeping platform (a Visma company) for small businesses, sole traders and their accountants, combining automated bookkeeping, invoicing, a business bank account and financial reporting. Its public REST API is split into a Company API (journal entries, invoices, credit notes, customers, items, suppliers and supplier invoices, uploads, bank payments, chart of accounts, fiscal years and SIE export) and a General API that handles OAuth 2.0 token issuance and connection management for public multi-tenant integrations. Authentication is OAuth 2.0 (authorization code and client credentials) with 24 fine-grained resource:action scopes; the API uses URI-path versioning (v1), page-number pagination, per-token rate limits and a documented deprecation, brownout and sunset lifecycle.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png",
-     "score": 55.0,
+     "score": 54.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 60.6,
+      "contract_quality": 58.9,
       "governance": 16.7,
       "contract_governance": 16.7,
       "operational_transparency": 32.9,
@@ -125,8 +184,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -134,14 +193,14 @@
       "score": 68.8,
       "matched_via": "tags"
      },
-     "agent_score": 45.4,
+     "agent_score": 33.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
@@ -149,11 +208,15 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -167,66 +230,25 @@
    "shown": 3,
    "providers": [
     {
-     "name": "Nmbrs",
-     "slug": "nmbrs",
-     "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png",
-     "score": 41.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 57.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 29.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
-    {
      "name": "Stockholm University",
      "slug": "stockholm",
      "description": "Stockholm University (Stockholms universitet) is a public research university in Sweden, ranked #128 in the QS World University Rankings 2025. Like most Nordic public universities, it does not operate a single consolidated developer portal; its public, machine-readable footprint is distributed across standards-based and third-party services. Confirmed interfaces include the DiVA institutional repository OAI-PMH metadata endpoint, the Figshare-hosted research data repository (su.figshare.com) backed by the Figshare public REST API, and the public GitHub organization (stockholmuniversity) where IT operations and infrastructure tooling is maintained. Identity is federated through SWAMID/Shibboleth (SAML2), reflected in the org's shib-keygen-api project. No general-purpose open course or student-information API was found publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/screenshots/stockholm-2026-06-20T194559.png",
-     "score": 40.0,
+     "score": 41.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 72.3,
+      "contract_quality": 70.3,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -234,14 +256,14 @@
       "score": 61.1,
       "matched_via": "tags"
      },
-     "agent_score": 38.9,
+     "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "partial",
@@ -251,38 +273,94 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 5
+    },
+    {
+     "name": "Uppsala University",
+     "slug": "uppsala",
+     "description": "Uppsala University (Uppsala universitet) is Sweden's oldest university, founded in 1477, and is ranked #103 in the QS World University Rankings 2025. Its public developer and API footprint is research-driven and decentralized across departments and infrastructures rather than a single developer portal. Confirmed public interfaces include the Uppsala Conflict Data Program (UCDP) RESTful API, the Norse World REST-API, and the DiVA institutional repository OAI-PMH endpoint. The university maintains an official GitHub organization hosting integration and research code.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png",
+     "score": 40.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 55.1,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 42.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
     },
     {
      "name": "Fortnox",
      "slug": "fortnox",
      "description": "Fortnox is a Swedish cloud accounting, ERP, and business-administration platform for small and medium-sized businesses and accounting bureaus. Its REST API at https://api.fortnox.se/3/ programmatically manages accounting and financial data - invoices, customers, articles, orders, offers, vouchers, accounts, suppliers, supplier invoices, projects, and financial years - authenticated with OAuth2 Authorization Code Flow. Fortnox also publishes a duplex WebSocket event stream at wss://ws.fortnox.se/topics-v1 that pushes minimal change notifications across domains so integrations can react to changes instead of polling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png",
-     "score": 39.7,
+     "score": 40.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.9,
+      "contract_quality": 59.4,
       "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 23.8,
+      "developer_ergonomics": 28.6,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 30.3,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -292,9 +370,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     }
    ],
    "open": true
@@ -304,29 +386,29 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
-   "shown": 6,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Chalmers University of Technology",
      "slug": "chalmers-university-of-technology",
      "description": "Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, ranked #139 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on research information and library/repository services rather than a unified developer portal. Confirmed surfaces include the Chalmers Research API (api.research.chalmers.se), OAI-PMH metadata interfaces for the Chalmers Research portal and the Chalmers Open Digital Repository (ODR), and the Chalmers University Library GitHub organization hosting open-source data and metadata tooling. There is no single consolidated, self-service developer portal; access is API/repository specific.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png",
-     "score": 36.6,
+     "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 63.8,
+      "contract_quality": 62.1,
       "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 21.4,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -334,14 +416,14 @@
       "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 29.1,
+     "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -351,30 +433,34 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Lund University",
      "slug": "lund",
      "description": "Lund University is a public research university in Lund, Sweden, founded in 1666 and ranked #74 in the QS World University Rankings 2025. Its public developer and API footprint centers on the Lund University Libraries' research-output and open-metadata services, principally Lund University Publications (LUP), which exposes a JSON Search API, OAI-PMH harvesting, SRU/CQL search, an unAPI discovery service, and RSS feeds. The Lund University Research Portal is an external interface to the LUCRIS research information system built on Elsevier Pure. Administrative, identity (SWAMID/SAML federation), and student-information systems exist but are gated behind institutional affiliation rather than openly self-service.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/screenshots/lund-2026-06-20T184805.png",
-     "score": 36.5,
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 68.5,
+      "contract_quality": 66.7,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 19.0,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -382,7 +468,7 @@
       "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 31.6,
+     "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -399,55 +485,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na"
-     },
-     "rank": 8
-    },
-    {
-     "name": "Uppsala University",
-     "slug": "uppsala",
-     "description": "Uppsala University (Uppsala universitet) is Sweden's oldest university, founded in 1477, and is ranked #103 in the QS World University Rankings 2025. Its public developer and API footprint is research-driven and decentralized across departments and infrastructures rather than a single developer portal. Confirmed public interfaces include the Uppsala Conflict Data Program (UCDP) RESTful API, the Norse World REST-API, and the DiVA institutional repository OAI-PMH endpoint. The university maintains an official GitHub organization hosting integration and research code.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png",
-     "score": 36.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 53.1,
-      "governance": 13.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 42.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na"
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 9
     },
@@ -456,21 +498,21 @@
      "slug": "aduna",
      "description": "Aduna is the Ericsson-led network API joint venture — a 50:50 company owned half by Ericsson (Stockholm, Sweden) and half by twelve global communications service providers including AT&T, Bharti Airtel, Deutsche Telekom, KDDI, Orange, Reliance Jio, Singtel, Telefonica, Telstra, T-Mobile, Verizon and Vodafone, with e& added later as an equity partner. Announced from Stockholm and incorporated as Aduna Global, LLC, it exists to aggregate CAMARA-standardised mobile network APIs from many carriers into one commercial channel so that developers do not have to negotiate operator by operator. Aduna sits in the exposure layer of the telecom value chain: it does not own spectrum and it does not sell to developers directly at scale — it aggregates operator capability and reaches the market through partner platforms (Google Cloud, Infobip, Sinch, Vonage, Microsoft Azure and the Azure Marketplace, Comviva on AWS, Bridge Alliance). Its API posture is honestly partner-gated. The public website documents an API catalogue in prose but publishes no OpenAPI, no sandbox and no self-serve signup; the developer documentation at docs.adunaglobal.com redirects every path to an Auth0 login wall at portal.adunaglobal.com, and the SDK onboarding instruction is to contact Aduna Global. The one genuinely open surface is a small set of source-available first-party SDK repositories on GitHub for CAMARA Number Verification v2, which are the only place Aduna's real endpoints, OAuth scopes and CIBA flow are publicly visible.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/screenshots/aduna-2026-08-07T160929.png",
-     "score": 34.8,
+     "score": 35.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 83.3,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
-      "developer_ergonomics": 35.7,
+      "developer_ergonomics": 45.2,
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -478,14 +520,14 @@
       "score": 75.0,
       "matched_via": "tags"
      },
-     "agent_score": 12.0,
+     "agent_score": 13.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -495,7 +537,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 10
     },
@@ -504,12 +550,12 @@
      "slug": "fyndiq",
      "description": "Fyndiq is Sweden's largest online marketplace for bargains and deals, connecting merchants with millions of deal-seeking consumers across categories from electronics and mobile accessories to home, fashion, beauty and children's goods. Merchants list products while Fyndiq handles the storefront, customer relations and payments. Fyndiq exposes a REST Merchant API that lets sellers upload and manage product articles (create, bulk, price, quantity, delete) and retrieve, fulfil and cancel orders. The API is JSON over HTTPS, secured with HTTP Basic Authentication (Base64 merchantID:token), with a self-contained sandbox environment for integration testing and official Magento, PrestaShop and WooCommerce integration modules. Fyndiq is part of the CDON marketplace group and was originally backed by Northzone.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png",
-     "score": 32.6,
+     "score": 32.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 17.5,
+      "contract_quality": 17.0,
       "governance": 16.7,
       "contract_governance": 16.7,
       "operational_transparency": 2.6,
@@ -517,16 +563,16 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 25.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
@@ -536,89 +582,87 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 11
     },
     {
-     "name": "Voi",
-     "slug": "voi",
-     "description": "Voi Technology is a Swedish micromobility company founded in Stockholm in 2018 that operates shared e-scooters and e-bikes in more than 100 cities across Europe. Voi publishes a Mobility-as-a-Service partner surface for deep integrations (register users, start and end rentals, pricing, vehicles, and zone areas at partners.voiapp.io), plus MDS provider and flavored GBFS feeds for cities and mobility partners at mds.voiapp.io.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-app-2026-06-20T201128.png",
-     "score": 29.9,
+     "name": "Nmbrs",
+     "slug": "nmbrs",
+     "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png",
+     "score": 31.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 64.3,
-      "commercial_clarity": 31.6,
-      "access_clarity": 31.6
+      "discoverability": 74.1,
+      "contract_quality": 13.9,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 12.0,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
+      "spec_presence": true,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": "negotiable",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 12
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 11,
-   "shown": 11,
-   "providers": [
+    },
     {
      "name": "Eyevinn Technology",
      "slug": "eyevinn-technology",
      "description": "Eyevinn Technology is a Stockholm, Sweden based video streaming consultancy and open source company specializing in cloud-native video infrastructure, HLS and MPEG-DASH packaging, FAST channels, WebRTC ingest (WHIP/WHEP), server-side ad insertion (SSAI), broadcast intercom, and player analytics. The company operates one of the largest video-focused open source portfolios on GitHub (300+ repositories across the Eyevinn and EyevinnOSC orgs) and runs Eyevinn Open Source Cloud (OSC), a managed multi-tenant SaaS platform that packages 180+ open source projects (databases, media tools, developer tools, AI runtimes, productivity apps) into one-click deployments with a token-based consumption model, a Personal Access Token (PAT) authenticated REST API, and client SDKs for TypeScript, Go, and Terraform. Eyevinn shares OSC revenue with the maintainers of the open source projects hosted on the platform, positioning OSC as a \"Builder Economy\" distribution channel for open source rather than a vendor-lock-in PaaS.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eyevinn-technology/refs/heads/main/screenshots/eyevinn-technology-2026-06-20T180953.png",
-     "score": 25.4,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 31.0,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 1.4,
+      "contract_quality": 6.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 18.4,
-      "developer_ergonomics": 57.1,
+      "developer_ergonomics": 78.6,
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 5.6,
-     "agent_band": "human-only",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 7.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "documented",
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "documented",
@@ -628,20 +672,79 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 13
     },
+    {
+     "name": "Voi",
+     "slug": "voi",
+     "description": "Voi Technology is a Swedish micromobility company founded in Stockholm in 2018 that operates shared e-scooters and e-bikes in more than 100 cities across Europe. Voi publishes a Mobility-as-a-Service partner surface for deep integrations (register users, start and end rentals, pricing, vehicles, and zone areas at partners.voiapp.io), plus MDS provider and flavored GBFS feeds for cities and mobility partners at mds.voiapp.io.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-app-2026-06-20T201128.png",
+     "score": 29.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 64.3,
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 10,
+   "shown": 10,
+   "providers": [
     {
      "name": "KRY | LIVI",
      "slug": "kry-livi",
      "description": "KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/screenshots/kry-livi-2026-07-25T224308.png",
-     "score": 24.0,
+     "score": 23.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -650,8 +753,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -676,9 +779,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Lassie",
@@ -698,8 +805,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -724,9 +831,65 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
+    },
+    {
+     "name": "University of Gothenburg",
+     "slug": "university-of-gothenburg",
+     "description": "The University of Gothenburg (Göteborgs universitet) is a public research university in Sweden, founded in 1891, with roughly 37,000 students and 6,000 employees, and ranked #194 in the QS World University Rankings 2025. Its public, machine-accessible footprint is research- and library-centric rather than a unified developer program: the Gothenburg University Library operates the GUPEA institutional repository (DSpace) which exposes a standards-based OAI-PMH metadata interface, and the Quality of Government (QoG) Institute publishes open-access datasets via downloads and a Data Finder tool. The university does not appear to operate a central, documented developer portal with public REST API keys; affiliated technical work is distributed across departmental GitHub organizations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/screenshots/university-of-gothenburg-2026-06-20T200152.png",
+     "score": 18.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
     },
     {
      "name": "KRY",
@@ -746,8 +909,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -772,19 +935,23 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Juni",
      "slug": "juni",
      "description": "Juni is a Swedish fintech (headquartered in Göteborg, founded 2020) that provides a financial platform for ecommerce and digital businesses: business banking with multi-currency accounts, corporate and virtual cards, local and global payments, spend management, working-capital financing, and AI-driven accounting with integrations such as Fortnox. Juni is a licensed payment institution under the oversight of the Swedish Financial Supervisory Authority (SFSA) and is backed by EQT Ventures. It exposes a regulatory PSD2 / Open Banking (ASPSP) API surface for third-party providers, but publishes no public product API, SDKs, or developer portal. This profile was added to the API Evangelist network as a portfolio lead and enriched by the pipeline.",
-     "score": 17.4,
+     "score": 16.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -793,8 +960,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -819,57 +986,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 17
-    },
-    {
-     "name": "University of Gothenburg",
-     "slug": "university-of-gothenburg",
-     "description": "The University of Gothenburg (Göteborgs universitet) is a public research university in Sweden, founded in 1891, with roughly 37,000 students and 6,000 employees, and ranked #194 in the QS World University Rankings 2025. Its public, machine-accessible footprint is research- and library-centric rather than a unified developer program: the Gothenburg University Library operates the GUPEA institutional repository (DSpace) which exposes a standards-based OAI-PMH metadata interface, and the Quality of Government (QoG) Institute publishes open-access datasets via downloads and a Data Finder tool. The university does not appear to operate a central, documented developer portal with public REST API keys; affiliated technical work is distributed across departmental GitHub organizations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/screenshots/university-of-gothenburg-2026-06-20T200152.png",
-     "score": 16.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 11.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Fishbrain",
@@ -888,49 +1011,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 2.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Linas Matkasse",
-     "slug": "linas-matkasse",
-     "description": "Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription e-commerce storefront and a \"Mina Sidor\" customer account area; it publishes no public developer portal, API documentation, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/screenshots/linas-matkasse-2026-07-25T225218.png",
-     "score": 14.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -948,9 +1030,58 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 20
+    },
+    {
+     "name": "Linas Matkasse",
+     "slug": "linas-matkasse",
+     "description": "Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription e-commerce storefront and a \"Mina Sidor\" customer account area; it publishes no public developer portal, API documentation, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/screenshots/linas-matkasse-2026-07-25T225218.png",
+     "score": 13.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
     },
     {
      "name": "Matsmart",
@@ -970,9 +1101,9 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 2.6,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -987,11 +1118,15 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Jays",
@@ -1011,16 +1146,16 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 10.3,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 20.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "verified",
-      "auth_clarity": false,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -1030,9 +1165,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Min Doktor",
@@ -1052,8 +1191,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1078,9 +1217,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     }
    ]
   },
@@ -1110,8 +1253,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1129,9 +1272,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Stockeld Dreamery",
@@ -1150,8 +1297,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1169,9 +1316,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Hedvig",
@@ -1191,8 +1342,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1217,9 +1368,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Buildcheck",
@@ -1239,8 +1394,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1258,9 +1413,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "iControl",
@@ -1280,8 +1439,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1299,9 +1458,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Normative",
@@ -1321,8 +1484,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1340,9 +1503,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Mathem",
@@ -1362,9 +1529,9 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 2.6,
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1379,11 +1546,15 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Edgeware",
@@ -1403,8 +1574,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1422,47 +1593,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 31
-    },
-    {
-     "name": "Bluebook",
-     "slug": "bluebook",
-     "description": "Bluebook is a Stockholm, Sweden based software company building AI agents for accounting firms, accountants, and CFOs. The platform automates accounting workflows — reconciliations, accruals, accounts payable and receivable, month-end close, reporting, and accounting research — with the stated goal of a \"zero-day close\", and integrates with the general ledgers firms already run on, notably QuickBooks and NetSuite. The product surface is organized around Background Agents, Checklists (tasks, delegation, human-in-the-loop approvals, month-end close), and an Assistant covering FP&A, flux analysis, and accounting research. Founded in 2024 by Philip Andersson (CEO), Jonathan Andersson (COO), and Filip Stål (CTO), Bluebook went through Y Combinator (Winter 2025) and raised a $3M pre-seed led by EQT Ventures with participation from Y Combinator and angel investors from Affirm, OpenAI, and ElevenLabs. Bluebook is a product company, not an API provider: as of this enrichment pass it publishes no public developer program, API documentation, machine-readable specification, or SDKs.",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 32
     },
@@ -1484,8 +1619,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1503,9 +1638,57 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 33
+    },
+    {
+     "name": "Bluebook",
+     "slug": "bluebook",
+     "description": "Bluebook is a Stockholm, Sweden based software company building AI agents for accounting firms, accountants, and CFOs. The platform automates accounting workflows — reconciliations, accruals, accounts payable and receivable, month-end close, reporting, and accounting research — with the stated goal of a \"zero-day close\", and integrates with the general ledgers firms already run on, notably QuickBooks and NetSuite. The product surface is organized around Background Agents, Checklists (tasks, delegation, human-in-the-loop approvals, month-end close), and an Assistant covering FP&A, flux analysis, and accounting research. Founded in 2024 by Philip Andersson (CEO), Jonathan Andersson (COO), and Filip Stål (CTO), Bluebook went through Y Combinator (Winter 2025) and raised a $3M pre-seed led by EQT Ventures with participation from Y Combinator and angel investors from Affirm, OpenAI, and ElevenLabs. Bluebook is a product company, not an API provider: as of this enrichment pass it publishes no public developer program, API documentation, machine-readable specification, or SDKs.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 34
     },
     {
      "name": "Cult of the North",
@@ -1524,8 +1707,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1543,9 +1726,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Na Kd",
@@ -1565,8 +1752,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1584,9 +1771,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Tenet Industries",
@@ -1605,8 +1796,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1624,9 +1815,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Essity",
@@ -1646,8 +1841,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1672,9 +1867,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Ericsson",
@@ -1694,8 +1893,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1720,9 +1919,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Norstel",
@@ -1741,8 +1944,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1767,9 +1970,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     }
    ]
   },
@@ -1786,7 +1993,7 @@
      "slug": "creandum",
      "description": "Creandum is a leading European early-stage venture capital firm founded in 2003 by Staffan Helgesson and headquartered in Stockholm, Sweden, with additional offices in Berlin, London, and San Francisco. The firm backs founders building global, category-defining technology companies from seed to IPO and beyond, with its tagline \"we back the companies of tomorrow before it's obvious.\" Creandum invests across software and SaaS, artificial intelligence, fintech, consumer, marketplaces, developer tools, and infrastructure, primarily across Europe with a growing US presence. Typical investment checks range from roughly $200K to $10M, and the firm manages around $2B in assets, having closed a €500M fund to back European early-stage startups. Its portfolio of 150+ companies includes some of Europe's most successful tech businesses such as Spotify, Klarna, Depop, Trade Republic, Pleo, Neo4j, iZettle, Bolt, Kry/Livi, Lovable, and Navan. This profile tracks Creandum's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/creandum/refs/heads/main/screenshots/creandum-2026-07-25T210703.png",
-     "rank": 40
+     "rank": 41
     }
    ]
   }

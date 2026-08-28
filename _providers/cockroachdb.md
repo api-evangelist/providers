@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-24'
+  score: 22.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -736,18 +740,18 @@ rules:
   slug: cockroachdb-rules
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 45.5
+  delta: 1.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
-    contract_quality: 77.1
-    developer_ergonomics: 28.6
+    contract_quality: 75.0
+    developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 44.6
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -755,8 +759,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/screenshots/cockroachdb-2026-06-20T174648.png
 security:

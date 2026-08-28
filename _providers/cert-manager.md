@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The cert-manager API extends the Kubernetes API with custom resources including Certificate, Issuer, ClusterIssuer, CertificateRequest, and Order. These resources allow declarative management of TLS c
@@ -173,20 +177,20 @@ rules:
   slug: cert-manager-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 28.5
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 25.4
+    contract_quality: 24.0
     developer_ergonomics: 31.0
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 28.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 28.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/screenshots/cert-manager-2026-06-20T174140.png
 security:

@@ -10,26 +10,31 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 40.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -90,7 +95,11 @@ apis:
 - description: Store and load configurations with an onlinecode
   name: Mercedes-Benz Mercedes me Saved configurations API
   slug: mercedes-me-saved-configurations-api
-artifact_total: 48
+artifact_total: 51
+asyncapis:
+- description: ''
+  name: Mercedes Me Fleet Event Catalog
+  slug: mercedes-me-fleet-event-catalog
 collections:
 - collection_type: open
   name: API Collection
@@ -201,10 +210,6 @@ common:
   title: ''
   type: Connectivity
   url: https://connectivity.mercedes-benz.com/
-- group: other
-  title: ''
-  type: Connectivity
-  url: https://data.mercedes-benz.com/
 - group: company
   title: ''
   type: LinkedIn
@@ -245,6 +250,73 @@ common:
   title: ''
   type: FinOps
   url: finops/mercedes-me-finops.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/mercedes-me-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/mercedes-me-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/mercedes-me-scopes.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/mercedes-me-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mercedes-me-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mercedes-me-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mercedes-me-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mercedes-me-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mercedes-me-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/mercedes-me-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mercedes-me-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/mercedes-me-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mercedes-me-llms.txt
+- group: agent
+  title: ''
+  type: MCPCandidate
+  url: mcp/mercedes-me-mcp.yml
+- group: other
+  title: ''
+  type: EventCatalog
+  url: asyncapi/mercedes-me-fleet-event-catalog.yml
+created: '2025-05-25'
+description: 'Mercedes-Benz operates one of the few genuinely public OEM API platforms. Its /developers portal at developer.mercedes-benz.com sells connected-vehicle data as individually-subscribable products — Vehicle Status, Vehicle Lock Status, Fuel Status, Electric Vehicle Status and Pay As You Drive — each gated by its own OAuth 2.0 scope and each requiring the vehicle owner''s explicit per-signal consent, granted through the Mercedes-Benz identity provider at id.mercedes-benz.com. Alongside them sit four content and service APIs with published Swagger 2.0 contracts: the Car Configurator, the Dealer API, the Vehicle Images API and Remote Diagnostic Support. Mercedes-Benz Connectivity Services GmbH sells the Fleet API separately, pairing a REST management surface with a managed Apache Kafka push channel that streams nineteen activatable telemetry packages plus five remote-command packages, including remote door lock and unlock. Every API is versioned by URI path and shipped with a *_tryout
+  sandbox base path on the same host.'
 examples:
 - key_count: 2
   name: Mercedes Me Create Dtc Readout Example
@@ -277,16 +349,17 @@ jsonld:
   property_count: 32
   slug: mercedes-me-context
 layout: provider
+modified: '2026-08-26'
 name: Mercedes-Benz Mercedes me
 nav: Providers
 network: true
 overview: 'Mercedes-Benz Mercedes me publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Components API, Configurations API, Dealer search API, and 8 more. Tagged areas include Automotive, Connected Car, Connected Vehicle, Daimler, and Fleet Management.
 
 
-  The Mercedes-Benz Mercedes me catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Mercedes-Benz Mercedes me catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Mercedes-Benz Mercedes me''s developer surface includes developer portal, documentation, GitHub presence, and 23 more developer resources.'
+  Mercedes-Benz Mercedes me''s developer surface includes developer portal, documentation, GitHub presence, authentication, sandbox, and 36 more developer resources.'
 plans:
 - name: Mercedes Me Plans Pricing
   plan_count: 4
@@ -318,32 +391,44 @@ rules:
     info: 0
     warn: 6
   slug: mercedes-me-rules
+scopes:
+- name: Mercedes Me Scopes
+  scope_count: 38
+  slug: mercedes-me-scopes
+  summary_line: 38 scopes
 score:
   band: developing
-  composite: 40.5
-  delta: 0.0
+  composite: 53.9
+  delta: 13.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 28.8
-    contract_quality: 65.4
-    developer_ergonomics: 35.7
-    discoverability: 50.0
-    governance: 28.8
-    operational_transparency: 5.3
-  previous_composite: 40.5
+    contract_governance: 59.1
+    contract_quality: 71.8
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    governance: 59.1
+    operational_transparency: 15.8
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/screenshots/mercedes-me-2026-06-20T185206.png
 security:
+- kind: authentication
+  name: Mercedes Me Authentication
+  slug: mercedes-me-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Mercedes Me Domain Security
   slug: mercedes-me-domain-security
@@ -351,7 +436,7 @@ security:
 - kind: vulnerability-disclosure
   name: Mercedes Me Vulnerability Disclosure
   slug: mercedes-me-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone
 slug: mercedes-me
 tags:
 - Automotive

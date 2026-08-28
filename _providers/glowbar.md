@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
-    auth_clarity: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-24'
+  score: 30.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,18 +130,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 22.7
+  composite: 25.9
+  delta: 4.3
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 30.4
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 0.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Glowbar Authentication

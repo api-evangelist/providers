@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 24.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -151,19 +155,19 @@ rate_limits:
   name: Sinay Rate Limits
   slug: sinay-rate-limits
 score:
-  band: thin
-  composite: 38.8
-  delta: 0.0
+  band: developing
+  composite: 40.8
+  delta: 2.4
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 57.5
-    developer_ergonomics: 11.9
+    contract_quality: 55.9
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.8
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-24'
+  score: 20.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -181,18 +185,18 @@ rate_limits:
   slug: curve-finance-rate-limits
 score:
   band: thin
-  composite: 29.4
+  composite: 29.1
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 48.1
+    contract_quality: 47.0
     developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 29.4
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/screenshots/curve-finance-2026-06-20T175354.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: RESTful API for accessing portfolio data, positions, transactions, and market data from SimCorp Dimension.
@@ -194,26 +198,26 @@ rules:
   slug: simcorp-dimension-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.4
-  delta: 0.0
+  composite: 29.1
+  delta: 3.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 35.2
-    developer_ergonomics: 23.8
+    contract_quality: 33.3
+    developer_ergonomics: 29.8
     discoverability: 81.5
     governance: 9.8
-    operational_transparency: 10.5
-  previous_composite: 26.4
+    operational_transparency: 14.5
+  previous_composite: 25.9
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 38.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/screenshots/simcorp-dimension-2026-06-20T193926.png
 security:

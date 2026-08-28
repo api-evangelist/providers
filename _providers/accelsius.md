@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-24'
+  score: 29.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -231,18 +235,18 @@ overview: 'Accelsius publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 11
 score:
   band: thin
-  composite: 30.7
+  composite: 30.2
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
-    contract_quality: 57.1
+    contract_quality: 58.2
     developer_ergonomics: 20.8
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 30.7
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +257,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/screenshots/accelsius-2026-08-07T160754.png
 security:

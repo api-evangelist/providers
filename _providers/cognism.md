@@ -13,26 +13,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: true
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.4
-  scored_at: '2026-08-24'
+  score: 36.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -286,18 +289,18 @@ rate_limits:
   slug: cognism-rate-limits
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 51.8
+  delta: 7.3
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 16.7
-    contract_quality: 15.4
-    developer_ergonomics: 30.4
-    discoverability: 75.9
+    contract_quality: 17.7
+    developer_ergonomics: 63.7
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 45.3
+  previous_composite: 44.5
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -308,9 +311,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/screenshots/cognism-2026-06-20T174713.png
 security:
 - kind: authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 22.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Blend's platform API for home lending, consumer lending, deposit account opening, documents and disclosures, e-signature packages, electronic and remote online notary (RON) closings, verification of i
@@ -131,18 +135,18 @@ overview: 'Blend Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 14
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 38.0
+  delta: 4.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 31.0
+    contract_quality: 42.7
+    developer_ergonomics: 42.9
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 43.4
-  previous_composite: 34.1
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -151,9 +155,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 7.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 21.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-labs/refs/heads/main/screenshots/blend-labs-2026-07-25T203310.png
 security:

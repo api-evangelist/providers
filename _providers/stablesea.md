@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.1
-  scored_at: '2026-08-24'
+  score: 28.2
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Liquidity Providers API from Stablesea — 2 operation(s) for liquidity providers.
@@ -125,18 +129,18 @@ overview: 'Stablesea publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 38.4
+  delta: 6.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 52.5
-    developer_ergonomics: 35.1
+    contract_quality: 51.1
+    developer_ergonomics: 54.2
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 32.4
+  previous_composite: 32.0
   provenance:
     conformance: derived
     contracts:
@@ -151,10 +155,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 39.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Stablesea Authentication

@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'A live first-party Model Context Protocol server that lets a Valid managed-service client query their whole advertising account — spend, channels, creative performance, attribution — in plain English '
@@ -127,23 +131,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 19.0
+  delta: 2.4
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 87.0
+    developer_ergonomics: 16.7
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.4
+  previous_composite: 16.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

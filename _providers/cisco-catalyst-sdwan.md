@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-24'
+  score: 31.3
+  scored_at: '2026-08-26'
 api_count: 13
 apis:
 - description: 'Administration and platform settings operations on Cisco Catalyst SD-WAN Manager: user and group administration, role assignment, authentication events (server-sent), and the configuration settings th'
@@ -282,18 +286,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.0
-  delta: -1.8
+  composite: 64.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
-    contract_quality: 55.5
+    contract_quality: 54.0
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 76.3
-  previous_composite: 66.8
+  previous_composite: 64.6
   provenance:
     conformance: derived
     contracts:
@@ -309,8 +313,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

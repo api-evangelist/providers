@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: The Core API from Neurable — 2 operation(s) for core.
@@ -175,23 +179,23 @@ scopes:
   slug: neurable-scopes
   summary_line: 5 scopes
 score:
-  band: thin
-  composite: 38.0
-  delta: 0.0
+  band: developing
+  composite: 40.9
+  delta: 4.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
-    contract_quality: 45.2
-    developer_ergonomics: 20.8
-    discoverability: 92.6
+    contract_quality: 48.1
+    developer_ergonomics: 28.0
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 38.0
+  previous_composite: 36.9
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 62.5
       derived: 0
       marker_coverage: 0.0
       total: 8
@@ -202,9 +206,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 52.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 62.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

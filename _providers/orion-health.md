@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-24'
+  score: 31.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -524,22 +528,22 @@ scopes:
   summary_line: 24 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 43.6
+  delta: 1.8
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 84.6
-    developer_ergonomics: 21.4
+    contract_quality: 78.9
+    developer_ergonomics: 34.5
     discoverability: 38.9
     governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 42.4
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 32
@@ -549,8 +553,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/screenshots/orion-health-2026-06-20T191207.png
 security:

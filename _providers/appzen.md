@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 19
 apis:
 - description: The Chart of Accounts API from AppZen — 3 operation(s) for chart of accounts.
@@ -254,19 +258,19 @@ overview: 'AppZen publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
   AppZen''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 14 more developer resources.'
 random_paper: 3
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 38.6
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 48.3
+    contract_quality: 46.9
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 39.7
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -276,8 +280,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/screenshots/appzen-2026-07-25T200859.png
 security:

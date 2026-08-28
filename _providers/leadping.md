@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-24'
+  score: 35.3
+  scored_at: '2026-08-26'
 api_count: 29
 apis:
 - description: Two remote Model Context Protocol servers. A public read-only documentation server at https://leadping.ai/docs/mcp answers anonymous tools/list with search, virtual-filesystem and feedback tools. An a
@@ -327,18 +331,18 @@ rate_limits:
   slug: leadping-rate-limits
 score:
   band: exemplar
-  composite: 72.6
+  composite: 72.2
   delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 45.5
-    contract_quality: 68.4
+    contract_quality: 66.5
     developer_ergonomics: 63.7
     discoverability: 75.9
     governance: 45.5
     operational_transparency: 68.4
-  previous_composite: 72.6
+  previous_composite: 72.2
   provenance:
     conformance: first-party
     contracts:
@@ -354,8 +358,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

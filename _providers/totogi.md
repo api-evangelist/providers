@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -201,19 +205,19 @@ scopes:
   slug: totogi-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: strong
+  composite: 54.3
+  delta: 10.1
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 56.7
-    developer_ergonomics: 28.0
-    discoverability: 87.0
+    contract_quality: 54.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
     governance: 18.2
-    operational_transparency: 26.3
-  previous_composite: 45.9
+    operational_transparency: 34.2
+  previous_composite: 44.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,9 +228,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 70.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/totogi/refs/heads/main/screenshots/totogi-2026-08-17T082413.png
 security:
 - kind: authentication

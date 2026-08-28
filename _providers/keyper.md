@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.5
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Retrieve the permission whitelist / blacklist for an Access Control System.
@@ -156,30 +160,30 @@ overview: 'Keyper publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
   Keyper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
 random_paper: 5
 score:
-  band: developing
-  composite: 42.6
-  delta: 0.0
+  band: thin
+  composite: 33.7
+  delta: 2.4
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 59.4
-    developer_ergonomics: 61.3
+    contract_quality: 14.5
+    developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 42.6
+  previous_composite: 31.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/screenshots/keyper-2026-07-25T223658.png
 security:

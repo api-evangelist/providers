@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 71.5
-  scored_at: '2026-08-24'
+  score: 52.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -457,18 +461,18 @@ rules:
   slug: lightspark-grid-spectral
 score:
   band: exemplar
-  composite: 73.0
+  composite: 71.4
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 84.8
-    contract_quality: 71.1
+    contract_quality: 69.2
     developer_ergonomics: 85.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 84.8
     operational_transparency: 60.5
-  previous_composite: 73.0
+  previous_composite: 71.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -485,8 +489,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:

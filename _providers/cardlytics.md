@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.5
-  scored_at: '2026-08-24'
+  score: 41.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -234,23 +238,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode/custom
 score:
   band: strong
-  composite: 55.9
-  delta: 0.0
+  composite: 55.3
+  delta: 0.5
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 16.7
-    contract_quality: 54.2
+    contract_quality: 54.6
     developer_ergonomics: 54.2
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 55.9
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 66.7
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -261,8 +265,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/screenshots/cardlytics-2026-07-25T204515.png
 security:

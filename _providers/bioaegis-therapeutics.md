@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.9
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: Reusable block patterns and navigation menus. Both registered and reachable, but empty (X-WP-Total 0) — the site is built with Elementor, not the block editor.
@@ -244,18 +248,18 @@ overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis
 random_paper: 14
 score:
   band: developing
-  composite: 41.3
+  composite: 40.1
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 16.7
-    contract_quality: 56.4
+    contract_quality: 54.9
     developer_ergonomics: 18.5
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 41.3
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
@@ -270,8 +274,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/screenshots/bioaegis-therapeutics-2026-08-07T162447.png
 security:

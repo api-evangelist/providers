@@ -1,25 +1,30 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
-    rate_limit_signal: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.6
-  scored_at: '2026-08-24'
+  score: 41.4
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
@@ -222,18 +227,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 45.9
+  delta: 2.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 30.3
-    contract_quality: 46.5
-    developer_ergonomics: 39.9
+    contract_quality: 45.2
+    developer_ergonomics: 51.8
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 43.8
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     contracts:
@@ -243,8 +248,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/screenshots/botify-2026-08-17T080653.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 45.5
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -332,30 +336,30 @@ scopes:
   slug: kurrent-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: strong
-  composite: 58.7
+  band: developing
+  composite: 48.9
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 60.8
+    contract_quality: 21.7
     developer_ergonomics: 90.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 58.7
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 8
+      marker_coverage: 100.0
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:

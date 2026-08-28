@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -211,18 +215,18 @@ rules:
   slug: traceable-rules
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 35.6
+  delta: 1.8
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 13.6
-    contract_quality: 69.6
+    contract_governance: 28.8
+    contract_quality: 67.7
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 34.3
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/screenshots/traceable-2026-06-20T195515.png
 security:

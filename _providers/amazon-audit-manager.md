@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.6
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -745,16 +749,16 @@ rules:
   slug: amazon-audit-manager-spectral-rules
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 34.7
+  delta: 2.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
-    contract_quality: 76.9
+    contract_governance: 45.5
+    contract_quality: 77.6
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 30.3
+    governance: 45.5
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -762,7 +766,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 32.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -772,8 +776,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for ingesting entities, instruments, and transaction events into the Unit21 risk and compliance platform. Enables creation and management of alerts, cases, rules, and suspicious activity repo
@@ -136,20 +140,20 @@ rate_limits:
   slug: unit21-rate-limits
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 26.1
+  delta: 2.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 7.0
-    developer_ergonomics: 11.9
+    contract_quality: 6.7
+    developer_ergonomics: 25.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 23.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit21/refs/heads/main/screenshots/unit21-2026-06-20T200036.png
 security:

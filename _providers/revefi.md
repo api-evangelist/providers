@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.5
-  scored_at: '2026-08-24'
+  score: 35.3
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The Create a Custom Data Quality Monitor API from Revefi — 1 operation(s) for create a custom data quality monitor.
@@ -193,18 +197,18 @@ overview: 'Revefi publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 11
 score:
   band: developing
-  composite: 45.8
+  composite: 45.4
   delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
     contract_governance: 30.3
-    contract_quality: 60.8
+    contract_quality: 59.2
     developer_ergonomics: 39.9
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 45.8
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
@@ -214,8 +218,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/screenshots/revefi-2026-08-17T081541.png
 security:

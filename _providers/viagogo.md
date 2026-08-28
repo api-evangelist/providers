@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-24'
+  score: 25.4
+  scored_at: '2026-08-26'
 api_count: 21
 apis:
 - description: The Addresses API from viagogo — 2 operation(s) for addresses.
@@ -302,18 +306,18 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 49.6
+  composite: 48.4
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 58.9
+    contract_quality: 57.3
     developer_ergonomics: 73.2
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 49.6
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -323,8 +327,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/screenshots/viagogo-2026-08-17T082740.png
 security:

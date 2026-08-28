@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-08-24'
+  score: 22.8
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Payroll deductions track the costs of plan premiums to employees.
@@ -219,18 +223,18 @@ overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 9
 score:
   band: strong
-  composite: 55.2
+  composite: 54.9
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
-    contract_quality: 53.7
+    contract_quality: 52.3
     developer_ergonomics: 66.1
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 55.2
+  previous_composite: 54.9
   provenance:
     conformance: derived
     contracts:
@@ -246,8 +250,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/screenshots/thatch-health-2026-08-17T082333.png
 security:

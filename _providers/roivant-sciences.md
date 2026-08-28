@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-24'
+  score: 26.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -290,24 +294,24 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 49.4
+  delta: 5.4
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 69.7
-    contract_quality: 64.6
-    developer_ergonomics: 22.6
+    contract_quality: 24.9
+    developer_ergonomics: 39.3
     discoverability: 74.1
     governance: 69.7
-    operational_transparency: 2.6
-  previous_composite: 54.0
+    operational_transparency: 18.4
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 13
+      marker_coverage: 100.0
       total: 13
   regulatory:
     applies: true
@@ -315,9 +319,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
 security:
 - kind: authentication

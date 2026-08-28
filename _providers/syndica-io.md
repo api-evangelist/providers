@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.7
-  scored_at: '2026-08-24'
+  score: 19.1
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: High-performance Solana JSON-RPC HTTP endpoints served from a fault-tolerant elastic-node architecture across four global regions (Northern Virginia, Oregon, London, Singapore). Supports the full stan
@@ -208,14 +212,14 @@ rules:
   slug: syndica-io-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 37.9
+  delta: 6.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 45.6
-    developer_ergonomics: 26.2
+    contract_quality: 43.6
+    developer_ergonomics: 57.1
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 21.1
@@ -225,10 +229,10 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 32.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 31.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/syndica-io/refs/heads/main/screenshots/syndica-io-2026-06-20T194826.png
 security:
 - kind: domain-security

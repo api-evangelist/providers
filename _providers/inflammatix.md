@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.9
-  scored_at: '2026-08-24'
+  score: 23.8
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The public, anonymously-readable WordPress REST content API served by inflammatix.com. Alongside the standard WordPress collections (posts, pages, media, categories, tags, comments, search) it exposes
@@ -161,18 +165,18 @@ overview: 'Inflammatix publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 2
 score:
   band: developing
-  composite: 40.1
-  delta: 0.0
+  composite: 39.9
+  delta: 0.9
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 30.3
-    contract_quality: 56.6
+    contract_quality: 58.5
     developer_ergonomics: 20.8
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 5.3
-  previous_composite: 40.1
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     contracts:
@@ -188,8 +192,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:

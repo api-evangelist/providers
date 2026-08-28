@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Sydecar API lets developers programmatically run funding processes on Sydecar's legal, banking, and compliance rails, with the Special Purpose Vehicle (SPV) as the foundational unit — create, find
@@ -100,20 +104,20 @@ overview: 'Sydecar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 12
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 21.3
+  delta: 2.9
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 75.9
+    developer_ergonomics: 40.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 18.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

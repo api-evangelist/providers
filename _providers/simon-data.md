@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.8
-  scored_at: '2026-08-24'
+  score: 49.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -335,18 +339,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 66.8
+  composite: 67.0
   delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
     contract_governance: 41.7
-    contract_quality: 76.2
+    contract_quality: 76.9
     developer_ergonomics: 44.6
     discoverability: 87.0
     governance: 41.7
     operational_transparency: 65.8
-  previous_composite: 66.8
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,8 +361,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png
 security:

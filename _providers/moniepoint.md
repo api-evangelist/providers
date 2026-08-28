@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-24'
+  score: 31.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -603,22 +607,22 @@ rules:
   slug: moniepoint-rules
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 57.6
+  delta: -0.9
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 28.8
-    contract_quality: 65.3
+    contract_quality: 60.1
     developer_ergonomics: 51.2
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 58.9
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 18
@@ -628,8 +632,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:

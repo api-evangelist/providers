@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.4
-  scored_at: '2026-08-24'
+  score: 21.4
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Advance workflow instances that are paused on an intermediate event.
@@ -178,22 +182,22 @@ overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.i
 random_paper: 14
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 36.4
+  delta: 6.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
-    contract_quality: 15.4
-    developer_ergonomics: 42.3
+    contract_quality: 14.1
+    developer_ergonomics: 61.3
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 30.5
+  previous_composite: 30.4
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 2
       marker_coverage: 100.0
       total: 2
@@ -204,10 +208,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 21.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 37.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:
 - kind: authentication

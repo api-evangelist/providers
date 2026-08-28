@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-24'
+  score: 28.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -544,18 +548,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.5
-  delta: 0.0
+  composite: 47.3
+  delta: 6.0
   facets:
-    access_clarity: 52.6
-    commercial_clarity: 52.6
+    access_clarity: 65.8
+    commercial_clarity: 65.8
     contract_governance: 28.8
-    contract_quality: 21.0
-    developer_ergonomics: 38.1
+    contract_quality: 20.4
+    developer_ergonomics: 54.8
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 41.5
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -563,9 +567,9 @@ score:
       derived: 16
       marker_coverage: 100.0
       total: 16
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:
 - kind: authentication

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-24'
+  score: 23.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -248,18 +252,18 @@ overview: 'Vector Solutions publishes 14 APIs on the [APIs.io](https://apis.io/)
 random_paper: 8
 score:
   band: developing
-  composite: 41.2
+  composite: 40.4
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
-    contract_quality: 14.3
+    contract_quality: 13.9
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 41.2
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,8 +280,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

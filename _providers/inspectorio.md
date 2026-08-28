@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-24'
+  score: 34.0
+  scored_at: '2026-08-26'
 api_count: 25
 apis:
 - description: The ANALYTICS API from Inspectorio — 2 operation(s) for analytics.
@@ -342,18 +346,18 @@ overview: 'Inspectorio publishes 25 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 2
 score:
   band: developing
-  composite: 54.1
+  composite: 53.6
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 16.7
-    contract_quality: 61.8
+    contract_quality: 60.1
     developer_ergonomics: 61.3
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 54.1
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -363,8 +367,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/screenshots/inspectorio-2026-07-25T222543.png
 security:

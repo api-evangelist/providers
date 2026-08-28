@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-24'
+  score: 32.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API enables customers to access Pliant credit card data and features programmatically — issue and manage cards, apply card controls and limits, retrieve transactions and accounting data, '
@@ -192,18 +195,18 @@ overview: 'Pliant publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 18
 score:
   band: developing
-  composite: 48.8
+  composite: 48.2
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 47.0
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 32.9
-  previous_composite: 48.8
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -214,8 +217,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/screenshots/pliant-2026-08-17T081307.png
 security:

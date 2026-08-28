@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 12.9
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'The discovery interface a conformant Agent Registry exposes. POST /search is the only mandatory endpoint and takes a natural-language `text` query plus optional structured `filter`, returning catalog '
@@ -162,22 +166,22 @@ overview: 'Agentic Resource Discovery (ARD) publishes 1 API on the [APIs.io](htt
 random_paper: 10
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 25.9
+  delta: 1.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 49.0
-    developer_ergonomics: 11.9
+    contract_quality: 47.6
+    developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 24.3
+  previous_composite: 24.0
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/screenshots/agentic-resource-discovery-2026-08-07T161030.png
 slug: agentic-resource-discovery

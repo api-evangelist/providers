@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-24'
+  score: 28.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: LegitFit's Model Context Protocol server — a JSON-RPC 2.0 endpoint that exposes LegitFit resources to AI agents. Protected by OAuth 2.1 (authorization_code with PKCE S256) and gated by the mcp:read an
@@ -132,8 +136,8 @@ scopes:
   slug: legitfit-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 25.9
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -141,10 +145,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 26.7
+  previous_composite: 25.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -154,8 +158,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/screenshots/legitfit-2026-07-25T224838.png
 security:

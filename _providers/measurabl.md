@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.2
-  scored_at: '2026-08-24'
+  score: 32.6
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: 'Read and write the ESG data core of the Measurabl platform: portfolios, buildings, spaces, funds, energy and water meters and their readings and bills, waste meters and readings, green building certif'
@@ -212,22 +216,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 53.9
+  delta: 2.3
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 16.7
-    contract_quality: 44.3
+    contract_quality: 51.3
     developer_ergonomics: 58.9
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 53.0
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -238,9 +242,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 58.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 64.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:

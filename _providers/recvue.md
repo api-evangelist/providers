@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 22.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -172,27 +176,27 @@ rate_limits:
   slug: recvue-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 26.7
+  delta: 2.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 52.8
-    developer_ergonomics: 19.0
+    contract_quality: 12.8
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.3
+  previous_composite: 24.5
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      callable: 0.0
+      derived: 10
+      marker_coverage: 100.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Heron's REST API for document intake, parsing, enrichment, cashflow underwriting, webhooks, and broker/funder submission flows.
@@ -240,18 +244,18 @@ rate_limits:
   slug: heron-rate-limits
 score:
   band: strong
-  composite: 61.6
+  composite: 61.0
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
-    contract_quality: 49.2
+    contract_quality: 46.6
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 73.7
-  previous_composite: 61.6
+  previous_composite: 61.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -262,8 +266,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.4
-  scored_at: '2026-08-24'
+  score: 23.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 0
@@ -536,18 +540,18 @@ rules:
   slug: iit-kanpur-rules
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 31.1
+  delta: 1.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
-    contract_quality: 58.2
-    developer_ergonomics: 0.0
+    contract_quality: 56.7
+    developer_ergonomics: 4.8
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 30.5
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -561,8 +565,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png
 security:

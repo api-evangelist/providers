@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-24'
+  score: 30.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public REST API for the StreetMetrics out-of-home advertising platform. 54 operations across campaigns, transit and stationary ad groups, assets and asset owners, frames, creatives, markets, media and
@@ -193,18 +197,18 @@ rate_limits:
   slug: streetmetrics-rate-limits
 score:
   band: thin
-  composite: 37.6
+  composite: 37.3
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 52.6
+    contract_quality: 51.2
     developer_ergonomics: 39.9
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 37.3
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +218,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/screenshots/streetmetrics-2026-08-17T082138.png
 security:

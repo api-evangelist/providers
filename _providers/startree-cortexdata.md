@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-24'
+  score: 24.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
@@ -167,18 +171,18 @@ overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.i
 random_paper: 16
 score:
   band: developing
-  composite: 47.7
+  composite: 47.4
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 30.3
-    contract_quality: 54.5
+    contract_quality: 53.1
     developer_ergonomics: 49.4
     discoverability: 75.9
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 47.7
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     contracts:
@@ -188,8 +192,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/screenshots/startree-cortexdata-2026-08-17T082112.png
 security:

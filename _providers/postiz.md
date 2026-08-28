@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.8
-  scored_at: '2026-08-24'
+  score: 54.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 122
@@ -311,18 +315,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.9
+  composite: 69.4
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 16.7
-    contract_quality: 62.4
+    contract_quality: 60.7
     developer_ergonomics: 85.7
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 89.5
-  previous_composite: 69.9
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,8 +337,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png
 security:

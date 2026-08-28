@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Public Antelope/EOSIO Chain API for the WAX blockchain — query chain state (get_info, get_account, get_table_rows, get_currency_balance) and submit signed transactions (push_transaction/send_transacti
@@ -131,7 +135,7 @@ overview: 'WAX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 0
 score:
   band: thin
-  composite: 27.6
+  composite: 26.9
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -139,10 +143,10 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 27.6
+  previous_composite: 26.9
   provenance:
     conformance: derived
   regulatory:
@@ -151,8 +155,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

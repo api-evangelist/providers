@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.5
-  scored_at: '2026-08-24'
+  score: 5.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for the Koalaboox / Cegid Click & Finance invoicing and invoice-financing platform. Resource-oriented URLs, JSON-encoded requests and responses, standard HTTP status codes, and OAuth 2.0 auth
@@ -157,7 +161,7 @@ plans:
 random_paper: 15
 score:
   band: thin
-  composite: 29.9
+  composite: 29.1
   delta: 0.0
   facets:
     access_clarity: 55.3
@@ -165,15 +169,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 29.9
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png
 security:

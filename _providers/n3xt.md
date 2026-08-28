@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-24'
+  score: 45.8
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
@@ -290,18 +294,18 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 52.7
+  composite: 52.3
   delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 30.3
-    contract_quality: 57.6
+    contract_quality: 56.0
     developer_ergonomics: 70.8
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 52.7
+  previous_composite: 52.3
   provenance:
     conformance: first-party
     contracts:
@@ -317,8 +321,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/screenshots/n3xt-2026-08-07T184554.png
 security:

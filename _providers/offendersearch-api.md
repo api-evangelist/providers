@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.3
-  scored_at: '2026-08-24'
+  score: 45.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -205,19 +209,19 @@ rate_limits:
   name: Offendersearch Api Rate Limits
   slug: offendersearch-api-rate-limits
 score:
-  band: developing
-  composite: 47.8
-  delta: 0.0
+  band: strong
+  composite: 56.1
+  delta: 8.7
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 16.7
-    contract_quality: 61.3
-    developer_ergonomics: 18.5
+    contract_quality: 59.7
+    developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 16.7
-    operational_transparency: 0.0
-  previous_composite: 47.8
+    operational_transparency: 7.9
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,9 +238,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Offendersearch Api Authentication

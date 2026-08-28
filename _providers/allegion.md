@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 25.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -381,18 +385,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.3
-  delta: 0.0
+  composite: 61.1
+  delta: 4.3
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
     contract_governance: 28.8
-    contract_quality: 68.1
-    developer_ergonomics: 50.0
+    contract_quality: 69.7
+    developer_ergonomics: 61.9
     discoverability: 74.1
     governance: 28.8
-    operational_transparency: 50.0
-  previous_composite: 57.3
+    operational_transparency: 57.9
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     contracts:
@@ -400,8 +404,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/screenshots/allegion-2026-06-20T171528.png
 security:

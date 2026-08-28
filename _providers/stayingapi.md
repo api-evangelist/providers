@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-24'
+  score: 59.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -259,18 +263,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 66.0
+  composite: 65.6
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 58.7
+    contract_quality: 57.1
     developer_ergonomics: 76.2
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 73.7
-  previous_composite: 66.0
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,8 +285,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
 security:

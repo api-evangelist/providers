@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-24'
+  score: 41.7
+  scored_at: '2026-08-26'
 api_count: 55
 apis:
 - description: The Asset API from Rapidata — 3 operation(s) for asset.
@@ -504,18 +509,18 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 49.2
+  composite: 48.8
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 51.4
+    contract_quality: 50.0
     developer_ergonomics: 71.4
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 49.2
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -525,8 +530,8 @@ score:
       total: 55
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/screenshots/rapidata-2026-08-17T083202.png
 security:

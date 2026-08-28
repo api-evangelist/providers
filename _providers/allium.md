@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.6
-  scored_at: '2026-08-24'
+  score: 41.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -214,18 +218,18 @@ overview: 'Allium publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 random_paper: 14
 score:
   band: strong
-  composite: 58.7
+  composite: 58.3
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 58.7
+    contract_quality: 57.1
     developer_ergonomics: 64.3
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 39.5
-  previous_composite: 58.7
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/screenshots/allium-2026-07-25T195712.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.6
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Read-only, anonymously accessible WordPress REST API served by the Alzheon corporate site at https://alzheon.com/wp-json. It exposes the company's press releases and in-the-news items (224 posts), sta
@@ -114,24 +118,24 @@ overview: 'Alzheon publishes 1 API on the [APIs.io](https://apis.io/) network: C
 random_paper: 18
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 18.8
+  delta: 4.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
-    contract_quality: 56.6
-    developer_ergonomics: 4.2
-    discoverability: 75.9
+    contract_quality: 13.8
+    developer_ergonomics: 16.1
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 25.8
+  previous_composite: 14.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
     skills: derived
   regulatory:
@@ -139,9 +143,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 12.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 26.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/screenshots/alzheon-2026-08-07T161303.png
 security:

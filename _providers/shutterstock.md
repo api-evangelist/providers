@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 29.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -212,19 +216,19 @@ scopes:
   slug: shutterstock-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 35.0
-  delta: 0.0
+  band: developing
+  composite: 43.8
+  delta: 9.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 13.6
-    contract_quality: 77.7
-    developer_ergonomics: 11.9
+    contract_governance: 28.8
+    contract_quality: 75.6
+    developer_ergonomics: 47.6
     discoverability: 74.1
-    governance: 13.6
-    operational_transparency: 7.9
-  previous_composite: 35.0
+    governance: 28.8
+    operational_transparency: 10.5
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -232,9 +236,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/screenshots/shutterstock-2026-06-20T193851.png
 security:
 - kind: authentication

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -218,18 +222,18 @@ rules:
   slug: betteruptime-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
+  composite: 46.2
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 67.1
+    contract_quality: 65.3
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 46.6
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -237,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/screenshots/betteruptime-2026-06-20T173208.png
 security:

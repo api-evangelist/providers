@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: The core toolkit for building reactive, event-driven applications on the JVM. Provides the event loop, verticle deployment, event bus, HTTP server and client, TCP/UDP networking, and the fundamental a
@@ -244,20 +248,20 @@ rules:
   slug: vert-x-spectral-rules
 score:
   band: thin
-  composite: 31.8
+  composite: 31.4
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 29.6
+    contract_quality: 28.0
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 31.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 31.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vert-x/refs/heads/main/screenshots/vert-x-2026-06-20T200945.png
 security:

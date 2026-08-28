@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: documented
     openapi_examples: false
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-24'
+  score: 36.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public REST API for Skore Hub, Probabl's hosted collaboration platform for machine-learning experiments. Covers identity (OAuth authorization-code and device flows, token refresh, user profile, per-wo
@@ -130,22 +134,22 @@ overview: 'Probabl publishes 1 API on the [APIs.io](https://apis.io/) network: S
   Probabl''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 14 more developer resources.'
 random_paper: 3
 score:
-  band: thin
-  composite: 38.1
-  delta: 0.0
+  band: developing
+  composite: 43.0
+  delta: 5.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 0.0
-    contract_quality: 49.3
-    developer_ergonomics: 52.4
+    contract_governance: 12.1
+    contract_quality: 48.0
+    developer_ergonomics: 71.4
     discoverability: 87.0
-    governance: 0.0
+    governance: 12.1
     operational_transparency: 18.4
-  previous_composite: 38.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 37.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: domain-security
   name: Probabl Domain Security

@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-24'
+  score: 22.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,22 +172,22 @@ rules:
   slug: rtx-spectral-rules
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 31.7
+  delta: 1.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 54.5
-    developer_ergonomics: 14.3
+    contract_quality: 49.7
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 31.0
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -193,8 +197,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/screenshots/rtx-2026-06-20T193244.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 19
 apis:
 - description: The AOI API from Pixxel — 3 operation(s) for aoi.
@@ -263,18 +267,18 @@ overview: 'Pixxel publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 15
 score:
   band: developing
-  composite: 40.0
+  composite: 39.7
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 55.5
+    contract_quality: 54.0
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 40.0
+  previous_composite: 39.7
   provenance:
     conformance: derived
     contracts:
@@ -284,8 +288,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixxel/refs/heads/main/screenshots/pixxel-2026-08-17T121353.png
 security:

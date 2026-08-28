@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.4
-  scored_at: '2026-08-24'
+  score: 0.0
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,8 +129,8 @@ overview: 'Mission Bio is profiled on the [APIs.io](https://apis.io/) network. T
   Mission Bio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 15 more developer resources.'
 random_paper: 16
 score:
-  band: thin
-  composite: 28.0
+  band: emerging
+  composite: 26.1
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -134,10 +138,10 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 28.0
+  previous_composite: 26.1
   provenance:
     conformance: derived
   regulatory:
@@ -146,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mission-bio/refs/heads/main/screenshots/mission-bio-2026-08-07T183750.png
 security:

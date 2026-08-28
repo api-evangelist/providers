@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Cosmos is Tetra Tech's mobile data collection platform designed for field data capture, project management, and reporting. The Cosmos API and webhook system enables integration with third-party enterp
@@ -176,20 +180,20 @@ rules:
   slug: tetra-tech-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 21.5
+  delta: 1.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 15.5
-    developer_ergonomics: 2.4
+    contract_quality: 14.7
+    developer_ergonomics: 11.9
     discoverability: 75.9
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 19.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 19.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/screenshots/tetra-tech-2026-06-20T195157.png
 security:

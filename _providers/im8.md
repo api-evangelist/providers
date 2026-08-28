@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: platform
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-24'
+  score: 6.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'The agent-native commerce surface of the IM8 Health Shopify storefront: a Universal Commerce Protocol (UCP) merchant profile with a hosted MCP shopping endpoint (catalog search, cart, checkout, fulfil'
@@ -134,8 +138,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/screenshots/im8-2026-08-07T170629.png
 security:

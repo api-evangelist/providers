@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint for the 5ireChain mainnet (EIP-155 chain ID 995, native currency 5ire, 18 decimals). Serves the standard eth_*, net_* and web3_* method families against the E
@@ -161,7 +165,7 @@ overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 16
 score:
   band: emerging
-  composite: 21.5
+  composite: 20.8
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -169,14 +173,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 48.8
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 21.5
+  previous_composite: 20.8
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

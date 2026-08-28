@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-24'
+  score: 23.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -300,30 +304,30 @@ overview: 'BioFlyte publishes 20 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 1
 score:
   band: thin
-  composite: 27.2
-  delta: 0.0
+  composite: 28.6
+  delta: 2.4
   facets:
-    access_clarity: 21.1
-    commercial_clarity: 21.1
+    access_clarity: 27.6
+    commercial_clarity: 27.6
     contract_governance: 16.7
-    contract_quality: 38.4
+    contract_quality: 41.9
     developer_ergonomics: 16.1
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 27.2
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 54.5
+      callable: 95.5
       derived: 12
       marker_coverage: 54.5
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

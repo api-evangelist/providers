@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.5
-  scored_at: '2026-08-24'
+  score: 1.3
+  scored_at: '2026-08-26'
 api_count: 21
 apis:
 - description: Distributed, partitioned, replicated log. The reference open-source streaming platform; durable, ordered topics with consumer groups, exactly -once semantics, and the de facto wire protocol for the st
@@ -202,20 +206,20 @@ rules:
   slug: streaming-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 13.7
-  delta: 0.0
+  composite: 17.4
+  delta: 2.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 25.0
-    contract_quality: 16.9
-    developer_ergonomics: 0.0
+    contract_quality: 21.3
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 25.0
-    operational_transparency: 0.0
-  previous_composite: 13.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    operational_transparency: 5.3
+  previous_composite: 14.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streaming/refs/heads/main/screenshots/streaming-2026-06-20T194618.png
 security:

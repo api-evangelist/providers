@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-24'
+  score: 16.4
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: The core API from Goodays — 22 operation(s) for core.
@@ -203,18 +207,18 @@ overview: 'Goodays publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 2
 score:
   band: thin
-  composite: 36.0
+  composite: 35.7
   delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 16.7
-    contract_quality: 44.3
+    contract_quality: 43.1
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 36.0
+  previous_composite: 35.7
   provenance:
     conformance: derived
     contracts:
@@ -224,8 +228,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/screenshots/goodays-2026-07-25T220046.png
 security:

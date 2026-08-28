@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: List accounts and balances.
@@ -182,25 +186,25 @@ overview: 'Buxfer publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   Buxfer''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
 random_paper: 1
 score:
-  band: developing
-  composite: 46.5
+  band: thin
+  composite: 36.1
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 16.7
-    contract_quality: 55.4
+    contract_quality: 13.5
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 46.5
+  previous_composite: 36.1
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 5
+      marker_coverage: 100.0
       total: 5
     mcp: derived
     skills: derived
@@ -210,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/screenshots/buxfer-2026-07-25T204124.png
 security:

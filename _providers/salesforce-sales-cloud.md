@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 27.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -931,18 +935,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 53.4
+  delta: 2.3
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 25.0
-    contract_quality: 67.4
-    developer_ergonomics: 69.0
+    contract_quality: 68.8
+    developer_ergonomics: 76.2
     discoverability: 66.7
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 51.6
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -950,8 +954,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:

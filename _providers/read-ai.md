@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-24'
+  score: 53.6
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Open-beta public REST API for programmatic access to a user's Read AI meeting data. Three documented meeting endpoints — list meetings with cursor pagination and epoch-millisecond time filters, retrie
@@ -198,24 +202,24 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.0
+  composite: 56.4
   delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 64.3
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 57.0
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/screenshots/read-ai-2026-08-17T081449.png
 security:

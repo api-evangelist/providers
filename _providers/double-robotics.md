@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Local developer API for the Double 3 telepresence robot. Commands and events are exchanged as JSON packets over a standard Unix domain socket with the core D3 system service (Ubuntu 18.04, aarch64). A
@@ -99,7 +103,7 @@ overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 16
 score:
   band: emerging
-  composite: 18.0
+  composite: 17.3
   delta: 0.0
   facets:
     access_clarity: 17.1
@@ -107,12 +111,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 66.7
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 18.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 17.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/double-robotics/refs/heads/main/screenshots/double-robotics-2026-07-25T212319.png
 security:

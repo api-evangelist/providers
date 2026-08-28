@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.9
-  scored_at: '2026-08-24'
+  score: 31.5
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: 'Real-time search engine results as parsed JSON or raw HTML across Google, Bing, Yandex and DuckDuckGo, with per-country and per-language targeting, vertical selection (images, news, shopping, video), '
@@ -219,19 +223,19 @@ rate_limits:
   name: Thordata Rate Limits
   slug: thordata-rate-limits
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 39.2
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 16.7
-    contract_quality: 21.9
+    contract_quality: 21.3
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 39.4
+  previous_composite: 39.2
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +245,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/screenshots/thordata-2026-08-17T082346.png
 security:

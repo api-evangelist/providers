@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.4
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -221,18 +225,18 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 50.2
+  composite: 49.8
   delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 16.7
-    contract_quality: 48.3
+    contract_quality: 46.9
     developer_ergonomics: 49.4
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 50.2
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,12 +249,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: berlin-group-nextgenpsd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 94.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/screenshots/triodos-bank-uk-2026-08-17T082439.png
 security:

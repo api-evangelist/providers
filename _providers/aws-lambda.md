@@ -12,26 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-24'
+  score: 35.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -787,19 +790,19 @@ rules:
     warn: 9
   slug: aws-lambda-spectral-rules
 score:
-  band: developing
-  composite: 53.3
-  delta: 0.0
+  band: exemplar
+  composite: 67.5
+  delta: 14.8
   facets:
-    access_clarity: 52.6
-    commercial_clarity: 52.6
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 45.5
-    contract_quality: 82.7
-    developer_ergonomics: 26.2
-    discoverability: 83.3
+    contract_quality: 83.2
+    developer_ergonomics: 69.0
+    discoverability: 75.9
     governance: 45.5
-    operational_transparency: 23.7
-  previous_composite: 53.3
+    operational_transparency: 55.3
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -813,9 +816,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:
 - kind: authentication

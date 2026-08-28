@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: École des Ponts ParisTech's scientific output is deposited in its institutional open-access repository, exposed as the ENPC collection on the national HAL platform operated by CCSD. The HAL Search API
@@ -122,26 +126,26 @@ rate_limits:
   slug: ecole-des-ponts-paristech-rate-limits
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 19.2
+  delta: 1.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 11.3
-    developer_ergonomics: 0.0
+    contract_quality: 10.7
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 17.4
+  previous_composite: 17.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png
 security:

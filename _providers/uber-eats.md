@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.2
-  scored_at: '2026-08-24'
+  score: 33.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -380,18 +384,18 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 51.7
+  delta: 2.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 67.9
-    developer_ergonomics: 40.5
+    contract_quality: 68.7
+    developer_ergonomics: 47.6
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 50.0
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -399,8 +403,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/screenshots/uber-eats-2026-06-20T195931.png
 security:

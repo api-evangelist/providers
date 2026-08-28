@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.9
-  scored_at: '2026-08-24'
+  score: 25.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -369,19 +373,19 @@ rules:
     warn: 3
   slug: uwa-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.0
+  band: developing
+  composite: 42.4
+  delta: 4.6
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 42.1
+    commercial_clarity: 42.1
     contract_governance: 13.6
-    contract_quality: 60.4
-    developer_ergonomics: 21.4
+    contract_quality: 58.8
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 38.2
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -395,8 +399,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png
 security:

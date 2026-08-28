@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.1
-  scored_at: '2026-08-24'
+  score: 24.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'A hosted, remote Model Context Protocol server that lets an AI agent read a company''s Brand OS — brands, machine-readable brand rules and artifacts — and write back Brand Check validations, artifacts '
@@ -163,7 +167,7 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.5
+  composite: 23.8
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -171,15 +175,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 24.5
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

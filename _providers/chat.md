@@ -1,7 +1,7 @@
 ---
 access_model:
-  confidence: high
-  generated: '2026-07-22'
+  confidence: medium
+  generated: '2026-08-26'
   label: Freemium · Self-serve signup
   method: derived
   onboarding: self-serve
@@ -11,7 +11,8 @@ access_model:
   - plans
   - authentication
   trial: false
-  try_now: true
+  try_now: false
+  try_now_blocked_by: example-domain
 api_count: 3
 artifact_total: 0
 created: '2024-01-15'

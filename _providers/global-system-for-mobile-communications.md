@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.1
-  scored_at: '2026-08-24'
+  score: 39.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -368,24 +372,24 @@ rate_limits:
   slug: global-system-for-mobile-communications-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 33.8
+  delta: 2.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 57.2
-    developer_ergonomics: 19.0
+    contract_quality: 55.7
+    developer_ergonomics: 28.6
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 13.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 31.5
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -399,8 +403,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/screenshots/global-system-for-mobile-communications-2026-06-20T181919.png
 security:

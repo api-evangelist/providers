@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.7
-  scored_at: '2026-08-24'
+  score: 20.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -181,19 +185,19 @@ overview: 'Teammates publishes 2 APIs on the [APIs.io](https://apis.io/) network
   Teammates'' developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 18 more developer resources.'
 random_paper: 16
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 39.6
+  delta: 1.4
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 12.1
-    contract_quality: 52.4
-    developer_ergonomics: 38.7
+    contract_quality: 51.0
+    developer_ergonomics: 45.8
     discoverability: 75.9
     governance: 12.1
     operational_transparency: 26.3
-  previous_composite: 38.6
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +207,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/screenshots/teammates-2026-08-17T082257.png
 security:

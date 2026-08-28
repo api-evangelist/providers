@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 26.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -156,18 +160,18 @@ overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 7
 score:
   band: thin
-  composite: 35.6
+  composite: 34.1
   delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 16.7
-    contract_quality: 58.7
+    contract_quality: 59.9
     developer_ergonomics: 32.7
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 35.6
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,8 +182,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/screenshots/cloudsight-2026-08-17T080822.png
 security:

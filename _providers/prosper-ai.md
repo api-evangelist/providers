@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-24'
+  score: 46.9
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The API Keys API from Prosper AI — 1 operation(s) for api keys.
@@ -174,22 +179,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 51.2
+  delta: 2.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
-    contract_quality: 43.9
+    contract_quality: 48.2
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 0.0
-  previous_composite: 49.1
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
@@ -200,9 +205,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 52.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 58.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/screenshots/prosper-ai-2026-08-17T081402.png
 security:

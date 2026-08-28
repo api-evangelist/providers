@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.7
-  scored_at: '2026-08-24'
+  score: 32.9
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: REST API surfacing end-user consent operations under the GDPR using the IAB Transparency & Consent Framework (TCF v2.2). Supports retrieving end-user consent status and history by site, merging an end
@@ -397,18 +401,18 @@ rate_limits:
   slug: sourcepoint-rate-limits
 score:
   band: strong
-  composite: 57.4
+  composite: 57.1
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 30.3
-    contract_quality: 47.1
+    contract_quality: 45.8
     developer_ergonomics: 64.9
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 57.4
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     contracts:
@@ -418,8 +422,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:

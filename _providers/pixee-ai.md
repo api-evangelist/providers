@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.9
-  scored_at: '2026-08-24'
+  score: 28.1
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: The Findings API from Pixee — 2 operation(s) for findings.
@@ -186,18 +190,18 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 9
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 53.1
+  delta: 3.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
-    contract_quality: 62.9
-    developer_ergonomics: 61.9
+    contract_quality: 61.2
+    developer_ergonomics: 73.8
     discoverability: 81.5
     governance: 16.7
-    operational_transparency: 18.4
-  previous_composite: 50.1
+    operational_transparency: 26.3
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -207,8 +211,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:

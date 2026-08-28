@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: Search and export a subset of documents from a Talkwalker project, including brand mentions and social data across supported channels. Results are metered at 1 credit per result plus a minimum of 10 c
@@ -199,18 +203,18 @@ rate_limits:
   slug: talkwalker-rate-limits
 score:
   band: developing
-  composite: 53.9
+  composite: 52.9
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 16.7
-    contract_quality: 46.2
+    contract_quality: 44.9
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 36.8
-  previous_composite: 53.9
+  previous_composite: 52.9
   provenance:
     conformance: derived
     contracts:
@@ -220,8 +224,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/screenshots/talkwalker-2026-06-20T194908.png
 security:

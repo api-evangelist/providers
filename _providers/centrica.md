@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 32.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Token-issuing API on the Centrica FieldOps API Management platform, published on Centrica's Azure API Management developer portal. A single POST /oauth2/token operation exchanges an OAuth2 client_cred
@@ -174,19 +178,19 @@ rate_limits:
   name: Centrica Rate Limits
   slug: centrica-rate-limits
 score:
-  band: strong
-  composite: 54.9
+  band: developing
+  composite: 53.8
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 16.7
-    contract_quality: 49.7
+    contract_quality: 48.3
     developer_ergonomics: 49.4
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 44.7
-  previous_composite: 54.9
+  previous_composite: 53.8
   provenance:
     conformance: derived
     contracts:
@@ -202,8 +206,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:

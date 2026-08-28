@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
-    consent_identity: true
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.6
-  scored_at: '2026-08-24'
+  score: 0.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: EVM-compatible Ethereum JSON-RPC interface to the Mezo chain (eth_* methods) for reading chain state and submitting transactions. Mainnet EVM chain ID 31612, testnet 31611; BTC is the native gas token
@@ -158,7 +162,7 @@ overview: 'Mezo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 2
 score:
   band: thin
-  composite: 33.8
+  composite: 33.1
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -166,14 +170,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 33.8
+  previous_composite: 33.1
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/screenshots/mezo-2026-08-07T172807.png
 security:

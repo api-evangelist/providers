@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -215,18 +219,18 @@ rules:
   slug: cargodocs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 33.8
+  delta: 2.1
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 69.5
-    developer_ergonomics: 14.3
+    contract_quality: 67.6
+    developer_ergonomics: 25.0
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 32.2
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +238,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/screenshots/cargodocs-2026-08-17T123110.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The SevenRooms API is a RESTful interface for hospitality data and operations. It exposes reservations, guest profiles, and feedback scores, and supports retrieving venue info, searching shift-level a
@@ -176,20 +180,20 @@ rate_limits:
   slug: sevenrooms-rate-limits
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 32.7
+  delta: 2.3
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 35.7
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 30.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sevenrooms/refs/heads/main/screenshots/sevenrooms-2026-06-20T193741.png
 security:

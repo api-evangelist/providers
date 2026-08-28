@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-24'
+  score: 21.8
+  scored_at: '2026-08-26'
 api_count: 18
 apis:
 - description: The cdn API from Alokai (formerly Vue Storefront) — 2 operation(s) for cdn.
@@ -277,29 +281,29 @@ overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](h
 random_paper: 20
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 50.0
+  delta: 2.3
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 48.5
-    developer_ergonomics: 61.3
+    contract_quality: 47.4
+    developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 47.9
+  previous_composite: 47.7
   provenance:
     conformance: derived
     contracts:
-      callable: 94.4
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:

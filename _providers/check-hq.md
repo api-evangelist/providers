@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
     mcp_server: documented
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.1
-  scored_at: '2026-08-24'
+  score: 20.2
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The Check Payroll API is a comprehensive REST API for embedding end-to-end U.S. payroll inside another platform. It models companies, workplaces, employees, contractors, pay schedules, paydays, payrol
@@ -145,27 +149,27 @@ overview: 'Check publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 16
 score:
   band: emerging
-  composite: 13.6
-  delta: 0.0
+  composite: 20.8
+  delta: 7.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 25.0
+    contract_quality: 6.7
+    developer_ergonomics: 40.5
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 34.2
   previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 18.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 28.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/screenshots/check-hq-2026-06-20T174239.png
 security:
 - kind: domain-security

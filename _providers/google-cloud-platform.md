@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.5
-  scored_at: '2026-08-24'
+  score: 42.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -906,18 +910,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 64.3
+  delta: 1.9
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 30.3
-    contract_quality: 73.6
-    developer_ergonomics: 72.6
-    discoverability: 75.9
+    contract_quality: 71.6
+    developer_ergonomics: 82.1
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 63.6
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -927,8 +931,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:

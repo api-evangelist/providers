@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.3
-  scored_at: '2026-08-24'
+  score: 6.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Python interfaces for the core T-code components that drive a Trilobot fleet — Commands, Labware, Locations, Scripts — plus the T-code Servicer client for runtime control and the Integrator client for
@@ -107,18 +111,18 @@ overview: 'Trilobio publishes 1 API on the [APIs.io](https://apis.io/) network. 
   Trilobio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, signup flow, and 9 more developer resources.'
 random_paper: 7
 score:
-  band: emerging
-  composite: 24.1
-  delta: 0.0
+  band: thin
+  composite: 31.1
+  delta: 7.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 18.4
   previous_composite: 24.1
   provenance:
     skills: unknown
@@ -127,10 +131,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 25.0
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Trilobio Authentication

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.4
-  scored_at: '2026-08-24'
+  score: 25.1
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: The Application API from Romit — 1 operation(s) for application.
@@ -152,24 +156,24 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 15.9
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 48.0
+    contract_quality: 10.8
     developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 25.2
+  previous_composite: 16.1
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      callable: 0.0
+      derived: 9
+      marker_coverage: 100.0
       total: 9
   regulatory:
     applies: true
@@ -177,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

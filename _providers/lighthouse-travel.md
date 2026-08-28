@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-24'
+  score: 22.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -245,18 +249,18 @@ overview: 'Lighthouse publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 19
 score:
   band: thin
-  composite: 26.8
-  delta: 0.0
+  composite: 28.4
+  delta: 1.9
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 0.0
-    contract_quality: 53.8
-    developer_ergonomics: 11.9
+    contract_quality: 52.4
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.8
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -264,8 +268,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/screenshots/lighthouse-travel-2026-06-20T184520.png
 security:

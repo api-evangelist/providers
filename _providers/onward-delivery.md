@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.7
-  scored_at: '2026-08-24'
+  score: 6.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Versioned (v1) REST API for Onward Delivery's final-mile logistics platform, documented on Theneo. Covers orders, draft manifests, partners, subscriptions, routes, jobs, activity ingest, events, and w
@@ -115,7 +119,7 @@ overview: 'Onward Delivery publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 10
 score:
   band: thin
-  composite: 28.4
+  composite: 27.7
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -123,18 +127,18 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 28.4
+  previous_composite: 27.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onward-delivery/refs/heads/main/screenshots/onward-delivery-2026-08-07T190433.png
 security:

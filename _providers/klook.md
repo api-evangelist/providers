@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-24'
+  score: 36.8
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The Availability API from Klook — 2 operation(s) for availability.
@@ -200,18 +204,18 @@ overview: 'Klook publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 19
 score:
   band: developing
-  composite: 45.7
+  composite: 45.3
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 30.3
-    contract_quality: 61.4
+    contract_quality: 59.7
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 45.7
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     contracts:
@@ -221,8 +225,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/screenshots/klook-2026-08-17T123946.png
 security:

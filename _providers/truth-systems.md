@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-24'
+  score: 27.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Get Context Output API from Truth Systems — 1 operation(s) for get context output.
@@ -131,30 +135,30 @@ overview: 'Truth Systems publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 18
 score:
   band: thin
-  composite: 29.0
-  delta: 0.0
+  composite: 34.6
+  delta: 5.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 40.6
-    developer_ergonomics: 44.6
+    contract_quality: 47.6
+    developer_ergonomics: 63.7
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 29.0
+  previous_composite: 28.7
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Truth Systems Authentication

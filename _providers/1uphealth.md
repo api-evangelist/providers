@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.4
-  scored_at: '2026-08-24'
+  score: 29.3
+  scored_at: '2026-08-26'
 api_count: 10
 apis:
 - description: 1upHealth's managed HL7 FHIR R4 (4.0.1) REST API cloud server, exposing 144 FHIR resource types with SMART-on-FHIR OAuth 2.0 security. Publishes a live CapabilityStatement at /fhir/r4/metadata.
@@ -298,30 +302,34 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 76.5
+  composite: 76.0
   delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 62.0
+    contract_quality: 59.8
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 76.5
+  previous_composite: 76.0
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: us-core
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/screenshots/1uphealth-2026-07-25T181115.png
 security:

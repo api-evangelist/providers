@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.3
-  scored_at: '2026-08-24'
+  score: 54.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -390,18 +394,18 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 3
 score:
   band: developing
-  composite: 43.8
+  composite: 43.4
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
-    contract_quality: 64.7
+    contract_quality: 63.0
     developer_ergonomics: 58.9
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 43.8
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -412,8 +416,8 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:

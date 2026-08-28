@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.2
-  scored_at: '2026-08-24'
+  score: 23.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -455,19 +459,19 @@ rules:
     warn: 6
   slug: netapp-spectral-rules
 score:
-  band: thin
-  composite: 36.1
-  delta: 0.0
+  band: developing
+  composite: 43.5
+  delta: 7.8
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 65.7
-    developer_ergonomics: 23.8
+    contract_quality: 63.9
+    developer_ergonomics: 52.4
     discoverability: 72.2
     governance: 13.6
-    operational_transparency: 10.5
-  previous_composite: 36.1
+    operational_transparency: 26.3
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -475,9 +479,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png
 security:
 - kind: authentication

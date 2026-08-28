@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: na
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-24'
+  score: 43.4
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
@@ -240,13 +244,13 @@ rate_limits:
   slug: fundz-rate-limits
 score:
   band: strong
-  composite: 66.0
+  composite: 65.5
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 70.6
+    contract_quality: 68.7
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 16.7
@@ -257,7 +261,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 66.0
+  previous_composite: 65.5
   provenance:
     conformance: derived
     contracts:
@@ -273,8 +277,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png
 security:

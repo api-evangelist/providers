@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for managing uptime checks, transaction checks, results, alerts, contacts, maintenance windows, teams, and reports in the Pingdom monitoring platform. Authentication uses Bearer token API key
@@ -103,20 +107,20 @@ overview: 'Pingdom publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 15
 score:
   band: emerging
-  composite: 16.5
-  delta: 0.0
+  composite: 18.9
+  delta: 2.4
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 16.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingdom/refs/heads/main/screenshots/pingdom-2026-06-20T191713.png
 security:

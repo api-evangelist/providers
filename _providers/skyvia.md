@@ -1,26 +1,29 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-24'
+  score: 36.4
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: REST management API for the Skyvia platform. Programmatically read and control account users and invitations, workspaces and workspace membership, on-premise agents, data-source connections, data inte
@@ -236,29 +239,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.8
+  composite: 44.8
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 52.1
+    contract_quality: 24.3
     developer_ergonomics: 63.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 30.3
     operational_transparency: 15.8
-  previous_composite: 52.8
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 8
+      marker_coverage: 100.0
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/screenshots/skyvia-2026-08-17T081918.png
 security:

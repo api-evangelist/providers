@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-24'
+  score: 26.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -181,18 +185,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.2
-  delta: 0.0
+  composite: 32.2
+  delta: 3.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 51.7
-    developer_ergonomics: 16.7
+    contract_quality: 50.3
+    developer_ergonomics: 28.6
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 29.2
+    operational_transparency: 7.9
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/screenshots/facebook-pages-2026-06-20T181006.png
 security:

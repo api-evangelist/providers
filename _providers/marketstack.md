@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.4
-  scored_at: '2026-08-24'
+  score: 29.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Real-time, intraday and historical market data API with 45 endpoints spanning end-of-day bars, intraday bars, real-time stock prices, commodities, company ratings, splits, dividends, tickers, indexes,
@@ -185,18 +189,18 @@ rate_limits:
   slug: marketstack-rate-limits
 score:
   band: strong
-  composite: 57.1
+  composite: 56.1
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 45.5
+    contract_quality: 44.2
     developer_ergonomics: 57.7
-    discoverability: 83.3
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 57.1
+  previous_composite: 56.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -207,8 +211,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png
 security:

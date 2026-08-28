@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.6
-  scored_at: '2026-08-24'
+  score: 33.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -1753,19 +1757,19 @@ rules:
     warn: 10
   slug: amazon-mainframe-modernization-spectral-rules
 score:
-  band: developing
-  composite: 53.2
-  delta: 0.0
+  band: strong
+  composite: 57.2
+  delta: 4.5
   facets:
-    access_clarity: 51.3
-    commercial_clarity: 51.3
+    access_clarity: 61.8
+    commercial_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 74.8
-    developer_ergonomics: 50.0
+    contract_quality: 72.8
+    developer_ergonomics: 61.9
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 53.2
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1773,8 +1777,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/screenshots/amazon-mainframe-modernization-2026-06-20T171731.png
 security:

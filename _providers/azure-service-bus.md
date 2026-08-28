@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-24'
+  score: 25.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -333,18 +337,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.5
+  composite: 46.7
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 71.9
+    contract_quality: 69.9
     developer_ergonomics: 50.0
     discoverability: 72.2
     governance: 13.6
-    operational_transparency: 34.2
-  previous_composite: 46.5
+    operational_transparency: 39.5
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -352,8 +356,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/screenshots/azure-service-bus-2026-06-20T172908.png
 security:

@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Published pages and the site-wide search index.
@@ -174,18 +178,18 @@ overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 random_paper: 7
 score:
   band: emerging
-  composite: 20.5
+  composite: 19.7
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 16.7
-    contract_quality: 13.7
+    contract_quality: 13.3
     developer_ergonomics: 18.5
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 19.7
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +204,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-24'
+  score: 24.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -210,18 +214,18 @@ overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 7
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 51.3
+  delta: 1.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 30.3
-    contract_quality: 52.4
-    developer_ergonomics: 44.6
+    contract_quality: 51.0
+    developer_ergonomics: 51.8
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 44.7
-  previous_composite: 50.2
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -232,8 +236,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/screenshots/cipherowl-2026-07-25T205400.png
 security:

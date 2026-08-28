@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -188,18 +192,18 @@ scopes:
   summary_line: 10 scopes
 score:
   band: developing
-  composite: 40.7
+  composite: 40.4
   delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 30.3
-    contract_quality: 51.0
+    contract_quality: 49.7
     developer_ergonomics: 39.9
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 7.9
-  previous_composite: 40.7
+  previous_composite: 40.4
   provenance:
     conformance: first-party
     contracts:
@@ -215,8 +219,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
-    dry_run_mode: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 75.2
-  scored_at: '2026-08-24'
+  score: 69.8
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Mollie API is a REST API using HAL (application/hal+json) over HTTPS at api.mollie.com. It covers 124 documented operations across 33 API groups — Payments, Payment Links, Refunds, Chargebacks, Ca
@@ -233,19 +237,19 @@ scopes:
   slug: mollie-scopes
   summary_line: 61 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.9
+  band: strong
+  composite: 66.4
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 30.3
-    contract_quality: 66.3
+    contract_quality: 64.5
     developer_ergonomics: 59.5
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 36.8
-  previous_composite: 66.9
+  previous_composite: 66.4
   provenance:
     conformance: first-party
     contracts:
@@ -261,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 93.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/screenshots/mollie-2026-08-07T184112.png
 security:

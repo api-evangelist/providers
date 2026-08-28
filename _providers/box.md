@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.3
-  scored_at: '2026-08-24'
+  score: 41.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 291
   human_in_the_loop: 14
@@ -1621,28 +1625,28 @@ scopes:
   slug: box-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.6
-  delta: 0.0
+  band: strong
+  composite: 54.9
+  delta: 3.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 56.8
-    developer_ergonomics: 54.8
+    contract_quality: 62.7
+    developer_ergonomics: 64.3
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 51.6
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/screenshots/box-2026-06-20T173623.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Making and managing bookings.
@@ -135,13 +139,13 @@ overview: 'Impala publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
 random_paper: 19
 score:
   band: thin
-  composite: 30.0
+  composite: 29.5
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 64.8
+    contract_quality: 63.0
     developer_ergonomics: 28.0
     discoverability: 81.5
     governance: 16.7
@@ -152,7 +156,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 30.0
+  previous_composite: 29.5
   provenance:
     conformance: derived
     contracts:
@@ -168,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:

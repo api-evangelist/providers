@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: A lightweight, extensible, open source and cross-platform ORM for .NET. Supports SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB, and in-memory databases.
@@ -165,22 +169,22 @@ rules:
     warn: 0
   slug: entity-framework-spectral-rules
 score:
-  band: emerging
-  composite: 25.0
-  delta: 0.0
+  band: thin
+  composite: 32.2
+  delta: 7.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 30.3
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 47.6
     discoverability: 68.5
     governance: 30.3
     operational_transparency: 36.8
   previous_composite: 25.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/screenshots/microsoft-entity-framework-2026-06-20T185456.png
 security:
 - kind: domain-security

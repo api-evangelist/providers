@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-24'
+  score: 33.8
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Health, APY, NAV, and price series
@@ -183,18 +187,18 @@ overview: 'Re publishes 5 APIs on the [APIs.io](https://apis.io/) network, inclu
 random_paper: 5
 score:
   band: developing
-  composite: 40.9
-  delta: 0.0
+  composite: 41.4
+  delta: 0.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 49.7
+    contract_quality: 51.7
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 40.9
+  previous_composite: 40.5
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +214,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

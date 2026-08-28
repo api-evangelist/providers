@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.4
-  scored_at: '2026-08-24'
+  score: 24.6
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
@@ -246,18 +250,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 30.1
+  composite: 29.1
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 42.4
+    contract_quality: 41.3
     developer_ergonomics: 42.3
-    discoverability: 72.2
+    discoverability: 64.8
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 30.1
+  previous_composite: 29.1
   provenance:
     conformance: derived
     contracts:
@@ -273,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

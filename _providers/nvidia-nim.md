@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.7
-  scored_at: '2026-08-24'
+  score: 28.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -550,18 +554,18 @@ rules:
   slug: nvidia-nim-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.0
+  composite: 71.2
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 26.5
-    contract_quality: 69.2
+    contract_quality: 70.0
     developer_ergonomics: 86.9
     discoverability: 72.2
     governance: 26.5
     operational_transparency: 57.9
-  previous_composite: 71.0
+  previous_composite: 71.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -571,8 +575,8 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:

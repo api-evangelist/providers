@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.6
-  scored_at: '2026-08-24'
+  score: 3.4
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST API for accepting and managing card and BNPL payments — create and pay orders, capture or void authorised (pre-auth) transactions, issue refunds, save cards as payment sources, and run 3-D Secure
@@ -101,7 +105,7 @@ overview: 'Limepay publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 18
 score:
   band: emerging
-  composite: 12.4
+  composite: 11.7
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -109,10 +113,10 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 72.2
+    discoverability: 64.8
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 11.7
   provenance:
     conformance: derived
     skills: derived
@@ -122,8 +126,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/screenshots/limepay-2026-07-25T225213.png
 security:

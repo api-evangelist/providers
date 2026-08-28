@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.4
-  scored_at: '2026-08-24'
+  score: 42.3
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: The original CybelAngel Platform API. Retrieves incident reports (v2 search plus per-report detail, mirror listings in JSON/CSV/archive, PDF export, attachments and comments), the leaked-credential wa
@@ -218,18 +223,18 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.6
+  composite: 56.4
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
-    contract_quality: 63.7
+    contract_quality: 62.0
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 57.6
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     contracts:
@@ -239,8 +244,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

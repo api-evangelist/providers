@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 15.1
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Open-source NaCl-based cryptographic relay operated as asynchronous "dead drops" for end-to-end-encrypted device-to-device communication. Clients establish anonymous session keys via a proof-of-work h
@@ -137,14 +141,14 @@ scopes:
   summary_line: 4 scopes · authorizationCode/implicit/password/refresh_token
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 32.9
+  delta: 3.3
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 50.0
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 18.4
@@ -157,8 +161,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

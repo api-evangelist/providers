@@ -4,23 +4,27 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-24'
+  score: 50.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for ordering and tracking background checks, credential verifications and occupational health screenings. 69 operations across 62 paths covering authentication, cases, candidate onboarding an
@@ -175,24 +179,36 @@ rate_limits:
   slug: karmacheck-rate-limits
 score:
   band: strong
-  composite: 57.9
+  composite: 55.9
+  delta: -1.3
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
+    access_clarity: 35.5
+    commercial_clarity: 35.5
     contract_governance: 30.3
-    contract_quality: 67.7
-    developer_ergonomics: 71.4
+    contract_quality: 69.3
+    developer_ergonomics: 66.1
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 23.7
+  previous_composite: 57.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Karmacheck Authentication

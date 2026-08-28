@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.3
-  scored_at: '2026-08-24'
+  score: 40.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -240,18 +244,18 @@ rate_limits:
   slug: abloatai-rate-limits
 score:
   band: strong
-  composite: 60.5
-  delta: -5.9
+  composite: 59.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 16.7
-    contract_quality: 59.8
+    contract_quality: 58.2
     developer_ergonomics: 75.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 16.7
     operational_transparency: 50.0
-  previous_composite: 66.4
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,9 +266,9 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: falling
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Abloatai Authentication

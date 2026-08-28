@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: true
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-24'
+  score: 34.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -349,7 +353,6 @@ common:
 created: '2026-07-26'
 description: 'Ordnance Survey is Great Britain''s national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS
   Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 mcp_servers:
 - description: A candidate MCP tool surface for the Ordnance Survey APIs, one tool per OpenAPI operation that an agent would realistically call. Every tool's source_operation points at a real path/operationId in a s
@@ -379,18 +382,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 62.2
+  delta: -0.4
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
     contract_governance: 30.3
-    contract_quality: 47.1
+    contract_quality: 45.8
     developer_ergonomics: 68.5
-    discoverability: 92.6
+    discoverability: 77.8
     governance: 30.3
     operational_transparency: 68.4
-  previous_composite: 64.0
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -407,8 +410,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 68.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png
 security:

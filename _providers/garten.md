@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.8
-  scored_at: '2026-08-24'
+  score: 27.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: A Model Context Protocol server published on garten's own host at https://tv.garten.co/mcp, serving the garten TV wellness-video property. The endpoint is provided by the Uscreen streaming platform th
@@ -144,7 +148,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.9
+  composite: 19.1
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -152,15 +156,15 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 19.9
+  previous_composite: 19.1
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garten/refs/heads/main/screenshots/garten-2026-08-07T165538.png
 security:

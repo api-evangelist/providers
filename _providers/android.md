@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.4
-  scored_at: '2026-08-24'
+  score: 41.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -896,19 +900,19 @@ scopes:
   slug: android-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 49.8
-  delta: 0.0
+  band: strong
+  composite: 54.7
+  delta: 6.1
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 26.3
+    commercial_clarity: 26.3
     contract_governance: 30.3
-    contract_quality: 72.5
-    developer_ergonomics: 61.9
-    discoverability: 90.7
+    contract_quality: 73.3
+    developer_ergonomics: 78.6
+    discoverability: 83.3
     governance: 30.3
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -918,9 +922,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
 security:
 - kind: authentication

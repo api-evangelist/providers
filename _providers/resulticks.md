@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 7.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Resul (Resulticks) Web API is a JSON REST API served from the https://apis.resu.io base domain, documented publicly at gud.resulticks.com. Its call surface is grouped into six documented categorie
@@ -149,8 +153,8 @@ rate_limits:
   name: Resulticks Rate Limits
   slug: resulticks-rate-limits
 score:
-  band: thin
-  composite: 27.2
+  band: emerging
+  composite: 25.3
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -158,10 +162,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 27.2
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -171,8 +175,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

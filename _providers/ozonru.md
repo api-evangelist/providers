@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.6
-  scored_at: '2026-08-24'
+  score: 5.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: RPC-over-HTTP JSON API for OZON marketplace sellers to manage products, prices, stock, warehouses, orders (FBO/FBS), returns, analytics, and finances. POST-only endpoints under a per-operation version
@@ -96,22 +100,22 @@ overview: 'OZON.ru publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 13
 score:
   band: emerging
-  composite: 13.5
-  delta: 0.0
+  composite: 15.2
+  delta: 2.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 87.0
+    developer_ergonomics: 21.4
+    discoverability: 79.6
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 13.5
+  previous_composite: 12.8
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

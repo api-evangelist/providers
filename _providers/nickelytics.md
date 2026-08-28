@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.1
-  scored_at: '2026-08-24'
+  score: 8.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The authentication, session, organization and admin API behind the Nickelytics / R-Ads Ad Manager. It is a Better Auth instance whose auto-generated OpenAPI 3.1.1 document is served publicly at /api/a
@@ -128,24 +132,24 @@ rate_limits:
   slug: nickelytics-rate-limits
 score:
   band: emerging
-  composite: 18.6
-  delta: 0.0
+  composite: 20.2
+  delta: 2.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
     contract_quality: 0.0
-    developer_ergonomics: 8.9
-    discoverability: 75.9
+    developer_ergonomics: 20.8
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 18.6
+  previous_composite: 17.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/screenshots/nickelytics-2026-08-07T185252.png
 security:

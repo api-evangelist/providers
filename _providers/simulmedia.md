@@ -13,23 +13,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.4
-  scored_at: '2026-08-24'
+  score: 8.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
@@ -115,26 +119,26 @@ rate_limits:
   name: Simulmedia Rate Limits
   slug: simulmedia-rate-limits
 score:
-  band: emerging
-  composite: 22.1
-  delta: 0.0
+  band: thin
+  composite: 30.2
+  delta: 9.9
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 87.0
+    developer_ergonomics: 66.1
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 22.1
+  previous_composite: 20.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 security:
 - kind: authentication
   name: Simulmedia Authentication

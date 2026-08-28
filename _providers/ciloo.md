@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.5
-  scored_at: '2026-08-24'
+  score: 31.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: OAuth 1.0a (HMAC-SHA1) REST API on the ciloo/v1 namespace of a Ciloo brand store. Read, add, update and remove cart items; mint per-customer OAuth credentials from admin credentials; and issue one-hou
@@ -173,18 +177,18 @@ rate_limits:
   slug: ciloo-rate-limits
 score:
   band: thin
-  composite: 32.4
+  composite: 31.5
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 23.2
+    contract_quality: 22.6
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 32.4
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +198,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png
 security:

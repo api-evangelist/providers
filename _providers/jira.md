@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.0
-  scored_at: '2026-08-24'
+  score: 50.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -875,18 +879,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.1
-  delta: 0.0
+  composite: 61.1
+  delta: 2.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 30.3
-    contract_quality: 80.3
-    developer_ergonomics: 59.5
+    contract_quality: 80.9
+    developer_ergonomics: 69.0
     discoverability: 90.7
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 59.1
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -896,8 +900,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:

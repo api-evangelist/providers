@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.8
-  scored_at: '2026-08-24'
+  score: 6.1
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 4
 common:
@@ -116,7 +120,7 @@ overview: 'Armis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 15
 score:
   band: emerging
-  composite: 22.6
+  composite: 21.9
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -124,10 +128,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 57.4
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.6
+  previous_composite: 21.9
   provenance:
     mcp: first-party
     skills: first-party
@@ -137,8 +141,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/screenshots/armis-2026-07-25T201217.png
 security:

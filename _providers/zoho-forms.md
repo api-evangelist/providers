@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for managing Zoho Forms resources including forms, submissions, entries, and reports. Enables programmatic form data retrieval, submission creation, field updates, and integration with the br
@@ -116,20 +120,20 @@ rate_limits:
   slug: zoho-forms-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 35.1
+  delta: 2.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 28.2
-    developer_ergonomics: 11.9
+    contract_quality: 26.7
+    developer_ergonomics: 23.8
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 33.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 32.7
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-forms/refs/heads/main/screenshots/zoho-forms-2026-06-20T201939.png
 security:

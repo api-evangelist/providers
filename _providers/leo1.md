@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-24'
+  score: 28.2
+  scored_at: '2026-08-26'
 api_count: 32
 apis:
 - description: General system endpoints for the API.
@@ -360,22 +364,22 @@ overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 12
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 37.4
+  delta: 1.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 55.2
+    contract_quality: 59.1
     developer_ergonomics: 25.6
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 37.1
+  previous_composite: 36.0
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 32
@@ -387,8 +391,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png
 security:

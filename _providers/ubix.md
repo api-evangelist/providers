@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 4
 apis:
 - description: The UBIX Insights API enables programmatic access to AI-generated analytics, insights, and model outputs from the UBIX platform. Supports integration with existing business intelligence tools, CRM sys
@@ -93,21 +97,21 @@ rate_limits:
   slug: ubix-rate-limits
 score:
   band: emerging
-  composite: 15.8
-  delta: 0.0
+  composite: 23.2
+  delta: 7.6
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 15.5
-    developer_ergonomics: 2.4
+    contract_quality: 14.7
+    developer_ergonomics: 16.7
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 15.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 15.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubix/refs/heads/main/screenshots/ubix-2026-06-20T195933.png
 security:
 - kind: domain-security

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-24'
+  score: 29.9
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Read-only REST API for Walnut demo analytics. Two data endpoints plus a health check — GET /demo-sessions returns individual demo-session records across 29 documented fields with filtering, offset pag
@@ -225,23 +229,23 @@ rate_limits:
   slug: walnut-rate-limits
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 64.5
+  delta: 1.6
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 49.3
     developer_ergonomics: 64.3
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 63.5
+  previous_composite: 62.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walnut/refs/heads/main/screenshots/walnut-2026-06-20T201221.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-24'
+  score: 30.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -185,18 +189,18 @@ rules:
   slug: assemblyai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 46.1
+  delta: 3.8
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 11.4
-    contract_quality: 66.5
-    developer_ergonomics: 28.6
+    contract_quality: 64.9
+    developer_ergonomics: 47.6
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 42.7
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/screenshots/assemblyai-2026-06-20T172502.png
 security:

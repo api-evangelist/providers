@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 3.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Apache Doris provides a MySQL-compatible protocol for SQL queries, a REST API for cluster management and monitoring, Stream Load HTTP API for real-time bulk data ingestion, Routine Load for continuous
@@ -211,21 +215,21 @@ rules:
   slug: apache-doris-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.8
-  delta: 0.0
+  composite: 34.9
+  delta: 6.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 25.4
-    developer_ergonomics: 33.3
+    contract_quality: 30.7
+    developer_ergonomics: 57.1
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 28.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  previous_composite: 28.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-doris/refs/heads/main/screenshots/apache-doris-2026-06-20T172056.png
 security:
 - kind: domain-security

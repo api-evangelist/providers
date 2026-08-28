@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.3
-  scored_at: '2026-08-24'
+  score: 26.4
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The order_attachments API from Channable — 2 operation(s) for order_attachments.
@@ -239,29 +243,29 @@ rate_limits:
   slug: channable-rate-limits
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 53.8
+  delta: 3.8
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
-    contract_quality: 47.6
-    developer_ergonomics: 53.0
+    contract_quality: 51.7
+    developer_ergonomics: 64.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 63.2
-  previous_composite: 50.4
+  previous_composite: 50.0
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/screenshots/channable-2026-08-17T083552.png
 security:

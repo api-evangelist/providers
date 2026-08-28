@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,29 +8,34 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -234,18 +239,18 @@ rate_limits:
   slug: authentik-rate-limits
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 38.2
+  delta: 2.9
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 50.0
-    developer_ergonomics: 28.6
+    contract_quality: 48.7
+    developer_ergonomics: 42.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.7
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -253,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/screenshots/authentik-2026-06-20T172603.png
 security:

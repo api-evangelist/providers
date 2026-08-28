@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -134,18 +138,18 @@ rate_limits:
   slug: telnyx-verify-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 37.6
+  delta: 0.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 59.8
-    developer_ergonomics: 21.4
+    contract_quality: 58.2
+    developer_ergonomics: 26.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.1
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +163,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

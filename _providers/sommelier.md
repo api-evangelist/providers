@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.4
-  scored_at: '2026-08-24'
+  score: 21.9
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Integration-specific datasets (Kelp, ether.fi).
@@ -119,18 +123,18 @@ overview: 'Sommelier publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 7
 score:
   band: thin
-  composite: 27.1
-  delta: 0.0
+  composite: 30.2
+  delta: 3.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 49.4
-    developer_ergonomics: 23.2
+    contract_quality: 48.1
+    developer_ergonomics: 39.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 27.1
+  previous_composite: 26.8
   provenance:
     conformance: derived
     contracts:
@@ -140,8 +144,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

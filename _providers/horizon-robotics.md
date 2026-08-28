@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-24'
+  score: 18.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Horizon Robotics'' hosted Model Context Protocol server for the OpenExplorer toolchain. Probed anonymously on 2026-08-22: MCP protocol version 2025-06-18, serverInfo "Open Explorer MCP Server" v3.9.0, '
@@ -163,18 +167,25 @@ rate_limits:
   slug: horizon-robotics-rate-limits
 score:
   band: thin
-  composite: 29.4
+  composite: 27.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 28.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 27.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Horizon Robotics Authentication

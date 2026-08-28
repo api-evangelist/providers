@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -350,14 +354,14 @@ rules:
   slug: kion-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 39.0
+  delta: 1.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 70.2
-    developer_ergonomics: 19.0
+    contract_quality: 68.3
+    developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
@@ -367,7 +371,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 37.6
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -375,8 +379,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/screenshots/kion-2026-06-20T184046.png
 security:

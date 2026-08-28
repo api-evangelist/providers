@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-24'
+  score: 22.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -214,34 +218,34 @@ rules:
   slug: pennsylvania-state-university-rules
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 33.2
+  delta: 6.2
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 62.7
-    developer_ergonomics: 0.0
+    contract_quality: 24.4
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 36.5
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 5
+      marker_coverage: 100.0
       total: 5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 40.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 51.9
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/screenshots/pennsylvania-state-university-2026-06-20T191542.png
 security:
 - kind: domain-security

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-24'
+  score: 43.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -1747,18 +1751,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 46.5
+  delta: 0.7
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 68.9
+    contract_quality: 70.1
     developer_ergonomics: 54.8
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 46.2
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1766,8 +1770,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 152
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png
 security:

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.4
-  scored_at: '2026-08-24'
+  score: 41.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -1087,18 +1091,18 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.4
+  composite: 58.2
   delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 30.3
-    contract_quality: 64.9
+    contract_quality: 63.3
     developer_ergonomics: 71.4
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 30.3
     operational_transparency: 50.0
-  previous_composite: 59.4
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1114,8 +1118,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

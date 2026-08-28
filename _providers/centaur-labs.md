@@ -13,23 +13,27 @@ agent_readiness:
   band: human-only
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-24'
+  score: 3.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public REST API for importing data and managing labeling projects, tasks, cases, assets, gold standards, prelabels, tags and for downloading aggregated labeling results. Split across several versioned
@@ -115,18 +119,18 @@ overview: 'Centaur Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
   Centaur Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 8 more developer resources.'
 random_paper: 20
 score:
-  band: emerging
-  composite: 22.2
-  delta: 0.0
+  band: thin
+  composite: 28.0
+  delta: 5.8
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 37.5
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 7.9
+    operational_transparency: 15.8
   previous_composite: 22.2
   provenance:
     conformance: first-party
@@ -137,10 +141,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 18.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 32.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/screenshots/centaur-labs-2026-07-25T204921.png
 security:
 - kind: authentication

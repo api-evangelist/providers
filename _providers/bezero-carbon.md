@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-24'
+  score: 40.6
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Projects API from BeZero Carbon — 1 operation(s) for projects.
@@ -188,18 +192,18 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.7
+  composite: 45.3
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 59.7
+    contract_quality: 60.8
     developer_ergonomics: 58.9
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 31.6
-  previous_composite: 45.7
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -209,8 +213,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
 security:

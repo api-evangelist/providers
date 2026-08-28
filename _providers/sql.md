@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Open Database Connectivity (ODBC) is a standard C-language API for accessing database management systems. ODBC allows applications to connect to any ODBC-compliant database using a unified programming
@@ -134,20 +138,20 @@ rules:
   slug: sql-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.2
-  delta: 0.0
+  composite: 17.0
+  delta: 1.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 11.3
-    developer_ergonomics: 0.0
+    contract_quality: 10.7
+    developer_ergonomics: 9.5
     discoverability: 51.9
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 15.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 15.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql/refs/heads/main/screenshots/sql-2026-06-20T194425.png
 slug: sql

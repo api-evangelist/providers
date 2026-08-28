@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-24'
+  score: 27.2
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: 'Instock is using the term `article` to describe unique product or SKU managed by Instock ASRS. Articles resource is mostly managed by you as a client of Instock API. Article data is shared across all '
@@ -185,18 +189,18 @@ overview: 'Instock publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 7
 score:
   band: developing
-  composite: 40.5
+  composite: 40.1
   delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 16.7
-    contract_quality: 63.3
+    contract_quality: 61.6
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 40.5
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
@@ -206,8 +210,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/screenshots/instock-2026-07-25T222617.png
 security:

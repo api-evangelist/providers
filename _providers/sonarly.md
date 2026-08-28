@@ -11,26 +11,30 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 26.1
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Read triaged, deduplicated bugs and their analysis runs.
@@ -171,29 +175,29 @@ rate_limits:
   slug: sonarly-rate-limits
 score:
   band: thin
-  composite: 37.7
+  composite: 27.2
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 63.4
+    contract_quality: 21.5
     developer_ergonomics: 13.7
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 37.7
+  previous_composite: 27.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 3
+      marker_coverage: 100.0
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/screenshots/sonarly-2026-08-17T081959.png
 security:

@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: flavored
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: true
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-24'
+  score: 60.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -349,18 +353,18 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 49.5
+  composite: 49.0
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
-    contract_quality: 65.0
+    contract_quality: 63.2
     developer_ergonomics: 71.4
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 10.5
-  previous_composite: 49.5
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,8 +375,8 @@ score:
       total: 26
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvoai/refs/heads/main/screenshots/duvoai-2026-07-25T212701.png
 security:

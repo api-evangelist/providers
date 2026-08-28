@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.5
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -243,18 +247,18 @@ rules:
   slug: userpilot-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.4
+  composite: 29.1
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 9.8
-    contract_quality: 53.6
+    contract_quality: 52.3
     developer_ergonomics: 11.9
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 29.4
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -262,8 +266,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/screenshots/userpilot-2026-06-20T200701.png
 security:

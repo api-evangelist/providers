@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.0
-  scored_at: '2026-08-24'
+  score: 14.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: OpenID Connect / OAuth 2.0 identity provider for proof-of-humanity sign-in. Authorization code + PKCE (S256), refresh tokens, optional DPoP (RFC 9449) sender-constrained tokens, and Agent ID (Ed25519)
@@ -185,8 +189,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alien/refs/heads/main/screenshots/alien-2026-07-25T195612.png
 security:

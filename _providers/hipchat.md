@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.7
-  scored_at: '2026-08-24'
+  score: 19.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The HipChat REST API v2 was the primary developer surface for the team chat platform, exposing rooms, users, messages, notifications, emoticons, OAuth sessions, add-on capabilities, and webhook manage
@@ -187,27 +191,27 @@ rules:
   slug: hipchat-rest-api-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 51.6
+  delta: 8.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 74.4
-    developer_ergonomics: 21.4
+    contract_quality: 71.3
+    developer_ergonomics: 48.8
     discoverability: 59.3
     governance: 13.6
-    operational_transparency: 23.7
-  previous_composite: 43.5
+    operational_transparency: 50.0
+  previous_composite: 42.7
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/screenshots/hipchat-2026-06-20T182747.png
 security:
 - kind: domain-security

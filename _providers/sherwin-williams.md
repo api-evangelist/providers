@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Sherwin-Williams Supplier API enables B2B partners to integrate supply chain workflows, manage purchase orders, submit invoices, and exchange product and inventory data with Sherwin-Williams enter
@@ -157,16 +161,16 @@ rules:
   slug: sherwin-williams-rules
 score:
   band: emerging
-  composite: 22.1
-  delta: 0.0
+  composite: 25.5
+  delta: 3.7
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 13.6
-    contract_quality: 25.4
-    developer_ergonomics: 0.0
+    contract_governance: 28.8
+    contract_quality: 24.0
+    developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 10.5
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -174,9 +178,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.8
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sherwin-williams/refs/heads/main/screenshots/sherwin-williams-2026-06-20T193801.png
 security:

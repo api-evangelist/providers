@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.0
-  scored_at: '2026-08-24'
+  score: 49.8
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API for programmatic access to Kargo platform resources. Accepts a single flattened document carrying shipment, order and order-item data, or a shipment-level document with multiple orders, and u
@@ -209,18 +213,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.6
+  composite: 51.6
+  delta: -0.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 30.3
-    contract_quality: 69.8
-    developer_ergonomics: 76.2
-    discoverability: 87.0
+    contract_quality: 70.5
+    developer_ergonomics: 70.8
+    discoverability: 79.6
     governance: 30.3
-    operational_transparency: 13.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    operational_transparency: 10.5
+  previous_composite: 51.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Kargo Authentication

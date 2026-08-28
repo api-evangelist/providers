@@ -15,23 +15,27 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-24'
+  score: 38.0
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: 'REST API giving programmatic access to UK and Ireland public sector procurement data — notices, buyers, suppliers and framework agreements — as JSON over HTTPS. Eight read-only operations across four '
@@ -156,23 +160,23 @@ rate_limits:
   name: Stotles Rate Limits
   slug: stotles-rate-limits
 score:
-  band: developing
-  composite: 52.3
-  delta: 0.0
+  band: strong
+  composite: 59.6
+  delta: 6.8
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 30.3
-    contract_quality: 60.1
-    developer_ergonomics: 28.6
+    contract_quality: 61.9
+    developer_ergonomics: 49.4
     discoverability: 75.9
     governance: 30.3
-    operational_transparency: 23.7
-  previous_composite: 52.3
+    operational_transparency: 31.6
+  previous_composite: 52.8
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -183,10 +187,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 35.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 46.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/screenshots/stotles-2026-08-17T082131.png
 security:
 - kind: authentication

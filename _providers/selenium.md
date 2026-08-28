@@ -13,23 +13,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-24'
+  score: 27.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -63,7 +67,11 @@ apis:
 - description: Remote end readiness
   name: Selenium Status API
   slug: selenium-status-api
-artifact_total: 21
+artifact_total: 23
+asyncapis:
+- description: ''
+  name: Selenium Bidi Events
+  slug: selenium-bidi-events
 collections:
 - collection_type: open
   name: API Collection
@@ -126,57 +134,171 @@ common:
   title: ''
   type: History
   url: https://www.selenium.dev/history/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.selenium.dev/documentation/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.selenium.dev/documentation/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.selenium.dev/selenium/docs/api/java/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.selenium.dev/documentation/webdriver/getting_started/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/selenium-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/selenium-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/selenium-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/selenium-cli.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/selenium-grid.graphql
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/selenium-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/selenium-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/selenium-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/selenium-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/selenium-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/selenium-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/selenium-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/selenium-changelog.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/selenium-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: EventCatalog
+  url: asyncapi/selenium-bidi-events.yml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/selenium-well-known.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/selenium-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/selenium-rate-limits.yml
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/SeleniumHQ/selenium/releases
+- group: other
+  title: ''
+  type: Governance
+  url: https://www.selenium.dev/project/governance/
+- group: commercial
+  title: ''
+  type: License
+  url: https://www.selenium.dev/documentation/about/copyright/
 created: '2024-01-01'
-description: Selenium is a suite of tools for automating web browsers across many platforms. It provides a way to control browsers programmatically for testing web applications and automating browser-based tasks.
+description: 'Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves, with official language bindings for Java, Python, C#, Ruby and JavaScript, all released in lockstep. The suite covers WebDriver (the browser-control protocol), Selenium Grid (distributed, parallel execution across machines and platforms), Selenium Manager (a Rust CLI that resolves and downloads matching browser drivers automatically) and Selenium IDE (record and playback). Selenium is self-hosted software rather than a service: there is no vendor-operated API host, no account and no pricing — the remote end runs on infrastructure the consumer owns, at a documented default of http://localhost:4444, under Apache-2.0 and the stewardship of the Software Freedom Conservancy.'
 finops:
 - name: Selenium Finops
   service_category: API
   slug: selenium-finops
 image: https://www.selenium.dev/images/selenium-logo.svg
 layout: provider
-modified: '2024-01-01'
+modified: '2026-08-26'
 name: Selenium
 nav: Providers
 network: true
 overview: 'Selenium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cookies API, Elements API, Navigation API, and 3 more. Tagged areas include Automation, Browsers, End-to-End Testing, Quality Assurance, and Testing.
 
 
-  Selenium''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  The Selenium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Selenium''s developer surface includes engineering blog, support, documentation, API reference, getting-started guide, CLI, authentication, and 28 more developer resources.'
 plans:
 - name: Selenium Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: selenium-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Selenium Rate Limits
   slug: selenium-rate-limits
 score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
+  band: developing
+  composite: 43.4
+  delta: 20.2
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 41.3
-    developer_ergonomics: 7.1
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 23.5
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 30.3
+    contract_quality: 48.8
+    developer_ergonomics: 73.2
+    discoverability: 79.6
+    governance: 30.3
+    operational_transparency: 26.3
+  previous_composite: 23.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png
 security:
+- kind: authentication
+  name: Selenium Authentication
+  slug: selenium-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Selenium Domain Security
   slug: selenium-domain-security
@@ -189,5 +311,5 @@ tags:
 - Quality Assurance
 - Testing
 - WebDriver
-website: https://www.selenium.dev/
+website: https://www.selenium.dev/documentation/
 ---

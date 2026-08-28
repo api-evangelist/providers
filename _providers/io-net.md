@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 8
 apis:
 - description: OpenAI-compatible inference API for open-source AI models hosted on io.net's decentralized GPU network. Exposes /v1/models and /v1/chat/completions over the base URL https://api.intelligence.io.soluti
@@ -230,21 +234,21 @@ overview: 'io.net publishes 8 APIs on the [APIs.io](https://apis.io/) network. T
   io.net''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, developer console, engineering blog, and 28 more developer resources.'
 random_paper: 0
 score:
-  band: emerging
-  composite: 26.1
-  delta: 0.0
+  band: thin
+  composite: 28.5
+  delta: 2.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 57.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 26.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/io-net/refs/heads/main/screenshots/io-net-2026-06-20T183527.png
 security:

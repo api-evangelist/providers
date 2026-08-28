@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.0
-  scored_at: '2026-08-24'
+  score: 32.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 3
@@ -804,18 +808,18 @@ rules:
   slug: elastic-path-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.4
+  composite: 42.0
   delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 67.6
+    contract_quality: 66.0
     developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 42.4
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -829,8 +833,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/screenshots/elastic-path-2026-06-20T180529.png
 security:

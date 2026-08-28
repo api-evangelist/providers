@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.2
-  scored_at: '2026-08-24'
+  score: 48.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -235,18 +239,18 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 59.2
-  delta: 0.0
+  composite: 58.9
+  delta: 0.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 16.7
-    contract_quality: 64.4
-    developer_ergonomics: 44.6
-    discoverability: 87.0
+    contract_quality: 62.6
+    developer_ergonomics: 49.4
+    discoverability: 79.6
     governance: 16.7
     operational_transparency: 57.9
-  previous_composite: 59.2
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/screenshots/autofi-2026-07-25T201824.png
 security:

@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Auto-generated RESTful and GraphQL APIs derived from user-defined content type definitions, enabling full CRUD operations on content objects with OpenAPI schema support.
@@ -95,13 +99,13 @@ overview: 'Flotiq publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 4
 score:
   band: emerging
-  composite: 21.6
+  composite: 21.1
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 11.9
     discoverability: 66.7
     governance: 0.0
@@ -112,9 +116,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 21.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flotiq/refs/heads/main/screenshots/flotiq-2026-06-20T181326.png
 security:

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-24'
+  score: 47.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -771,18 +775,18 @@ scopes:
   summary_line: 27 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 68.6
+  composite: 68.8
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 43.9
-    contract_quality: 69.4
+    contract_quality: 70.2
     developer_ergonomics: 78.6
     discoverability: 68.5
     governance: 43.9
     operational_transparency: 94.7
-  previous_composite: 68.6
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -793,8 +797,8 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/screenshots/blueconic-2026-06-20T173532.png
 security:

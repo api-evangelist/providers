@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.0
-  scored_at: '2026-08-24'
+  score: 13.7
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Aduna's aggregated implementation of the CAMARA Number Verification API (v2.1), confirming possession of a mobile phone number in real time by verifying it directly against the carrier network with mi
@@ -182,18 +186,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer/ciba
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 35.9
+  delta: 1.9
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 83.3
+    developer_ergonomics: 45.2
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 34.8
+  previous_composite: 34.0
   provenance:
     conformance: first-party
   regulatory:
@@ -202,8 +206,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/screenshots/aduna-2026-08-07T160929.png
 security:

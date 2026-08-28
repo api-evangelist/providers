@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.6
-  scored_at: '2026-08-24'
+  score: 25.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -298,23 +302,23 @@ overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 6
 score:
   band: thin
-  composite: 28.5
-  delta: 0.0
+  composite: 28.8
+  delta: 1.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 48.2
+    contract_quality: 52.4
     developer_ergonomics: 28.0
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 28.5
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 25
@@ -326,8 +330,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:

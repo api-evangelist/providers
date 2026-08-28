@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 19.2
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'REST API for the CCO.IO Automated Direct platform at direct.cco.io. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, '
@@ -250,27 +254,27 @@ rules:
   slug: clear-channel-outdoor-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
-  delta: 0.0
+  composite: 47.0
+  delta: 6.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 54.5
-    contract_quality: 64.8
-    developer_ergonomics: 19.0
+    contract_quality: 68.0
+    developer_ergonomics: 40.5
     discoverability: 64.8
     governance: 54.5
     operational_transparency: 23.7
-  previous_composite: 41.9
+  previous_composite: 41.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/screenshots/clear-channel-outdoor-2026-06-20T174453.png
 security:
 - kind: domain-security

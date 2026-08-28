@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.0
-  scored_at: '2026-08-24'
+  score: 15.1
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 4
 common:
@@ -151,7 +155,7 @@ overview: 'DebtBook is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 2
 score:
   band: thin
-  composite: 36.3
+  composite: 35.5
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -159,10 +163,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 36.3
+  previous_composite: 35.5
   provenance:
     conformance: first-party
   regulatory:
@@ -171,8 +175,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/screenshots/debtbook-2026-08-07T164221.png
 security:

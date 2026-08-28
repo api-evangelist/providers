@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.7
-  scored_at: '2026-08-24'
+  score: 29.1
+  scored_at: '2026-08-26'
 api_count: 9
 apis:
 - description: The shared AI gateway the University of Amsterdam and the Amsterdam University of Applied Sciences run for their students, staff and developers. It fronts GPT, Claude and open-weight models behind one
@@ -221,22 +225,22 @@ rate_limits:
   slug: university-of-amsterdam-rate-limits
 score:
   band: developing
-  composite: 44.1
-  delta: -0.4
+  composite: 46.0
+  delta: 1.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 56.0
-    developer_ergonomics: 28.6
+    contract_quality: 57.8
+    developer_ergonomics: 35.7
     discoverability: 85.2
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 44.5
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 100.0
       total: 1
@@ -246,8 +250,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-08-17T083414.png
 security:

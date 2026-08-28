@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-24'
+  score: 35.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -399,23 +403,23 @@ rules:
   slug: usgs-spectral-rules
 score:
   band: thin
-  composite: 28.1
-  delta: 0.0
+  composite: 31.0
+  delta: 3.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 47.0
-    contract_quality: 28.4
-    developer_ergonomics: 23.8
+    contract_quality: 30.5
+    developer_ergonomics: 35.7
     discoverability: 64.8
     governance: 47.0
     operational_transparency: 7.9
-  previous_composite: 28.1
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 83.3
+      callable: 100.0
       derived: 5
       marker_coverage: 83.3
       total: 6
@@ -425,8 +429,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png
 security:

@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-24'
+  score: 22.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -302,19 +306,19 @@ rules:
     warn: 24
   slug: aviationweather-rules
 score:
-  band: thin
-  composite: 37.0
-  delta: 0.0
+  band: developing
+  composite: 40.5
+  delta: 3.3
   facets:
-    access_clarity: 10.5
-    commercial_clarity: 10.5
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 28.8
-    contract_quality: 67.8
+    contract_quality: 68.7
     developer_ergonomics: 9.5
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 37.0
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -327,9 +331,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 27.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 35.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/screenshots/aviationweather-2026-06-20T172725.png
 security:

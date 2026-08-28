@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.2
-  scored_at: '2026-08-24'
+  score: 44.4
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -277,18 +282,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.3
+  composite: 34.4
   delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 30.3
-    contract_quality: 16.5
+    contract_quality: 16.0
     developer_ergonomics: 30.4
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 35.3
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +310,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

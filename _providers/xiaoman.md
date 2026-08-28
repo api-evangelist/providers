@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.9
-  scored_at: '2026-08-24'
+  score: 33.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -292,18 +296,18 @@ scopes:
   summary_line: 12 scopes · password/clientCredentials
 score:
   band: strong
-  composite: 62.3
+  composite: 61.9
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 58.9
+    contract_quality: 57.3
     developer_ergonomics: 83.3
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 62.3
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,8 +318,8 @@ score:
       total: 7
     mcp: derived
     skills: unknown
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/screenshots/xiaoman-2026-08-17T083013.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.3
-  scored_at: '2026-08-24'
+  score: 27.9
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Auto-generated GraphQL API endpoint for each headless channel in Xperience by Kentico. Supports querying content items with filtering, sorting, pagination, linked items, language variants, taxonomy ta
@@ -260,24 +264,24 @@ rate_limits:
   slug: kentico-rate-limits
 score:
   band: strong
-  composite: 61.5
+  composite: 61.1
   delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
     contract_governance: 18.2
-    contract_quality: 37.8
+    contract_quality: 36.2
     developer_ergonomics: 82.1
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 61.5
+  previous_composite: 61.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png
 security:

@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-08-24'
+  score: 24.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -282,19 +286,19 @@ rules:
     warn: 15
   slug: amazon-service-catalog-spectral-rules
 score:
-  band: thin
-  composite: 36.8
-  delta: 0.0
+  band: developing
+  composite: 41.8
+  delta: 4.4
   facets:
-    access_clarity: 51.3
-    commercial_clarity: 51.3
+    access_clarity: 61.8
+    commercial_clarity: 61.8
     contract_governance: 13.6
-    contract_quality: 20.1
-    developer_ergonomics: 50.0
+    contract_quality: 22.3
+    developer_ergonomics: 61.9
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 36.8
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -302,8 +306,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/screenshots/amazon-service-catalog-2026-06-20T171823.png
 security:

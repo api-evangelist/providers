@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-24'
+  score: 35.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -173,18 +176,18 @@ overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 19
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 46.1
+  delta: 1.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 64.5
+    contract_quality: 62.7
     developer_ergonomics: 56.5
     discoverability: 75.9
     governance: 16.7
-    operational_transparency: 18.4
-  previous_composite: 45.5
+    operational_transparency: 26.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,8 +204,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/screenshots/develop-health-2026-07-25T211816.png
 security:

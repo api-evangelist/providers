@@ -1,25 +1,30 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.5
-  scored_at: '2026-08-24'
+  score: 49.3
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API over the Ahrefs data set — Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Batch Analysis, Brand Radar, Web Analytics, GSC Insights, Social Media Management, Manage
@@ -226,18 +231,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.8
+  composite: 59.3
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 16.7
-    contract_quality: 35.2
+    contract_quality: 33.3
     developer_ergonomics: 78.6
     discoverability: 87.0
     governance: 16.7
     operational_transparency: 47.4
-  previous_composite: 59.8
+  previous_composite: 59.3
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +252,8 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png
 security:

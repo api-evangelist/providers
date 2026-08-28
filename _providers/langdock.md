@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.2
-  scored_at: '2026-08-24'
+  score: 42.6
+  scored_at: '2026-08-26'
 api_count: 15
 apis:
 - description: The Agent API from Langdock — 2 operation(s) for agent.
@@ -348,18 +352,18 @@ rate_limits:
   slug: langdock-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 48.7
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
-    contract_quality: 63.4
+    contract_quality: 61.7
     developer_ergonomics: 25.6
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 65.8
-  previous_composite: 49.2
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -369,8 +373,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:

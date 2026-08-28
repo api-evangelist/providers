@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST APIs for querying and collecting data from an Unravel instance — application details, recommendations and logs, apps search, cluster operations and resource metrics, chargeback reports, queue ana
@@ -124,20 +128,20 @@ overview: 'Unravel publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 9
 score:
   band: thin
-  composite: 28.4
-  delta: 0.0
+  composite: 29.8
+  delta: 1.4
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 54.8
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 28.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

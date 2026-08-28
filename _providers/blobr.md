@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 3.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: AI-powered Google Ads management platform providing automated campaign analysis, optimization recommendations, and direct implementation via 50+ specialized AI agents. Supports agencies managing multi
@@ -200,20 +204,20 @@ rules:
   slug: blobr-spectral-rules
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 19.8
+  delta: 1.6
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 25.0
-    contract_quality: 25.4
+    contract_quality: 30.7
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 2.6
-  previous_composite: 18.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 18.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

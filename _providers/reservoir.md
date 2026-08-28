@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: All-in-one NFT data and trading API enabling developers to get NFT data, create orders, and execute trades across 30+ EVM-compatible blockchains. Aggregates liquidity from major NFT marketplaces inclu
@@ -120,26 +124,26 @@ rate_limits:
   slug: reservoir-rate-limits
 score:
   band: thin
-  composite: 28.6
-  delta: 0.0
+  composite: 31.9
+  delta: 3.9
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 43.7
-    developer_ergonomics: 6.0
+    contract_quality: 41.3
+    developer_ergonomics: 17.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 28.6
+  previous_composite: 28.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 38.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/screenshots/reservoir-2026-06-20T193029.png
 security:

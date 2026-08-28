@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: conformant
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.8
-  scored_at: '2026-08-24'
+  score: 8.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: ReDoc is an open-source API documentation renderer for OpenAPI specifications, originally created by Rebilly and now maintained by Redocly. It generates a responsive three-panel documentation layout f
@@ -166,21 +170,21 @@ rules:
     warn: 4
   slug: redoc-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.5
-  delta: 0.0
+  band: thin
+  composite: 27.1
+  delta: 1.8
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 9.8
-    contract_quality: 15.5
+    contract_governance: 25.0
+    contract_quality: 14.7
     developer_ergonomics: 38.1
     discoverability: 59.3
-    governance: 9.8
+    governance: 25.0
     operational_transparency: 28.9
-  previous_composite: 25.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 25.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/screenshots/redoc-2026-06-20T192730.png
 security:

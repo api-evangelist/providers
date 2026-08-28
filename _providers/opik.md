@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 25.5
+  scored_at: '2026-08-26'
 api_count: 39
 apis:
 - description: Agent configuration management
@@ -430,26 +434,26 @@ rules:
   slug: opik-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
+  composite: 48.2
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 57.5
+    contract_quality: 56.0
     developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 68.4
-  previous_composite: 48.6
+  previous_composite: 48.2
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

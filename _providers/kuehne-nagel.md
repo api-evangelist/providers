@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-24'
+  score: 23.7
+  scored_at: '2026-08-26'
 api_count: 17
 apis:
 - description: Find and show details of the customer's shipments, with contents reflecting the visibility configured in myKN. Search shipments, load a single shipment by unique reference, and read history records. R
@@ -175,13 +179,13 @@ overview: 'Kuehne+Nagel publishes 17 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 7
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 23.3
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 51.5
+    contract_quality: 47.9
     developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
@@ -192,15 +196,15 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 24.2
+  previous_composite: 23.9
   provenance:
     contracts:
-      callable: 100.0
+      callable: 35.3
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png
 slug: kuehne-nagel

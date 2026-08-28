@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.4
-  scored_at: '2026-08-24'
+  score: 18.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface on the All In Food Shopify storefront: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, Customer Account OIDC, and a canonical agents.md instructi'
@@ -97,24 +101,24 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 18.0
-  delta: 0.0
+  composite: 19.6
+  delta: 2.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 87.0
+    developer_ergonomics: 26.2
+    discoverability: 79.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 18.0
+  previous_composite: 17.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/all-in/refs/heads/main/screenshots/all-in-2026-08-07T161209.png
 security:

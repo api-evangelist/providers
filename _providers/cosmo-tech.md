@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-24'
+  score: 31.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 16
@@ -219,18 +223,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.9
+  composite: 41.9
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 49.9
+    contract_quality: 48.6
     developer_ergonomics: 55.4
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 42.9
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +245,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/screenshots/cosmo-tech-2026-07-25T210455.png
 security:

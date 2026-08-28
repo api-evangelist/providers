@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-24'
+  score: 20.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Single-endpoint GraphQL API (queries, mutations and websocket subscriptions) for building display, control and monitoring apps on top of Soundtrack — now-playing, playback control, device pairing, sch
@@ -171,24 +175,24 @@ overview: 'Soundtrack Your Brand publishes 1 API on the [APIs.io](https://apis.i
 random_paper: 16
 score:
   band: developing
-  composite: 42.4
+  composite: 41.0
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 56.7
+    contract_quality: 54.3
     developer_ergonomics: 54.2
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 42.4
+  previous_composite: 41.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/screenshots/soundtrack-your-brand-2026-08-17T082005.png
 security:

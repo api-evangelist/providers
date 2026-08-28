@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.2
-  scored_at: '2026-08-24'
+  score: 29.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -379,18 +383,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 57.0
-  delta: 0.0
+  composite: 59.0
+  delta: 1.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 71.7
-    developer_ergonomics: 61.9
+    contract_quality: 72.4
+    developer_ergonomics: 71.4
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 57.0
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -398,8 +402,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/screenshots/microsoft-azure-event-hubs-2026-06-20T185412.png
 security:

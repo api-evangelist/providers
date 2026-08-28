@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.2
-  scored_at: '2026-08-24'
+  score: 15.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'The v1 REST API behind Cloutdesk''s Agent Platform — the programmatic surface agencies, brands, and talent representatives use to run influencer marketing through AI agents. Cursor-paginated, URI-path '
@@ -168,8 +172,8 @@ scopes:
   slug: cloutjam-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 25.2
   delta: 0.0
   facets:
     access_clarity: 17.1
@@ -177,16 +181,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 27.0
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/screenshots/cloutjam-2026-07-25T205717.png
 security:

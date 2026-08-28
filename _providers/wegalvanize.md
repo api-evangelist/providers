@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.8
-  scored_at: '2026-08-24'
+  score: 32.9
+  scored_at: '2026-08-26'
 api_count: 69
 apis:
 - description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
@@ -576,18 +580,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials/implicit/refreshToken/tokenExchange
 score:
   band: developing
-  composite: 45.8
+  composite: 45.5
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 16.7
-    contract_quality: 54.0
+    contract_quality: 52.5
     developer_ergonomics: 56.5
     discoverability: 79.6
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.8
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -597,8 +601,8 @@ score:
       total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/screenshots/wegalvanize-2026-08-17T082923.png
 security:

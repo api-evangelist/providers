@@ -9,26 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.6
-  scored_at: '2026-08-24'
+  score: 39.4
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -140,9 +145,9 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 14.3
-    discoverability: 68.5
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 23.7
   previous_composite: 38.9
@@ -154,9 +159,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 59.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: domain-security

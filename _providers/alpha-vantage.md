@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: na
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.1
-  scored_at: '2026-08-24'
+  score: 55.9
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -349,18 +353,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 57.8
+  delta: 0.7
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 45.5
-    contract_quality: 41.9
+    contract_quality: 43.5
     developer_ergonomics: 75.6
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 45.5
     operational_transparency: 10.5
-  previous_composite: 58.2
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,8 +381,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

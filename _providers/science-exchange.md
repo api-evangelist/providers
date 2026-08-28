@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.9
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 23
 apis:
 - description: Addresses resource.
@@ -302,25 +306,25 @@ overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/)
   Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
 random_paper: 14
 score:
-  band: developing
-  composite: 46.9
+  band: thin
+  composite: 36.5
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
-    contract_quality: 55.2
+    contract_quality: 13.4
     developer_ergonomics: 36.3
     discoverability: 81.5
     governance: 30.3
     operational_transparency: 2.6
-  previous_composite: 46.9
+  previous_composite: 36.5
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 23
+      marker_coverage: 100.0
       total: 23
     mcp: derived
     skills: derived
@@ -330,8 +334,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/screenshots/science-exchange-2026-08-17T081734.png
 security:

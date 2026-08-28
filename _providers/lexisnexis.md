@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 15.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: 'The LexisNexis Developer Portal provides access to legal research and content APIs, allowing partners to integrate LexisNexis legal data and services directly into customer workflows. Access requires '
@@ -114,20 +118,20 @@ rate_limits:
   slug: lexisnexis-rate-limits
 score:
   band: emerging
-  composite: 24.7
+  composite: 24.3
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 38.9
+    contract_quality: 37.2
     developer_ergonomics: 11.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 24.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexisnexis/refs/heads/main/screenshots/lexisnexis-2026-06-20T184446.png
 security:

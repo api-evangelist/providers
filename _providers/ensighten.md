@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-24'
+  score: 26.8
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'The REST Manage API used by Ensighten Manage customers to administer tag management programmatically. Sixty-six operations covering Spaces, Publish Paths, Deployments (create, update, enable/disable, '
@@ -160,18 +164,18 @@ rate_limits:
   slug: ensighten-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 50.5
+  delta: 3.8
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 30.3
-    contract_quality: 58.0
-    developer_ergonomics: 36.3
-    discoverability: 87.0
+    contract_quality: 56.5
+    developer_ergonomics: 55.4
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 47.4
-  previous_composite: 48.9
+  previous_composite: 46.7
   provenance:
     conformance: first-party
     contracts:
@@ -181,8 +185,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/screenshots/ensighten-2026-07-25T213419.png
 security:

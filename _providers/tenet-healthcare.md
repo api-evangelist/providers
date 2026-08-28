@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
     consent_identity: false
+    delegated_identity: documented
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-24'
+  score: 28.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,22 +263,22 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 37.3
+  delta: 1.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 66.4
-    developer_ergonomics: 11.9
+    contract_quality: 61.2
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 36.7
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 6
@@ -284,8 +288,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/screenshots/tenet-healthcare-2026-06-20T195114.png
 security:

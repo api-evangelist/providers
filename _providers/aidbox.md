@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-24'
+  score: 43.7
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: Aidbox's HL7 FHIR REST API for creating, reading, updating, deleting, and searching clinical and administrative resources. Supports FHIR R4 (4.0.1), R5, and R6, with standard FHIR interactions, transa
@@ -245,30 +249,34 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials/implicit/password
 score:
   band: strong
-  composite: 63.7
+  composite: 63.2
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 49.4
+    contract_quality: 47.3
     developer_ergonomics: 78.6
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 63.7
+  previous_composite: 63.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: us-core
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 71.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png
 security:

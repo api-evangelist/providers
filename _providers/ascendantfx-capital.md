@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Programmatic and file-based integration surface for the Ascendant (AscendantFX) aPay cross-border payments platform, enabling straight-through processing of domestic and international payments from ER
@@ -91,8 +95,8 @@ overview: 'AscendantFX Capital publishes 1 API on the [APIs.io](https://apis.io/
 random_paper: 14
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 18.9
+  delta: 1.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -110,9 +114,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 31.3
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/screenshots/ascendantfx-capital-2026-07-25T201411.png
 security:

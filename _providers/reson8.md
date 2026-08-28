@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-24'
+  score: 27.5
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Exchange an API key for a short-lived access token.
@@ -187,18 +191,18 @@ overview: 'Reson8 publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 random_paper: 19
 score:
   band: developing
-  composite: 45.8
+  composite: 45.4
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 16.7
-    contract_quality: 60.1
+    contract_quality: 58.5
     developer_ergonomics: 51.8
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 45.8
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +212,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reson8/refs/heads/main/screenshots/reson8-2026-08-17T081533.png
 security:

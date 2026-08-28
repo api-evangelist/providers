@@ -16,7 +16,7 @@
      "slug": "carnival-corporation",
      "description": "Carnival Corporation & plc is the world's largest cruise company operating eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises), plus the White Pass and Yukon Route. Carnival operates the OceanMedallion wearable IoT technology and mobile experience platform, the Carnival HUB app, the Princess MedallionClass app, and a portfolio of guest-facing digital experiences across its fleet of over 90 ships.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnival-corporation/refs/heads/main/screenshots/carnival-corporation-2026-06-20T174014.png",
-     "score": 7.0,
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -25,12 +25,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 11.9,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -48,7 +48,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 1
     },
@@ -70,8 +74,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -89,7 +93,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 2
     },
@@ -111,8 +119,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-24",
-     "schema_version": "0.12.1",
+     "scored_at": "2026-08-27",
+     "schema_version": "0.15.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -130,7 +138,11 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 3
     }

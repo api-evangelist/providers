@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.8
-  scored_at: '2026-08-24'
+  score: 39.7
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: API-key-authenticated REST API returning de-vigged consensus sports probabilities, fixtures, outrights, line movement, and webhook alerts across 13 sports. Public OpenAPI 3.0.3 contract with 11 operat
@@ -176,18 +180,18 @@ rate_limits:
   slug: skipodds-rate-limits
 score:
   band: strong
-  composite: 58.2
+  composite: 57.1
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 16.7
-    contract_quality: 61.5
+    contract_quality: 59.9
     developer_ergonomics: 51.8
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 58.2
+  previous_composite: 57.1
   provenance:
     conformance: derived
     contracts:
@@ -203,8 +207,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/screenshots/skipodds-2026-08-17T081914.png
 security:

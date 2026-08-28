@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.4
-  scored_at: '2026-08-24'
+  score: 5.4
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: REST API to create a person, upload front and side photos, and asynchronously retrieve 80+ calculated body measurements for made-to-measure apparel, uniforms, and size recommendation.
@@ -135,7 +139,7 @@ overview: '3D Look publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 3
 score:
   band: emerging
-  composite: 25.8
+  composite: 24.0
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -143,10 +147,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 25.8
+  previous_composite: 24.0
   provenance:
     mcp: derived
   regulatory:
@@ -155,8 +159,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/screenshots/3d-look-2026-07-25T181146.png
 security:

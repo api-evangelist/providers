@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.5
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -289,25 +293,25 @@ scopes:
   summary_line: 108 scopes
 score:
   band: thin
-  composite: 36.1
-  delta: -0.4
+  composite: 36.3
+  delta: 3.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 29.8
-    developer_ergonomics: 7.1
+    contract_quality: 17.2
+    developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 36.5
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 6
-      marker_coverage: 77.8
+      derived: 8
+      marker_coverage: 100.0
       total: 9
   regulatory:
     applies: true
@@ -315,8 +319,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png
 security:

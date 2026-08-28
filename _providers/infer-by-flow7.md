@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.4
-  scored_at: '2026-08-24'
+  score: 27.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Responses-compatible inference REST API fronting many model families through opaque routing, with unauthenticated public catalog/status endpoints and authenticated model-list and Responses endpoints. '
@@ -150,19 +154,19 @@ scopes:
   slug: infer-by-flow7-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.4
-  delta: 0.0
+  band: strong
+  composite: 55.1
+  delta: 5.2
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 30.3
-    contract_quality: 35.2
-    developer_ergonomics: 42.9
+    contract_quality: 33.3
+    developer_ergonomics: 69.0
     discoverability: 70.4
     governance: 30.3
     operational_transparency: 42.1
-  previous_composite: 50.4
+  previous_composite: 49.9
   provenance:
     conformance: first-party
     contracts:
@@ -172,9 +176,9 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png
 security:
 - kind: authentication

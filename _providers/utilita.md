@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: na
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: na
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.8
-  scored_at: '2026-08-24'
+  score: 28.7
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Public, anonymous, read-only JSON API reporting the live operational state of Utilita Energy's services. Eight GET endpoints under https://status.utilita.co.uk/api/v2 return the page status indicator,
@@ -198,18 +202,18 @@ overview: 'Utilita publishes 1 API on the [APIs.io](https://apis.io/) network: S
 random_paper: 8
 score:
   band: developing
-  composite: 51.4
+  composite: 50.9
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 65.0
+    contract_quality: 66.0
     developer_ergonomics: 37.5
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 51.4
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -220,12 +224,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: GB
+      standard: smart-energy-code
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 62.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/screenshots/utilita-2026-08-17T082702.png
 security:

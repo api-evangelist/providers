@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.1
-  scored_at: '2026-08-24'
+  score: 60.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -245,18 +249,18 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.0
+  composite: 66.6
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 16.7
-    contract_quality: 60.5
+    contract_quality: 58.9
     developer_ergonomics: 83.3
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 71.1
-  previous_composite: 67.0
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,8 +271,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/screenshots/workfront-2026-08-17T075411.png
 security:

@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.4
-  scored_at: '2026-08-24'
+  score: 42.8
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: Requires API key. No credit cost. Browse categories, cuisines, and dietary options.
@@ -134,18 +138,18 @@ rate_limits:
   slug: recipe-api-rate-limits
 score:
   band: developing
-  composite: 44.6
+  composite: 44.2
   delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 0.0
-    contract_quality: 56.4
+    contract_quality: 54.8
     developer_ergonomics: 21.4
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 44.6
+  previous_composite: 44.2
   provenance:
     contracts:
       callable: 100.0
@@ -153,8 +157,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/screenshots/recipe-api-2026-08-17T081456.png
 security:

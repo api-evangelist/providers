@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.5
-  scored_at: '2026-08-24'
+  score: 25.2
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The core CrowdTwist REST/JSON API for loyalty program members and their points economy — create, read, update and delete members; award points for activities; read the activity, reward and badge catal
@@ -177,23 +181,23 @@ rate_limits:
   slug: crowdtwist-rate-limits
 score:
   band: developing
-  composite: 52.0
+  composite: 50.7
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 66.7
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 52.0
+  previous_composite: 50.7
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdtwist/refs/heads/main/screenshots/crowdtwist-2026-07-25T210811.png
 security:

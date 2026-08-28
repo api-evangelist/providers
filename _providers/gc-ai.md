@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.2
-  scored_at: '2026-08-24'
+  score: 58.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -251,18 +255,18 @@ rate_limits:
   slug: gc-ai-rate-limits
 score:
   band: strong
-  composite: 55.7
+  composite: 55.3
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 16.7
-    contract_quality: 65.5
+    contract_quality: 63.7
     developer_ergonomics: 58.9
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 52.6
-  previous_composite: 55.7
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,8 +277,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
 security:

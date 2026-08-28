@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-24'
+  score: 33.6
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -189,18 +193,18 @@ rate_limits:
   slug: z-league-rate-limits
 score:
   band: developing
-  composite: 39.9
-  delta: 0.0
+  composite: 42.1
+  delta: 3.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 68.9
-    developer_ergonomics: 8.9
-    discoverability: 75.9
+    contract_quality: 67.0
+    developer_ergonomics: 20.8
+    discoverability: 68.5
     governance: 16.7
-    operational_transparency: 18.4
-  previous_composite: 39.9
+    operational_transparency: 26.3
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +215,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/screenshots/z-league-2026-08-17T083228.png
 security:

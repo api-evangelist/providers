@@ -9,26 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
-    consent_identity: true
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.0
-  scored_at: '2026-08-24'
+  score: 0.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Read-only public game-data feeds for OGame, served per game server. Returns highscore rankings, player and alliance rosters, universe/planet layouts, localization tables, and server metadata as XML (a
@@ -99,20 +103,20 @@ overview: 'Gameforge publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 17
 score:
   band: emerging
-  composite: 13.7
-  delta: 0.0
+  composite: 15.1
+  delta: 1.4
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 11.9
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 13.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameforge/refs/heads/main/screenshots/gameforge-2026-07-25T215416.png
 security:

@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 5.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Argus Research API provides programmatic access to equity research reports, stock ratings, analyst recommendations, earnings estimates, target prices, and sector analysis. Used by institutional cl
@@ -118,20 +122,20 @@ rate_limits:
   slug: argus-investor-rate-limits
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 19.8
+  delta: 4.4
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 26.3
+    commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 38.1
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 15.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-investor/refs/heads/main/screenshots/argus-investor-2026-06-20T172426.png
 security:

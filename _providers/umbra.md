@@ -6,21 +6,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.4
-  scored_at: '2026-08-24'
+  score: 47.8
+  scored_at: '2026-08-26'
 api_count: 15
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
@@ -278,18 +282,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.2
+  composite: 46.8
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
-    contract_quality: 56.9
+    contract_quality: 55.4
     developer_ergonomics: 47.0
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 46.1
-  previous_composite: 47.2
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
@@ -299,8 +303,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/screenshots/umbra-2026-08-17T082544.png
 security:

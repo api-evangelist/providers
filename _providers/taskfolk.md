@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: flavored
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: self
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.9
-  scored_at: '2026-08-24'
+  score: 62.3
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: First-party REST API (~180 operations) covering issues, projects, sprints, comments, agents, docs, goals, forms, automations, chat, and webhooks. Bearer API key auth, cursor pagination, signed webhook
@@ -217,18 +221,18 @@ scopes:
   summary_line: 47 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.3
-  delta: -0.4
+  composite: 61.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 30.3
-    contract_quality: 58.1
+    contract_quality: 56.5
     developer_ergonomics: 58.9
     discoverability: 87.0
     governance: 30.3
     operational_transparency: 52.6
-  previous_composite: 62.7
+  previous_composite: 61.9
   provenance:
     conformance: first-party
     contracts:
@@ -238,8 +242,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

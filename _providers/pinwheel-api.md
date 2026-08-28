@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 19.8
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: The Pinwheel Deposit Switch API automates moving a customer's direct deposit allocations from one financial institution to another by connecting directly to 17,000+ payroll providers. The product comb
@@ -214,20 +218,20 @@ overview: 'Pinwheel publishes 12 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 1
 score:
   band: developing
-  composite: 40.9
+  composite: 40.4
   delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 0.0
-    contract_quality: 43.3
+    contract_quality: 41.5
     developer_ergonomics: 71.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 40.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 40.4
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel-api/refs/heads/main/screenshots/pinwheel-api-2026-06-20T191724.png
 security:

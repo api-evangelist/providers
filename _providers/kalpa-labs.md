@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.8
-  scored_at: '2026-08-24'
+  score: 24.6
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: Health checks and capability discovery.
@@ -171,18 +175,18 @@ rate_limits:
   slug: kalpa-labs-rate-limits
 score:
   band: thin
-  composite: 38.6
+  composite: 38.2
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 55.7
+    contract_quality: 54.2
     developer_ergonomics: 70.8
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 38.6
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +196,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:

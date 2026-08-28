@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.2
-  scored_at: '2026-08-24'
+  score: 43.3
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: 'SPP''s officially documented programmatic interface to its public data. The SPP Public Data Access guide (v3.0, July 2023) names FTP as the programmatic access path for Integrated Marketplace, Western '
@@ -205,18 +209,18 @@ scopes:
   summary_line: 15 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 53.6
+  delta: 0.7
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
-    contract_quality: 62.1
-    developer_ergonomics: 58.9
-    discoverability: 83.3
+    contract_quality: 63.2
+    developer_ergonomics: 62.5
+    discoverability: 75.9
     governance: 16.7
     operational_transparency: 5.3
-  previous_composite: 53.4
+  previous_composite: 52.9
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +235,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/screenshots/spp-2026-08-17T082042.png
 security:

@@ -17,21 +17,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.7
-  scored_at: '2026-08-24'
+  score: 46.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -924,18 +928,18 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 63.7
+  delta: 2.4
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 26.5
-    contract_quality: 71.3
-    developer_ergonomics: 66.7
+    contract_quality: 69.4
+    developer_ergonomics: 73.8
     discoverability: 85.2
     governance: 26.5
-    operational_transparency: 50.0
-  previous_composite: 61.7
+    operational_transparency: 57.9
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -945,8 +949,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:

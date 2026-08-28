@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.4
-  scored_at: '2026-08-24'
+  score: 21.8
+  scored_at: '2026-08-26'
 api_count: 6
 apis:
 - description: The accounts API from Ceros — 1 operation(s) for accounts.
@@ -220,18 +224,18 @@ overview: 'Ceros publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 15
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 52.4
+  delta: 0.8
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 16.7
-    contract_quality: 54.9
+    contract_quality: 56.3
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 39.5
-  previous_composite: 52.8
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +245,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/screenshots/ceros-2026-08-17T080810.png
 security:

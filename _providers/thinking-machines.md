@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 14.5
-  scored_at: '2026-08-24'
+  score: 5.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Managed training/fine-tuning and sampling API for open-weight language models, consumed through the official Tinker Python SDK and CLI. Supports SFT, RL, and distillation workflows, checkpoint managem
@@ -168,22 +172,22 @@ overview: 'Thinking Machines publishes 1 API on the [APIs.io](https://apis.io/) 
 random_paper: 2
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 35.1
+  delta: 2.1
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 44.7
+    commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 87.0
+    discoverability: 79.6
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 33.7
+  previous_composite: 33.0
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

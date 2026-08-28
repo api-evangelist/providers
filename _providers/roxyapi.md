@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: flavored
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.1
-  scored_at: '2026-08-24'
+  score: 18.0
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Production REST API covering 12 spiritual intelligence domains with 164+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -42,14 +46,14 @@ overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: R
 random_paper: 3
 score:
   band: emerging
-  composite: 13.0
-  delta: 0.0
+  composite: 16.9
+  delta: 4.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 28.2
-    developer_ergonomics: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
@@ -59,9 +63,9 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 13.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 12.6
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 slug: roxyapi
 tags:

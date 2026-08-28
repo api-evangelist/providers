@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 api_count: 12
 apis:
 - description: The news-articles API from Prometheus Fuels — 10 operation(s) over the site's `news-articles` custom post type, the company's published press and news coverage. Read operations respond anonymously; wr
@@ -196,18 +200,18 @@ overview: 'Prometheus Fuels publishes 12 APIs on the [APIs.io](https://apis.io/)
 random_paper: 8
 score:
   band: thin
-  composite: 28.1
-  delta: 0.0
+  composite: 30.3
+  delta: 3.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 57.3
-    developer_ergonomics: 13.7
-    discoverability: 81.5
+    contract_quality: 55.8
+    developer_ergonomics: 30.4
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 28.1
+  previous_composite: 27.0
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +227,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

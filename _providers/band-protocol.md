@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 7
 apis:
 - description: 'The BandChain REST API provides HTTP access to BandChain mainnet data including oracle scripts, data requests, price feeds, validator information, account balances, and all Cosmos SDK module queries. '
@@ -138,20 +142,20 @@ rate_limits:
   slug: band-protocol-rate-limits
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 31.8
+  delta: 2.2
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 39.3
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 60.5
   previous_composite: 29.6
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-protocol/refs/heads/main/screenshots/band-protocol-2026-06-20T173037.png
 security:

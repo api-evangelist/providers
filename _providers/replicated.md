@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.6
-  scored_at: '2026-08-24'
+  score: 28.2
+  scored_at: '2026-08-26'
 api_count: 22
 apis:
 - description: The apps API from Replicated — 17 operation(s) for apps.
@@ -410,18 +414,18 @@ overview: 'Replicated publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 3
 score:
   band: strong
-  composite: 62.4
+  composite: 62.0
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 30.3
-    contract_quality: 66.4
+    contract_quality: 64.6
     developer_ergonomics: 78.0
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 60.5
-  previous_composite: 62.4
+  previous_composite: 62.0
   provenance:
     conformance: first-party
     contracts:
@@ -431,8 +435,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/screenshots/replicated-2026-08-17T081526.png
 security:

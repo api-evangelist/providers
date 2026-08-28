@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-24'
+  score: 30.8
+  scored_at: '2026-08-26'
 api_count: 11
 apis:
 - description: The categories API from Leapcure — 2 operation(s) for categories.
@@ -187,18 +191,18 @@ overview: 'Leapcure publishes 11 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 9
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 36.0
+  delta: 3.3
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 16.7
-    contract_quality: 57.3
-    developer_ergonomics: 16.1
-    discoverability: 81.5
+    contract_quality: 55.7
+    developer_ergonomics: 32.7
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 0.0
-  previous_composite: 33.8
+  previous_composite: 32.7
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/screenshots/leapcure-2026-07-25T224748.png
 security:

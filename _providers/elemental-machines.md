@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-24'
+  score: 30.4
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: Public REST API for the Elemental Machines LabOps platform. Read machines (sensor-connected assets), their time-series samples and computed sample statistics, aggregated/hourly/status utilization roll
@@ -170,18 +174,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.2
+  composite: 51.1
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 30.3
-    contract_quality: 46.9
+    contract_quality: 45.6
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 34.2
-  previous_composite: 52.2
+  previous_composite: 51.1
   provenance:
     conformance: first-party
     contracts:
@@ -197,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/screenshots/elemental-machines-2026-08-17T080912.png
 security:

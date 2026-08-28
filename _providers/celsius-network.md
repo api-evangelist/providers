@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.4
-  scored_at: '2026-08-24'
+  score: 29.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -185,26 +189,26 @@ overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
 random_paper: 8
 score:
-  band: developing
-  composite: 46.0
-  delta: 0.0
+  band: thin
+  composite: 32.1
+  delta: -0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 16.7
-    contract_quality: 62.6
+    contract_quality: 14.4
     developer_ergonomics: 54.2
-    discoverability: 92.6
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      callable: 0.0
+      derived: 4
+      marker_coverage: 100.0
       total: 4
     skills: derived
   regulatory:
@@ -213,8 +217,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
 security:

@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.7
-  scored_at: '2026-08-24'
+  score: 37.2
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
@@ -217,24 +221,24 @@ overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 3
 score:
   band: developing
-  composite: 50.5
+  composite: 50.1
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 16.7
-    contract_quality: 61.3
+    contract_quality: 59.6
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 42.1
-  previous_composite: 50.5
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 80.0
+      marker_coverage: 100.0
       total: 5
     mcp: derived
     skills: derived
@@ -244,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/screenshots/shopback-2026-08-17T081837.png
 security:

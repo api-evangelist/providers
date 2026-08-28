@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-24'
+  score: 33.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -739,19 +743,19 @@ rules:
     warn: 24
   slug: ipinfo-spectral-rules
 score:
-  band: strong
-  composite: 62.4
-  delta: 0.0
+  band: exemplar
+  composite: 70.9
+  delta: 9.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 45.5
-    contract_quality: 69.3
-    developer_ergonomics: 47.6
-    discoverability: 83.3
+    contract_quality: 70.1
+    developer_ergonomics: 92.9
+    discoverability: 75.9
     governance: 45.5
     operational_transparency: 42.1
-  previous_composite: 62.4
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -767,9 +771,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
 security:
 - kind: authentication

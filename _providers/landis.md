@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.4
-  scored_at: '2026-08-24'
+  score: 0.0
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 3
 common:
@@ -139,7 +143,7 @@ overview: 'Landis is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 5
 score:
   band: emerging
-  composite: 22.3
+  composite: 21.2
   delta: 0.0
   facets:
     access_clarity: 53.9
@@ -147,12 +151,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  previous_composite: 21.2
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landis/refs/heads/main/screenshots/landis-2026-07-25T224507.png
 security:

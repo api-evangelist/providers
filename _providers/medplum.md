@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-24'
+  score: 52.0
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -516,18 +520,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 91.9
-  delta: 0.0
+  composite: 92.2
+  delta: 0.9
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
     contract_governance: 59.1
-    contract_quality: 79.0
+    contract_quality: 80.3
     developer_ergonomics: 78.0
     discoverability: 83.3
     governance: 59.1
     operational_transparency: 97.4
-  previous_composite: 91.9
+  previous_composite: 91.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -544,8 +548,8 @@ score:
     regime: Health
     regime_id: health
     score: 92.5
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:

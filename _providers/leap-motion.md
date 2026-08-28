@@ -14,21 +14,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.4
-  scored_at: '2026-08-24'
+  score: 4.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: LeapC is the native C API for Ultraleap / Leap Motion hand tracking. A client opens a LEAP_CONNECTION to the locally running Ultraleap Hand Tracking Service and drives a message pump with LeapPollConn
@@ -161,14 +165,14 @@ overview: 'Leap Motion publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   Leap Motion''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 21 more developer resources.'
 random_paper: 12
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: thin
+  composite: 27.5
+  delta: 1.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 6.7
     developer_ergonomics: 52.4
     discoverability: 66.7
     governance: 4.5
@@ -176,8 +180,8 @@ score:
   previous_composite: 25.9
   provenance:
     conformance: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-motion/refs/heads/main/screenshots/leap-motion-2026-07-25T224749.png
 security:

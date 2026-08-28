@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-24'
+  score: 23.6
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Create, retrieve, list and stop screen sharing sessions.
@@ -178,18 +182,18 @@ overview: 'Screenleap Inc publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 10
 score:
   band: developing
-  composite: 40.5
+  composite: 40.4
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 16.7
-    contract_quality: 23.1
+    contract_quality: 22.4
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 40.5
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -199,8 +203,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

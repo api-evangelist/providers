@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-24'
+  score: 34.7
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -185,30 +189,30 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 14
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 28.8
+  delta: -0.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 16.7
-    contract_quality: 64.8
+    contract_quality: 59.7
     developer_ergonomics: 13.7
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 7.9
-  previous_composite: 30.1
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:

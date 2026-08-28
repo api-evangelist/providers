@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.1
-  scored_at: '2026-08-24'
+  score: 37.2
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -226,23 +230,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 61.3
+  delta: -0.4
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 16.7
-    contract_quality: 72.0
+    contract_quality: 68.3
     developer_ergonomics: 66.1
-    discoverability: 92.6
+    discoverability: 85.2
     governance: 16.7
     operational_transparency: 23.7
-  previous_composite: 62.9
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 50.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -254,8 +258,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:

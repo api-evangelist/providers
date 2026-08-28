@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.9
-  scored_at: '2026-08-24'
+  score: 39.4
+  scored_at: '2026-08-26'
 api_count: 5
 apis:
 - description: 'REST API for brands and advertisers: partners, programs, contracts, actions and conversions, deals, promo codes, catalogs, ads, tracking links, invoices, exception lists, reports and bulk export jobs.'
@@ -282,18 +286,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.3
+  composite: 67.8
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 16.7
-    contract_quality: 65.7
+    contract_quality: 63.9
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 94.7
-  previous_composite: 68.3
+  previous_composite: 67.8
   provenance:
     conformance: derived
     contracts:
@@ -303,8 +307,8 @@ score:
       total: 69
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/screenshots/impact-2026-06-20T183254.png
 security:

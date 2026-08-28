@@ -11,26 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-24'
+  score: 28.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -535,18 +539,18 @@ rules:
   slug: circleci-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 49.6
   delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 13.6
-    contract_quality: 71.8
+    contract_quality: 70.1
     developer_ergonomics: 42.9
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 50.0
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -554,8 +558,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/screenshots/circleci-2026-06-20T174349.png
 security:

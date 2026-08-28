@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: true
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-24'
+  score: 27.7
+  scored_at: '2026-08-26'
 api_count: 34
 apis:
 - description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
@@ -235,6 +239,10 @@ collections:
   name: Fast Treatment Plan Statuses API
   slug: open-forta-health-treatment-plan-statuses-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: other
   title: ''
   type: Overlay
@@ -323,26 +331,26 @@ network: true
 overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include Healthcare, Autism, ABA Therapy, Behavioral Health, and Telehealth.
 
 
-  Forta Health''s developer surface includes signup flow, support, engineering blog, and 16 more developer resources.'
+  Forta Health''s developer surface includes signup flow, support, engineering blog, and 17 more developer resources.'
 random_paper: 18
 score:
-  band: thin
-  composite: 36.1
-  delta: 0.0
+  band: developing
+  composite: 40.1
+  delta: 6.2
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 16.7
-    contract_quality: 51.7
-    developer_ergonomics: 7.1
-    discoverability: 92.6
+    contract_quality: 55.6
+    developer_ergonomics: 26.2
+    discoverability: 74.1
     governance: 16.7
     operational_transparency: 2.6
-  previous_composite: 36.1
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 97.1
       derived: 0
       marker_coverage: 0.0
       total: 35
@@ -352,10 +360,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+    score: 37.5
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:
 - kind: authentication

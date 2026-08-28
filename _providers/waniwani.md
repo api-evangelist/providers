@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.1
-  scored_at: '2026-08-24'
+  score: 18.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The WaniWani AI-distribution platform and its hosted MCP server — build MCP funnels with the open-source SDK/CLI, operate environments, API keys, analytics and sessions via the OAuth 2.1 MCP server.
@@ -215,8 +219,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/screenshots/waniwani-2026-08-17T082836.png
 security:

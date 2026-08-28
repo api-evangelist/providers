@@ -1,25 +1,29 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.0
-  scored_at: '2026-08-24'
+  score: 24.5
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The ASP.NET Core backend that powers www.hyperlabs.com — product catalog, product classes, categories, tags and filtering, application notes, datasheets, software/DLL downloads, website content (banne
@@ -193,18 +197,18 @@ overview: 'HYPERLABS publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 4
 score:
   band: thin
-  composite: 32.4
+  composite: 30.8
   delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 16.7
-    contract_quality: 53.1
+    contract_quality: 54.2
     developer_ergonomics: 28.0
-    discoverability: 77.8
+    discoverability: 59.3
     governance: 16.7
     operational_transparency: 18.4
-  previous_composite: 32.4
+  previous_composite: 30.8
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +218,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png
 security:

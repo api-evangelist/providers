@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The API layer of Open GI's cloud Mobius broking platform. Open GI's public Mobius release notes document real API capability — a Client Checks API whose sanctions-check endpoints include a POST to ini
@@ -135,7 +139,7 @@ overview: 'Open GI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 15
 score:
   band: emerging
-  composite: 21.4
+  composite: 20.7
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -143,10 +147,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 66.7
+    discoverability: 59.3
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 21.4
+  previous_composite: 20.7
   provenance:
     conformance: first-party
   regulatory:
@@ -155,8 +159,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png
 security:

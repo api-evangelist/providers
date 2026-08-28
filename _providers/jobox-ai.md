@@ -3,23 +3,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-24'
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The Jobox "Kili" platform API — the production HTTP API behind the Jobox pro app and the Jobox managed-marketplace product. Covers jobs (create, dispatch, status, logs, notes, descriptions and descrip
@@ -98,24 +102,31 @@ rate_limits:
   slug: jobox-ai-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 31.0
+  delta: 4.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 28.2
-    developer_ergonomics: 35.7
+    contract_governance: 16.7
+    contract_quality: 26.7
+    developer_ergonomics: 42.3
     discoverability: 87.0
-    governance: 30.3
+    governance: 16.7
     operational_transparency: 0.0
+  previous_composite: 26.1
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+    score: 39.1
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: flat
 security:
 - kind: authentication
   name: Jobox Ai Authentication

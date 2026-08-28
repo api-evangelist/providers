@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 22.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -534,19 +538,19 @@ rules:
     warn: 9
   slug: amazon-sns-spectral-rules
 score:
-  band: developing
-  composite: 51.8
-  delta: 0.0
+  band: strong
+  composite: 63.5
+  delta: 11.5
   facets:
-    access_clarity: 52.6
-    commercial_clarity: 52.6
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 13.6
-    contract_quality: 71.4
-    developer_ergonomics: 31.0
+    contract_quality: 72.9
+    developer_ergonomics: 66.7
     discoverability: 74.1
     governance: 13.6
-    operational_transparency: 39.5
-  previous_composite: 51.8
+    operational_transparency: 55.3
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -560,9 +564,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:
 - kind: authentication

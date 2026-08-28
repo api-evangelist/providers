@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-24'
+  score: 8.6
+  scored_at: '2026-08-26'
 api_count: 0
 artifact_total: 2
 common:
@@ -124,7 +128,7 @@ overview: 'Zeroclick is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 0
 score:
   band: emerging
-  composite: 20.6
+  composite: 19.9
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -132,10 +136,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 57.4
+    discoverability: 50.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 20.6
+  previous_composite: 19.9
   provenance:
     conformance: first-party
   regulatory:
@@ -144,8 +148,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 security:
 - kind: authentication

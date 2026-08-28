@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.0
-  scored_at: '2026-08-24'
+  score: 6.3
+  scored_at: '2026-08-26'
 api_count: 3
 apis:
 - description: REST API for accessing and managing Project Online data, including projects, tasks, resources, and assignments.
@@ -102,21 +106,21 @@ rate_limits:
   slug: ms-projects-rate-limits
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 25.8
+  delta: 7.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 11.9
+    contract_quality: 6.7
+    developer_ergonomics: 40.5
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 18.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-projects/refs/heads/main/screenshots/ms-projects-2026-06-20T185849.png
 security:
 - kind: domain-security

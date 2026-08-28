@@ -16,21 +16,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.5
-  scored_at: '2026-08-24'
+  score: 9.2
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: The machine-readable grid data behind ENMAX Power's public Hosting Capacity, Load Capacity and Service Area maps. The three maps published at enmax.com/system-resources are ArcGIS Online Web AppBuilde
@@ -160,18 +164,18 @@ rate_limits:
   slug: enmax-rate-limits
 score:
   band: thin
-  composite: 27.6
+  composite: 28.2
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 1.4
+    contract_quality: 6.7
     developer_ergonomics: 28.6
-    discoverability: 75.9
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 27.6
+  previous_composite: 28.2
   provenance:
     conformance: first-party
   regulatory:
@@ -180,8 +184,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enmax/refs/heads/main/screenshots/enmax-2026-08-07T164928.png
 security:

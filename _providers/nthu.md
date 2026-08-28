@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 25.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -243,18 +247,18 @@ rules:
   slug: nthu-rules
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 34.6
+  delta: 3.7
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 58.4
-    developer_ergonomics: 0.0
+    contract_governance: 25.0
+    contract_quality: 56.8
+    developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 9.8
+    governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 31.3
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +272,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png
 security:

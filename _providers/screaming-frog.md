@@ -13,23 +13,27 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 7.1
-  scored_at: '2026-08-24'
+  score: 8.1
+  scored_at: '2026-08-26'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -178,25 +182,25 @@ rules:
     warn: 4
   slug: screaming-frog-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.1
-  delta: 0.0
+  band: developing
+  composite: 42.1
+  delta: 11.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 9.8
-    contract_quality: 19.7
-    developer_ergonomics: 7.1
-    discoverability: 66.7
-    governance: 9.8
+    contract_governance: 25.0
+    contract_quality: 25.3
+    developer_ergonomics: 44.6
+    discoverability: 59.3
+    governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 32.1
+  previous_composite: 31.1
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  trend: flat
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:
 - kind: domain-security

@@ -5,21 +5,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.1
-  scored_at: '2026-08-24'
+  score: 22.3
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: 'Client-side browser API exposed by the Digioh widget runtime once the Digioh JavaScript tag is installed on a site. Documented calls include DIGIOH_API.LIGHTBOX.loadLightbox(guid) to manually trigger '
@@ -177,22 +181,22 @@ rate_limits:
   slug: digioh-rate-limits
 score:
   band: strong
-  composite: 55.7
+  composite: 55.1
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 61.9
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.7
+  previous_composite: 55.1
   provenance:
     conformance: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.5
-  scored_at: '2026-08-24'
+  score: 2.5
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: REST API for the CloudGenix AppFabric / Cloud Controller — manage sites, elements (ION devices), WAN networks, application policies, and telemetry. Token-authenticated via the X-Auth-Token header.
@@ -76,14 +80,14 @@ overview: 'Cloudgenix publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: emerging
-  composite: 13.4
-  delta: 0.0
+  composite: 14.1
+  delta: 0.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 34.5
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
@@ -94,8 +98,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 13.4
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudgenix/refs/heads/main/screenshots/cloudgenix-2026-07-25T205705.png
 security:

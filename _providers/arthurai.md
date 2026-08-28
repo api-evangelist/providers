@@ -11,25 +11,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: served
     consent_identity: false
+    delegated_identity: served
     dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-24'
+  score: 41.5
+  scored_at: '2026-08-26'
 api_count: 68
 apis:
 - description: The Agent Discovery API from ArthurAI — 2 operation(s) for agent discovery.
@@ -593,29 +598,29 @@ scopes:
   summary_line: 191 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 49.8
+  delta: 1.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 16.7
-    contract_quality: 59.9
+    contract_quality: 63.8
     developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 16.7
     operational_transparency: 34.2
-  previous_composite: 48.8
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 68
     mcp: derived
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/screenshots/arthurai-2026-07-25T201328.png
 security:

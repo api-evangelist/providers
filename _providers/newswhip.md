@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    auth_clarity: false
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
-    error_semantics: false
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-24'
+  score: 30.3
+  scored_at: '2026-08-26'
 api_count: 15
 apis:
 - description: The Articles API from NewsWhip — 1 operation(s) for articles.
@@ -251,18 +255,18 @@ rate_limits:
   slug: newswhip-rate-limits
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 47.9
+  delta: 2.4
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
     contract_governance: 16.7
-    contract_quality: 50.3
-    developer_ergonomics: 28.0
+    contract_quality: 49.0
+    developer_ergonomics: 39.9
     discoverability: 81.5
     governance: 16.7
     operational_transparency: 43.4
-  previous_composite: 45.8
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -272,8 +276,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/screenshots/newswhip-2026-08-07T185140.png
 security:

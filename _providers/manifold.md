@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-24'
+  score: 28.1
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -178,18 +182,18 @@ rules:
   slug: manifold-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 37.2
+  delta: 1.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 56.6
-    developer_ergonomics: 11.9
+    contract_quality: 55.1
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 35.7
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/screenshots/manifold-2026-06-20T184923.png
 security:

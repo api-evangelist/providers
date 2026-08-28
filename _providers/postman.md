@@ -12,26 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.0
-  scored_at: '2026-08-24'
+  score: 37.8
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -924,17 +927,17 @@ rules:
     warn: 8
   slug: postman-rules
 score:
-  band: strong
-  composite: 64.9
-  delta: 0.0
+  band: exemplar
+  composite: 67.1
+  delta: 2.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 13.6
-    contract_quality: 71.0
+    contract_governance: 28.8
+    contract_quality: 72.3
     developer_ergonomics: 73.8
     discoverability: 83.3
-    governance: 13.6
+    governance: 28.8
     operational_transparency: 55.3
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -942,16 +945,16 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 64.9
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 50.0
+      marker_coverage: 100.0
       total: 34
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

@@ -10,26 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: true
+    agentic_commerce: false
+    auth_clarity: bearer
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: false
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.3
-  scored_at: '2026-08-24'
+  score: 28.4
+  scored_at: '2026-08-26'
 api_count: 1
 apis:
 - description: Dynamic's REST API for wallet infrastructure — admin and environment management endpoints plus SDK-facing endpoints for auth, passkeys, embedded wallets, MPC/WaaS, users, sessions, MFA, gates, and web
@@ -179,18 +183,18 @@ overview: 'Dynamic publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 6
 score:
   band: developing
-  composite: 52.2
+  composite: 51.6
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 45.1
+    contract_quality: 42.7
     developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 52.2
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,8 +204,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic/refs/heads/main/screenshots/dynamic-2026-07-25T212559.png
 security:

@@ -11,26 +11,29 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    auth_clarity: true
-    consent_identity: true
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-24'
+  score: 37.3
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 2
@@ -294,18 +297,18 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.1
+  composite: 59.8
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 30.3
-    contract_quality: 50.8
+    contract_quality: 49.4
     developer_ergonomics: 71.4
     discoverability: 92.6
     governance: 30.3
     operational_transparency: 78.9
-  previous_composite: 60.1
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,8 +319,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
 security:

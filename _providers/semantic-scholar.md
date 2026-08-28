@@ -15,21 +15,25 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
+    agentic_commerce: false
     auth_clarity: false
     consent_identity: false
+    delegated_identity: false
     dry_run_mode: false
+    dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-24'
+  score: 25.5
+  scored_at: '2026-08-26'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -218,18 +222,18 @@ rules:
   slug: semantic-scholar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 44.6
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 54.8
+    contract_quality: 53.3
     developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 50.0
-  previous_composite: 45.0
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +247,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
+  schema_version: 0.15.0
+  scored_at: '2026-08-26'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/screenshots/semantic-scholar-2026-06-20T193645.png
 security:
