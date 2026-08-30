@@ -216,6 +216,34 @@ TAG_INDUSTRY_EXCLUDE = {
         "upsie", "also", "ace-hardware", "coldsnap", "clover", "printnode",
         "stanley-black-and-decker", "wahoo", "hyperice",
     },
+    # `smart buildings` / `building management` / `smart building` are the leaky
+    # tags here, and they leak in one direction: physical ACCESS CONTROL. Openpath,
+    # Rhombus, Kisi, Verkada, Swiftlane, ButterflyMX and DOOR are card readers,
+    # door controllers, video intercoms and security cameras — a different market
+    # with a different buyer, and between them they carried 201 of the 391 OpenAPIs
+    # the unfiltered tag union returned. Left in, they would have been more than
+    # half the sweep's spend on a vertical whose L1s are HVAC equipment, BAS
+    # engineering, commissioning and refrigerant lifecycle.
+    "hvac-building-automation": {
+        # physical access control, video intercom and security cameras
+        "openpath", "rhombus-systems", "kisi", "verkada", "swiftlane",
+        "butterflymx", "door",
+        # grid-side energy — virtual power plants and demand response, not
+        # building systems; filed under Energy
+        "leap", "clean-urban-energy",
+        # proptech tenant experience and building-connectivity rating — the real
+        # estate product layer above the building systems, not the systems
+        "hqo", "buildscience", "wiredscore",
+        # horizontal IoT and industrial networking carrying one building tag
+        "blynk", "belden",
+    },
+    # VATSIM is the Virtual Air Traffic Simulation Network — a hobbyist flight-sim
+    # network that carries the `air traffic control` tag legitimately and is not a
+    # participant in the air traffic market. It publishes 14 OpenAPIs, so it would
+    # have been the third-largest member of a 128-spec roster.
+    "air-traffic-airspace": {
+        "vatsim",
+    },
 }
 
 # The mirror image: real members of an industry that no tag rule can reach.
@@ -236,6 +264,37 @@ TAG_INDUSTRY_INCLUDE = {
         "chomp", "recipeapi", "edamam-nutrition", "open-food-facts",
         "fruityvice", "tasty",
     },
+    # Travel Technology is the vertical whose members are least reachable by its own
+    # name: the industry is defined as the platforms that power travel booking,
+    # distribution and management, and those vendors tag themselves by WHAT THEY BUILD
+    # -- `pms`, `channel manager`, `hotel distribution`, `gds`, `booking engine` -- not
+    # by the sector they sell into. Sabre, one of the three GDS companies, reaches the
+    # page only through the jobs roster; Oracle Hospitality, which tops The State of US
+    # Travel APIs at 55.9, reached it not at all.
+    #
+    # This stays an include list rather than an alias widening because the widening was
+    # measured: an anchor tag (hospitality/hotels/travel/aviation) plus any systems tag
+    # matches 113 providers, and they are airlines, hotel brands, OTAs, rail operators,
+    # the US DOT, Starlink and an alcohol wholesaler -- the automotive/`ev charging`
+    # homograph failure again. Vendor tier only: sells technology to travel and
+    # hospitality operators. Carriers, hotel brands, OTAs and marketplaces are the
+    # roster's business, not this list's.
+    "travel-technology": {
+        # global distribution
+        "sabre", "nuitee", "hyperguest", "travelclick-amadeus",
+        # property management systems
+        "oracle-hospitality", "cloudbeds", "mews", "apaleo", "maestro", "roomkeypms",
+        "innroad", "hotelogix", "ezee", "amenitiz", "beds24", "guruhotel",
+        # channel management and connectivity
+        "siteminder", "roomraccoon", "hotelrunner", "channex",
+        # revenue management and hotel business intelligence
+        "duetto-research", "lighthouse-travel", "pace-revenue", "smartness",
+        # hotel operations and guest platforms
+        "flexkeeping", "akia", "h2o-hospitality", "life-house",
+        # the travel distribution standards bodies, scored as market participants in
+        # The State of US Travel APIs (OpenTravel takes second place in that table)
+        "opentravel-alliance", "hedna",
+    },
     # The silicon layer is invisible to tag matching. Intel is tagged only
     # `fortune 100`, Qualcomm only `fortune 500`, Synopsys is filed as a
     # software-security company, and KLA, Microchip and Qorvo carry no tags at all.
@@ -246,6 +305,28 @@ TAG_INDUSTRY_INCLUDE = {
         "synopsys", "cadence", "risc-v", "kla",
         "groq", "tenstorrent", "sima", "positron", "etched", "rebellions",
         "birentech", "mythic", "hp", "hpe",
+    },
+    # Five of the largest chemical producers in the world describe themselves by
+    # what they make rather than by the industry: DuPont is tagged `Materials
+    # Science`, Sherwin-Williams `Paints`, Linde `Industrial Gases`, Ecolab
+    # `Hygiene` and `Water`, and Chemours — the DuPont titanium-dioxide spin-off —
+    # carries no tags at all.
+    "chemicals": {
+        "dupont", "sherwin-williams", "linde", "ecolab", "chemours",
+    },
+    # Facilio is a facilities and property operations platform (CMMS/IWMS) tagged
+    # `Facility Management` and `Property Operations` but never `hvac` or `building
+    # automation`, and it is the second-largest OpenAPI publisher in the vertical.
+    "hvac-building-automation": {
+        "facilio",
+    },
+    # Civil aviation authorities and flight-data platforms that the tag rule reaches
+    # for their PEERS but not for them: CASA and Transport Canada carry `aviation
+    # safety` and the UK CAA does not; AirLabs and FlightLabs carry `flight tracking`
+    # and AviationStack does not; AeroDataBox and Aviation Edge carry `flight data`
+    # only in the singular form one of them uses.
+    "air-traffic-airspace": {
+        "uk-caa", "aviationstack", "aerodatabox", "aviation-edge",
     },
 }
 
@@ -911,6 +992,89 @@ TAG_INDUSTRIES = [
             "recipes", "recipe search", "cooking", "meal planning", "meal plans",
             "meal kit", "meal kits", "meal replacement", "meal subscription",
             "food labeling", "branded foods", "baby food",
+        ],
+    },
+
+    # --- roadmap#212: three verticals with no apis.io home ----------------------
+    # The 18-vertical capability sweep left 79 Turbo EA L1 capabilities unassessable
+    # because their industry had no apis.io roster to draw candidates from. Five of
+    # the eight were reachable from existing slugs. These three were not, and the
+    # rule there was that a wrong pairing is worse than no pairing: it sends a whole
+    # roster to the wrong candidate set and nothing in the output looks wrong. So
+    # they get their own industries, drawn from the catalog's own tag vocabulary and
+    # checked against the actual L1 names rather than against the industry titles.
+    {
+        "slug": "chemicals",
+        "name": "Chemicals",
+        "icon": "science",
+        "description": "Commodity, specialty and performance chemicals — the producers, the coatings and polymers makers, and the process-engineering, formulation, SDS-compliance and chemical-sourcing software sold into them.",
+        # Deliberately EXCLUDES `chemistry`, `computational chemistry`,
+        # `cheminformatics`, `quantum chemistry` and the whole `molecular *` family.
+        # Those are drug-discovery and life-sciences tags — Benchling-shaped
+        # companies doing chemistry as research — and they belong to Biotechnology
+        # and Life Sciences. This vertical is the chemical INDUSTRY: making,
+        # formulating, regulating, moving and trading chemicals, which is what the
+        # ten Turbo EA L1s under it describe (Chemical Manufacturing Operations,
+        # Process Engineering, Process Safety, Product Stewardship, Regulatory
+        # Compliance, Quality, R&D/Process Development, Specialty Formulation &
+        # Blending, Bulk Logistics, Commercial & Trading).
+        "tags": [
+            "chemicals", "specialty chemicals", "chemical",
+            "petrochemicals", "petrochemical", "agrochemicals",
+            "coatings", "polymers",
+        ],
+    },
+    {
+        "slug": "hvac-building-automation",
+        "name": "HVAC & Building Automation",
+        "icon": "hvac",
+        "description": "Heating, ventilation, air conditioning and refrigeration equipment, building automation and management systems, building performance and commissioning analytics, and the field-service software the contracting trade runs on.",
+        # Wider than the tightest-width rule would normally allow, and the L1s are
+        # why: the Turbo EA set under this vertical is not only equipment
+        # (HVAC Equipment Engineering, HVAC Equipment Certification, Refrigerant
+        # Lifecycle) but also HVAC & BAS Service Operations, Building Automation
+        # System Engineering, Building Systems Commissioning, Building Performance
+        # and Facilities Management. `building management` and `smart buildings`
+        # are what reach that second half — SkySpark, Verdigris, PassiveLogic,
+        # Turntide, Infraspeak — so they are in, with the access-control leak they
+        # bring taken out by hand above.
+        "tags": [
+            "hvac", "building automation", "building management",
+            "smart buildings", "smart building",
+            "air conditioning", "thermostat",
+        ],
+    },
+    {
+        "slug": "air-traffic-airspace",
+        "name": "Air Traffic & Airspace",
+        "icon": "flight",
+        "description": "Air navigation and airspace management — civil aviation authorities, air traffic control systems, ADS-B and flight-surveillance networks, aeronautical information and flight-data platforms, unmanned traffic management, avionics, and counter-UAS airspace security.",
+        # NOT named "Air Traffic Control", and not built from `aviation`. Both would
+        # overclaim. `aviation` (138 providers) is already how Aerospace and Space &
+        # Satellite reach this part of the catalog, and it is airlines, airports,
+        # manufacturers and sustainable-fuel startups; offering ANSP capabilities to
+        # that set is exactly the forced pairing roadmap#212 says not to make. The
+        # bare `air traffic control` tag reaches three providers, one of which is a
+        # flight-simulation network. What the catalog actually holds is the wider
+        # air navigation market — the FAA, ICAO, CASA, Transport Canada and the UK
+        # CAA; OpenSky, ADSBExchange, Flightradar24 and Spire; Aloft, AirMap,
+        # Airspace Link and Wing; Rockwell Collins and Curtiss-Wright; Dedrone and
+        # Fortem — and that is a coherent market against the ten L1s (Airspace
+        # Management, ATC Operations, Air Traffic Flow Management, CNS Operations,
+        # Aeronautical Information Management, Aeronautical Meteorology, Aviation
+        # Safety, Route Charges, Search & Rescue, Controller Competency). The name
+        # says air traffic AND airspace so the page describes what is in it.
+        #
+        # `airports` is left out on purpose: it carries British Airways, an airport
+        # mobility-robot company and two airport operators — airport operations is a
+        # different vertical from air navigation. `utm` is left out as a homograph
+        # (unified threat management, utm_source); `unmanned traffic management`
+        # carries the same members without the risk.
+        "tags": [
+            "air traffic control", "airspace", "airspace security",
+            "aeronautical information", "ads-b", "avionics",
+            "flight tracking", "flight data", "aviation safety",
+            "unmanned traffic management",
         ],
     },
 ]

@@ -216,6 +216,37 @@
   description: ''
   tags:
   - travel technology
+  include:
+  - akia
+  - amenitiz
+  - apaleo
+  - beds24
+  - channex
+  - cloudbeds
+  - duetto-research
+  - ezee
+  - flexkeeping
+  - guruhotel
+  - h2o-hospitality
+  - hedna
+  - hotelogix
+  - hotelrunner
+  - hyperguest
+  - innroad
+  - life-house
+  - lighthouse-travel
+  - maestro
+  - mews
+  - nuitee
+  - opentravel-alliance
+  - oracle-hospitality
+  - pace-revenue
+  - roomkeypms
+  - roomraccoon
+  - sabre
+  - siteminder
+  - smartness
+  - travelclick-amadeus
 - slug: financial-technology
   name: Financial Technology
   icon: /industries/assets/icons/financial-technology.png
@@ -1146,3 +1177,73 @@
   - open-food-facts
   - recipeapi
   - tasty
+- slug: chemicals
+  name: Chemicals
+  icon: science
+  description: Commodity, specialty and performance chemicals — the producers, the coatings and polymers makers, and the process-engineering, formulation, SDS-compliance and chemical-sourcing software sold into them.
+  tags:
+  - chemicals
+  - specialty chemicals
+  - chemical
+  - petrochemicals
+  - petrochemical
+  - agrochemicals
+  - coatings
+  - polymers
+  include:
+  - chemours
+  - dupont
+  - ecolab
+  - linde
+  - sherwin-williams
+- slug: hvac-building-automation
+  name: HVAC & Building Automation
+  icon: hvac
+  description: Heating, ventilation, air conditioning and refrigeration equipment, building automation and management systems, building performance and commissioning analytics, and the field-service software the contracting trade runs on.
+  tags:
+  - hvac
+  - building automation
+  - building management
+  - smart buildings
+  - smart building
+  - air conditioning
+  - thermostat
+  exclude:
+  - belden
+  - blynk
+  - buildscience
+  - butterflymx
+  - clean-urban-energy
+  - door
+  - hqo
+  - kisi
+  - leap
+  - openpath
+  - rhombus-systems
+  - swiftlane
+  - verkada
+  - wiredscore
+  include:
+  - facilio
+- slug: air-traffic-airspace
+  name: Air Traffic & Airspace
+  icon: flight
+  description: Air navigation and airspace management — civil aviation authorities, air traffic control systems, ADS-B and flight-surveillance networks, aeronautical information and flight-data platforms, unmanned traffic management, avionics, and counter-UAS airspace security.
+  tags:
+  - air traffic control
+  - airspace
+  - airspace security
+  - aeronautical information
+  - ads-b
+  - avionics
+  - flight tracking
+  - flight data
+  - aviation safety
+  - unmanned traffic management
+  exclude:
+  - vatsim
+  include:
+  - aerodatabox
+  - aviation-edge
+  - aviationstack
+  - uk-caa
