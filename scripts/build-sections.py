@@ -138,6 +138,17 @@ INDUSTRY_MARKET_TOOLS = {
     "supply-chain",
     "telecommunications",
     "weather-geospatial",
+    # roadmap#212. The 23 above are a frozen historical set: the gate USED to be
+    # "this market sells a Trend Report", and when reports were retired on
+    # 2026-08-21 the set was frozen as-is rather than re-derived. It is not a
+    # statement about which markets can carry the tools — build-section-tools.py
+    # needs only a banded cohort of MIN_COHORT (8) or more, and computes both
+    # tools from the same data the listing renders from. These three clear it
+    # comfortably (97 / 67 / 30 providers) and are added as new industries with
+    # no report behind them, which is now the normal case.
+    "chemicals",
+    "hvac-building-automation",
+    "air-traffic-airspace",
 }
 
 # Providers a tag rule cannot keep out of an industry, removed by hand.

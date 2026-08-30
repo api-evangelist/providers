@@ -433,10 +433,19 @@
     href: /api-clients/
     cta: Browse API Clients
 - id: market-reports
-  title: Industry Trend Reports
-  intro: 23 of the 73 industries are scored end to end and written up as Trend Reports — the whole tag cohort read as a market, not a curated roster. Every other industry is one click into Browse Industries.
+  title: Industries With Market Tools
+  intro: 26 of the 75 industries carry the two interactive market tools — weight the rubric as a buyer, or read every check you are failing as a provider. Both compute from the same scored cohort the listing underneath renders from. Every other industry is one click into Browse Industries.
   columns: col-md-4
   cards:
+  - name: Air Traffic & Airspace
+    icon: flight
+    unit: providers
+    count:
+      from: total
+      key: providers-industry-air-traffic-airspace
+    description: Civil aviation authorities, air traffic control systems, ADS-B and flight-surveillance networks, aeronautical information and flight-data platforms, unmanned traffic management, avionics, and counter-UAS airspace security.
+    href: /industries/air-traffic-airspace/
+    cta: Browse Air Traffic & Airspace
   - name: Artificial Intelligence
     icon: smart_toy
     unit: providers
@@ -465,6 +474,15 @@
     description: Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.
     href: /industries/blockchain-crypto/
     cta: Browse Blockchain & Crypto
+  - name: Chemicals
+    icon: science
+    unit: providers
+    count:
+      from: total
+      key: providers-industry-chemicals
+    description: Commodity, specialty and performance chemicals — the producers, the coatings and polymers makers, and the process-engineering, formulation, SDS-compliance and chemical-sourcing software sold into them.
+    href: /industries/chemicals/
+    cta: Browse Chemicals
   - name: Climate, Energy & Sustainability
     icon: eco
     unit: providers
@@ -546,6 +564,15 @@
     description: The most consistently contract-publishing market measured anywhere in this research is also one of the least operable. Government did the part the policy named and stopped precisely there.
     href: /industries/government/
     cta: Browse Government
+  - name: HVAC & Building Automation
+    icon: hvac
+    unit: providers
+    count:
+      from: total
+      key: providers-industry-hvac-building-automation
+    description: Heating, ventilation, air conditioning and refrigeration equipment, building automation and management systems, building performance and commissioning analytics, and the field-service software the contracting trade runs on.
+    href: /industries/hvac-building-automation/
+    cta: Browse HVAC & Building Automation
   - name: HR & Workforce
     icon: badge
     unit: providers
